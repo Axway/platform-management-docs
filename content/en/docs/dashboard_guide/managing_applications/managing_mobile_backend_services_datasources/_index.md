@@ -130,7 +130,7 @@ The **iOS** and **Android** tabs are where you configure Dashboard to use the AP
 
 Click the **iOS** tab to configure the application to use the Apple Push Notification service. Before configuring APN, you need to create a Push Notification Certificate and export it as a PKCS #8 or #12 file. For instructions, see [Configuring push services for iOS devices](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/).
 
-_To configure the p8 format_
+To configure the p8 format
 
 1. Click **Browse** in the Push Certificate field.
 2. Locate the PKCS #8 file with your Push Notification certificate and click **Choose File**.
@@ -143,7 +143,7 @@ _To configure the p8 format_
 
     ![](/Images/ios_push_latest_p8.png)
 
-_To configure the p12 format_
+To configure the p12 format_
 
 1. Click **Browse** in the Push Certificate field.
 2. Locate the PKCS #12 file with your Push Notification certificate and click **Choose File**.
@@ -161,7 +161,7 @@ _To configure FCM HTTPv1_, select a service account JSON file from your Firebase
 
 ![](/Images/android_cloud_messaging_httpv1.png)
 
-_To configure FCM Legacy HTTP_
+To configure FCM Legacy HTTP
 
 1. Enter the Google API server key in the **Server Key** field.
 2. Enter the FCM or GCM sender ID in the **Sender ID** field.
@@ -196,9 +196,9 @@ To remove the filter, click **Clear Filter**.
 Click the **Scheduled** tab to display a list of one-time or recurring scheduled notifications. Initially, the list displays the following fields:
 
 * **Name**  – Schedule name.
-* **Recurring –** A Boolean that indicates if the schedule is recurring (Yes) or one-time (No).
-* **Payload – ** >The JSON payload to deliver with the notification.
-* **Start Time –** The date and time (in UTC) that the notifications are scheduled to start being delivered.
+* **Recurring** - A Boolean that indicates if the schedule is recurring (Yes) or one-time (No).
+* **Payload** - The JSON payload to deliver with the notification.
+* **Start Time** -  The date and time (in UTC) that the notifications are scheduled to start being delivered.
 
 Click the expander button (**+**) next a list item to view details about the schedule, or to edit or delete the schedule. The details view contains the following fields:
 

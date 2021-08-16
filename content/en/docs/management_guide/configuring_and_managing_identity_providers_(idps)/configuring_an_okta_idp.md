@@ -1,6 +1,6 @@
 ---
-title: Configuring an okta idp
-linkTitle: Configuring an okta idp
+title: Configuring an Okta IdP
+linkTitle: Configuring an Okta IdP
 description: ADD A DESCRIPTION
 weight: 50
 date: 2021-08-12

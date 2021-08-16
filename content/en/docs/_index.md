@@ -1,6 +1,6 @@
 ---
-title: Management
-linkTitle: Management
+title: Amplify Platform Management
+linkTitle: Amplify Platform Management
 description: ADD A DESCRIPTION
 weight: 10
 date: 2021-08-12

@@ -1,6 +1,6 @@
 ---
-title: Getting started with amplify platform management
-linkTitle: Getting started with amplify platform management
+title: Getting started with Amplify Platform Management
+linkTitle: Getting started with Amplify Platform Management
 description: ADD A DESCRIPTION
 weight: 10
 date: 2021-08-12

@@ -1,6 +1,6 @@
 ---
-title: Deleting an identity provider configuration
-linkTitle: Deleting an identity provider configuration
+title: Deleting an Identity Provider configuration
+linkTitle: Deleting an Identity Provider configuration
 description: ADD A DESCRIPTION
 weight: 40
 date: 2021-08-12

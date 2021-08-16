@@ -1,6 +1,6 @@
 ---
-title: Enabling idp configuration for all domain users
-linkTitle: Enabling idp configuration for all domain users
+title: Enabling IdP configuration for all domain users
+linkTitle: Enabling IdP configuration for all domain users
 description: ADD A DESCRIPTION
 weight: 20
 date: 2021-08-12
@@ -29,8 +29,8 @@ After confirming the association of your IdP to the domain, you can enable the c
 
         ![](/Images/domain_enable.png)
 
-	After the IdP is enabled for all users on the domain, the following occurs:
+    After the IdP is enabled for all users on the domain, the following occurs:
 
-	* The users on the domain are signed out of the Platform and must use their IdP to authenticate with the Platform.
-	* The Email Domain table displays **Confirmed** in the **Confirmed** column.
+    * The users on the domain are signed out of the Platform and must use their IdP to authenticate with the Platform.
+    * The Email Domain table displays **Confirmed** in the **Confirmed** column.
 ![](/Images/domain_confirmed_table.png)

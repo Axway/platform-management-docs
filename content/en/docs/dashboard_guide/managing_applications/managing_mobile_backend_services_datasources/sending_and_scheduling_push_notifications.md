@@ -34,7 +34,7 @@ If you prefer can use the [PushNotification.notify](http://docs.appcelerator.com
     1. To send a notification to all users regardless of their channel subscriptions, select **All Users** and leave the **Channel Name** field blank.
     2. To send a notification to all users subscribed to a particular channel, select **All Users** and enter the channel name in the **Channel Name** field.
     3. To send a notification to specific users who are subscribed to a particular channel_,_ select  **Specific Users**, then:
-        1. Click the add ** (+)**  button in the  **To Users** field.
+        1. Click the add **(+)**  button in the  **To Users** field.
         2. Select the desired recipients from the list of users. To locate a particular user, enter their username in the search field.
         3. In the **Channel Name** field, enter the name of the target channel subscription.
 

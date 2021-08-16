@@ -258,7 +258,7 @@ Once you select the export option, your download begins.
 
 In the example below, session data over a custom time interval for all the organization's projects were downloaded. Since the granularity level for the data/time range file is set to daily, each data point in the table is also daily.
 
-**appceleratordemo_sessions_app_chart_day_20140501_20140625_20140625221049.csv**
+appceleratordemo_sessions_app_chart_day_20140501_20140625_20140625221049.csv
 
 ```
 "Date/Time","iOS","Android","Mobileweb"
@@ -268,7 +268,7 @@ In the example below, session data over a custom time interval for all the orga
 ...
 ```
 
-**appceleratordemo_sessions_app_table_day_20140501_20140625_20140625221052**
+appceleratordemo_sessions_app_table_day_20140501_20140625_20140625221052
 
 ```
 "Application","Sessions"

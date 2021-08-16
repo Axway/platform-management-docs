@@ -1,6 +1,6 @@
 ---
-title: Getting started with identity providers
-linkTitle: Getting started with identity providers
+title: Getting started with Identity Providers
+linkTitle: Getting started with Identity Providers
 description: ADD A DESCRIPTION
 weight: 10
 date: 2021-08-12

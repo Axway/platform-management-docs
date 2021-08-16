@@ -1,6 +1,6 @@
 ---
-title: Amplify visibility dashboards
-linkTitle: Amplify visibility dashboards
+title: Amplify Visibility dashboards
+linkTitle: Amplify Visibility dashboards
 description: ADD A DESCRIPTION
 weight: 20
 date: 2021-08-12

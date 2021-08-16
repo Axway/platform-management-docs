@@ -27,8 +27,6 @@ The _Advanced Role Management_ section is optional and hidden by default. The ad
 
 Use the _Role Mapping_ section to map role assignments and the _Team Mapping_ section to map team assignments to the IdP provided attributes.
 
-**To add a mapped role or team**
-
 1. Click the **Actions** (**...**) menu on the _Identity Provider's_ detail page to display the _Role Mapping_ and _Team Mapping_ sections (these sections are hidden by default).
 2. Click **\+ Role Mapping** or **+ Team Mapping**. A blank row appears.
 3. Complete the following fields:
@@ -44,8 +42,6 @@ Use the _Role Mapping_ section to map role assignments and the _Team Mapping_�
 ## Testing Mapped Attributes
 
 After you have completed mapping roles and teams, you can test the configuration.
-
-**To test the mapping**
 
 1. Click the **Actions** (**...**) menu from the Identity Provider page, and then select **Test Mapped Attributes**. A modal dialog displays.
 2. Select a **User** and **Attribute**, and then click **Check User Attribute**.

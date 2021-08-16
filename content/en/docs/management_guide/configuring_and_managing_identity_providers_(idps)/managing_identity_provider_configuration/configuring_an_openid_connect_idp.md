@@ -1,6 +1,6 @@
 ---
-title: Configuring an openid connect (oidc) idp
-linkTitle: Configuring an openid connect (oidc) idp
+title: Configuring an OpenID Connect (OIDC) IdP
+linkTitle: Configuring an OpenId Connect (OIDC) Idp
 description: ADD A DESCRIPTION
 weight: 10
 date: 2021-08-12
@@ -18,7 +18,7 @@ date: 2021-08-12
 
 This section includes details on configuring an OpenID Connect (OIDC) Identity Provider.
 
-  **To create a new Identity Provider**
+  ## To create a new Identity Provider
 
 1. From the _Identity Providers_ page, click **\+ Identity Provider**. The **New Identity Provider** form will be presented.
 2. Select **OpenID Connect**. A blank form is presented.

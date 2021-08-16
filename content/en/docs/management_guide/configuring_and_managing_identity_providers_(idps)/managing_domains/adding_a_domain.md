@@ -18,7 +18,7 @@ date: 2021-08-12
 
 At least one email domain used by the Identity Provider must be added to the org, and domain ownership must be confirmed by a TXT record set on the domain's DNS that matches one that is displayed in the Amplify Platform.
 
-**To add a domain**
+## To add a domain
 
 1. From the _Identity Provider_ page, click the **\+ Email Domain**.
 

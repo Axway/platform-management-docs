@@ -1,7 +1,7 @@
 ---
 title: Confirming the association of an IdP to the domain
 linkTitle: Confirming the association of an IdP to the domain
-description: ADD A DESCRIPTION
+description: 
 weight: 10
 date: 2021-08-12
 ---

@@ -1,7 +1,7 @@
 ---
 title: The Amplify Platform dashboard
 linkTitle: The Amplify Platform dashboard
-description: ADD A DESCRIPTION
+description: 
 weight: 10
 date: 2021-08-12
 ---
@@ -16,7 +16,7 @@ The Amplify Platform Dashboard left navigation comprises the following menu item
 
 * **Overview** - displays  key metric information relevant to a product line to which your organization is subscribed. All users will see the Overview tab.
 * **API Observer** - navigates you to the [API Observer](https://docs.axway.com/bundle/axway-open-docs/page/docs/central/quickstart/index.html#monitor-api-traffic) dashboard. Users with the Central Admin and Developer roles will see the API Observer tab .
-* **Visibility** - you to the [Amplify Visibility Dashboards](/docs/dashboard_guide/the_dashboards/amplify_visibility_dashboards/). Users with the Auditor or Analytics Specialist Visibility roles will see the Visibility tab.
+* **Visibility** - you to the [Amplify Visibility Dashboards](/docs/dashboard_guide/the_dashboards/visibility_dashboards/). Users with the Auditor or Analytics Specialist Visibility roles will see the Visibility tab.
 * **Apps** - displays the list of applications for your organization and where you can [manage your applications](/docs/dashboard_guide/managing_applications/). Organizations with Application Development, Cloud Capacity, or Runtime Services subscriptions will see the Apps tab.
 * **Custom Queries** - if configured, displays custom query summary information and enables the creation of custom analytics queries. Organizations with the Application Development or API Management subscriptions will see the Custom Queries tab.
 * **Premium Modules** - navigate to the _Download Premium Modules_ page. Organizations with Application Development Pro or Enterprise subscriptions will see this tab.
@@ -35,7 +35,7 @@ The **Overview** displays key metric information relevant to the product line t
 
 ## Visibility
 
-**Visibility** takes you to the Amplify Visibility Dashboards. The [Amplify Visibility Dashboards](/docs/dashboard_guide/the_dashboards/amplify_visibility_dashboards/) provide a way to visualize the data that is ingested from various products.
+**Visibility** takes you to the Amplify Visibility Dashboards. The [Amplify Visibility Dashboards](/docs/dashboard_guide/the_dashboards/visibility_dashboards/) provide a way to visualize the data that is ingested from various products.
 
 ## Apps
 
@@ -128,13 +128,13 @@ To delete multiple apps:
 3. Enter your Amplify Platform password.
 4. To confirm the deletion, click **I understand that this a permanent and irreversible action. Continue**.
 
-## Custom Queries
+## Custom queries
 
 **Custom Queries** displays custom query summary information and enables the creation of custom analytics queries. For information on creating custom queries, refer to [Creating Custom Queries](/docs/dashboard_guide/managing_applications/creating_custom_queries/).
 
 ![](/Images/dashboard_home_custom_queries_tab.png)
 
-## Premium Modules
+## Premium modules
 
 **Premium Modules** takes you to the _Download Premium Modules_ page.
 

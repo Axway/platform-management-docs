@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting
 linkTitle: Troubleshooting
-description: ADD A DESCRIPTION
+description: 
 weight: 70
 date: 2021-08-12
 ---
@@ -10,7 +10,7 @@ The troubleshooting section includes details about issues you may come across wh
 
 ## Email recipient to confirm domain association must be on same domain being verified
 
-After domain ownership is verified and identity provider has been configured you must confirm the association of an IdP to the domain. Confirming the association is competed by sending a verification email to a user on the same domain as the domain that is being verified. When you get to the step to [select a user's email address to validate the association](/docs/management_guide/configuring_and_managing_identity_providers_idps/enabling_the_identity_provider_configuration/confirming_the_association_of_an_idp_to_the_domain/#for-the-domain-you-want-to-confirm-select-confirm-idp-association-from-the-actions--menu-from-the-email-domain-table) in the **Verification Recipient** field, the Platform only shows users with an email address that is using the domain that you want to verify. You need a user in your organization with an email with that domain to complete domain verification.
+After domain ownership is verified and identity provider has been configured you must confirm the association of an IdP to the domain. Confirming the association is competed by sending a verification email to a user on the same domain as the domain that is being verified. When you get to the step to [select a user's email address to validate the association](/docs/management_guide/configuring_and_managing_identity_providers_idps/enabling_identity_provider_configuration/confirming_the_association_of_an_idp_to_the_domain/) in the **Verification Recipient** field, the Platform only shows users with an email address that is using the domain that you want to verify. You need a user in your organization with an email with that domain to complete domain verification.
 
 ## Error messages
 

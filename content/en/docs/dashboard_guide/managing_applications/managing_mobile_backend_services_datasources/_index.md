@@ -1,7 +1,7 @@
 ---
 title: Managing mobile backend services datasources
 linkTitle: Managing mobile backend services datasources
-description: ADD A DESCRIPTION
+description: 
 weight: 20
 date: 2021-08-12
 ---
@@ -10,11 +10,11 @@ date: 2021-08-12
 
 To view service details and manage data properties for a Mobile Backend Services (MBS) datasource, select it from the Dashboard home page **Apps** tab.
 
-## Create a New Datasource
+## Create a new datasource
 
 To create a standalone Mobile Backend Services datasource (an MBS datasource that is not tied to a specific client application), refer to the [Getting Started with Mobile Backend Services Datasources](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/getting_started_with_mobile_backend_services_datasources/).
 
-## Change the Name of the Datasource
+## Change the name of the datasource
 
 To change the name of the datasource:
 
@@ -27,7 +27,7 @@ To change the name of the datasource:
 6. (Optional) Enter a datasource description.
 7. Click **OK**.
 
-## Delete the Datasource
+## Delete the datasource
 
 To delete the datasource:
 
@@ -35,25 +35,25 @@ To delete the datasource:
 2. Select **Delete**.
 3. Confirm you want to delete the datasource. To permanently delete the datasource, type the name of the data store (datasource) you would like to permanently delete and select, **I understand that this a permanent and irreversible action. Continue**. Click the **Cancel** button to return the Overview tab without deleting the data store.
 
-## View API Usage Data
+## View API usage data
 
 The **Overview** tab displays the Mobile Backend Services Usage data and includes the number of Mobile Backend Services Requests made to MBS, the number of devices connected to receive [push notifications](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/), the number of email templates available to the application, and the amount of disk storage used. The **Overview** tab also displays the App GUID, Description, Teams, Created, and Creator information for the selected MBS application.
 
 ![](/Images/overview_new.png)
 
-## View Connected Applications
+## View connected applications
 
 The **Apps** tab displays a list of applications (Titanium or native) that are consuming the selected Mobile Backend Service app. Select an application from the list to manage it.
 
 ![](/Images/apps_new.png)
 
-## View API Analytics
+## View API analytics
 
 The **Analytics** tab displays the total number of API calls for the selected period by API type (Chats or Users APIs, for instance) or by individual application. For additional information, see [Viewing Analytics](/docs/dashboard_guide/managing_applications/viewing_analytics/).
 
 ![](/Images/analytics_new.png)
 
-## Manage Data
+## Manage data
 
 The **Manage Data** tab displays the number of each type of MBS object created by the selected application. Click the MBS type in the table to view, edit, create and delete objects (see [Managing Data Objects](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/managing_mobile_backend_services_data_objects/)).
 
@@ -61,7 +61,7 @@ To export your application's MBS data in a JSON format, click the **Actions** (*
 
 ![](/Images/manage_data_new.png)
 
-## View and Filter API Logs
+## View and filter API logs
 
 The **Logs** tab displays a paginated table of all API calls made by your application to the selected MBS service.
 
@@ -95,18 +95,18 @@ For details, see [Configuring Cloud Services](/docs/dashboard_guide/managing_ap
 
 ![](/Images/configuration_latest.png)
 
-## Manage Push Notifications
+## Manage push notifications
 
 The **Push Notifications** tab lets you select from the following sub-tabs:
 
 * **Send –** See [Sending and Scheduling Push Notifications](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/) for details.
-* **Logs** – Paginated and filterable table of push notification log items. See [Push Notification Logs](https://confluence.axway.com/pages/viewpage.action?pageId=278015326#ManagingMobileBackendServicesDatasources-logs).
-* **iOS** – Configure {{% variables/apibuilder_prod_name %}}  Push to communicate with the Apple Push Notification Service (APNS). See [iOS and Android Push Notification Settings](https://confluence.axway.com/pages/viewpage.action?pageId=278015326#ManagingMobileBackendServicesDatasources-PushNotSet) for details.
-* **Android** - Configure Firebase Cloud Messaging service for Android (FCM) on behalf of your application. [Firebase Cloud Messaging](http://firebase.google.com/docs/cloud-messaging/) (FCM) is the new version of GCM. See [iOS and Android Push Notification Settings](https://confluence.axway.com/pages/viewpage.action?pageId=278015326#ManagingMobileBackendServicesDatasources-PushNotSet) for details.
+* **Logs** – Paginated and filterable table of push notification log items. See [Push Notification Logs](#push-notification-logs).
+* **iOS** – Configure {{% variables/apibuilder_prod_name %}} Push to communicate with the Apple Push Notification Service (APNS). See [iOS and Android Push Notification Settings](#push-notification-settings) for details.
+* **Android** - Configure Firebase Cloud Messaging service for Android (FCM) on behalf of your application. [Firebase Cloud Messaging](http://firebase.google.com/docs/cloud-messaging/) (FCM) is the new version of GCM. See [iOS and Android Push Notification Settings](#push-notification-settings) for details.
 * **Devices** – View a list of devices subscribed to receive push notifications. See [View Subscribed Devices](https://confluence.axway.com/pages/viewpage.action?pageId=278015326#ManagingMobileBackendServicesDatasources-SubscribedDevices).
 * **Scheduled**  – View a list of scheduled pushes.
 
-### Push Notification Logs
+### Push notification logs
 
 Click the **Logs** tab to view a paginated table of push notifications delivered by Dashboard, and the status of the notification. Each row contains the following fields:
 
@@ -122,11 +122,11 @@ Click the **Logs** tab to view a paginated table of push notifications deliver
 
 You can filter the listing of push notifications by channel name or creation date.
 
-### Push Notification Settings
+### Push notification settings
 
 The **iOS** and **Android** tabs are where you configure Dashboard to use the APNS or either the FCM or GCM push notification services. For details, see [Configuring Push Services](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/).
 
-#### iOS Push Notification Settings
+#### iOS push notification settings
 
 Click the **iOS** tab to configure the application to use the Apple Push Notification service. Before configuring APN, you need to create a Push Notification Certificate and export it as a PKCS #8 or #12 file. For instructions, see [Configuring push services for iOS devices](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/).
 
@@ -153,7 +153,7 @@ To configure the p12 format_
 6. Click **Save**.
     ![](/Images/ios_push_latest_p12.png)
 
-#### Android Cloud Messaging Settings
+#### Android cloud messaging settings
 
 Click the **Android** tab to configure the application to use the Firebase Cloud Messaging (FCM) service. [Firebase Cloud Messaging](http://firebase.google.com/docs/cloud-messaging/) (FCM) is the new version of GCM. FCM HTTPv1 and FCM legacy HTTP is supported. Before configuring FCM legacy HTTP, you need to obtain an FCM or GCM sender ID and Google API server key. For instructions, see [Configuring push services for Android devices](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/).
 
@@ -169,7 +169,7 @@ To configure FCM Legacy HTTP
 
     ![](/Images/android_cloud_messaging_latest.png)
 
-### View Subscribed Devices
+### View subscribed devices
 
 Click the **Devices** tab to view a list of subscribed users, devices, and channel subscriptions. Each list row contains the following columns:
 
@@ -191,7 +191,7 @@ You can filter the list of subscribed devices by channel, type, or user ID. To f
 
 To remove the filter, click **Clear Filter**.
 
-### View Scheduled Notifications
+### View scheduled notifications
 
 Click the **Scheduled** tab to display a list of one-time or recurring scheduled notifications. Initially, the list displays the following fields:
 
@@ -207,6 +207,6 @@ Click the expander button (**+**) next a list item to view details about the sch
 * **Starts On/Ends On** – Start and end date and time the scheduled starts and expires.
 * **Recurs** – How often the schedule repeats. Possible values are Daily, Weekly, or Monthly.
 
-## View Documentation
+## View documentation
 
 The **Documentation** tab displays a list of links to the Mobile Backend Services guides and other resources.

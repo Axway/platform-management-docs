@@ -1,7 +1,7 @@
 ---
 title: Configuring cloud services
 linkTitle: Configuring cloud services
-description: ADD A DESCRIPTION
+description: 
 weight: 30
 date: 2021-08-12
 ---

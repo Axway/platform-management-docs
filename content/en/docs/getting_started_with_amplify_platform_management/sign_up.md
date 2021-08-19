@@ -30,6 +30,7 @@ To sign up for access to the Amplify API Management Platform and to create an Am
 4. Click **Sign up**. A message to _Check your email_ is displayed.
     ![](/Images/check_your_email.png)
 5. Locate the email, and then click **Active your Account**. You should have an email similar to the following in your inbox.
+
     ![](/Images/activation_email.png)
 
 6. You will see a message that your account has been activated, and then you are redirected to the **Sign in to your account** page. Type your email address and  password you used to sign up, and then click **Sign In**.

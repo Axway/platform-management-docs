@@ -10,7 +10,7 @@ This page is specific to configuring your organization in the Amplify Platform w
 
 ## Prerequisites
 
-You must review the [prerequisites](/docs/management_guide/configuring_and_managing_identity_providers_idps/getting_started_with_identity_providers/) and all pages in the [Configuring and Managing Identity Providers (IdPs)](/docs/management_guide/configuring_and_managing_identity_providers_idps/) section of this guide to understand and complete Okta configuration.
+You must review the [prerequisites](/docs/management_guide/configuring_and_managing_identity_providers/getting_started_with_identity_providers/#prerequisites) and all pages in the [Configuring and Managing Identity Providers (IdPs)](/docs/management_guide/configuring_and_managing_identity_providers/) section of this guide to understand and complete Okta configuration.
 
 ## Setup a domain in Amplify Platform
 
@@ -18,7 +18,7 @@ Set up a domain in the Amplify Platform.
 
 1. Sign in to the [Amplify Platform](https://platform.axway.com/).
 2. Navigate to Organization - Settings - **Identity Platform**. If you do not see the **Identity Provider** tab, you do not have the correct subscription and you can contact the Amplify Platform team to enable this functionality. When you access the  _Identity Provider_ page in the Platform for the first time, you will see a message that the organization is currently using the Amplify Platform for authentication.
-3. Add a domain and make sure it has been Verified. Refer to [Managing Domains](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_domains/) to add a domain and verify ownership.
+3. Add a domain and make sure it has been Verified. Refer to [Managing Domains](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/) to add a domain and verify ownership.
 
 ## Setup Okta IdP
 
@@ -44,14 +44,14 @@ An application in Okta is used to configure the authentication to the system to 
 
 Complete Okta IdP set up in the Platform.
 
-1. In the Platform, complete the steps in [Configuring a SAML v2.0 IdP](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_identity_provider_configuration/configuring_a_saml_v2.0_idp/)  or [Configuring an OpenID Connect (OIDC) IdP](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_identity_provider_configuration/configuring_an_openid_connect_idp/).
+1. In the Platform, complete the steps in [Configuring a SAML v2.0 IdP](/docs/management_guide/configuring_and_managing_identity_providers/managing_identity_provider_configuration/configuring_a_saml_v2.0_idp/)  or [Configuring an OpenID Connect (OIDC) IdP](/docs/management_guide/configuring_and_managing_identity_providers/managing_identity_provider_configuration/configuring_an_openid_connect_idp/).
 
     {{% alert title="Note" color="primary" %}}For OIDC, the Platform provides the `configuration id` of the IdP configuration that you will use to complete the [Okta setup](#create-an-app-in-okta). Also, you need the `client id` and `client secret` that Okta provided.{{% /alert %}}
 
     1. For OIDC, take note of the `configuration id` , which is used to complete the Okta setup.
     2. For OIDC, type the `client id` and `secret` from the [Okta setup](#create-an-app-in-okta).
 2. In Okta, update the `configuration id` from the temporary value you had used with the value provided by the Platform.
-3. Complete the steps in [Confirming the Association of an IdP to the Domain](/docs/management_guide/configuring_and_managing_identity_providers_idps/enabling_identity_provider_configuration/confirming_the_association_of_an_idp_to_the_domain/) association.
+3. Complete the steps in [Confirming the Association of an IdP to the Domain](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/confirming_the_association_of_an_idp_to_the_domain/) association.
     1. Confirm your domain association using the **Send Verification Email**  option.
     2. Find the verification email, and then click **Confirm domain association**.
 4. Sign in to the [Amplify Platform](https://platform.axway.com/) using your Okta account. You will see the Okta Sign In page.

@@ -33,7 +33,7 @@ Click the **Keys** tab to display the keys. Click **Show** to display a key. Us
 Click the **Settings** tab to configure application settings for Cloud services.
 
 * **Description**: Enter a Cloud application description.
-* **Friend Request Type**: Configures the behavior for the [Friends](http://docs.appcelerator.com/arrowdb/latest/#!/api/Friends) objects. Select either:
+* **Friend Request Type**: Configures the behavior for the Friends objects. Select either:
     * **Two Way** (default): Friend each other (Facebook).
     * **One Way**: Follow a friend (Twitter).
 * **New User Email Verification**: With this option enabled, new users must provide a valid email address and prove they can access it before their account is activated. You must have your SMTP settings completed before this setting is enabled.

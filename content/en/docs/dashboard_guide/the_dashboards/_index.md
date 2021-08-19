@@ -16,4 +16,4 @@ The **Amplify Platform Dashboard** menu appears.
 
 ![](/Images/dashboard_left_menu.png)
 
-Refer to the [The Amplify Platform Dashboard](/docs/dashboard_guide/the_dashboards/the_amplify_platform_dashboard/) page for details.
+Refer to the [The Amplify Platform Dashboard](/docs/dashboard_guide/the_dashboards/platform_dashboard/) page for details.

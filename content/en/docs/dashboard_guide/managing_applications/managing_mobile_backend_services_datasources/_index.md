@@ -103,7 +103,7 @@ The **Push Notifications** tab lets you select from the following sub-tabs:
 * **Logs** – Paginated and filterable table of push notification log items. See [Push Notification Logs](#push-notification-logs).
 * **iOS** – Configure {{% variables/apibuilder_prod_name %}} Push to communicate with the Apple Push Notification Service (APNS). See [iOS and Android Push Notification Settings](#push-notification-settings) for details.
 * **Android** - Configure Firebase Cloud Messaging service for Android (FCM) on behalf of your application. [Firebase Cloud Messaging](http://firebase.google.com/docs/cloud-messaging/) (FCM) is the new version of GCM. See [iOS and Android Push Notification Settings](#push-notification-settings) for details.
-* **Devices** – View a list of devices subscribed to receive push notifications. See [View Subscribed Devices](https://confluence.axway.com/pages/viewpage.action?pageId=278015326#ManagingMobileBackendServicesDatasources-SubscribedDevices).
+* **Devices** – View a list of devices subscribed to receive push notifications. See [View Subscribed Devices](#view-subscribed-devices).
 * **Scheduled**  – View a list of scheduled pushes.
 
 ### Push notification logs

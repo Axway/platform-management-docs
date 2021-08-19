@@ -16,7 +16,7 @@ The **Overview** tab provides your account basic information, number of seats, a
 
 ![](/Images/billing_overview.png)
 
-The **Basic Info** section lists your organization name and provides your current plan information. To change your current plan, click the **Adjust Plan** button. When you click the **Adjust Plan** button, you will be transferred to the _Choose Plan_ page. For more information on choosing a plan, refer to [Choose Plan](https://confluence.axway.com/pages/viewpage.action?pageId=278015315#ManagingBilling-Choose).
+The **Basic Info** section lists your organization name and provides your current plan information. To change your current plan, click the **Adjust Plan** button. When you click the **Adjust Plan** button, you will be transferred to the _Choose Plan_ page. For more information on choosing a plan, refer to [Choose Plan](#choose-plan).
 
 The **Seats** section lists the number of occupied account seats versus the number of licensed account seats. It also provides a link to the community support site. To access the community support site, click the **Public Forms** link. To manage your organization's members, click the **Tool** icon.
 

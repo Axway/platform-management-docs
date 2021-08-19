@@ -226,7 +226,7 @@ The **Settings** tab enables you to:
 
 ![](/Images/settings_tab.png)
 
-### Change the Branding
+### Change the branding
 
 To brand the Dashboard per your organization's branding requirements:
 

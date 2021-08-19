@@ -1,6 +1,6 @@
 ---
-title: Amplify Platform Management FAQ
-linkTitle: Amplify Platform Management FAQ
+title: FAQ
+linkTitle: FAQ
 description: 
 weight: 50
 date: 2021-08-12

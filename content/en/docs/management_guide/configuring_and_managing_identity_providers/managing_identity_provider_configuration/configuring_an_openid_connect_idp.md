@@ -1,7 +1,7 @@
 ---
 title: Configuring an OpenID Connect IdP
 linkTitle: Configuring an OpenId Connect Idp
-description: ADD A DESCRIPTION
+description: 
 weight: 10
 date: 2021-08-12
 ---

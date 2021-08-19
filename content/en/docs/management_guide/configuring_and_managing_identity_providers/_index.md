@@ -1,6 +1,6 @@
 ---
 title: Configuring and managing Identity Providers (IdPs)
-linkTitle: Configuring and managing identity providers (IdPs)
+linkTitle: Configuring and managing Identity Providers (IdPs)
 description: 
 weight: 50
 date: 2021-08-12

@@ -1,7 +1,7 @@
 ---
 title: Configuring a SAML v2.0 IdP
 linkTitle: Configuring a SAML v2.0 IdP
-description: ADD A DESCRIPTION
+description: 
 weight: 20
 date: 2021-08-12
 ---

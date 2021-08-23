@@ -1,7 +1,7 @@
 ---
 title: Navigation
 linkTitle: Navigation
-description: Navigating the Platform Management interface.
+description: Navigating the Platform.
 weight: 40
 date: 2021-08-12
 ---

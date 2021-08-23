@@ -1,7 +1,7 @@
 ---
 title: Configuring and managing Identity Providers
 linkTitle: Configuring and managing Identity Providers
-description: Your Platform administrator can configure your organization members to authenticate with the Amplify Platform using your Identity Provider (IdP) credentials for Single Sign-On (SSO) instead of the Platform as your Identity Provider.
+description: Your Platform administrator can configure your organization members to authenticate with the Platform using your Identity Provider (IdP) credentials for Single Sign-On (SSO) instead of the Platform as your Identity Provider.
 weight: 50
 date: 2021-08-12
 ---

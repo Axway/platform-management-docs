@@ -1,7 +1,7 @@
 ---
 title: Enabling Identity Provider configuration
 linkTitle: Enabling Identity Provider configuration
-description: The steps to complete after configuring an Identify Provider.
+description: The steps to complete after configuring an Identity Provider.
 weight: 40
 date: 2021-08-12
 ---

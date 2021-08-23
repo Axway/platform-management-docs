@@ -1,7 +1,7 @@
 ---
 title: Next steps
 linkTitle: Next steps
-description: After becoming familiar with the Amplify Platform home page and navigation, proceed to the Platform Management and Dashboard guides.
+description: After becoming familiar with the Platform home page and navigation, proceed to the Platform Management and Dashboard guides.
 weight: 50
 date: 2021-08-12
 ---

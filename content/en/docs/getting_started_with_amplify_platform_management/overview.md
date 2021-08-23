@@ -1,7 +1,7 @@
 ---
 title: Overview
 linkTitle: Overview
-description: An overview of the Amplify Platform home page and what you see based on your organizations subscriptions and your assigned roles.
+description: An overview of the Platform home page and what you see based on your organizations subscriptions and your assigned roles.
 weight: 30
 date: 2021-08-12
 ---

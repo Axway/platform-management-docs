@@ -1,24 +1,28 @@
 ---
 title: Release notes
 linkTitle: Release notes
-description: 
+description:
 no_list: true
 weight: 40
-date: 2021-08-12
+date: 2021-08-26
 ---
 
-## Platform Management 8.8.1 - 4 August 2021
+## Platform Management 8.8.2 - 26 August 2021
 
-Platform Management 8.8.1 is a patch release which includes several improvements and two bug fixes.
+Platform Management 8.8.2 is a patch release which includes two improvements and two bug fixes.
+
+This release updates the list of supported browser. Support for following browsers has been removed:
+- Google Chrome Enterprise 61
+- iOS Safari 10.2
+
+Please note this release contains a deprecation notice for the _Event Funnels_ feature which will be removed in the 9.0.0 release (Oct 2021).
 
 ## Improvements
 
-* Added events and details for Identity Provider and Branding changes to the organization _Activity_ view.
-* Added events for when new user invitation emails are resent to the organization _Activity_ view.
-* Simplified the Runtime Services app overview and relocated resource utilization charts (CPU and memory use) to a new _Resources_ view.
-* Changed the Account _Orgs & Roles_ view to include inactive organizations the user is a member of.
+* Simplified the display of entitlements on the _Organization_ overview's Subscriptions table.
+* Display Organization GUID on the _Organization_ overview for organizations which have a Support Access Code set.
 
 ## Fixed issues
 
-* Fixed an issue where the Support tile on the _Platform Home_ view may not be clickable.
-* Fixed an issue on the organization _Users_ view when unassigning a user's role if the table is filtered by role.
+* Fixed an issue where members of organizations with no active subscriptions authenticating using **Axway CLI** may not be prompted to select organization.
+* Fixed an issue where users may not be able to view information of other members of their organization.

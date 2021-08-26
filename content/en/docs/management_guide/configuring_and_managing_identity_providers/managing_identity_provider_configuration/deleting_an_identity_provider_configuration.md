@@ -1,7 +1,7 @@
 ---
 title: Deleting an Identity Provider configuration
 linkTitle: Deleting an Identity Provider configuration
-description: 
+description: How to delete an Identity Provider configuration.
 weight: 40
 date: 2021-08-12
 ---
@@ -10,6 +10,6 @@ The organization administrator can delete an Identity Provider by selecting **D
 
 When an organization administrator initiates deleting an Identify Provider, a confirmation modal is presented. The organization administrator must type their email address to confirm they understand that this action will permanently delete the configuration and all users on the associated domain(s) will revert to using the Amplify Platform for authentication.
 
-![](/Images/360_delete_idp.png)
+![Delete and Identity Provider modal](/Images/360_delete_idp.png)
 
 Any domains associated to the IdP being deleted will revert to **Owned** and will not need to re-establish ownership if using them for a new IdP after.

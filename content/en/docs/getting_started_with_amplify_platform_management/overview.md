@@ -1,12 +1,12 @@
 ---
 title: Overview
 linkTitle: Overview
-description: 
+description: An overview of the Platform home page and what you see based on your organizations subscriptions and your assigned roles.
 weight: 30
 date: 2021-08-12
 ---
 
-Once you are signed into the Amplify Platform, the _Welcome to Amplify_ home page is displayed. What you see on the home page depends on your organizations subscriptions and your assigned roles.  Subscriptions define the platform capabilities that the organization is allowed to use. Users can be assigned different roles that grant them the rights to the Platform associated with their assigned roles and capabilities.
+Once you are signed into the Amplify Platform, the _Welcome to Amplify_ home page is displayed. What you see on the home page depends on your organizations subscriptions and your assigned roles. Subscriptions define the platform capabilities that the organization is allowed to use. Users can be assigned different roles that grant them the rights to the Platform associated with their assigned roles and capabilities.
 
 The Amplify Platform home page includes the following areas. Refer to the images below to understand the areas you will see for your organization:
 
@@ -47,7 +47,7 @@ If you have Amplify and zero or more non-Amplify subscriptions you will see the 
 * My capabilities
 * Explore More
 
-![](/Images/amplify_subscriptions.png)
+![Amplify and Non-Amplify subscriptions Platform landing page](/Images/amplify_subscriptions.png)
 
 If you have one or more non-Amplify subscriptions you will see the following links:
 
@@ -62,7 +62,7 @@ If you have one or more non-Amplify subscriptions you will see the following lin
 * Support
 * Explore more
 
-![](/Images/non_amplify_subscriptions.png)
+![Non-Amplify subscriptions Platform landing page](/Images/non_amplify_subscriptions.png)
 
 If you have license maintenance contracts only (no subscriptions) you will see the following links:
 
@@ -76,8 +76,8 @@ If you have license maintenance contracts only (no subscriptions) you will see t
 * Support
 * Explore more
 
-![](/Images/licensed_org_no_subscriptions.png)
+![License maintenance contracts Platform landing page](/Images/licensed_org_no_subscriptions.png)
 
 If you have no subscriptions you are taken to the _Explore Products & Services_ page.
 
-![](/Images/explore_products_and_services.png)
+![No subscriptions Platform landing page](/Images/explore_products_and_services.png)

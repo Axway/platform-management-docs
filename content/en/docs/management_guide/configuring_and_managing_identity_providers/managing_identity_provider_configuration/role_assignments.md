@@ -1,14 +1,14 @@
 ---
 title: Role assignments
 linkTitle: Role assignments
-description: 
+description: Administrators use the _Role Assignments_ section to define the platform roles and teams for a user when they log in to the platform the first time for a configured IdP. 
 weight: 30
 date: 2021-08-12
 ---
 
 ## Default role and team assignments
 
-Administrators use the _Role Assignments_ section to define the platform roles and teams for a user when they log in to the platform the first time for a configured IdP. When new members of an organization sign in to the platform for this IdP, they are assigned these predefined roles and team assignments. Refer to the _Roles and features_ section in [Managing Organizations](/docs/management_guide/organizations/managing_organizations/) for details on the roles and capabilities available in the platform.
+When new members of an organization sign in to the platform for this IdP, they are assigned these predefined roles and team assignments. Refer to the _Roles and features_ section in [Managing Organizations](/docs/management_guide/organizations/managing_organizations/) for details on the roles and capabilities available in the platform.
 
 The _Role Assignments_ section defines:
 
@@ -25,9 +25,9 @@ The _Advanced Role Management_ section is optional and hidden by default. The ad
 
 ## Mapping roles and teams
 
-Use the _Role Mapping_ section to map role assignments and the _Team Mapping_ section to map team assignments to the IdP provided attributes.
+Use the _Role Mapping_ section to map role assignments and the _Team Mapping_ section to map team assignments to the IdP provided attributes.
 
-1. Click the **Actions** (**...**) menu on the _Identity Provider's_ detail page to display the _Role Mapping_ and _Team Mapping_ sections (these sections are hidden by default).
+1. Click the **Actions** (**...**) menu on the _Identity Provider's_ detail page to display the _Role Mapping_ and _Team Mapping_ sections (these sections are hidden by default).
 2. Click **\+ Role Mapping** or **+ Team Mapping**. A blank row appears.
 3. Complete the following fields:
     * **Team** (applies to the team mapping section only) - Select the team to which the role mapping applies.
@@ -35,7 +35,7 @@ Use the _Role Mapping_ section to map role assignments and the _Team Mapping_�
     * **Attribute Value** - Type the role or access defined for the user by the IdP. This value is case sensitive.
     * **Roles** - Select the role within the platform that will be assigned to the user when a user has a matching value for the defined attribute.
 
-        ![](/Images/advanced_roles_management__saml.png)
+        ![Mapping roles and teams](/Images/advanced_roles_management__saml.png)
 
         {{% alert title="Note" color="primary" %}}The image is for SAML. The only difference between the OIDC and SAML configuration is that the OIDC requires the **Attribute Name** only and SAML requires the **Friendly Name** or **Attribute Name**.{{% /alert %}}
 
@@ -47,4 +47,4 @@ After you have completed mapping roles and teams, you can test the configuration
 2. Select a **User** and **Attribute**, and then click **Check User Attribute**.
 3. Verify that the attribute mapper has stored the expected value on a user from the last time they logged into the platform.
 
-    ![](/Images/test_mapped_attributes_filled.png)
+    ![Test Mapped Attributes modal](/Images/test_mapped_attributes_filled.png)

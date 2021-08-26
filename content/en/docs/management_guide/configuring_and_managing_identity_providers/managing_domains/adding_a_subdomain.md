@@ -1,7 +1,7 @@
 ---
 title: Adding a subdomain
 linkTitle: Adding a subdomain
-description: 
+description: How to add a domain for Identity Providers. 
 weight: 30
 date: 2021-08-12
 ---
@@ -18,4 +18,4 @@ date: 2021-08-12
 
 Once ownership is confirmed for a domain, any subdomains can be added without ownership having to be confirmed. The organization administrator can add the subdomain by selecting **Add subdomain** from the **Actions** (...) menu in the _Identity Providers_ page.
 
-![](/Images/domain_add_subdomain.png)
+![Add Subdomain modal](/Images/domain_add_subdomain.png)

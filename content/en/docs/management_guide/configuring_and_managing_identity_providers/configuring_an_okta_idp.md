@@ -1,7 +1,7 @@
 ---
 title: Configuring an Okta IdP
 linkTitle: Configuring an Okta IdP
-description: 
+description: How to configure your Platform organization with an Okta Identity Provider for authentication.
 weight: 50
 date: 2021-08-12
 ---
@@ -56,6 +56,6 @@ Complete Okta IdP set up in the Platform.
     2. Find the verification email, and then click **Confirm domain association**.
 4. Sign in to the [Amplify Platform](https://platform.axway.com/) using your Okta account. You will see the Okta Sign In page.
 
-    ![](/Images/okta_sign_in.png)
+    ![Okta Sign In page](/Images/okta_sign_in.png)
 5. The **Domain Association Confirmed** dialog appears. Click **Continue to the Amplify Platform**.
     You are now logged in to the Amplify Platform using the Okta IdP for authentication.

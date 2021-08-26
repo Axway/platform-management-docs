@@ -1,7 +1,7 @@
 ---
 title: Managing access control lists
 linkTitle: Managing access control lists
-description: 
+description: Access control lists are for managing read and write access to Mobile Backend Services objects. 
 weight: 10
 date: 2021-08-12
 ---
@@ -28,7 +28,7 @@ To create an ACL:
 
     1. Select **Yes** to allow read access for all users.
     2. Select **No** and click **+** to select users who should have read access (as shown below).
-        ![](/Images/access_list_latest.png)
+        ![Configure the access list](/Images/access_list_latest.png)
 6. Similarly, in the **Public Write** field, do one of the following:
     1. Select **Yes** to allow write access for all users.
     2. Select **No** and click **+** to select users who should have write access.

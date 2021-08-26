@@ -1,7 +1,7 @@
 ---
 title: FAQ
 linkTitle: FAQ
-description: 
+description: Frequently asked questions about the Platform.
 weight: 50
 date: 2021-08-12
 ---
@@ -45,4 +45,3 @@ See [Troubleshooting common errors](/docs/dashboard_guide/managing_applications
 ## Configuring cloud services
 
 To configure cloud services within Dashboard, please review [Configuring Cloud Services](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/configuring_cloud_services/) for more details.
-

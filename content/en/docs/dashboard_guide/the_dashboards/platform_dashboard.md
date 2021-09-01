@@ -47,9 +47,9 @@ The **Overview** displays key metric information relevant to the product line t
 
 To manage an application, select the application to manage from the list of applications.
 
-If you haven't created any applications yet, you will be directed to the _You don't have any apps yet!_ page. Don't worry. It's easy to get started creating apps using the Amplify Platform. It should take you only a few minutes to create an app. Once you do, your Dashboard will have data here. To get started creating applications, click one of the following options:
+If you haven't created any applications yet, you will be directed to the _You don't have any apps yet!_ page. Don't worry. It's easy to get started creating apps using the Platform. It should take you only a few minutes to create an app. Once you do, your Dashboard will have data here. To get started creating applications, click one of the following options:
 
-* **Get the latest tools -** You will be forwarded to the _Get started with App Builder_ page where you can select to get started building apps with either [Axway Appcelerator Studio](https://docs.axway.com/bundle/Appcelerator_Studio_allOS_en/page/axway_appcelerator_studio.html) or [Appcelerator CLI](https://docs.axway.com/bundle/Appcelerator_CLI_allOS_en/page/appcelerator_cli.html).
+* **Get the latest tools -** You will be forwarded to the _Get started with API Builder_ page where you can select to get started building apps with either [Axway Appcelerator Studio](https://docs.axway.com/bundle/Appcelerator_Studio_allOS_en/page/axway_appcelerator_studio.html) or [Appcelerator CLI](https://docs.axway.com/bundle/Appcelerator_CLI_allOS_en/page/appcelerator_cli.html).
 * **Register App for Services** \- You will be forwarded to the _Register App for Services_ page.
 * **Create MBS Datasource** \- If you do not have a subscription, you will be forwarded to the _Billing_ page where you can upgrade your plan to access locked items. Refer to [Managing Billing](/docs/management_guide/managing_billing/). If you have a subscription, you will be forwarded to the _Create Mobile Backend Services Datasource_ page.
 

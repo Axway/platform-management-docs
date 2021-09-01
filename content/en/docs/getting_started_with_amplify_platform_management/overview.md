@@ -17,7 +17,7 @@ The {{% variables/platform_prod_name %}} home page includes the following areas.
     * Connecting environments
     * Usage Reporting guide
     * Axway Repository guide
-    * Axway CLI guide
+    * {{% variables/axway_cli_prod_name %}} guide
     * Visit Axway University
     * Join the community
 * **Key tasks** - A list of key tasks with links into Platform services to which the organization is subscribed.
@@ -54,7 +54,7 @@ If you have one or more non-Amplify subscriptions you will see the following lin
 * Getting started
     * Usage Reporting guide
     * Axway Repository guide
-    * Axway CLI guide
+    * {{% variables/axway_cli_prod_name %}} guide
     * Join the community
 * Key tasks
 * Organization
@@ -68,7 +68,7 @@ If you have license maintenance contracts only (no subscriptions) you will see t
 
 * Getting started
     * Axway Repository guide
-    * Axway CLI guide
+    * {{% variables/axway_cli_prod_name %}} guide
     * Join the community
 * Manage users (administrators only)
 * Organization

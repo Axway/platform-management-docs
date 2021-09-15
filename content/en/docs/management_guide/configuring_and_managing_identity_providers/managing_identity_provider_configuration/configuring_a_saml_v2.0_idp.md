@@ -10,8 +10,8 @@ date: 2021-08-12
 
 | Complete (**✓)** | Step | Task |
 | --- | --- | --- |
-| **\-** | 1a\* | ( - ) [Add a domain](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_domains/adding_a_domain/) and ( - ) [Verify domain ownership](#) |
-| **✓** | 1b\* | Configure an [OIDC](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_identity_provider_configuration/configuring_an_openid_connect_oidc_idp/) or [SAML v2.0](#) IdP |
+| **\-** | 1a\* | ( - ) [Add a domain](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/adding_a_domain/) and ( - ) [Verify domain ownership](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/verify_domain_ownership) |
+| **✓** | 1b\* | Configure an [OIDC](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_identity_provider_configuration/configuring_an_openid_connect_oidc_idp/) or [SAML v2.0](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_identity_provider_configuration/configuring_a_saml_v2.0_idp) IdP |
 | \- | 2 | [Confirm the association of an IdP to the domain](/docs/management_guide/configuring_and_managing_identity_providers_idps/enabling_the_identity_provider_configuration/confirming_the_association_of_an_idp_to_the_domain/) |
 | \- | 3 | [Enable the IdP configuration for all domain users](/docs/management_guide/configuring_and_managing_identity_providers_idps/enabling_the_identity_provider_configuration/) |
 | \- | 4 | (_Optional_) [Add a subdomain](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_domains/adding_a_subdomain/) |

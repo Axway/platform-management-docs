@@ -19,7 +19,6 @@ Platform Management 8.9.0 is a minor release which includes one new feature, one
 
 * Added **API Management Platform** trial features and FAQs to _Amplify Platform Signup_ view when linked from marketing site.
 
-
 ## Fixed issue
 
 * Fixed issue where application table views may not be updated after an application is updated or deleted.

@@ -48,7 +48,7 @@ To create a new Identity Provider
 
         ![Identifier name format](/Images/ad_name_identifier_format.png)
 
-        {{% alert title="Note" color="primary" %}}Not all Identity Providers may show the NameID Policy Format with a readable name. Some IdPs may only provide the SAML `urn` string representation. 
+        {{% alert title="Note" color="primary" %}}Not all Identity Providers may show the NameID Policy Format with a readable name. Some IdPs may only provide the SAML `urn` string representation.
         {{% /alert %}}
         Below is a map of the displayed options to the equivalent `urn` values.
         * **Persistent** - urn:oasis:names:tc:SAML:2.0:nameid-format:persistent

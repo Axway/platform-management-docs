@@ -18,7 +18,7 @@ date: 2021-08-12
 
 At least one email domain used by the Identity Provider must be added to the org and domain ownership must be confirmed by a TXT record set on the domain's DNS that matches one that is displayed in the Platform.
 
-You must check with your DNS provider documentation about specific configuration.
+We recommend that you check your DNS provider's documentation about specific configuration.
 
 ## To add a domain
 

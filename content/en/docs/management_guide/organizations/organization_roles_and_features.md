@@ -40,9 +40,8 @@ The following table shows the available roles and capabilities.
 
 Users also have a role in each team they belong to.
 
-| Role | Short Description |
+| Team Role | Short Description |
 | --- | --- |
-| Team Role |
 | Administrator | Use this role to manage the members of the team |
 | Developer | Use this role to manage assets in Amplify Central and the Unified Catalog |
 | Consumer | Use this role to view and consume assets in the Unified Catalog |

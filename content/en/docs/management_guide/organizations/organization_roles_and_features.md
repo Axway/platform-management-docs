@@ -49,6 +49,8 @@ Users also have a role in each team they belong to.
 
 ## Team roles and capabilities
 
+The following table shows the available team roles and capabilities.
+
 Capabilities | Central Admin | Catalog Manager | Developer | Consumer | Team Admin
 ---------|----------|---------|---------|----------|---------|
  **Unified Catalog** | |  |  |  |  |

@@ -11,7 +11,7 @@ Hide_readingtime: true
 
 Platform Management 9.0.0 is a major release which includes several improvements and one bug fix.
 
-With this release, use of the https://dashboard.appcelerator.com URL to access Platform Management UI or API is no longer supported and requests will issue a redirect to the current URL of [https://platform.axway.com](https://platform.axway.com).
+With this release, use of the [https://dashboard.appcelerator.com](https://platform.axway.com) URL to access Platform Management UI or API is no longer supported and requests will issue a redirect to the current URL of [https://platform.axway.com](https://platform.axway.com).
 
 Also, with this release, the _Event Funnels_ feature in _App Analytics_ is no longer available. Users can retrieve event counts using the _Custom Queries_ feature.
 

@@ -3,7 +3,7 @@ title: Amplify Platform Management
 linkTitle: Amplify Platform Management
 description: The Amplify Platform Management interface is used to manage the Amplify API Management Platform.
 weight: 10
-date: 2021-08-12
+date: 2021-12-09
 ---
 
 ## Introduction

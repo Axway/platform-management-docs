@@ -10,7 +10,7 @@ date: 2021-08-12
 
 Click Dashboard - Apps - <_Client App_\> - Analytics to navigate to the **Analytics** tab. The **Analytics** tab lets you view detailed analytics for each application. The **Analytics** tab contains several sub-tabs to view different metric categories and create event funnels and queries.
 
-![Analyitcs menu](/Images/analytics_tab.png)
+![Analytics menu](/Images/analytics_tab.png)
 
 * Real Time
 * Sessions

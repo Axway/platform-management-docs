@@ -208,8 +208,8 @@ The **Usage** tab enables you to view the usage of allocated resources for the 
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Usage** tab from the left navigation.
 4. If you're a member of multiple organizations, select the organization you want to view from the _Usage_ dropdown menu.
-5. Select **All Products** or a specific product from the dropdown.
-6. Select a month and year from the dropdown.
+5. Select a month and year from the dropdown.
+6. You can select **Show Environments**.
 
 Refer to the __*[Amplify Subscription Usage With Edge Agent 1.0](https://docs.axway.com/bundle/subusage_en/page/amplify_subscription_usage_and_reporting.html)*__ or __*[Amplify Subscription Usage](https://docs.axway.com/bundle/subusage_11_en/page/amplify_subscription_usage_and_reporting.html)*__ guide for details on configuring, reporting, and monitoring usage data for customer-managed on-premise Axway products that you use under subscription agreements.
 

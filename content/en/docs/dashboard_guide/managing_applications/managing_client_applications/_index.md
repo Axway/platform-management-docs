@@ -67,10 +67,6 @@ The **Analytics** tab displays real-time analytics, such as the number of active
 
 You can also view custom events captured by your application using the Titanium.Analytics object, or the performance APIs provided by the Platform Services SDK for [iOS](https://docs.axway.com/bundle/Amplify_Appcelerator_Services_allOS_en/page/aps_analytics_for_ios.html) or [Android](https://docs.axway.com/bundle/Amplify_Appcelerator_Services_allOS_en/page/aps_analytics_for_android.html).
 
-You can define event funnels, or custom ordered collections of captured events that track a particular user or business process, such as a sales funnel (for example, purchase and purchase confirm).
-
-![Analytics page](/Images/analytics_event_funnels.png)
-
 For more information, see [Viewing Analytics](/docs/dashboard_guide/managing_applications/viewing_analytics/).
 
 ## Application preview

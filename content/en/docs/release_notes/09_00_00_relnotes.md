@@ -17,7 +17,7 @@ Also, with this release, the _Event Funnels_ feature in _App Analytics_ is no lo
 
 ## Improvements
 
-* Updated the Platform Management user interface to provide more consistent look and feel, page layouts, tables, and form views with other Amplify Platform services' UIs.
+* Updated the Platform Management user interface to provide a more consistent look and feel, page layouts, tables, and form views with other Amplify Platform services' UIs.
 * Updated the layout of the organization _Usage_ view to group entitlements and their usage and quotas under each subscribed product.
 * Added improved form validation interactions; fields are now validated during interaction and display messages to help guide users to provide valid inputs.
 * Added "dirty form" detection; users are now presented with a confirmation when attempting to navigate away from a form view in which changes have been provided without saving.

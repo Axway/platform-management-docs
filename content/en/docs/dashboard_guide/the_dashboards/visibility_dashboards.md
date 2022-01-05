@@ -154,4 +154,4 @@ Click the **App Builder ![App Builder  icon](/Images/tab_app_builder.png)** me
 
 ## Accessing the API Observer dashboard
 
-Click the **API Observer**  ![API Observer dashboard](/Images/tab_apiobserver.png) menu to redirect you from the Visibility dashboards view into the [API Observer](https://docs.axway.com/bundle/axway-open-docs/page/docs/central/saas_api_gateway/quickstart/index.html#monitor-api-traffic) dashboard. You must be assigned the Analytics Specialist Role to access the  API Observer menu. You will not see this menu if you are an Axway administrator.
+Click the **API Observer**  ![API Observer dashboard](/Images/tab_apiobserver.png) menu to redirect you from the Visibility dashboards view into the [API Observer](https://docs.axway.com/bundle/amplify-central/page/docs/saas_api_gateway/quickstart/index.html#monitor-api-traffic) dashboard. You must be assigned the Analytics Specialist Role to access the  API Observer menu. You will not see this menu if you are an Axway administrator.

@@ -20,4 +20,3 @@ Platform Management 9.0.2 is a patch release which includes one improvement and 
 * Fixed an issue where **Mobile Backend Services** datasource links on the _All Apps_ table may show an error for datasources in a (VPC) service environment.
 * Fixed an issue where **Mobile Backend Services** _Manage Data_ tables may not be filterable by a Custom Field.
 * Fixed an issue where users who are members of multiple orgs may not be able to directly access app views for an app in an org they are not logged into.
-

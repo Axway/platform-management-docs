@@ -9,12 +9,12 @@ Hide_readingtime: true
 
 ## Platform Management 9.0.4 - 17 December 2021
 
-Platform Management 9.0.4 is a patch release which includes one improvement and two fixed issues.
+Platform Management 9.0.4 is a patch release which includes one improvement and one fixed issue.
 
 ## Improvement
 
 * Added validation to _Identity Provider Configuration_ form to require https protocol for all URLs.
 
-## Fixed issues
+## Fixed issue
 
 * Fixed an issue where **Mobile Backend Services** _Manage Data_ tables may not show the correct object counts as a user pages through objects.

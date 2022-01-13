@@ -14,6 +14,7 @@ Platform Management 9.0.2 is a patch release which includes one improvement and 
 ## Improvement
 
 * _Usage Entry_ view no longer shows entitlements which have a zero value quota.
+
 ## Fixed issues
 
 * Fixed an issue where **Mobile Backend Services** datasource links on the _All Apps_ table may show an error for datasources in a (VPC) service environment.

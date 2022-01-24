@@ -9,7 +9,7 @@ Hide_readingtime: true
 
 ## Platform Management 9.1.0 - 20 January 2022
 
-Platform Management 9.1.0 is a minor release which includes several improvement and fixed issues.
+Platform Management 9.1.0 is a minor release which includes several improvements and fixed issues.
 
 ## Improvements
 

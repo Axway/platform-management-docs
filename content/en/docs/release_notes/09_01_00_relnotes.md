@@ -20,6 +20,6 @@ Platform Management 9.1.0 is a minor release which includes several improvements
 
 ## Fixed issues
 
-* Fixed an issue where navigating from **Mobile Backend Services** data table details to an related object may cause an error.
+* Fixed an issue where navigating from **Mobile Backend Services** data table details to a related object may cause an error.
 * Fixed an issue where paging through objects in **Mobile Backend Services** data tables may not behave as expected.
 * Fixed an issue where API Management analytics views may not show friendly event names.

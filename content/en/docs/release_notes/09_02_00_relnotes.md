@@ -19,4 +19,4 @@ Platform Management 9.2.0 is a patch release which includes a new feature and se
 
 * Fixed an issue where usage of **Cloud Capacity** subscription entitlements may fail to load on the _Manage Subscriptions_ service.
 * Fixed an issue where a banner on the _Users_ view indicating an org had unavailable roles assigned to its members may persist when switching between orgs.
-* Corrected an oudated _Connecting Environements_ documentation link on the _Platform Home_ Getting Started section.
+* Corrected an outdated _Connecting Environments_ documentation link on the _Platform Home_ Getting Started section.

@@ -13,7 +13,7 @@ Platform Management 9.2.0 is a patch release which includes a new feature and se
 
 ## New feature
 
-* Added a _Devices_ view in the _Account_ section for users using **Amplify Platform** for authentication allowing authorized devices to be viewed and managed.
+* Added a _Devices_ view in the _Account_ section for users using **{{% variables/platform_prod_name %}}** for authentication allowing authorized devices to be viewed and managed.
 
 ## Fixed issues
 

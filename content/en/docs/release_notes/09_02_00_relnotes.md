@@ -9,7 +9,7 @@ Hide_readingtime: true
 
 ## Platform Management 9.2.0 - 10 February 2022
 
-Platform Management 9.2.0 is a patch release which includes a new feature and several fixed issues.
+Platform Management 9.2.0 is a minor release which includes a new feature and several fixed issues.
 
 ## New feature
 

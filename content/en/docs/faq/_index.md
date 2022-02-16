@@ -1,12 +1,11 @@
 ---
 title: FAQ
 linkTitle: FAQ
-description: Frequently asked questions about the Platform.
 weight: 50
 date: 2021-08-12
 ---
 
-This document provides questions and answers to commonly asked questions about Amplify Platform Management interface.
+This document provides questions and answers to commonly asked questions about the Amplify Platform Management interface.
 
 ## Creating custom Mobile Backend Services (MBS) objects
 

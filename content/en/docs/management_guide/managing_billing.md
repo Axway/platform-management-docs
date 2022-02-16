@@ -1,7 +1,6 @@
 ---
 title: Managing billing
 linkTitle: Managing billing
-description: Access the billing page to manage organization subscriptions.
 weight: 30
 date: 2021-08-12
 ---

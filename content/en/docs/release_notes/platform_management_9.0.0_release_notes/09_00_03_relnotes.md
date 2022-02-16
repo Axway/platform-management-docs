@@ -1,7 +1,6 @@
 ---
 title: Platform Management 9.0.3 release notes
 linkTitle: Platform Management 9.0.3 release notes
-description: Improvement and bug fix for the release.
 weight: 91
 date: 2021-12-16
 Hide_readingtime: true

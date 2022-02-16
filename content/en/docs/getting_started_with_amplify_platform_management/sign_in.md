@@ -1,12 +1,11 @@
 ---
 title: Sign in
 linkTitle: Sign in
-description: How to sign into the Platform.
 weight: 20
 date: 2021-08-12
 ---
 
-This page includes {{% variables/platform_prod_name %}} instructions to sign in using single sign-on (SSO) or your {{% variables/platform_prod_name %}} password. Follow the applicable sign-on instructions for your organization's configuration.
+This page includes {{% variables/platform_prod_name %}} instructions to sign in using single sign-on (SSO) or your {{% variables/platform_prod_name %}} password (non-SSO). Follow the applicable sign-on instructions for your organization's configuration.
 
 ## Sign in with single sign-on (SSO)
 

@@ -1,7 +1,6 @@
 ---
 title: Managing email templates
 linkTitle: Managing email templates
-description: Create and edit plain text and HTML email templates.
 weight: 20
 date: 2021-08-12
 ---

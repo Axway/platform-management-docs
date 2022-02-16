@@ -1,7 +1,6 @@
 ---
 title: Getting started with Mobile Backend Services datasources
 linkTitle: Getting started with Mobile Backend Services datasources
-description: How to get started with Mobile Backend Services datasources. 
 weight: 10
 date: 2021-08-12
 ---

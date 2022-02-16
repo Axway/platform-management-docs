@@ -1,7 +1,6 @@
 ---
 title: Platform Management 8.2.3 release notes
 linkTitle: Platform Management 8.2.3 release notes
-description: New features, improvements, and bug fixes for the release.
 weight: 215
 date: 2021-08-12
 Hide_readingtime: true

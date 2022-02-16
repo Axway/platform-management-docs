@@ -3,7 +3,6 @@ title: Organization roles and features
 linkTitle: Organization roles and features
 weight: 20
 date: 2021-08-12
-description: Users are assigned roles to grant them rights to the Platform.
 ---
 This section is about organization user roles and features. Users can be assigned different roles that grant them the rights to the Platform associated with their assigned roles and capabilities. A user always needs to be assigned one platform role and can be assigned zero, one, or more of the other roles.
 

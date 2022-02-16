@@ -1,7 +1,6 @@
 ---
 title: Managing applications
 linkTitle: Managing applications
-description: Manage your applications for the Platform in the dashboard area of the interface. 
 weight: 20
 date: 2021-08-12
 ---

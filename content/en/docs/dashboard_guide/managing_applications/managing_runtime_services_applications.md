@@ -1,18 +1,19 @@
 ---
 title: Managing Runtime Services applications
 linkTitle: Managing Runtime Services applications
-description: View and manage Runtime Services applications. 
 weight: 30
 date: 2021-08-12
 ---
 
 {{% alert title="Note" color="primary" %}}Runtime Services applications are deprecated and will be discontinued effective September 1, 2022.{{% /alert %}}
 
-To view the details of Runtime Services applications, select it from the Dashboard home page **Apps** tab.
-
 ## View Runtime Services applications information
 
-For Runtime Services applications, the **Overview** tab displays creation, publication, and build status information as well as the allocated container points and the server count. The number of Allocated Container Points is the total container points allocated to the application. Note this may not accurately reflect the number of container points currently in use by the application. The App Server Settings configuration can be updated by clicking the **Action Menu** icon in the upper-right of the screen and selecting **Edit**. Additionally, the application can be restarted by clicking the **Action Menu** icon and selecting **Restart App**. You can also permanently delete the selected application by clicking the **Action Menu** icon and selecting **Delete**. To confirm the deletion of the selected application, type the name of the application you would like to delete permanently, and select, **I understand that this a permanent and irreversible action. Continue**.
+To view the details of Runtime Services applications, select it from the Dashboard home page **Apps** tab.
+
+For Runtime Services applications, the **Overview** tab displays creation, publication, and build status information as well as the allocated container points and the server count. The number of Allocated Container Points is the total container points allocated to the application. Note this may not accurately reflect the number of container points currently in use by the application.
+
+The App Server Settings configuration can be updated by clicking the **Action Menu** icon in the upper-right of the screen and selecting **Edit**. Additionally, the application can be restarted by clicking the **Action Menu** icon and selecting **Restart App**. You can also permanently delete the selected application by clicking the **Action Menu** icon and selecting **Delete**. To confirm the deletion of the selected application, type the name of the application you would like to delete permanently, and select, **I understand that this a permanent and irreversible action. Continue**.
 
 ### Restart application
 

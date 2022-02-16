@@ -1,10 +1,10 @@
 ---
 title: Viewing analytics
 linkTitle: Viewing analytics
-description: View detailed analytics for each application.
 weight: 40
 date: 2021-08-12
 ---
+You can view detailed analytics for client service applications and Mobile Backend Services APIs from their Analytics tab. You can also download analytics data to use in other programs.
 
 ## Analytics tab for client services
 

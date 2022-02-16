@@ -1,7 +1,6 @@
 ---
 title: Managing Mobile Backend Services data objects
 linkTitle: Managing Mobile Backend Services data objects
-description: A visual interface to the various Mobile Backend Services APIs for creating, updating, deleting, and querying your application's Mobile Backend Services (MBS) objects.
 weight: 20
 date: 2021-08-12
 ---

@@ -1,7 +1,6 @@
 ---
 title: Troubleshooting
 linkTitle: Troubleshooting
-description: This section includes some error messages you may receive when configuring Identity Providers and suggested methods to resolve them.
 weight: 70
 date: 2021-08-12
 ---

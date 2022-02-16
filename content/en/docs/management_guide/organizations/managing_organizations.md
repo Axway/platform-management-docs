@@ -1,19 +1,18 @@
 ---
 title: Managing organizations
 linkTitle: Managing organizations
-description: A Platform administrator can perform various tasks to manage their organizations.
 weight: 30
 date: 2021-08-12
 ---
 
-As an administrator the {{% variables/platform_prod_name %}} lets you:
+You can do the following in the {{% variables/platform_prod_name %}} as an administrator:
 
 * View details about your organization
 * Manage the users and service accounts who have access to the Amplify Services
 * Manage the applications created by organization users
 * Configure Identity Providers
 
-These functions are available through the **Organization** tab. To access the **Organization** tab, sign in to the  [{{% variables/platform_prod_name %}}](https://platform.axway.com/) and select **Organization** from the _User_ dropdown menu.
+These functions are available through the **Organization** tab. To access the **Organization** tab, sign in to the [{{% variables/platform_prod_name %}}](https://platform.axway.com/) and select **Organization** from the _User_ dropdown menu.
 
 ## Organization left navigation
 

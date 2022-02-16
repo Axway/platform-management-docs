@@ -1,7 +1,6 @@
 ---
 title: Configuring a SAML v2.0 IdP
 linkTitle: Configuring a SAML v2.0 IdP
-description: How to configure a SAML v2.0 Identity Provider for the Platform.
 weight: 20
 date: 2021-08-12
 ---

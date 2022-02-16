@@ -1,7 +1,6 @@
 ---
 title: Organization concepts
 linkTitle: Organization concepts
-description: Concepts about organizations such as subscriptions, users and roles, service accounts, and teams. 
 weight: 10
 date: 2021-08-12
 ---

@@ -1,12 +1,12 @@
 ---
 title: Sign up
 linkTitle: Sign up
-description: How to sign up for a Platform account.
 weight: 10
 date: 2021-08-12
 ---
+You must sign up and create an account for access to the Amplify API Management Platform.
 
-To sign up for access to the Amplify API Management Platform and to create an {{% variables/platform_prod_name %}} account:
+To create your account:
 
 1. Navigate to [https://platform.axway.com](https://platform.axway.com/). If this is your initial visit to [https://platform.axway.com](https://platform.axway.com/), the Amplify API Management Platform overview page is displayed.
 

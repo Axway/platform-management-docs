@@ -1,7 +1,6 @@
 ---
 title: Getting started with Identity Providers
 linkTitle: Getting started with Identity Providers
-description: Get started with creating and managing Identity Providers used to authenticate with the Platform.
 weight: 10
 date: 2021-08-12
 ---

@@ -1,7 +1,6 @@
 ---
 title: Configuring an Okta IdP
 linkTitle: Configuring an Okta IdP
-description: How to configure your Platform organization with an Okta Identity Provider for authentication.
 weight: 50
 date: 2021-08-12
 ---

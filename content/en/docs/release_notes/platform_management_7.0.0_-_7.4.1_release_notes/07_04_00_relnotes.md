@@ -1,7 +1,6 @@
 ---
 title: Platform Management 7.4.0 release notes
 linkTitle: Platform Management 7.4.0 release notes
-description: New features, improvements, and bug fixes for the release.
 weight: 2
 date: 2021-08-12
 Hide_readingtime: true

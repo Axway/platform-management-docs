@@ -1,7 +1,6 @@
 ---
 title: Configuring tooling credentials
 linkTitle: Configuring tooling credentials
-description: How to create and change the password you use for tooling. 
 weight: 60
 date: 2021-08-12
 ---

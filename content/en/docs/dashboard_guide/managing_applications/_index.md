@@ -1,7 +1,6 @@
 ---
 title: Managing applications
 linkTitle: Managing applications
-description: Manage your applications for the Platform in the dashboard area of the interface. 
 weight: 20
 date: 2021-08-12
 ---
@@ -18,3 +17,5 @@ You can manage the following types of applications:
 * [Client Applications](/docs/dashboard_guide/managing_applications/managing_client_applications/) – Titanium, Android or iOS application.
 * [Mobile Backend Services Datasources](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/) – Only standalone Mobile Backend Services (MBS) datasources (not created with a client application). For MBS datasources created with a client application, access the MBS datasource using the client application's {{% variables/apibuilder_prod_name %}} tab.
 * [Runtime Services Applications](/docs/dashboard_guide/managing_applications/managing_runtime_services_applications/) - {{% variables/apibuilder_prod_name %}} or Node.js applications.
+
+See additional topics about managing applications.

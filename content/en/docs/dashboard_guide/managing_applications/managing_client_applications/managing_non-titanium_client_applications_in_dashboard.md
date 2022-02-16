@@ -1,7 +1,6 @@
 ---
 title: Managing non-Titanium client applications in Dashboard
 linkTitle: Managing non-Titanium client applications in Dashboard
-description: How to register your non-Titanium client applications and enable Platform Services. 
 weight: 10
 date: 2021-08-12
 ---

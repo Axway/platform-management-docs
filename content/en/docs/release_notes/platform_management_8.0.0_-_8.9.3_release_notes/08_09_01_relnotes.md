@@ -1,7 +1,6 @@
 ---
 title: Platform Management 8.9.1 release notes
 linkTitle: Platform Management 8.9.1 release notes
-description: New feature for the release.
 weight: 97
 date: 2021-10-06
 Hide_readingtime: true

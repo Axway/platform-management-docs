@@ -1,7 +1,6 @@
 ---
 title: Managing client applications
 linkTitle: Managing client applications
-description: This section provides information on app overview and service keys, what the API Builder, test, and performance tabs entail, how to view real-time and aggregated analytics, and managing application team members.
 weight: 10
 date: 2021-08-12
 ---

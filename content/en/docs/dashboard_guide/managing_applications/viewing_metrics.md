@@ -1,16 +1,14 @@
 ---
 title: Viewing metrics
 linkTitle: Viewing metrics
-description: View metrics relevant to a product line to which your organization is subscribed.
 weight: 50
 date: 2021-08-12
 ---
+Click **Dashboard** from the platform home page. The **Overview** view appears. The Overview view displays key metric information relevant to a product line to which your organization is subscribed.
 
 ## Overview
 
-To access the Overview view, select the **Overview** menu on the Amplify Platform Dashboard view. The Overview view displays key metric information relevant to a product line to which your organization is subscribed.
-
-Metrics are available for the following product lines:
+Metrics are available for the following product lines on the Overview view:
 
 {{% alert title="Note" color="primary" %}}Mobile Backend Services and Runtime Services are deprecated and will be discontinued effective September 1, 2022.{{% /alert %}}
 

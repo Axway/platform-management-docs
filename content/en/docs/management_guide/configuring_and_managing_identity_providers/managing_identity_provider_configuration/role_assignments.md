@@ -1,10 +1,11 @@
 ---
 title: Role assignments
 linkTitle: Role assignments
-description: Administrators use the _Role Assignments_ section to define the platform roles and teams for a user when they log in to the platform the first time for a configured IdP. 
 weight: 30
 date: 2021-08-12
 ---
+
+Administrators use the _Role Assignments_ section to define the platform roles and teams for a user when they log in to the platform the first time for a configured IdP.
 
 ## Default role and team assignments
 

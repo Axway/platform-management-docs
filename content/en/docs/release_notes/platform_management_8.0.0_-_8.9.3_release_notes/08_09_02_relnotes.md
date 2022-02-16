@@ -1,7 +1,6 @@
 ---
 title: Platform Management 8.9.2 release notes
 linkTitle: Platform Management 8.9.2 release notes
-description: Fixed issue for the release.
 weight: 96
 date: 2021-10-15
 Hide_readingtime: true

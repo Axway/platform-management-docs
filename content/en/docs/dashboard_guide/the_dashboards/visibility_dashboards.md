@@ -1,7 +1,6 @@
 ---
 title: Amplify Visibility dashboards
 linkTitle: Amplify Visibility dashboards
-description: Dashboards that visualize the data that is ingested from various products. 
 weight: 20
 date: 2021-08-12
 ---

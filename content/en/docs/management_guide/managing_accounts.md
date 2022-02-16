@@ -1,10 +1,10 @@
 ---
 title: Managing accounts
 linkTitle: Managing accounts
-description: Access the accounts area of the interface to manage aspects of your Platform account.
 weight: 10
 date: 2021-08-12
 ---
+Access the accounts section of the interface to manage your Platform account.
 
 ## Account left navigation
 

@@ -57,7 +57,7 @@ The **Users** tab enables you to view and manage users of the selected organizat
 
 ### Invite a user to your organization
 
-If you are an organization admin, you can add users to an organization. An organization admin can only add as many users as the number of available seats in the organization.
+If you are an organization admin, you can add users to an organization.
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
@@ -94,7 +94,7 @@ The **Service Accounts** tab enables you to view and manage service accounts of 
 
 ### Add a service account
 
-If you are an organization admin, you can add new service accounts to an organization. An organization admin can only add as many service accounts as the number of available seats in the organization.
+If you are an organization admin, you can add new service accounts to an organization.
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.

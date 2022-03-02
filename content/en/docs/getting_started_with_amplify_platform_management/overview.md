@@ -20,7 +20,7 @@ The Platform home page includes the following areas. Refer to the images below t
     * Visit Axway University
     * Join the community
 * **Key tasks** - A list of key tasks with links into Platform services to which the organization is subscribed.
-* **Dashboard** - A l ink to the [Amplify Platform Dashboards](/docs/dashboard_guide/the_dashboards/). The {{% variables/platform_prod_name %}} provides different dashboards based on the organization subscriptions and your assigned roles.
+* **Overview** - A l ink to the [Amplify Platform Overview](/docs/dashboard_guide/the_dashboards/). The {{% variables/platform_prod_name %}} provides different dashboards based on the organization subscriptions and your assigned roles.
 * **Organization** - A link to the organization and user management area where you can view usage and manage users and teams.
 * **Repository** - A link to the Axway Repository where you can explore product extensions, Docker images, and more.
 * **Support** - A link to find helpful resources or file a support case.
@@ -46,7 +46,7 @@ If you have Amplify and zero or more non-Amplify subscriptions you will see the 
 * My capabilities
 * Explore More
 
-![Amplify and Non-Amplify subscriptions Platform landing page](/Images/amplify_subscriptions.png)
+![Amplify and Non-Amplify subscriptions Platform Home page](/Images/amplify_subscriptions.png)
 
 If you have one or more non-Amplify subscriptions you will see the following links:
 
@@ -61,7 +61,7 @@ If you have one or more non-Amplify subscriptions you will see the following lin
 * Support
 * Explore more
 
-![Non-Amplify subscriptions Platform landing page](/Images/non_amplify_subscriptions.png)
+![Non-Amplify subscriptions Platform Home page](/Images/non_amplify_subscriptions.png)
 
 If you have license maintenance contracts only (no subscriptions) you will see the following links:
 
@@ -75,8 +75,8 @@ If you have license maintenance contracts only (no subscriptions) you will see t
 * Support
 * Explore more
 
-![License maintenance contracts Platform landing page](/Images/licensed_org_no_subscriptions.png)
+![License maintenance contracts Platform Home page](/Images/licensed_org_no_subscriptions.png)
 
 If you have no subscriptions you are taken to the _Explore Products & Services_ page.
 
-![No subscriptions Platform landing page](/Images/explore_products_and_services.png)
+![Explore Products & Services page](/Images/explore_products_and_services.png)

@@ -17,17 +17,17 @@ For continued management of **Amplify Runtime Services** applications, please us
 ## Changed behaviors
 
 * Renamed the _Dashboard_ tile on the _Platform Home_ view to _Overview_.
-* Changed availbility of Auditor role to only be assignable for organizations subscribed to **Flow Manager**. This role has been unassigned from members of organizations with no **Flow Manager** subscription.
-* Removed Analytics Specialist role assignments. This role is now deprecated.
-* Changed availability of Runtime Services Admin to only be assignable for organizations with a **Cloud Capacity** or **Amplify Runtime Services** subscription.
-* Added **Business Insights** tile on the _Platform Home_ view and link in left services menu in common header component for orgs provisioned for **Amplify Central**. This link is also shown in the _Overview_ left menu, replacing the previous _API Observer_ link.
-* Removed **App Builder** tile from the _Platform Home_ view and link from left services menu in common header component.
-* Removed ability to request feature trials in **Application Development**, **Mobile Backend Services**, and **Amplify Runtime Services** offerings from _Explore Products & Services_ view.
-* Removed _Download Premium Modules_ view. Premium modules are available as open source software from the corresponding [Appcelerator Modules GitHub repository](https://github.com/orgs/appcelerator-modules/repositories).
-* Removed _Get Started with App Builder_ view.
-* Removed **App Preview** link on _App Overview_ view.
+* Changed availability of the Auditor role to only be assignable for organizations subscribed to **Flow Manager**. This role has been unassigned from members of organizations with no **Flow Manager** subscription.
+* Changed availability of the Runtime Services Admin to only be assignable for organizations with a **Cloud Capacity** or **Amplify Runtime Services** subscription.
+* Deprecated the Analytics Specialist role. This role has been unassigned from all users.
+* Added a **Business Insights** tile on the _Platform Home_ view and link in the Service Links menu in in the top navigation for orgs provisioned for **Amplify Central**. This link is also shown in the _Overview_ menu, replacing the previous _API Observer_ link.
+* Removed the **App Builder** tile from the _Platform Home_ view and link from the Service Links menu in the top navigation.
+* Removed the ability to request feature trials in **Application Development**, **Mobile Backend Services**, and **Amplify Runtime Services** offerings from the _Explore Products & Services_ view.
+* Removed the _Download Premium Modules_ view. Premium modules are available as open source software from the corresponding [Appcelerator Modules GitHub repository](https://github.com/orgs/appcelerator-modules/repositories).
+* Removed the _Get Started with App Builder_ view.
+* Removed the **App Preview** link on the _App Overview_ view.
 * Removed the option to sign into **Amplify Platform** using GitHub OAuth integration.
-* Changed the common header component to consistently link to the _Platform Home_ view.
+* Changed the top navigation to consistently link to the _Platform Home_ view.
 
 ## Improvements
 

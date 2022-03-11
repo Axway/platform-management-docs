@@ -12,7 +12,7 @@ Platform Management 10.0.1 is a patch release which includes an improvement and 
 
 ## Improvement
 
-* Added a series legend to _Analytics_ and _Custom Query_ view downloaded chart images.
+* Added a series legend to chart images downloaded from _Analytics_ and _Custom Query_ views.
 
 ## Fixed issue
 

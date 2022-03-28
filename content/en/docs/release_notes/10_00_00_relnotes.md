@@ -10,7 +10,7 @@ Hide_readingtime: true
 
 Platform Management 10.0.0 is a major release which includes several changed behaviors as well as an improvement and a fixed issue.
 
-This release corresponds with the [Appcelerator and Application Developement offering End-of-Support](https://www.axway.com/en/appcelerator-end-of-life) initially [announced Feb 24, 2021](https://blog.axway.com/mobile-apps/changes-to-application-development-services). Support for development workflow actions such as use of **Appcelerator CLI** for building **Titanium SDK** applications are no longer supported.
+This release corresponds with the [Appcelerator and Application Developement offering End-of-Support](https://www.axway.com/en/appcelerator-end-of-life) initially [announced February 24, 2021](https://blog.axway.com/mobile-apps/changes-to-application-development-services). Support for development workflow actions such as use of **Appcelerator CLI** for building **Titanium SDK** applications are no longer supported.
 
 For continued management of **Amplify Runtime Services** applications, please use the [Amplify Cloud Services CLI](https://docs.axway.com/bundle/AMPLIFY_Runtime_Services_2_0_allOS_en/page/amplify_runtime_services_getting_started.html).
 

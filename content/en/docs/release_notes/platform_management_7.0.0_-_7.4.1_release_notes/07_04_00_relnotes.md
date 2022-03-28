@@ -6,7 +6,7 @@ date: 2021-08-12
 Hide_readingtime: true
 ---
 
-## Platform Management 7.4.0 \- 25 June 2020
+## Platform Management 7.4.0 - 25 June 2020
 
 Platform Management 7.4.0 is a minor release, which includes one new feature, one changed behavior, improvements, and several bug fixes.
 
@@ -16,7 +16,7 @@ Platform Management 7.4.0 is a minor release, which includes one new feature
 
 ## Changed Behavior
 
-* Claimed Indie Seats for Application Development will now be shown with a subscription end date of Dec 31, 2099. Previously, no subscription end date was shown.
+* Claimed Indie Seats for Application Development will now be shown with a subscription end date of December 31, 2099. Previously, no subscription end date was shown.
 
 Improvements
 

@@ -10,7 +10,7 @@ Hide_readingtime: true
 
 Platform Management 10.1.1 is a minor release which includes two new features and a fixed issue.
 
-With this release, Insights (read only admin) and Collaborator role support has been removed. These deprecated roles were only available for organizations with Pro or Enterprise Application Development subscriptions. As those offerings reached end-of-support on Mar 1, 2022, all users with these deprecated roles assigned have been removed from their respective organizations. Events dated Mar 25, 2022 are noted in the _Activity_ view for these removed users. These users can be re-added if needed with Administrator or Developer role assigned.
+With this release, Insights (read only admin) and Collaborator role support has been removed. These deprecated roles were only available for organizations with Pro or Enterprise Application Development subscriptions. As those offerings reached end-of-support on Mar 1, 2022, all users with these deprecated roles assigned have been removed from their respective organizations. Events dated Mar 25, 2022 are noted in the _Activity_ view for these removed users. These users can be re-added with Administrator or Developer role if needed.
 
 ## New features
 

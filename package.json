@@ -20,7 +20,7 @@
     "autoprefixer": "^9.8.6",
     "grunt": "^1.3.0",
     "grunt-markdownlint": "^2.6.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "postcss-cli": "^7.1.2"
   }
 }

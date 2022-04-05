@@ -8,7 +8,7 @@ Hide_readingtime: true
 
 ## Platform Management 10.2.0 - 5 April 2022
 
-Platform Management 10.2.0 is a minor release which includes two new features and a fixed issue.
+Platform Management 10.2.0 is a minor release which includes one new feature.
 
 ## New features
 

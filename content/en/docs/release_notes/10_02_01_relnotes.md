@@ -8,10 +8,11 @@ Hide_readingtime: true
 
 ## Platform Management 10.2.0 - 14 April 2022
 
-Platform Management 10.2.1 is a patch release which includes one improvement and one fixed issue.
+Platform Management 10.2.1 is a patch release which includes two improvements and one fixed issue.
 
-## Improvement
+## Improvements
 
+* Added _Enviroments_ capability tile on _Platform Home_ view for organizations with Marketplace entitlement.
 * Provided support for non-administrator role users to fetch information about teams in their organization to improve _Asset Catalog_ user experience.
 
 ## Fixed issue

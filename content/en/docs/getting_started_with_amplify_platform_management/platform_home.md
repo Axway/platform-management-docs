@@ -19,11 +19,12 @@ The Platform home page includes the following areas. Refer to the images below t
     * {{% variables/axway_cli_prod_name %}} guide
     * Visit Axway University
     * Join the community
+* **Quick Links** - Links to commonly used resources
+    * Overview - A link to the [Amplify Platform Overview](/docs/management_guide/overview). The {{% variables/platform_prod_name %}} provides different dashboards based on the organization subscriptions and your assigned roles.
+    * Organization - A link to the organization and user management area where you can view usage and manage users and teams.
+    * Repository - A link to the Axway Repository where you can explore product extensions, Docker images, and more.
+    * Support - A link to find helpful resources or file a support case.
 * **Key tasks** - A list of key tasks with links into Platform services to which the organization is subscribed.
-* **Overview** - A l ink to the [Amplify Platform Overview](/docs/dashboard_guide/the_dashboards/). The {{% variables/platform_prod_name %}} provides different dashboards based on the organization subscriptions and your assigned roles.
-* **Organization** - A link to the organization and user management area where you can view usage and manage users and teams.
-* **Repository** - A link to the Axway Repository where you can explore product extensions, Docker images, and more.
-* **Support** - A link to find helpful resources or file a support case.
 * **My capabilities**  - Links to what is currently available to you based on your role and your organization's subscriptions.
 * **Explore More** \- A link to the _Explore More Products & Services_ page to view the Platform service offerings and products. A list of available products and services to which you do not have a subscription are provided with various pointers and actions to get you started. You can learn more, start a free trial, or renew an expired subscription.
 
@@ -38,11 +39,12 @@ If you have Amplify and zero or more non-Amplify subscriptions you will see the 
     * Connecting Environments
     * Visit Axway University
     * Join the community
+* Quick links
+    * Overview
+    * Organization
+    * Repository
+    * Support
 * Key tasks
-* Dashboard
-* Organization
-* Repository
-* Support
 * My capabilities
 * Explore More
 
@@ -55,10 +57,11 @@ If you have one or more non-Amplify subscriptions you will see the following lin
     * Axway Repository guide
     * {{% variables/axway_cli_prod_name %}} guide
     * Join the community
+* Quick links
+    * Organization
+    * Repository
+    * Support
 * Key tasks
-* Organization
-* Repository
-* Support
 * Explore more
 
 ![Non-Amplify subscriptions Platform Home page](/Images/non_amplify_subscriptions.png)
@@ -69,10 +72,11 @@ If you have license maintenance contracts only (no subscriptions) you will see t
     * Axway Repository guide
     * {{% variables/axway_cli_prod_name %}} guide
     * Join the community
+* Quick links
+    * Organization
+    * Repository
+    * Support
 * Manage users (administrators only)
-* Organization
-* Repository
-* Support
 * Explore more
 
 ![License maintenance contracts Platform Home page](/Images/licensed_org_no_subscriptions.png)

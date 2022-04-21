@@ -62,7 +62,7 @@ The {{% variables/platform_prod_name %}} includes the following links in the bot
 
 ![Platform bottom navigation](/Images/amplify_platform_bottom_navigation.png)
 
-* **Version** - The version for the Amplify Platform Mangement application. Click the version to be taken to the Release Notes.
+* **Version** - The version for the Amplify Platform Management application. Click the version to be taken to the [Amplify Platform Management Release Notes](/docs/release_notes).
 * **Documentation** - Click this link to view the latest [{{% variables/platform_prod_name %}}](https://docs.axway.com/category/platform) documentation.
 * **Status** - Click this link to open the Axway {{% variables/platform_prod_name %}} Status page.
 * **Release Notes** - Click this link to open the [{{% variables/platform_prod_name %}} release notes directory](https://docs.axway.com/bundle/amplify_rn_dir/page/amplify_platform_release_notes_directory.html).

@@ -32,7 +32,6 @@ The Platform home page includes the following areas. Refer to the images below t
 
 The links provided will be different based on your organization's subscriptions.
 
-
 If you have Amplify and zero or more non-Amplify subscriptions you will see the following links:
 
 * Getting started

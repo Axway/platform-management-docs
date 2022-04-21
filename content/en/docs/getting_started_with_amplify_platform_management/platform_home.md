@@ -28,7 +28,10 @@ The Platform home page includes the following areas. Refer to the images below t
 * **My capabilities**  - Links to what is currently available to you based on your role and your organization's subscriptions.
 * **Explore More** \- A link to the _Explore More Products & Services_ page to view the Platform service offerings and products. A list of available products and services to which you do not have a subscription are provided with various pointers and actions to get you started. You can learn more, start a free trial, or renew an expired subscription.
 
+![Amplify and Non-Amplify subscriptions Platform Home page](/Images/amplify_subscriptions.png)
+
 The links provided will be different based on your organization's subscriptions.
+
 
 If you have Amplify and zero or more non-Amplify subscriptions you will see the following links:
 
@@ -48,8 +51,6 @@ If you have Amplify and zero or more non-Amplify subscriptions you will see the 
 * My capabilities
 * Explore More
 
-![Amplify and Non-Amplify subscriptions Platform Home page](/Images/amplify_subscriptions.png)
-
 If you have one or more non-Amplify subscriptions you will see the following links:
 
 * Getting started
@@ -64,8 +65,6 @@ If you have one or more non-Amplify subscriptions you will see the following lin
 * Key tasks
 * Explore more
 
-![Non-Amplify subscriptions Platform Home page](/Images/non_amplify_subscriptions.png)
-
 If you have license maintenance contracts only (no subscriptions) you will see the following links:
 
 * Getting started
@@ -78,8 +77,6 @@ If you have license maintenance contracts only (no subscriptions) you will see t
     * Support
 * Manage users (administrators only)
 * Explore more
-
-![License maintenance contracts Platform Home page](/Images/licensed_org_no_subscriptions.png)
 
 If you have no subscriptions you are taken to the _Explore Products & Services_ page.
 

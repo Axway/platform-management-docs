@@ -5,11 +5,11 @@ weight: 60
 date: 2021-08-12
 ---
 
-By default, the Dashboard provides metric analytics for Amplify Runtime Requests, Average Session Length, Install, Events, Mobile Backend Service Requests, Push Notifications, Sessions, and Unique Devices. The Custom Queries feature enables you to create custom queries based on your application-specific metrics and analytical needs or expand upon the provided default analytics to meet your specific analytics needs.
+By default, analytics are provided for Event names and counts, Amplify Runtime Requests, Average Session Length, Installs, Mobile Backend Service Requests, Push Notifications, Sessions, and Unique Devices. The Custom Queries feature enables you to create custom queries based on your application-specific metrics and analytical needs or expand upon the provided default analytics to meet your specific analytics needs.
 
 ## Queries overview
 
-To access the _Queries Overview_ screen, select the **Custom Queries** tab on the Dashboard home page.
+To access the _Queries Overview_ screen, select the **Custom Queries** link on the Overview left menu.
 
 ![Queries overview](/Images/custom_queries_overview.png)
 

@@ -51,10 +51,10 @@ Verifying your phone number is optional but **highly recommended** for increased
 To verify your phone number:
 
 1. Complete the **Phone Number** field. The phone number should be entered as digits only in the format _\[+\]\[country code\] \[number including area code\]_.
-2. Click the **Verify** button. When the **Verify** button is clicked, Dashboard sends a phone verification code to the phone number entered in the **Phone Number** field, and the **Verification Code** field is displayed. If you do not receive a verification code, click **Resend**.
+2. Click the **Verify** button. When the **Verify** button is clicked, a verification code is sent to the phone number entered in the **Phone Number** field, and the **Verification Code** field is displayed. If you do not receive a verification code, click **Resend**.
     ![Verify your phone number](/Images/phone_number_verification_latest.png)
 3. Enter the received verification code in the **Verification Code** field.
-    Once a valid verification code is entered, Dashboard will process the verification and update the verification status of the phone number.
+    Once a valid verification code is entered, the phone number is now verified.
     ![Phone number verification code](/Images/phone_number_verified_latest.png)
 
 ## View organizations and roles
@@ -76,7 +76,7 @@ To change your password:
     ![Change and confirm password](/Images/change_password_latest.png)
 3. Confirm the new password in the **Confirm Password** field. The entry in the **Confirm Password** field must be the same as the entry in the **Password** field.
 4. Select the **Force Logout** checkbox to force the log out of any current sessions.
-5. Click the **Save** button. The password changes are saved, and the Dashboard sends an Account Information Changed notification email.
+5. Click the **Save** button. The password change is saved and an Account Information Changed notification email is sent.
 
 ### Manage multi-factor authentication
 
@@ -90,7 +90,7 @@ Multi-factor authentication in the Amplify Platform is possible when your user a
 
 To enable multi-factor authentication:
 
-1. Select the **Credentials** tab.
+1. Select the **Credentials** link.
 2. Select **Enabled** next to the **Multi-Factor Authentication** option. The **Preferred MFA Method** options becomes available.
 3. For the **Preferred MFA Method**, select the default method a multi-factor authentication token will be generated for when logging in from a new device. Options are **Authenticator App**, **Email**, and **SMS**.
 

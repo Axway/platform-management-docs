@@ -1,7 +1,7 @@
 ---
 title: Configuring and managing Identity Providers
 linkTitle: Configuring and managing Identity Providers
-weight: 50
+weight: 40
 date: 2021-08-12
 ---
 

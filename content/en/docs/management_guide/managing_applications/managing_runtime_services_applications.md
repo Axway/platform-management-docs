@@ -9,7 +9,7 @@ date: 2021-08-12
 
 ## View Runtime Services applications information
 
-To view the details of Runtime Services applications, select it from the Dashboard home page **Apps** tab.
+To view the details of Runtime Services applications, select it from the **Apps** link in the Overview left menu.
 
 For Runtime Services applications, the **Overview** tab displays creation, publication, and build status information as well as the allocated container points and the server count. The number of Allocated Container Points is the total container points allocated to the application. Note this may not accurately reflect the number of container points currently in use by the application.
 
@@ -50,7 +50,7 @@ To delete the application:
 
 ## View analytics
 
-The **Analytics** tab displays the Total number of Amplify Runtime requests made during the provided time range either by path or by the path and query string. To toggle on and off the analytics information displayed in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen and select **Chart**. For details on exporting the metrics, refer to the **Export Data** section of [Viewing Analytics](/docs/dashboard_guide/managing_applications/viewing_analytics/).
+The **Analytics** tab displays the Total number of Amplify Runtime requests made during the provided time range either by path or by the path and query string. To toggle on and off the analytics information displayed in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen and select **Chart**. For details on exporting the metrics, refer to the **Export Data** section of [Viewing Analytics](/docs/management_guide/managing_applications/viewing_analytics/).
 
 ## View connected applications
 

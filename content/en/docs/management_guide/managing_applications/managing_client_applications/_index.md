@@ -9,7 +9,7 @@ date: 2021-08-12
 
 ## App Overview and service keys
 
-When you select a client application from the **Apps** tab, its **Overview** tab opens. The **Overview** tab displays basic information about the application, including its name, description, and application GUID, category, creator, admin, and assigned teams. It also includes [key metrics](/docs/dashboard_guide/managing_applications/viewing_metrics/) collected by the Analytics service.
+When you select a client application from the **Apps** tab, its **Overview** tab opens. The **Overview** tab displays basic information about the application, including its name, description, and application GUID, category, creator, admin, and assigned teams. It also includes [key metrics](/docs/management_guide/managing_applications/viewing_metrics/) collected by the Analytics service.
 
 ## Apps left navigation
 
@@ -35,7 +35,7 @@ You can also permanently delete the selected application by clicking the **Actio
 
 ## APIs tab
 
-The **APIs** tab lists the Services, APIs, {{% variables/apibuilder_prod_name %}} (**Service**) applications, and Mobile Backend Services (**Data**) used by the application. Click an item in the list to view or manage its services. See [Managing Mobile Backend Services Datasources](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/) for details.
+The **APIs** tab lists the Services, APIs, {{% variables/apibuilder_prod_name %}} (**Service**) applications, and Mobile Backend Services (**Data**) used by the application. Click an item in the list to view or manage its services. See [Managing Mobile Backend Services Datasources](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/) for details.
 
 {{% alert title="Note" color="primary" %}}Mobile Backend Services and Runtime Services are deprecated and will be discontinued effective September 1, 2022.{{% /alert %}}
 
@@ -66,8 +66,4 @@ The **Analytics** tab displays real-time analytics, such as the number of active
 
 You can also view custom events captured by your application using the Titanium.Analytics object, or the performance APIs provided by the Platform Services SDK for [iOS](https://docs.axway.com/bundle/Amplify_Appcelerator_Services_allOS_en/page/aps_analytics_for_ios.html) or [Android](https://docs.axway.com/bundle/Amplify_Appcelerator_Services_allOS_en/page/aps_analytics_for_android.html).
 
-For more information, see [Viewing Analytics](/docs/dashboard_guide/managing_applications/viewing_analytics/).
-
-## Application preview
-
-You can upload and preview applications by clicking the **Actions** (...) menu icon for a selected app, and then selecting **App Preview**. For more information, see [Previewing Applications](/docs/dashboard_guide/managing_applications/managing_client_applications/previewing_applications/).
+For more information, see [Viewing Analytics](/docs/management_guide/managing_applications/viewing_analytics/).

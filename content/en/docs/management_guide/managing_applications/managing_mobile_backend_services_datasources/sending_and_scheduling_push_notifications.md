@@ -5,11 +5,11 @@ weight: 40
 date: 2021-08-12
 ---
 
-This section explains how to send and schedule push notifications in the Dashboard.
+This section explains how to send and schedule push notifications.
 
 ## Sending push notifications
 
-To send a push notification, you must provide Dashboard the following information:
+To send a push notification, you must provide the following information:
 
 * **Notification recipients and channel –** If your application users are subscribed using _session-based subscriptions_, you can send a notification to specific {{% variables/apibuilder_prod_name %}} users subscribed to a particular channel. For token-based subscriptions, you can send notifications to all users subscribed to a particular channel, or all users regardless of their channel subscriptions.
 * **Notification schedule –** You can send a notification immediately, or schedule it to be sent at a future date and time. Scheduled notifications can be one-time or recurring.
@@ -17,15 +17,15 @@ To send a push notification, you must provide Dashboard the following informatio
 
 To send a notification to users located in a geographic area, the application must have first provided their current location to {{% variables/apibuilder_prod_name %}}. For details, see [Updating Subscriptions with Device Location](https://docs.axway.com/bundle/Titanium_SDK_allOS_en/page/subscribing_to_push_notifications.html).
 
-The Dashboard provides two views for sending notifications, **Standard** and **Advanced.** The Standard view provides an easy way to send notifications without having to understand the payload structure. In the Advanced view, you manually create the JSON payload. The advanced form provides additional flexibility, such as including custom payload fields.
+Two views for sending notifications are provided, **Standard** and **Advanced.** The Standard view provides an easy way to send notifications without having to understand the payload structure. In the Advanced view, you manually create the JSON payload. The advanced form provides additional flexibility, such as including custom payload fields.
 
 If you prefer can use the PushNotification.notify or PushNotification.notify_tokens REST APIs to send push notifications.
 
 {{% alert title="Note" color="primary" %}}A warning will be displayed if you attempt to perform a push with an expired or disabled iOS certificate.{{% /alert %}}
 
-**To send push notifications from the Dashboard:**
+**To send push notifications:**
 
-1. In the Dashboard, select your application from the Dashboard home page **Apps** tab.
+1. Select your application from the **Apps** page in the Overview left menu.
 2. From the left-side navigation, select **Push Notifications**.
 3. Select **Send** to open the Send Push Notification form**.**
 4. Select either **Standard** or **Advanced**.
@@ -99,7 +99,7 @@ The payload can also include custom fields that your application can read and us
 
 ### Custom JSON payloads
 
-The Dashboard provides two forms, Standard and Advanced, for you to compose the payload. In the Standard form, you use common form controls to compose the payload, without having to write JSON code. In the Advanced form, you manually enter the JSON-encoded string that's sent in the notification. The JSON object can contain any of the standard fields discussed in [About Notification Payloads](#about-notification-payloads), or custom fields specific to your application. For example, the following payload contains `alert` and `sound` fields, as well as a custom field named `high_score`.
+Two forms are provided, Standard and Advanced, for you to compose the payload. In the Standard form, you use common form controls to compose the payload, without having to write JSON code. In the Advanced form, you manually enter the JSON-encoded string that's sent in the notification. The JSON object can contain any of the standard fields discussed in [About Notification Payloads](#about-notification-payloads), or custom fields specific to your application. For example, the following payload contains `alert` and `sound` fields, as well as a custom field named `high_score`.
 
 ![Custom JSON example](/Images/custom_json.png)
 
@@ -133,7 +133,7 @@ When the device receives this payload, it will do the following:
 
 ### About JSON payloads delivered to devices
 
-The notification payload that Mobile Backend Services delivers to either FCM or GCM or APNS is slightly modified from the original JSON payload you provide to Dashboard. Also, the payloads are slightly different for Android and iOS devices.
+The notification payload that Mobile Backend Services delivers to either FCM or GCM or APNS is slightly modified from the original JSON payload you provide. Also, the payloads are slightly different for Android and iOS devices.
 
 For Android, all Android-specific fields are contained in an **`android`** dictionary, while all other iOS-only and custom fields are top-level keys of the payload. For example, the payload shown in [Custom JSON payloads](#custom-json-payloads) will be delivered to an Android application as follows:
 
@@ -215,7 +215,7 @@ You can create interactive notifications for users running iOS 8 or later can re
 
 ![Interactive notification](/Images/interactivebannermessage.png)
 
-Your Titanium application defines one or more _notification categories_, each of which consists of one or more _notification actions_. When you [create a push notification](#create-a-push-notification) in the Dashboard, the **Category** form field lets you specify the category of interactive notification to display when the push notification arrives.
+Your Titanium application defines one or more _notification categories_, each of which consists of one or more _notification actions_. When you [create a push notification](#create-a-push-notification), the **Category** form field lets you specify the category of interactive notification to display when the push notification arrives.
 
 **To create an interactive notification:**
 
@@ -224,7 +224,7 @@ Your Titanium application defines one or more _notification categories_, each of
     2. [Create notification categories](https://docs.axway.com/bundle/Titanium_SDK_allOS_en/page/ios_interactive_notifications.html) and assign notification actions to them.
     3. [Register the application](https://docs.axway.com/bundle/Titanium_SDK_allOS_en/page/ios_interactive_notifications.html) for the desired notification categories, and to receive push notifications.
     4. Register an event listener for the  `[remotenotificationaction](http://docs.appcelerator.com/platform/latest/#!/api/Titanium.App.iOS-event-remotenotificationaction)` event, to respond to user actions when they interact with the notification.
-2. In the Dashboard, send a new push notification and set the **Category** field to the desired notification category.
+2. Send a new push notification and set the **Category** field to the desired notification category.
     ![Set the category](/Images/push_notification.png)
 
 When the notification arrives, the device displays the set of actions defined by the category. The remotenotificationaction event fires when the user interacts with the notification.

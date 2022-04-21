@@ -1,7 +1,7 @@
 ---
 title: Downloading Axway-issued artifacts or product extensions
 linkTitle: Downloading Axway-issued artifacts or product extensions
-weight: 40
+weight: 50
 date: 2021-08-12
 ---
 

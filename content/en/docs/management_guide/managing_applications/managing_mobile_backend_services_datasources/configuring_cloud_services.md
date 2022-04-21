@@ -13,7 +13,7 @@ The **Configuration** tab lets you do the following:
 
 Before configuring Cloud settings, make sure you select the correct environment from the **Environment** menu. The changes you make in the **Configuration** tab only affects the selected environment.
 
-The **Configuration** tab is available on the Dashboard left navigation for cloud services, which contains several sub-tabs:
+The **Configuration** menu is contains several links:
 
 ![Configuration menu](/Images/configuration_tab.png)
 
@@ -42,7 +42,7 @@ Click the **Settings** tab to configure application settings for Cloud services.
 
 ## Email
 
-On the **Email** configuration tab, you can configure Dashboard to send email using SMTP or Message Gears on behalf of your application. To send an email, you use the custom_mailer/email_from_template.json REST method, the Cloud.Emails.send() method, or the equivalent native iOS or Android method. To send an email, you must specify an email template that you previously created in Dashboard (see [Managing Email Templates](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/managing_mobile_backend_services_data_objects/managing_email_templates/) for details).
+On the **Email** configuration tab, you can configure to send email using SMTP or Message Gears on behalf of your application. To send an email, you use the custom_mailer/email_from_template.json REST method, the Cloud.Emails.send() method, or the equivalent native iOS or Android method. To send an email, you must specify an email template that you previously created (see [Managing Email Templates](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/managing_mobile_backend_services_data_objects/managing_email_templates/) for details).
 
 **Notes:**
 

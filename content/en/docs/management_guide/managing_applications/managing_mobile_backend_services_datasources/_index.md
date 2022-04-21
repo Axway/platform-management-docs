@@ -7,18 +7,18 @@ date: 2021-08-12
 
 {{% alert title="Note" color="primary" %}}Mobile Backend Services is deprecated and will be discontinued effective September 1, 2022. Refer to the [End of Support announcement](https://devblog.axway.com/featured/product-update-changes-to-application-development-services-appcelerator/) for details.{{% /alert %}}
 
-To view service details and manage data properties for a Mobile Backend Services (MBS) datasource, select it from the Dashboard home page **Apps** tab.
+To view service details and manage data properties for a Mobile Backend Services (MBS) datasource, select it from the **Apps** page in the Overview left menu.
 
 ## Create a new datasource
 
-To create a standalone Mobile Backend Services datasource (an MBS datasource that is not tied to a specific client application), refer to the [Getting Started with Mobile Backend Services Datasources](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/getting_started_with_mobile_backend_services_datasources/).
+To create a standalone Mobile Backend Services datasource (an MBS datasource that is not tied to a specific client application), refer to the [Getting Started with Mobile Backend Services Datasources](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/getting_started_with_mobile_backend_services_datasources/).
 
 ## Change the name of the datasource
 
 To change the name of the datasource:
 
 1. Log into the [Platform](https://platform.axway.com/).
-2. Click Dashboard from the _Services Link_ menu.
+2. Click **Overview** from the _Services Link_ menu.
 3. Select the datasource from the apps list.
 4. In the datasource details page, click the **Actions** (**...**) menu in the upper-right of the screen and select **Edit**.
 5. Enter a new name for the datasource.
@@ -36,7 +36,7 @@ To delete the datasource:
 
 ## View API usage data
 
-The **Overview** tab displays the Mobile Backend Services Usage data and includes the number of Mobile Backend Services Requests made to MBS, the number of devices connected to receive [push notifications](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/), the number of email templates available to the application, and the amount of disk storage used. The **Overview** tab also displays the App GUID, Description, Teams, Created, and Creator information for the selected MBS application.
+The **Overview** tab displays the Mobile Backend Services Usage data and includes the number of Mobile Backend Services Requests made to MBS, the number of devices connected to receive [push notifications](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/), the number of email templates available to the application, and the amount of disk storage used. The **Overview** tab also displays the App GUID, Description, Teams, Created, and Creator information for the selected MBS application.
 
 ![Datasource overview page](/Images/overview_new.png)
 
@@ -48,13 +48,13 @@ The **Apps** tab displays a list of applications (Titanium or native) that are c
 
 ## View API analytics
 
-The **Analytics** tab displays the total number of API calls for the selected period by API type (Chats or Users APIs, for instance) or by individual application. For additional information, see [Viewing Analytics](/docs/dashboard_guide/managing_applications/viewing_analytics/).
+The **Analytics** tab displays the total number of API calls for the selected period by API type (Chats or Users APIs, for instance) or by individual application. For additional information, see [Viewing Analytics](/docs/management_guide/managing_applications/viewing_analytics/).
 
 ![View API analytics](/Images/analytics_new.png)
 
 ## Manage data
 
-The **Manage Data** tab displays the number of each type of MBS object created by the selected application. Click the MBS type in the table to view, edit, create and delete objects (see [Managing Data Objects](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/managing_mobile_backend_services_data_objects/)).
+The **Manage Data** tab displays the number of each type of MBS object created by the selected application. Click the MBS type in the table to view, edit, create and delete objects (see [Managing Data Objects](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/managing_mobile_backend_services_data_objects/)).
 
 To export your application's MBS data in a JSON format, click the **Actions** (**...**) menu icon and select **Export Data.** To delete your application's data, click the **Actions** (**...**) menu icon and select **Delete Data.**
 
@@ -87,10 +87,10 @@ You can filter MBS API requests by their date.
 On the **Configuration** tab you can select from the following sub-tabs:
 
 * **Keys** – View your {{% variables/apibuilder_prod_name %}} application key and OAuth consumer key and OAuth secret.
-* **Settings** – Change {{% variables/apibuilder_prod_name %}} settings such as enable or disable new user email verification, friend request type (two-way or one-way), and whether users can be created from the application or only from Dashboard.
-* **Email** – Provide SMTP or MessageGears server settings for Dashboard to send an email on behalf of your application. Additionally, you can enable or disable the email test mode.
+* **Settings** – Change {{% variables/apibuilder_prod_name %}} settings such as enable or disable new user email verification, friend request type (two-way or one-way), and whether users can be created from your application.
+* **Email** – Provide SMTP or MessageGears server settings to send an email on behalf of your application. Additionally, you can enable or disable the email test mode.
 
-For details, see [Configuring Cloud Services](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/configuring_cloud_services/).
+For details, see [Configuring Cloud Services](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/configuring_cloud_services/).
 
 ![Configure the datasource](/Images/configuration_latest.png)
 
@@ -98,7 +98,7 @@ For details, see [Configuring Cloud Services](/docs/dashboard_guide/managing_ap
 
 The **Push Notifications** tab lets you select from the following sub-tabs:
 
-* **Send –** See [Sending and Scheduling Push Notifications](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/) for details.
+* **Send –** See [Sending and Scheduling Push Notifications](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/) for details.
 * **Logs** – Paginated and filterable table of push notification log items. See [Push Notification Logs](#push-notification-logs).
 * **iOS** – Configure {{% variables/apibuilder_prod_name %}} Push to communicate with the Apple Push Notification Service (APNS). See [iOS and Android Push Notification Settings](#push-notification-settings) for details.
 * **Android** - Configure Firebase Cloud Messaging service for Android (FCM) on behalf of your application. [Firebase Cloud Messaging](http://firebase.google.com/docs/cloud-messaging/) (FCM) is the new version of GCM. See [iOS and Android Push Notification Settings](#push-notification-settings) for details.
@@ -107,7 +107,7 @@ The **Push Notifications** tab lets you select from the following sub-tabs:
 
 ### Push notification logs
 
-Click the **Logs** tab to view a paginated table of push notifications delivered by Dashboard, and the status of the notification. Each row contains the following fields:
+Click the **Logs** tab to view a paginated table of push notifications and their status. Each row contains the following fields:
 
 * **Payload –** The JSON notification payload.
 * **Channel –** The name of the subscription channel to which the notification was delivered.
@@ -123,11 +123,11 @@ You can filter the listing of push notifications by channel name or creation dat
 
 ### Push notification settings
 
-The **iOS** and **Android** tabs are where you configure Dashboard to use the APNS or either the FCM or GCM push notification services. For details, see [Configuring Push Services](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/).
+The **iOS** and **Android** tabs are where you configure use of APNS, FCM, or GCM push notification services. For details, see [Configuring Push Services](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/).
 
 #### iOS push notification settings
 
-Click the **iOS** tab to configure the application to use the Apple Push Notification service. Before configuring APN, you need to create a Push Notification Certificate and export it as a PKCS #8 or #12 file. For instructions, see [Configuring push services for iOS devices](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/).
+Click the **iOS** tab to configure the application to use the Apple Push Notification service. Before configuring APN, you need to create a Push Notification Certificate and export it as a PKCS #8 or #12 file. For instructions, see [Configuring push services for iOS devices](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/).
 
 To configure the p8 format
 
@@ -154,7 +154,7 @@ To configure the p12 format.
 
 #### Android cloud messaging settings
 
-Click the **Android** tab to configure the application to use the Firebase Cloud Messaging (FCM) service. [Firebase Cloud Messaging](http://firebase.google.com/docs/cloud-messaging/) (FCM) is the new version of GCM. FCM HTTPv1 and FCM legacy HTTP is supported. Before configuring FCM legacy HTTP, you need to obtain an FCM or GCM sender ID and Google API server key. For instructions, see [Configuring push services for Android devices](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/).
+Click the **Android** tab to configure the application to use the Firebase Cloud Messaging (FCM) service. [Firebase Cloud Messaging](http://firebase.google.com/docs/cloud-messaging/) (FCM) is the new version of GCM. FCM HTTPv1 and FCM legacy HTTP is supported. Before configuring FCM legacy HTTP, you need to obtain an FCM or GCM sender ID and Google API server key. For instructions, see [Configuring push services for Android devices](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/).
 
 _To configure FCM HTTPv1_, select a service account JSON file from your Firebase console Service Accounts page.
 

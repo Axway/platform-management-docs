@@ -24,7 +24,6 @@ To manage your organization information, select **Organization** from the _Use
 * Teams
 * Users
 * Service Accounts
-* Child Orgs (you must be an administrator)
 * Usage
 * Environments (you must be an administrator)
 * Settings (you must be an administrator)
@@ -46,8 +45,6 @@ To update an organization name:
 6. Select **Edit** from the **Actions** menu.
 7. Enter the desired organization name in the **Name** field.
 8. Click **Save**.
-
-To add a child organization, refer to [Creating an Organization](/docs/management_guide/organizations/creating_an_organization/).
 
 ## Managing users
 
@@ -220,14 +217,14 @@ The **Environments** tab is used for usage tracking. Refer to manual entry repo
 
 The **Settings** tab enables you to:
 
-* Brand the Dashboard for the selected organization.
+* Apply branding to the Amplify Platform navigation and selected views for the selected organization.
 * Configure and manage entity providers for Amplify Platform authentication.
 
 ![Managing organization settings](/Images/settings_tab.png)
 
 ### Change the branding
 
-To brand the Dashboard per your organization's branding requirements:
+To apply branding to Amplify Platform per your organization's branding requirements:
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.

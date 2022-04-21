@@ -37,7 +37,7 @@ The following **Session Invalidated** message displays when one of the configure
 
 ![Session Invalidated dialog](/Images/360_invalid_mapper.png)
 
-The organization administrator must edit the Identity Provider configuration value in the Dashboard from the **Action** menu. When the changes are saved, the configured email recipient will receive a new verification email since the previous one is no longer valid.
+The organization administrator must edit the Identity Provider configuration value from the **Action** menu. When the changes are saved, the configured email recipient will receive a new verification email since the previous one is no longer valid.
 
 Another situation that will generate the **Session Invalidated** message is when the user has an active session but the organization administrator configures a new Identity Provider, which is confirmed. After the domain ownership is confirmed, all other users whose accounts are on that domain will be logged out and shown this message.
 

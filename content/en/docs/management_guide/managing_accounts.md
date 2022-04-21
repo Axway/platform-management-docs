@@ -76,7 +76,7 @@ To change your password:
     ![Change and confirm password](/Images/change_password_latest.png)
 3. Confirm the new password in the **Confirm Password** field. The entry in the **Confirm Password** field must be the same as the entry in the **Password** field.
 4. Select the **Force Logout** checkbox to force the log out of any current sessions.
-5. Click the **Save** button. The password changes are saved, and the Dashboard sends an Account Information Changed notification email.
+5. Click the **Save** button. The password change is saved and an Account Information Changed notification email is sent.
 
 ### Manage multi-factor authentication
 
@@ -90,7 +90,7 @@ Multi-factor authentication in the Amplify Platform is possible when your user a
 
 To enable multi-factor authentication:
 
-1. Select the **Credentials** tab.
+1. Select the **Credentials** link.
 2. Select **Enabled** next to the **Multi-Factor Authentication** option. The **Preferred MFA Method** options becomes available.
 3. For the **Preferred MFA Method**, select the default method a multi-factor authentication token will be generated for when logging in from a new device. Options are **Authenticator App**, **Email**, and **SMS**.
 

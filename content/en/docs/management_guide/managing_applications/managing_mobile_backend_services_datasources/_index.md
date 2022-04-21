@@ -7,7 +7,7 @@ date: 2021-08-12
 
 {{% alert title="Note" color="primary" %}}Mobile Backend Services is deprecated and will be discontinued effective September 1, 2022. Refer to the [End of Support announcement](https://devblog.axway.com/featured/product-update-changes-to-application-development-services-appcelerator/) for details.{{% /alert %}}
 
-To view service details and manage data properties for a Mobile Backend Services (MBS) datasource, select it from the Dashboard home page **Apps** tab.
+To view service details and manage data properties for a Mobile Backend Services (MBS) datasource, select it from the **Apps** page in the Overview left menu.
 
 ## Create a new datasource
 
@@ -18,7 +18,7 @@ To create a standalone Mobile Backend Services datasource (an MBS datasource tha
 To change the name of the datasource:
 
 1. Log into the [Platform](https://platform.axway.com/).
-2. Click Dashboard from the _Services Link_ menu.
+2. Click **Overview** from the _Services Link_ menu.
 3. Select the datasource from the apps list.
 4. In the datasource details page, click the **Actions** (**...**) menu in the upper-right of the screen and select **Edit**.
 5. Enter a new name for the datasource.
@@ -87,8 +87,8 @@ You can filter MBS API requests by their date.
 On the **Configuration** tab you can select from the following sub-tabs:
 
 * **Keys** – View your {{% variables/apibuilder_prod_name %}} application key and OAuth consumer key and OAuth secret.
-* **Settings** – Change {{% variables/apibuilder_prod_name %}} settings such as enable or disable new user email verification, friend request type (two-way or one-way), and whether users can be created from the application or only from Dashboard.
-* **Email** – Provide SMTP or MessageGears server settings for Dashboard to send an email on behalf of your application. Additionally, you can enable or disable the email test mode.
+* **Settings** – Change {{% variables/apibuilder_prod_name %}} settings such as enable or disable new user email verification, friend request type (two-way or one-way), and whether users can be created from your application.
+* **Email** – Provide SMTP or MessageGears server settings to send an email on behalf of your application. Additionally, you can enable or disable the email test mode.
 
 For details, see [Configuring Cloud Services](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/configuring_cloud_services/).
 
@@ -107,7 +107,7 @@ The **Push Notifications** tab lets you select from the following sub-tabs:
 
 ### Push notification logs
 
-Click the **Logs** tab to view a paginated table of push notifications delivered by Dashboard, and the status of the notification. Each row contains the following fields:
+Click the **Logs** tab to view a paginated table of push notifications and their status. Each row contains the following fields:
 
 * **Payload –** The JSON notification payload.
 * **Channel –** The name of the subscription channel to which the notification was delivered.
@@ -123,7 +123,7 @@ You can filter the listing of push notifications by channel name or creation dat
 
 ### Push notification settings
 
-The **iOS** and **Android** tabs are where you configure Dashboard to use the APNS or either the FCM or GCM push notification services. For details, see [Configuring Push Services](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/).
+The **iOS** and **Android** tabs are where you configure use of APNS, FCM, or GCM push notification services. For details, see [Configuring Push Services](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/).
 
 #### iOS push notification settings
 

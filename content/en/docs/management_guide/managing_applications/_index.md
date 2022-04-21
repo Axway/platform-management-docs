@@ -10,7 +10,7 @@ date: 2021-08-12
 * Mobile Backend Services is deprecated and will be discontinued effective September 1, 2022. Refer to the [End of Support announcement](https://devblog.axway.com/featured/product-update-changes-to-application-development-services-appcelerator/) for details.
 * Runtime Services applications are deprecated and will be discontinued effective September 1, 2022.{{% /alert %}}
 
-To manage an application, select the application to manage from applications listed on the Dashboard home page **Apps** link.
+To manage an application, select the application to manage from applications listed on **Apps** page.
 
 You can manage the following types of applications:
 

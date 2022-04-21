@@ -9,7 +9,7 @@ date: 2021-08-12
 
 ## View Runtime Services applications information
 
-To view the details of Runtime Services applications, select it from the Dashboard home page **Apps** tab.
+To view the details of Runtime Services applications, select it from the **Apps** link in the Overview left menu.
 
 For Runtime Services applications, the **Overview** tab displays creation, publication, and build status information as well as the allocated container points and the server count. The number of Allocated Container Points is the total container points allocated to the application. Note this may not accurately reflect the number of container points currently in use by the application.
 

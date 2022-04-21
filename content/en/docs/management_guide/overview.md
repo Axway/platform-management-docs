@@ -1,23 +1,21 @@
 ---
-title: The Amplify Platform dashboard
-linkTitle: The Amplify Platform dashboard
+title: Overview
+linkTitle: Overview
 weight: 5
 date: 2021-08-12
 ---
 
-The Amplify Platform Dashboard left navigation comprises the following menu items:
+The Amplify Platform Overview left navigation comprises the following menu items:
 
-{{% alert title="Note" color="primary" %}}The available menus on the Dashboard may vary based on your role and your organization's subscriptions.{{% /alert %}}
+{{% alert title="Note" color="primary" %}}The available menus on the Amplify Platform Overview may vary based on your role and your organization's subscriptions.{{% /alert %}}
 
 ![Amplify Platform Overview left navigation](/Images/dashboard_left_menu.png)
 
-* **Overview** - displays  key metric information relevant to a product line to which your organization is subscribed. All users will see the Overview tab.
-* **API Observer** - navigates you to the [API Observer](https://docs.axway.com/bundle/amplify-central/page/docs/get_actionable_insights/index.html) dashboard. Users with the Central Admin and Developer roles will see the API Observer tab.
-* **Search Audit** - navigates you to the [Amplify Visibility Dashboard](/docs/management_guide/the_dashboards/visibility_dashboards/). Users with the Auditor or Analytics Specialist Visibility roles will see the Visibility tab.
-* **Apps** - displays the list of applications for your organization and where you can [manage your applications](/docs/management_guide/managing_applications/). Organizations with Application Development, Cloud Capacity, or Runtime Services subscriptions will see the Apps tab.
-* **Custom Queries** - if configured, displays custom query summary information and enables the creation of custom analytics queries. Organizations with the Application Development or API Management subscriptions will see the Custom Queries tab.
-
-The left-side in the bottom navigation contains a link for enabling Demo Data mode. Click **Demo Data** to populate Dashboard with demonstration data to see how the Dashboard looks if you have several applications and APIs in production.
+* **Overview** - displays  key metric information relevant to a product line to which your organization is subscribed. All users will see the Overview link.
+* **Business Insights** - navigates you to [Business Insights](https://docs.axway.com/bundle/amplify-central/page/docs/get_actionable_insights/index.html). Users with the Central Admin and Developer roles will see the Business Insights link.
+* **Search Audit** - navigates you to the Search Audit. Users with the Auditor role will see the Search Audit link.
+* **Apps** - displays the list of applications for your organization and where you can [manage your applications](/docs/management_guide/managing_applications/). Organizations with Application Development, Cloud Capacity, or Runtime Services subscriptions will see the Apps link.
+* **Custom Queries** - if configured, displays custom query summary information and enables the creation of custom analytics queries.
 
 ## Overview
 
@@ -44,7 +42,7 @@ The **Overview** displays key metric information relevant to the product line t
 
 To manage an application, select the application to manage from the list of applications.
 
-If you haven't created any applications yet, you will be directed to the _You don't have any apps yet!_ page. Don't worry. It's easy to get started creating apps using the Platform. It should take you only a few minutes to create an app. Once you do, your Dashboard will have data here. To get started creating applications, click one of the following options:
+If you haven't created any applications yet, you will be directed to the _You don't have any apps yet!_ page. Don't worry. It's easy to get started creating apps using the Platform. It should take you only a few minutes to create an app. Once you do, your Overview will have data here. To get started creating applications, click one of the following options:
 
 * **Get the latest tools -** You will be forwarded to the _Get started with {{% variables/apibuilder_prod_name %}}_ page where you can select to get started building apps with either [Axway Appcelerator Studio](https://docs.axway.com/bundle/Appcelerator_Studio_allOS_en/page/axway_appcelerator_studio.html) or [Appcelerator CLI](https://docs.axway.com/bundle/Appcelerator_CLI_allOS_en/page/appcelerator_cli.html).
 * **Register App for Services** \- You will be forwarded to the _Register App for Services_ page.

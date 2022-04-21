@@ -67,7 +67,3 @@ The **Analytics** tab displays real-time analytics, such as the number of active
 You can also view custom events captured by your application using the Titanium.Analytics object, or the performance APIs provided by the Platform Services SDK for [iOS](https://docs.axway.com/bundle/Amplify_Appcelerator_Services_allOS_en/page/aps_analytics_for_ios.html) or [Android](https://docs.axway.com/bundle/Amplify_Appcelerator_Services_allOS_en/page/aps_analytics_for_android.html).
 
 For more information, see [Viewing Analytics](/docs/management_guide/managing_applications/viewing_analytics/).
-
-## Application preview
-
-You can upload and preview applications by clicking the **Actions** (...) menu icon for a selected app, and then selecting **App Preview**. For more information, see [Previewing Applications](/docs/management_guide/managing_applications/managing_client_applications/previewing_applications/).

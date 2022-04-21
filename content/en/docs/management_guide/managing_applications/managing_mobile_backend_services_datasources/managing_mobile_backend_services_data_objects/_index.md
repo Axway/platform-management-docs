@@ -7,7 +7,7 @@ date: 2021-08-12
 
 {{% alert title="Note" color="primary" %}}Mobile Backend Services is deprecated and will be discontinued effective September 1, 2022.{{% /alert %}}
 
-The **Manage Data** tab in Dashboard provides a visual interface to the various Mobile Backend Services APIs for creating, updating, deleting, and querying your application's Mobile Backend Services (MBS) objects – Photos and Chats, for example – on behalf of its users. You can also create and edit administrative MBS objects, like access control lists and email templates.
+The **Manage Data** tab provides a visual interface to the various Mobile Backend Services APIs for creating, updating, deleting, and querying your application's Mobile Backend Services (MBS) objects – Photos and Chats, for example – on behalf of its users. You can also create and edit administrative MBS objects, like access control lists and email templates.
 
 ## Mobile Backend Services app left navigation
 
@@ -24,7 +24,7 @@ The left navigation includes the following tabs:
 * Push Notifications
 * Documentation
 
-To manage MBS objects of a specific API, select the API from the Dashboard home page **Apps** tab whose data objects you want to manage. Then, select the **Manage Data** tab, as shown below. The main screen displays a table listing all MBS object types and the total number of each type.
+To manage MBS objects of a specific API, select the API from the **Apps** page whose data objects you want to manage. Then, select the **Manage Data** tab, as shown below. The main screen displays a table listing all MBS object types and the total number of each type.
 
 {{% alert title="Note" color="primary" %}}To manage Mobile Backend Services data objects, you must be an administrator or the application creator.{{% /alert %}}
 
@@ -114,7 +114,7 @@ To export an application's data:
 1. On the **Manage Data** tab, click the **Action Menu** icon in the upper-right of the screen and select **Export Data**.
 2. In the **Export App Data** dialog box, select **All** to export all application data, or to export data created during a certain period, select **Between** and select a date range.
     ![Export App Data page](/Images/export_latest.png)
-3. Click **Export App Data.** When the export package is ready to download, an email will be sent to your Dashboard user's registered email address.
+3. Click **Export App Data.** When the export package is ready to download, an email will be sent to your user's registered email address.
 
 {{% alert title="Note" color="primary" %}}You cannot export data if it has been exported in the past seven (7) days.{{% /alert %}}
 

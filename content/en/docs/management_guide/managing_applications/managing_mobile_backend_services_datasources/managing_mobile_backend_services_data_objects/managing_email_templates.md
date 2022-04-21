@@ -13,7 +13,7 @@ An email template specifies the email subject line and body, which may be HTML o
 
 To create an email template:
 
-1. In Dashboard, select the Mobile Backend Services datasource for which to create the email template.
+1. Select the Mobile Backend Services datasource for which to create the email template.
 2. Select **Manage Data**, then click **Email Templates**.
 3. Click **\+ Email Template**.
 4. Click the **Code** tab, and provide values for the following fields:
@@ -82,7 +82,7 @@ Below is the sample HTML used in the above screenshot:
 
 To edit an email template:
 
-1. In Dashboard, select the Mobile Backend Services datasource for which to edit an email template.
+1. Select the Mobile Backend Services datasource for which to edit an email template.
 2. Select **Manage Data**, then click **Email Templates**.
 3. Select the **+** icon for the email template to edit. The email template details are displayed.
 4. Select the **Action** icon for the email template. You may have to scroll to the right.
@@ -94,7 +94,7 @@ To edit an email template:
 
 To delete an email template:
 
-1. In Dashboard, select the Mobile Backend Services datasource from which to delete an email template.
+1. Select the Mobile Backend Services datasource from which to delete an email template.
 2. Select **Manage Data**, then click **Email Templates**.
 3. Select the **+** icon for the email template to delete. The email template details are displayed.
 4. Select the **Action** icon for the email template. You may have to scroll to the right.

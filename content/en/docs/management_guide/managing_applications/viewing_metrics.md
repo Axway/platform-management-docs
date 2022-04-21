@@ -4,7 +4,7 @@ linkTitle: Viewing metrics
 weight: 50
 date: 2021-08-12
 ---
-Click **Dashboard** from the platform home page. The **Overview** view appears. The Overview view displays key metric information relevant to a product line to which your organization is subscribed.
+Click **Overview** from the platform home page. The **Overview** view appears. The Overview view displays key metric information relevant to a product line to which your organization is subscribed.
 
 ## Overview
 

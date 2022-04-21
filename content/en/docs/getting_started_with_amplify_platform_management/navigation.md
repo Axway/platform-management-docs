@@ -15,7 +15,7 @@ The {{% variables/platform_prod_name %}} includes the following menus and links 
 
 ### Service Links menu
 
-The _Service Links_ menu provides links to to the _Platform Home_ page, the _Dashboard_, the capabilities to which your organization is subscribed (example shown), and the _Explore More Products and Services_ page. Click the _Integration Builder_ capability to show links to available environments.
+The _Service Links_ menu provides links to to the _Platform Home_ page, _Overview_, capabilities to which your organization is subscribed and provisioned (example shown), and the _Explore Products & Services_ page. Click the _Integration Builder_ capability to show links to available environments.
 
 ![Service Links menu](/Images/service_links_menu.png)
 
@@ -34,7 +34,7 @@ The _Help & Resources_ menu provides links to:
 * **Community Portal** - Click to navigate to the Axway Community Portal.
 * **Support Portal** - Click to navigate to the Axway Support Portal (login required).
 * **Axway University** - Click to navigate to the Axway University Portal.
-* **Download Center** \- Click to access the Products, Extensions, and Premium Modules link. Refer to the [Downloading Axway-issued Artifacts or Product Extensions](/docs/management_guide/downloading_axway-issued_artifacts_or_product_extensions/) for details.
+* **Download Center** \- Click to access the Products and Extensions. Refer to the [Downloading Axway-issued Artifacts or Product Extensions](/docs/management_guide/downloading_axway-issued_artifacts_or_product_extensions/) for details.
     * Click **Products** to navigate to the Axway Support Portal (login required).
     * Click **Extensions** to navigate to the Axway Amplify Repository.
 * **Axway.com** - Click to navigate to Axway.com.
@@ -62,9 +62,8 @@ The {{% variables/platform_prod_name %}} includes the following links in the bot
 
 ![Platform bottom navigation](/Images/amplify_platform_bottom_navigation.png)
 
-* **Version** - The version for the {{% variables/platform_prod_name %}} and Amplify Platform Dashboard. Click the version to be taken to the Release Notes.
+* **Version** - The version for the Amplify Platform Mangement application. Click the version to be taken to the Release Notes.
 * **Documentation** - Click this link to view the latest [{{% variables/platform_prod_name %}}](https://docs.axway.com/category/platform) documentation.
 * **Status** - Click this link to open the Axway {{% variables/platform_prod_name %}} Status page.
 * **Release Notes** - Click this link to open the [{{% variables/platform_prod_name %}} release notes directory](https://docs.axway.com/bundle/amplify_rn_dir/page/amplify_platform_release_notes_directory.html).
 * **Terms** - Click this link to view the {{% variables/platform_prod_name %}} Terms of Use.
-* **Chat Icon** - Click this icon to ask a question, make a suggestion, or report a problem.

@@ -9,7 +9,7 @@ This document provides questions and answers to commonly asked questions about t
 
 ## Creating custom Mobile Backend Services (MBS) objects
 
-See [Custom Objects and Fields](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/managing_mobile_backend_services_data_objects/) for more information.
+See [Custom Objects and Fields](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/managing_mobile_backend_services_data_objects/) for more information.
 
 ## Creating API keys
 
@@ -21,26 +21,26 @@ Refer to [Authorizing a browser or device](/docs/getting_started_with_amplify_p
 
 ## Key metrics
 
-What do the metrics mean on the Dashboard?
+What do the metrics mean on the Overviews?
 
-See [Viewing Metrics](/docs/dashboard_guide/managing_applications/viewing_metrics/) for more information.
+See [Viewing Metrics](/docs/management_guide/managing_applications/viewing_metrics/) for more information.
 
 ## Custom date range
 
-To set a custom date range, please review [Custom Date/Time Range Filter](/docs/dashboard_guide/managing_applications/viewing_analytics/) for more details.
+To set a custom date range, please review [Custom Date/Time Range Filter](/docs/management_guide/managing_applications/viewing_analytics/) for more details.
 
 ## Exporting data
 
-To export analytic data from Dashboard, see [Export Data](/docs/dashboard_guide/managing_applications/viewing_analytics/) for more details.
+To export data from analytics views, see [Export Data](/docs/management_guide/managing_applications/viewing_analytics/) for more details.
 
 ## Managing datasource
 
-Read [Managing Mobile Backend Services Datasources](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/) for more information on how to manage datasource within Dashboard.
+Read [Managing Mobile Backend Services Datasources](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/) for more information on how to manage Mobile Backend Services datasources.
 
 ## Common sending and scheduling push errors
 
-See [Troubleshooting common errors](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/) for more information about troubleshooting sending and scheduling push errors
+See [Troubleshooting common errors](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/) for more information about troubleshooting sending and scheduling push errors
 
 ## Configuring cloud services
 
-To configure cloud services within Dashboard, please review [Configuring Cloud Services](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/configuring_cloud_services/) for more details.
+To configure cloud services, please review [Configuring Cloud Services](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/configuring_cloud_services/) for more details.

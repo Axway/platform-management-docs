@@ -51,10 +51,10 @@ Verifying your phone number is optional but **highly recommended** for increased
 To verify your phone number:
 
 1. Complete the **Phone Number** field. The phone number should be entered as digits only in the format _\[+\]\[country code\] \[number including area code\]_.
-2. Click the **Verify** button. When the **Verify** button is clicked, Dashboard sends a phone verification code to the phone number entered in the **Phone Number** field, and the **Verification Code** field is displayed. If you do not receive a verification code, click **Resend**.
+2. Click the **Verify** button. When the **Verify** button is clicked, a verification code is sent to the phone number entered in the **Phone Number** field, and the **Verification Code** field is displayed. If you do not receive a verification code, click **Resend**.
     ![Verify your phone number](/Images/phone_number_verification_latest.png)
 3. Enter the received verification code in the **Verification Code** field.
-    Once a valid verification code is entered, Dashboard will process the verification and update the verification status of the phone number.
+    Once a valid verification code is entered, the phone number is now verified.
     ![Phone number verification code](/Images/phone_number_verified_latest.png)
 
 ## View organizations and roles

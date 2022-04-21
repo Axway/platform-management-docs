@@ -1,6 +1,6 @@
 ---
-title: Overview
-linkTitle: Overview
+title: Platform Home
+linkTitle: Platform Home
 weight: 30
 date: 2021-08-12
 ---
@@ -20,7 +20,7 @@ The Platform home page includes the following areas. Refer to the images below t
     * Visit Axway University
     * Join the community
 * **Quick Links** - Links to commonly used resources
-    * Overview - A link to the [Amplify Platform Overview](/docs/management_guide/overview). The {{% variables/platform_prod_name %}} provides different dashboards based on the organization subscriptions and your assigned roles.
+    * Overview - A link to the [Amplify Platform Overview](/docs/management_guide/overview). The {{% variables/platform_prod_name %}} provides different overviews based on the organization subscriptions and your assigned roles.
     * Organization - A link to the organization and user management area where you can view usage and manage users and teams.
     * Repository - A link to the Axway Repository where you can explore product extensions, Docker images, and more.
     * Support - A link to find helpful resources or file a support case.

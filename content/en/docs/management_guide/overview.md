@@ -1,7 +1,7 @@
 ---
 title: The Amplify Platform dashboard
 linkTitle: The Amplify Platform dashboard
-weight: 10
+weight: 5
 date: 2021-08-12
 ---
 
@@ -9,30 +9,30 @@ The Amplify Platform Dashboard left navigation comprises the following menu item
 
 {{% alert title="Note" color="primary" %}}The available menus on the Dashboard may vary based on your role and your organization's subscriptions.{{% /alert %}}
 
-![Amplify Platform Dashboard left navigation](/Images/dashboard_left_menu.png)
+![Amplify Platform Overview left navigation](/Images/dashboard_left_menu.png)
 
 * **Overview** - displays  key metric information relevant to a product line to which your organization is subscribed. All users will see the Overview tab.
 * **API Observer** - navigates you to the [API Observer](https://docs.axway.com/bundle/amplify-central/page/docs/get_actionable_insights/index.html) dashboard. Users with the Central Admin and Developer roles will see the API Observer tab.
-* **Visibility** - you to the [Amplify Visibility Dashboards](/docs/dashboard_guide/the_dashboards/visibility_dashboards/). Users with the Auditor or Analytics Specialist Visibility roles will see the Visibility tab.
-* **Apps** - displays the list of applications for your organization and where you can [manage your applications](/docs/dashboard_guide/managing_applications/). Organizations with Application Development, Cloud Capacity, or Runtime Services subscriptions will see the Apps tab.
+* **Search Audit** - navigates you to the [Amplify Visibility Dashboard](/docs/management_guide/the_dashboards/visibility_dashboards/). Users with the Auditor or Analytics Specialist Visibility roles will see the Visibility tab.
+* **Apps** - displays the list of applications for your organization and where you can [manage your applications](/docs/management_guide/managing_applications/). Organizations with Application Development, Cloud Capacity, or Runtime Services subscriptions will see the Apps tab.
 * **Custom Queries** - if configured, displays custom query summary information and enables the creation of custom analytics queries. Organizations with the Application Development or API Management subscriptions will see the Custom Queries tab.
-* **Premium Modules** - navigate to the _Download Premium Modules_ page. Organizations with Application Development Pro or Enterprise subscriptions will see this tab.
 
 The left-side in the bottom navigation contains a link for enabling Demo Data mode. Click **Demo Data** to populate Dashboard with demonstration data to see how the Dashboard looks if you have several applications and APIs in production.
 
 ## Overview
 
-The **Overview** displays key metric information relevant to the product line to which your organization is subscribed. For additional information on the key metrics, refer to [Viewing Metrics](/docs/dashboard_guide/managing_applications/viewing_metrics/).
+The **Overview** displays key metric information relevant to the product line to which your organization is subscribed. For additional information on the key metrics, refer to [Viewing Metrics](/docs/management_guide/managing_applications/viewing_metrics/).
 
 ![Overview page](/Images/dasbhoard_home_overview_tab.png)
 
-## API Observer
+## Business Insights
 
-**API Observer** redirects you to [API Observer](https://docs.axway.com/bundle/amplify-central/page/docs/saas_api_gateway/quickstart/index.html#monitor-api-traffic).
+**Business Insights** redirects you to [Business Insights](https://docs.axway.com/bundle/amplify-central/page/docs/get_actionable_insights/index.html).
 
-## Visibility
+## Search Audit
 
-**Visibility** takes you to the Amplify Visibility Dashboards. The [Amplify Visibility Dashboards](/docs/dashboard_guide/the_dashboards/visibility_dashboards/) provide a way to visualize the data that is ingested from various products.
+<!-- TODO: link to Search Audit page in Flow Manager docs -->
+**Search Audit** redirects you to Search Audit.
 
 ## Apps
 
@@ -127,22 +127,6 @@ To delete multiple apps:
 
 ## Custom queries
 
-**Custom Queries** displays custom query summary information and enables the creation of custom analytics queries. For information on creating custom queries, refer to [Creating Custom Queries](/docs/dashboard_guide/managing_applications/creating_custom_queries/).
+**Custom Queries** displays custom query summary information and enables the creation of custom analytics queries. For information on creating custom queries, refer to [Creating Custom Queries](/docs/management_guide/managing_applications/creating_custom_queries/).
 
 ![Custom queries page](/Images/dashboard_home_custom_queries_tab.png)
-
-## Premium modules
-
-**Premium Modules** takes you to the _Download Premium Modules_ page.
-
-![Premium Modules page](/Images/download_premium_modules.png)
-
-To download a premium module, click the module download button associated with your current Titanium SDK installation. The following premium modules are available for download:
-
-* **Appcelerator Crash Analytics** - Enables Appcelerator Crash Analytics. Appcelerator Crash Analytics allows you to identify and troubleshoot crashes in your mobile applications.
-* **SQLite Database Encryption Module** - Provides transparent, secure 256-bit AES encryption of SQLite database files.
-* **Appcelerator Crypto Module** - Provides access to the CCCrypt symmetric encryption interfaces such as AES128, DES, RC2, and RC4.
-* **Appcelerator Geofence Module** - Enables monitoring of regional boundaries and alerts when specified boundaries are entered.
-* **Appcelerator HTTPS Module** - Provides SSL Pinning support to prevent man-in-the-middle (MITM) attacks.
-* **Appcelerator LDAP Module** - Provides access to LDAP directory servers by utilizing the UnboundID LDAP SDK for Java, allowing for binding and searching against the service.
-* **ti.cloudpush** - Enables Mobile Backend Services Push Notifications for Android applications.

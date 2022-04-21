@@ -50,7 +50,7 @@ To delete the application:
 
 ## View analytics
 
-The **Analytics** tab displays the Total number of Amplify Runtime requests made during the provided time range either by path or by the path and query string. To toggle on and off the analytics information displayed in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen and select **Chart**. For details on exporting the metrics, refer to the **Export Data** section of [Viewing Analytics](/docs/dashboard_guide/managing_applications/viewing_analytics/).
+The **Analytics** tab displays the Total number of Amplify Runtime requests made during the provided time range either by path or by the path and query string. To toggle on and off the analytics information displayed in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen and select **Chart**. For details on exporting the metrics, refer to the **Export Data** section of [Viewing Analytics](/docs/management_guide/managing_applications/viewing_analytics/).
 
 ## View connected applications
 

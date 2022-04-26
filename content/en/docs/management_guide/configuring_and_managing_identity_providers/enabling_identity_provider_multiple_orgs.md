@@ -24,11 +24,11 @@ Complete the documentation for establishing domains and Identity Providers for a
 
 ## Adding Additional Organizations
 
-After the initial organization is created, complete the following steps for **additional** organizations.
+After the initial organization is configured, complete the following steps for **additional** organizations.
 
 1. Complete the steps to [add a domain](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/adding_a_domain/) and [verify domain ownership](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/verifying_domain_ownership/) for the domain(s) you want to use the existing Identity Provider for.
 
-2. In the Identity Provider page, select **Associate to Another Organization's IdP** from the Actions (...) menu for the domain from the *Email Domain* table. The *Associate with Another Organization's Identity Provider* modal appears showing the Identity Providers and their existing organizations that you are able to associate with the current organization.
+2. In the Identity Provider page, select **Associate to Another Organization's IdP** from the **Actions** (**...**) menu for the domain from the *Email Domain* table. The *Associate with Another Organization's Identity Provider* modal appears showing the Identity Providers and their existing organizations that you are able to associate with the additional organization.
 
     ![Associate](/Images/multiorg_idp_associate.png)
 
@@ -38,6 +38,6 @@ After the initial organization is created, complete the following steps for **ad
 
 5. Follow the [role assignments](/docs/management_guide/configuring_and_managing_identity_providers/managing_identity_provider_configuration/role_assignments) documentation for the Identity Provider in the additional organization(s).
 
-    {{% alert title="Note" color="primary" %}}For convenience, any default organization role configuration and role mappings configured for the Identity Provider in the initial organization is inherited for the additional organization(s), but no default team or team mapping configurations is initially established.{{% /alert %}}
+    {{% alert title="Note" color="primary" %}}For convenience, any default organization role configuration and role mappings configured for the Identity Provider in the initial organization is inherited for the additional organization(s), but no default team or team mapping configurations are initially established.{{% /alert %}}
 
-6. After you have completed the Identity Provider configuration for the additional organization(s), complete the [enabling IdP configuration for all domain users](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration//enabling_idp_configuration_for_all_domain_users) to enable its use for all users on the domain in the additional organization(s).
+6. After you have completed the Identity Provider configuration for the additional organization(s), complete the [steps](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration//enabling_idp_configuration_for_all_domain_users) to enable its use for all users on the domain in the additional organization(s).

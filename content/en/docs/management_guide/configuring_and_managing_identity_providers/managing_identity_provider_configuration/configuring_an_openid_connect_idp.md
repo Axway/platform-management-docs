@@ -19,9 +19,9 @@ This section includes details on configuring an OpenID Connect (OIDC) Identity P
 
 To create a new Identity Provider
 
-1. From the _Identity Providers_ page, click **\+ Identity Provider**. The **New Identity Provider** form will be presented.
+1. From the _Identity Providers_ page, click **\+ Identity Provider**. The **New Identity Provider** form is presented.
 2. Select **OpenID Connect**. A blank form is presented.
-3. Enter the **Issuer URL** and then click **Fetch** to retrieve and populate the OIDC provider configuration values exposed by the issuer. The values can also be manually entered.
+3. If your Identity Provider provides an **Issuer URL** enter it, and then click **Fetch** to retrieve and populate the OIDC provider configuration values exposed by the issuer. Or, enter the values manually.
 4. Enter the **Client ID** and **Client Secret** fields from the values that are configured for your OIDC Identity Provider's Amplify Platform client.
 5. Complete the **Advanced** configuration settings (**Logout URL** and **Backchannel Logout**) if they are applicable to your Identity Provider.
 6. Confirm the provider configuration values for **Authorization** **URL**, **Token URL**, and **Attribute Mapping**.

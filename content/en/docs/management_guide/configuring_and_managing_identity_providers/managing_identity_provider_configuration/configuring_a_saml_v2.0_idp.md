@@ -35,7 +35,7 @@ In the Platform, you must complete a form to create the Identity Provider using 
 1. From the _Identity Providers_ page, click the **\+ Identity Provider**. The **New Identity Provider** form is presented.
 2. Select **SAML v2.0**. A blank form is presented.
     ![Adding a new SAML v2.0 Identity Provider](/Images/saml_new_empty.png)
-3. Complete the fields based on the values that are configured for your Identity Provider. The example is for SAML v2.0 for Azure Active Directory. For example, the SAML v2.0 Identity Provider values are found in the Azure Active Directory admin center in the Single sign-on menu. Refer to the [Microsoft configure SAML-based configure single sign on](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications) article and the following example for details.
+3. If your Identity Provider provides a **SAML V2.0 Descriptor File**, click Choose file to import your Identity Provider's configuration to populate the form with the defined values. Or enter the values manually. The example is for SAML v2.0 for Azure Active Directory. For example, the SAML v2.0 Identity Provider values are found in the Azure Active Directory admin center in the Single sign-on menu. Refer to the [Microsoft configure SAML-based configure single sign on](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications) article and the following example for details.
 
     **Section 1**: These URLs (for example, Assertion Consumer Service URL) will be provided after the Amplify Platform Identity Provider configuration is saved, and then can be used on your Identity Provider.
 

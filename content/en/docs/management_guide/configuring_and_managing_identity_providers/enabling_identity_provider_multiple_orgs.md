@@ -38,6 +38,6 @@ After the initial organization is configured, complete the following steps for *
 
 5. Follow the [role assignments](/docs/management_guide/configuring_and_managing_identity_providers/managing_identity_provider_configuration/role_assignments) documentation for the Identity Provider in the additional organization(s).
 
-    {{% alert title="Note" color="primary" %}}For convenience, any default organization role configuration and role mappings configured for the Identity Provider in the initial organization is inherited for the additional organization(s), but no default team or team mapping configurations are initially established.{{% /alert %}}
+    {{% alert title="Note" color="primary" %}}For convenience, the Identity Provider's default organization role configuration and any role mappings configured for the initial organization are preconfigured for the additional organization(s). However, no default team associations or team mapping configurations are initially created for the additional organization(s), therefore they must be manually configured.{{% /alert %}}
 
 6. After you have completed the Identity Provider configuration for the additional organization(s), complete the [steps](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration//enabling_idp_configuration_for_all_domain_users) to enable its use for all users on the domain in the additional organization(s).

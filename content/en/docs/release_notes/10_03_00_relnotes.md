@@ -23,7 +23,6 @@ Please note that SMS-base multi-factor authentication has been disabled and will
 * Added the ability to select a SAML Descriptor file to prefill values on the _Identity Provider_ configuration form.
 * Added the ability to delete multiple devices associated to your account on the _Devices_ view.
 
-
 ## Fixed issue
 
 * Fixed an issue where activation links shown on the _Users_ view may be incorrectly formatted and not allow the user to complete activation.

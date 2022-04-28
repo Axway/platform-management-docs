@@ -6,7 +6,7 @@ date: 2022-04-14
 Hide_readingtime: true
 ---
 
-## Platform Management 10.2.0 - 14 April 2022
+## Platform Management 10.2.1 - 14 April 2022
 
 Platform Management 10.2.1 is a patch release which includes two improvements and one fixed issue.
 

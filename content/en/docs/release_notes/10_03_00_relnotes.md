@@ -14,7 +14,7 @@ Please note that SMS-base multi-factor authentication has been disabled and will
 
 ## New features
 
-* Users who are members of multiple organizations and wish to use their Identity Provider to provision and authenticate users in those orgs can now configure their email domain(s) and associate them to a shared Identity Provider configuration. See [Enabling an Identity Provider for multiple organizations](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_multiple_orgs) for more information.
+* Identity provider configurations and their associated email domains can be used by multiple organizations. See [Enabling an Identity Provider for multiple organizations](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_multiple_orgs) for more information.
 * Added tags to _Service Accounts_ to aid grouping and searching.
 
 ## Improvements

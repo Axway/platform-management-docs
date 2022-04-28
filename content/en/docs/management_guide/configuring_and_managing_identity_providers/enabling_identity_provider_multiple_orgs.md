@@ -22,7 +22,7 @@ Complete the documentation for establishing domains and Identity Providers for a
 | - | 2 | [Confirm the association of an IdP to the domain](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/confirming_the_association_of_an_idp_to_the_domain/) |
 | - | 3 | [Enable the IdP configuration for all domain users](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration//enabling_idp_configuration_for_all_domain_users) |{{% /alert %}}
 
-## Adding Additional Organizations
+## Adding additional organizations
 
 After the initial organization is configured, complete the following steps for **additional** organizations.
 

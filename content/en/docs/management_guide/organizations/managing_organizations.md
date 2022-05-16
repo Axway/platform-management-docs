@@ -261,7 +261,7 @@ Select the option to **Redact Personal Information** to redact email addresses w
 Administrators have the option to configure additional password settings to add to the default password requirements.
 
 * **Minimum Password Length** - Minimum number of characters a password must contain.
-* **Password Complexity** - Select the option to require one character of the following type to be included in the password, or select **Advanced** to specify the number of required characters.
+* **Password Complexity** - Select the option to require at least one character of the following type to be included in the password, or select **Advanced** to specify the number of required characters.
 
     * Lower case characters
     * Upper case characters

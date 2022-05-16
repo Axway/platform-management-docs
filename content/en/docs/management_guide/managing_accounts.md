@@ -30,28 +30,13 @@ The Account Information page includes the following account information:
 * **Email** - Your email address. The email address on the _Account_ view is always redacted.
 * **Timezone** - Your selected time zone. Click the edit pencil icon to select a different time zone.
 * **Joined** - The date and time of when you joined the listed organization.
-* **Last Updated** - The date and time you last updated your user account information.
+* **Last Updated** - The date and time you last updated your user account information.ç
 
 ## Edit account
 
-To edit your account details, click the **Edit Account** button.
+To edit your account details, click the edit pencil icon.
 
-![Edit account page](/Images/edit_account.png)
-
-Clicking the **Edit Account** button enables the editing of the **First Name** and **Last Name** fields. It also enables the **Phone Number** field and the verification of the entered phone number. For additional instructions on verifying your phone number, refer to [Verify your phone number](#verify-your-phone-number). Clicking on the Edit Account button also enables the **Timezone** dropdown menu. Once you have finished editing your user account information, click the **Save** button.
-
-### Verify your phone number
-
-Verifying your phone number is optional but **highly recommended** for increased security with multi-factor authentication. It must be SMS-capable and will be used to receive activation codes. **Standard text-messaging rates apply.**
-
-To verify your phone number:
-
-1. Complete the **Phone Number** field. The phone number should be entered as digits only in the format _\[+\]\[country code\] \[number including area code\]_.
-2. Click the **Verify** button. When the **Verify** button is clicked, a verification code is sent to the phone number entered in the **Phone Number** field, and the **Verification Code** field is displayed. If you do not receive a verification code, click **Resend**.
-    ![Verify your phone number](/Images/phone_number_verification_latest.png)
-3. Enter the received verification code in the **Verification Code** field.
-    Once a valid verification code is entered, the phone number is now verified.
-    ![Phone number verification code](/Images/phone_number_verified_latest.png)
+The edit view enables you to edit the **First Name** and **Last Name** fields and select a different timezone from the **Timezone** dropdown menu. Once you have finished editing your user account information, click the **Save** button.
 
 ## View organizations and roles
 
@@ -88,19 +73,16 @@ To enable multi-factor authentication:
 
 1. Select the **Credentials** link.
 2. Select **Enabled** next to the **Multi-Factor Authentication** option. The **Preferred MFA Method** options becomes available.
-3. For the **Preferred MFA Method**, select the default method a multi-factor authentication token will be generated for when logging in from a new device. Options are **Authenticator App**, **Email**, and **SMS**.
+3. For the **Preferred MFA Method**, select the default method a multi-factor authentication token will be generated for when logging in from a new device. Options are **Authenticator App** and **Email**.
 
     | Preferred MFA method | How this works | When can this be used |
     | ---| --- | --- |
     | Authenticator App | A random code is generated within the app that needs to be provided when the user logs into the Platform. | Only available when an authenticator app has been configured for your account. See [Setup Authenticator App](#setup-authenticator-app) for details. |
     | Email | A code is sent to your email address that needs to be provided when the user logs into the Platform. | Always available, uses the email address linked to your account. |
-    | SMS | A code is sent through SMS that needs to be provided when the user logs into the Platform. | Only available when a phone number is linked to your account. See [Verify your phone number](#verify-your-phone-number) for details. |
 
 4. Click **Save**. Once the Enabled checkbox is selected and the account saved, multi-factor authentication will be enabled, and a notification email will be sent.
 
-5. Depending on the preferred MFA method you selected, make sure to complete these steps:
-    * Authenticator App - [Setup Authenticator App](#setup-authenticator-app)
-    * SMS - [Verify your phone number](#verify-your-phone-number)
+5. To complete configuration for the Authenticator app, complete the steps in [Setup Authenticator App](#setup-authenticator-app).
 6. After you have enabled MFA and you login you will see a notification asking you to enter an authorization code. You might need to use another browser or a private browser session to test this. Enter the Authorization code provided by your Authenticator App,  email, or SMS, and then click **Authorize**.
 
     When the code is correctly validated, you will be successfully logged into the Platform.

@@ -252,7 +252,7 @@ Click **Security** from the Organization menu to access organization security se
 
 ![Managing organization settings](/Images/settings_tab_security.png)
 
-#### Redact (mask) personal information
+#### Redact personal information
 
 Select the option to **Redact Personal Information** to redact email addresses within an organization where the user's email address is displayed, except the _Account_ view. The email address on the _Account_ view is always redacted, whether the setting is enabled or disabled. By default, the setting is disabled.
 

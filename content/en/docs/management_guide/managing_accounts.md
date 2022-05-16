@@ -16,6 +16,7 @@ To manage your account information, select **Account** from the [User menu](/
 * Orgs & Roles (for accounts with multiple organizations)
 * Credentials
 * Settings
+* Devices (for accounts with MFA enabled)
 * Activity
 
 ## Manage accounts
@@ -137,6 +138,20 @@ You can configure the amount of time before you are signed out of the Platform d
 ### Enable or disable restoring previous page on next login
 
 You can enable or disable if you want to be redirected to the page previously viewed once signed back in after being signed out due to inactivity in the Platform. This setting is disabled by default (do not restore previous page on next login).
+
+## View authorized devices
+
+For accounts who have MFA enabled, the **Devices** menu appears. Access the **Devices** page to view the list of devices authorized to access your account. Device details include:
+
+* Device
+* Browser
+* IP Address
+* Authorized
+* Last Accessed
+* MFA Method
+* Actions (remove selected or all devices)
+
+![View devices](/Images/view_devices.png)
 
 ## View your user activity
 

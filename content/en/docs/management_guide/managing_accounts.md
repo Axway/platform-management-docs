@@ -26,15 +26,11 @@ Selecting Account from the left navigation opens the **Account** page.
 
 The Account Information page includes the following account information:
 
-* **First Name** - Verify and edit the first name on your account.
-* **Last Name** - Verify and edit the last name on your account.
-* **Email** - Lists your email address.
-* **Phone Number** - Verify your phone number. Refer to [Verify your phone number](#verify-your-phone-number).
-* **Timezone** - Your selected time zone. Click the **Edit Account** button to choose a different time zone.
-* **Joined** - Lists when you joined the listed organization.
-* **Last Updated** - Provides the date and time you last updated your user account information.
-
-Click the **Members** link at the top of the User Account page to be taken to the Members page. Refer to Managing organization members in [Managing Organizations](/docs/management_guide/organizations/managing_organizations/).
+* **Name** - Your first and last name on your account.
+* **Email** - Your email address. The email address on the _Account_ view is always redacted.
+* **Timezone** - Your selected time zone. Click the edit pencil icon to select a different time zone.
+* **Joined** - The date and time of when you joined the listed organization.
+* **Last Updated** - The date and time you last updated your user account information.
 
 ## Edit account
 
@@ -72,7 +68,7 @@ The **Credentials** link takes you to the view where you can change your account
 To change your password:
 
 1. Select the **Credentials** link.
-2. Enter a new password in the **Change Password** field. The password should be at least eight characters (default requirements) or must adhere to the [password policy](/docs/management_guide/organizations/managing_organizations/#configure-password-settings) configured for your organization. As you enter a new password in the **Change Password** field, the **Confirm Password** field is displayed.
+2. Enter a new password in the **Change Password** field. The password should be at least eight characters (default requirements) or must adhere to the [password policy](/docs/management_guide/organizations/managing_organizations/#configure-password-settingsgi) configured for your organization. As you enter a new password in the **Change Password** field, the **Confirm Password** field is displayed.
     ![Change and confirm password](/Images/change_password_latest.png)
 3. Confirm the new password in the **Confirm Password** field. The entry in the **Confirm Password** field must be the same as the entry in the **Password** field.
 4. Select the **Force Logout** checkbox to force the log out of any current sessions.

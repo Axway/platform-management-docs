@@ -219,6 +219,7 @@ The **Settings** tab enables you to:
 
 * Apply branding to the Amplify Platform navigation and selected views for the selected organization.
 * Configure and manage entity providers for Amplify Platform authentication.
+* Redact personal information and configure password policy rules to add to the default password requirements.
 
 ![Managing organization settings](/Images/settings_tab.png)
 
@@ -243,7 +244,32 @@ To apply branding to Amplify Platform per your organization's branding requireme
 
 ### Manage Identity Providers
 
-Refer to the [Configuring and Managing Identity Providers (IdPs)](/docs/management_guide/configuring_and_managing_identity_providers_idps/) page for details.
+Click **Identity Provider** from the Organization menu to configure Identity Providers to use for user authentication with the Platform. Refer to the [Configuring and Managing Identity Providers (IdPs)](/docs/management_guide/configuring_and_managing_identity_providers/) page for details.
+
+### Manage security settings
+
+Click **Security** from the Organization menu to access organization security settings. Then, select the organization from the _Organization_ dropdown menu to configure the following settings for the specified organization.
+
+![Managing organization settings](/Images/settings_tab_security.png)
+
+#### Redact personal information
+
+Select the option to **Redact Personal Information** to redact email addresses within an organization where the user's email address is displayed, except the _Account_ view. The email address on the _Account_ view is always redacted, whether the setting is enabled or disabled. By default, the setting is disabled.
+
+#### Configure password settings
+
+Administrators have the option to configure additional password settings to add to the default password requirements.
+
+* **Minimum Password Length** - Minimum number of characters a password must contain.
+* **Password Complexity** - Select the option to require at least one character of the following type to be included in the password, or select **Advanced** to specify the number of required characters.
+
+    * Lower case characters
+    * Upper case characters
+    * Special characters
+    * Digits
+* **Renewal period** - Number of days after which a user must change their password.
+* **Not Recently Used** - Number of times a unique password is required before a previously used password can be reused.
+* **Account Lock Out** - Number of times a user can attempt to log in with an incorrect password before the account is locked.
 
 ## Viewing organization activities
 

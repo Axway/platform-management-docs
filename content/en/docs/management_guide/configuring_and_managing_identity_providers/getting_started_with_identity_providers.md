@@ -29,15 +29,17 @@ Before configuring a new Identity Provider, you must ensure:
 
 The following tasks must be completed, in any order, before an Identity Provider can be tested and enabled for an organization:
 
-* [Add a domain](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/adding_a_domain/) and [verify domain ownership](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/verifying_domain_ownership/)
 * Configure Identity Providers: [configure an OpenID Connect IdP](/docs/management_guide/configuring_and_managing_identity_providers/managing_identity_provider_configuration/configuring_an_openid_connect_idp) or [configure a SAML v2.0 IdP](/docs/management_guide/configuring_and_managing_identity_providers/managing_identity_provider_configuration/configuring_a_saml_v2.0_idp/).
+* [Add a domain](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/adding_a_domain/) and [verify domain ownership](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/verifying_domain_ownership/).
 
-After domain ownership is verified and you have configured an identity provider you must [confirm the association of an IdP to the domain](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/confirming_the_association_of_an_idp_to_the_domain/), and then you can [enable IdP configuration for all domain users](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/enabling_idp_configuration_for_all_domain_users/) and optionally [add a subdomain](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/adding_a_subdomain/). The following is an example of the Identity Providers page once all steps are completed with configuring multiple Identity Providers for an organization.
+After you have configured an Identity Provider and domain ownership is verified you must [confirm the association of an IdP to the domain](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/confirming_the_association_of_an_idp_to_the_domain/), and then you can [enable IdP configuration for all domain users](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/enabling_idp_configuration_for_all_domain_users/) and optionally [add a subdomain](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/adding_a_subdomain/). The following is an example of the Identity Providers page once all steps are completed with configuring multiple Identity Providers for an organization.
 
 ![Multiple Identity Providers configured](/Images/multiple_idps_configured.png)
 
-After a domain and identity provider has been added and configured, you can complete the following tasks:
+After an Identity Provider and domain has been added and configured, you can complete the following tasks:
 
+* [Enable multi-org Identity Provider](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_multiple_orgs)
+* [Optionally configure off-domain users to use an IdP](/docs/management_guide/configuring_and_managing_identity_providers/requiring_identity_provider_use)
 * [Remove a domain](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_domains/removing_a_domain/)
 * [Dissociate a Domain](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_domains/dissociating_a_domain/)
 * [Delete an Identity Provider configuration](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_identity_provider_configuration/deleting_an_identity_provider_configuration/)

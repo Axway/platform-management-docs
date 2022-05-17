@@ -78,7 +78,7 @@ After you create or add a users to your organization, you can view and modify th
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Users** tab from the left navigation.
 4. If you're a user of multiple organizations, select the organization you want to view from the _Users_ dropdown menu.
-5. To change a user's Identity Provider, select a different Identity Provider from the _Identity Provider_ dropdown menu.
+5. If an Identity Provider is configured for the organization, an _Identity Provider_ dropdown menu is provided. Select a different Identity Provider or no restriction (do not require authenticating with a configured Identity Provider) from the _Identity Provider_ dropdown menu.
 6. To change a user's role, select a different role or additional roles from the _Role_ dropdown menu. Note that the _Role_ dropdown menu selections are sorted by product roles. Administrators can manage all users and applications in the organization. All other user roles can view only applications to which they belong.
 7. To remove a selected user from the organization, select the **Actions** menu (**...**), and select **Remove User** and then confirm the removal.
 8. To view a user's team assignments, select the **Actions** icon, and select **View Teams**. Refer to [Managing teams](#managing-teams).

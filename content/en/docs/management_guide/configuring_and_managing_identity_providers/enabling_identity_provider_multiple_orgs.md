@@ -1,6 +1,6 @@
 ---
 title: Enabling an Identity Provider for multiple organizations
-linkTitle: Enabling multi org Identity Provider
+linkTitle: Enabling multi-org Identity Provider
 weight: 45
 date: 2022-04-21
 ---

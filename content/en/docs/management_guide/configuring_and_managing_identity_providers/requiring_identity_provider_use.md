@@ -17,7 +17,7 @@ To configure a user to require use of an Identity Provider:
 2. If an Identity Provider has been configured for the organization, then the user invite form displays an *Identity Provider* dropdown. Select the Identity Provider the user should be required to use to access the organization.
 
     ![Select an Identity Provider](/Images/idp_new_user_form.png)
-    
+
 3. An email invitation or notification is sent to the user providing a link to log in using the selected Identity Provider.
 
 Upon subsequent logins to the Amplify Platform, if the invited user attempts to authenticate and access the organization using an Identity Provider other than the one configured, a message appears that they must re-authenticate using the configured Identity Provider.

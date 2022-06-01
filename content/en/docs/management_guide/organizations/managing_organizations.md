@@ -26,6 +26,7 @@ To manage your organization information, select **Organization** from the _Use
 * Service Accounts
 * Usage
 * Environments (you must be an administrator)
+* Marketplace (you must be an administrator)
 * Settings (you must be an administrator)
 * Activity
 
@@ -190,12 +191,6 @@ To remove a team:
 8. Confirm the removal of the deletion of the selected team, by entering the name of the team to delete permanently.
 9. Click **I understand that this is a permanent and irreversible action. Continue**.
 
-## Managing child organizations
-
-The **Child Orgs** tab enables you to manage child organizations and to add a child organization to the selected parent organization. To add a child organization, refer to [Creating an Organization](/docs/management_guide/organizations/creating_an_organization/).
-
-![Managing child organizations](/Images/child_orgs_tab.png)
-
 ## Viewing usage
 
 The **Usage** tab enables you to view the usage of allocated resources for the selected organization for the selected product or all products for the selected period.
@@ -214,6 +209,13 @@ Refer to the [Amplify Subscription Usage With Edge Agent 1.0](https://docs.axwa
 ## Selecting or creating environments for usage tracking
 
 The **Environments** tab is used for usage tracking. Refer to manual entry reporting in the [Amplify Subscription Usage With Edge Agent 1.0](https://docs.axway.com/bundle/subusage_en/page/amplify_subscription_usage_and_reporting.html) or [Amplify Subscription Usage](https://docs.axway.com/bundle/subusage_11_en/page/amplify_subscription_usage_and_reporting.html) guide for details about how to select or create an environment for usage tracking.
+
+## Managing Marketplace settings
+
+The **Marketplace** tab enables you to manage your Marketplace. Refer to the following sections in the Amplify Central guide.
+
+* [Marketplace settings](https://docs.axway.com/bundle/amplify-central/page/docs/manage_marketplace/marketplace_settings/index.html)
+* [Marketplace appearance](https://docs.axway.com/bundle/amplify-central/page/docs/manage_marketplace/marketplace_branding/index.html)
 
 ## Managing organization settings
 

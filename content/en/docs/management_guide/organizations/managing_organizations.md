@@ -24,7 +24,6 @@ To manage your organization information, select **Organization** from the _Use
 * Teams
 * Users
 * Service Accounts
-* Child Orgs
 * Usage
 * Environments (you must be an administrator)
 * Marketplace (you must be an administrator)
@@ -191,12 +190,6 @@ To remove a team:
 7. (Optional) Select a team to which to transfer the team's assigned apps.
 8. Confirm the removal of the deletion of the selected team, by entering the name of the team to delete permanently.
 9. Click **I understand that this is a permanent and irreversible action. Continue**.
-
-## Managing child organizations
-
-The **Child Orgs** tab enables you to manage child organizations and to add a child organization to the selected parent organization. To add a child organization, refer to [Managing an Organization](/docs/management_guide/organizations/managing_organizations/#managing-an-organization).
-
-![Managing child organizations](/Images/child_orgs_tab.png)
 
 ## Viewing usage
 

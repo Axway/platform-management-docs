@@ -21,5 +21,5 @@ With the upcoming [End-of-Support for Titanium SDK](https://blog.axway.com/mobil
 ## Fixed issues
 
 * Fixed an issue where users authenticating in Axway CLI using an Identity Provider may experience a timeout error.
-* Fixed an issue on the _Usage Report History_ table view where the number of files may be incorrectly reported on initial access.
-* Fixed an issue on the _New User_ and _Manage User_ views where the Central Admin role may have been assignable on users which were not assigned a Platform role of Developer or Administrator.
+* Fixed an issue on the *Usage Report History* table view where the number of files may be incorrectly reported on initial access.
+* Fixed an issue on the *New User* and *Manage User* views where the Central Admin role may have been assignable on users which were not assigned a Platform role of Developer or Administrator.

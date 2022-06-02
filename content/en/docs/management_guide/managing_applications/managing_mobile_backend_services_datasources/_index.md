@@ -18,7 +18,7 @@ To create a standalone Mobile Backend Services datasource (an MBS datasource tha
 To change the name of the datasource:
 
 1. Log into the [Platform](https://platform.axway.com/).
-2. Click **Overview** from the _Services Link_ menu.
+2. Click **Overview** from the *Services Link* menu.
 3. Select the datasource from the apps list.
 4. In the datasource details page, click the **Actions** (**...**) menu in the upper-right of the screen and select **Edit**.
 5. Enter a new name for the datasource.
@@ -156,7 +156,7 @@ To configure the p12 format.
 
 Click the **Android** tab to configure the application to use the Firebase Cloud Messaging (FCM) service. [Firebase Cloud Messaging](http://firebase.google.com/docs/cloud-messaging/) (FCM) is the new version of GCM. FCM HTTPv1 and FCM legacy HTTP is supported. Before configuring FCM legacy HTTP, you need to obtain an FCM or GCM sender ID and Google API server key. For instructions, see [Configuring push services for Android devices](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/).
 
-_To configure FCM HTTPv1_, select a service account JSON file from your Firebase console Service Accounts page.
+*To configure FCM HTTPv1*, select a service account JSON file from your Firebase console Service Accounts page.
 
 ![Configure FCM HTTPv1](/Images/android_cloud_messaging_httpv1.png)
 

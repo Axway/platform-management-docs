@@ -12,11 +12,11 @@ You can do the following in the {{% variables/platform_prod_name %}} as an admin
 * Manage the applications created by organization users
 * Configure Identity Providers
 
-These functions are available through the **Organization** tab. To access the **Organization** tab, sign in to the [{{% variables/platform_prod_name %}}](https://platform.axway.com/) and select **Organization** from the _User_ dropdown menu.
+These functions are available through the **Organization** tab. To access the **Organization** tab, sign in to the [{{% variables/platform_prod_name %}}](https://platform.axway.com/) and select **Organization** from the *User* dropdown menu.
 
 ## Organization left navigation
 
-To manage your organization information, select **Organization** from the _User_ menu. The left navigation includes the following tabs:
+To manage your organization information, select **Organization** from the *User* menu. The left navigation includes the following tabs:
 
 ![Organization left navigation](/Images/organization_left_menu.png)
 
@@ -40,8 +40,8 @@ To update an organization name:
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Organization** tab from the left navigation.
-4. Select the organization from the _Organization_ dropdown menu.
-5. Select the **Actions** (**...**) menu at the upper right-hand side of the _Organization_ page.
+4. Select the organization from the *Organization* dropdown menu.
+5. Select the **Actions** (**...**) menu at the upper right-hand side of the *Organization* page.
 6. Select **Edit** from the **Actions** menu.
 7. Enter the desired organization name in the **Name** field.
 8. Click **Save**.
@@ -59,12 +59,12 @@ If you are an organization admin, you can add users to an organization.
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Users** tab from the left navigation.
-4. If you're a user of multiple organizations, select the organization you want to view from the _Users_ dropdown menu.
-5. Click the **\+ User** button in the upper-right corner.
+4. If you're a user of multiple organizations, select the organization you want to view from the *Users* dropdown menu.
+5. Click the **User** button in the upper-right corner.
 6. Enter the user's email address.
-7. Select the user's roles from the _Org Roles_ dropdown menu. One platform role and zero, one or more service roles can be selected. Administrators can manage all users and applications in the organization.
+7. Select the user's roles from the *Org Roles* dropdown menu. One platform role and zero, one or more service roles can be selected. Administrators can manage all users and applications in the organization.
 8. In the **Teams** list, select the teams, if any, to which the user should be added.
-9. Select the role the new organization member will fulfill on their assigned team from the _Roles_ dropdown menu.
+9. Select the role the new organization member will fulfill on their assigned team from the *Roles* dropdown menu.
 10. Click **Save**.
 
 An email invitation is sent to the user, providing a link to confirm their membership.
@@ -76,12 +76,12 @@ After you create or add a users to your organization, you can view and modify th
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Users** tab from the left navigation.
-4. If you're a user of multiple organizations, select the organization you want to view from the _Users_ dropdown menu.
-5. To change a user's role, select a different role or additional roles from the _Role_ dropdown menu. Note that the _Role_ dropdown menu selections are sorted by product roles. Administrators can manage all users and applications in the organization. All other user roles can view only applications to which they belong.
+4. If you're a user of multiple organizations, select the organization you want to view from the *Users* dropdown menu.
+5. To change a user's role, select a different role or additional roles from the *Role* dropdown menu. Note that the *Role* dropdown menu selections are sorted by product roles. Administrators can manage all users and applications in the organization. All other user roles can view only applications to which they belong.
 6. To remove a selected user from the organization, select the **Actions** menu (**...**), and select **Remove User** and then confirm the removal.
 7. To view a user's team assignments, select the **Actions** icon, and select **View Teams**. Refer to [Managing teams](#managing-teams).
 
-The user's last login is displayed in the _Last Login_ column, and their current multi-factor authentication status is shown in the _MFA_ column. For more information on multi-factor authentication, refer to [Manage multi-factor authentication](/docs/management_guide/managing_accounts/#manage-multi-factor-authentication).
+The user's last login is displayed in the *Last Login* column, and their current multi-factor authentication status is shown in the *MFA* column. For more information on multi-factor authentication, refer to [Manage multi-factor authentication](/docs/management_guide/managing_accounts/#manage-multi-factor-authentication).
 
 ## Managing service accounts
 
@@ -96,14 +96,14 @@ If you are an organization admin, you can add new service accounts to an organiz
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Service Accounts** tab from the left navigation.
-4. If you're a user of multiple organizations, select the organization you want to view from the _Service Account_ dropdown menu.
+4. If you're a user of multiple organizations, select the organization you want to view from the *Service Account* dropdown menu.
 5. Click the **+** **Service Account** button in the upper-right corner.
 6. Enter the service account name and optionally add a description.
-7. (Optional) Select the service account's roles from the _Org Roles_ dropdown menu. One or more service roles can be selected. Administrators can manage all users and applications in the organization.
+7. (Optional) Select the service account's roles from the *Org Roles* dropdown menu. One or more service roles can be selected. Administrators can manage all users and applications in the organization.
 8. In the Authentication section, select one of the following authentication methods to authenticate the service account.
     * **Client Certificate** - Select this method to use a provided certificate or a Platform-generated certificate. Select **Provide public key** to use your own certificate, and then upload your public key for your certificate. Select **Platform-generated key pair** to use a Platform-generated certificate. Certificates generated by the Platform use 2048-bit RSA encryption. When you click **Save**, a modal dialog appears explaining that a certificate pair for the service account has been generated and you must download the generated private key to store securely.
     * **Client Secret** - Select this method to use a provided client secret or a Platform-generated secret. When you click **Save**, a modal dialog appears allowing you to view or copy the client secret to store securely.
-9. (Optional) In the **Teams** list, select the teams, if any, to which the service account should be added. Select the role the new organization service account will fulfill on their assigned team from the _Roles_ dropdown menu.
+9. (Optional) In the **Teams** list, select the teams, if any, to which the service account should be added. Select the role the new organization service account will fulfill on their assigned team from the *Roles* dropdown menu.
 10. Click **Save**.
 
 ### View and modify a service account's role or access
@@ -113,7 +113,7 @@ After you create or add a user to your organization, you can view and modify the
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Service Accounts** tab from the left navigation.
-4. If you're a user of multiple organizations, select the organization you want to view from the _Service Accounts_ dropdown menu.
+4. If you're a user of multiple organizations, select the organization you want to view from the *Service Accounts* dropdown menu.
 5. To view the service account details, select a service account from the list. The details page appears.
 6. To edit the service account, select the **Actions** menu (**...**), and select **Edit**.
     * To change the service account name, type a new name. When you change the service account name, the client ID is changed, and the existing client ID is no longer valid. These changes need to be applied anywhere this service account is used. If not, the service account will cease to function.
@@ -121,7 +121,7 @@ After you create or add a user to your organization, you can view and modify the
 
         {{% alert title="Note" color="primary" %}}The service account Authentication method cannot be changed.{{% /alert %}}
 
-    * To change a service account's role, select a different role from the _Team Roles_ dropdown menu. Administrators can manage all users and applications in the organization. All other user roles can view only applications to which they belong.
+    * To change a service account's role, select a different role from the *Team Roles* dropdown menu. Administrators can manage all users and applications in the organization. All other user roles can view only applications to which they belong.
 7. To download the service account authentication profile in JSON format, select the **Actions** menu (**...**), and select **Download JSON File** (available for Client Certificate authentication method).
 8. To remove a selected service account from the organization, select the **Actions** menu (**...**), and select **Delete** and then confirm the deletion.
 9. To view a service account's team assignments, select the **Actions** menu (**...**) and select **View Teams**. Refer to [Managing teams](#managing-teams).
@@ -139,8 +139,8 @@ To add a team:
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Teams** tab from the left navigation.
-4. If you're a member of multiple organizations, select the organization you want to view from the _Teams_ dropdown menu.
-5. Click the **\+ Teams** button.
+4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
+5. Click the *+Teams** button.
 6. Enter the team name in the **Name** field.
 7. (Optional) Provide a team description in the **Description** field.
 8. (Optional) Add team tags in the **Tags** field.
@@ -156,7 +156,7 @@ To edit an existing team:
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Teams** tab from the left navigation.
-4. If you're a member of multiple organizations, select the organization you want to view from the _Teams_ dropdown menu.
+4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
 5. Select the **Actions** (**...**) menu associated with the team to edit.
 6. Select **Edit**.
 7. Make the necessary changes to the selected team. For additional information, refer to [Add a new team](#add-a-new-team).
@@ -169,7 +169,7 @@ To set a team as default:
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Teams** tab from the left navigation.
-4. If you're a member of multiple organizations, select the organization you want to view from the _Teams_ dropdown menu.
+4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
 5. Select the **Actions** (**...**) menu icon associated with the team to edit.
 6. Select **Set as Default**.
 7. Confirm setting the selected team as the default team by clicking **Continue** in the confirmation dialog.
@@ -181,7 +181,7 @@ To remove a team:
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Teams** tab from the left navigation.
-4. If you're a member of multiple organizations, select the organization you want to view from the _Teams_ dropdown menu.
+4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
 5. Select the **Actions** (**...**) menu associated with the team to edit.
 6. Select **Remove**.
 7. (Optional) Select a team to which to transfer the team's assigned apps.
@@ -203,7 +203,7 @@ The **Usage** tab enables you to view the usage of allocated resources for the 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Usage** tab from the left navigation.
-4. If you're a member of multiple organizations, select the organization you want to view from the _Usage_ dropdown menu.
+4. If you're a member of multiple organizations, select the organization you want to view from the *Usage* dropdown menu.
 5. Select a month and year from the dropdown.
 6. You can select **Show Environments**.
 
@@ -228,13 +228,13 @@ To apply branding to Amplify Platform per your organization's branding requireme
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
-3. Click the **Settings** tab from the left navigation. The _Branding_ page appears.
-4. If you're a member of multiple organizations, select the organization you want to view from the _Branding_ dropdown menu.
+3. Click the **Settings** tab from the left navigation. The *Branding* page appears.
+4. If you're a member of multiple organizations, select the organization you want to view from the *Branding* dropdown menu.
 5. Select your organization's logo. The logo will be displayed at a maximum height of 45 pixels, and the logo file must be less than 100KB.
     1. Click **Choose File**.
-    2. Select the logo file to upload. Once the logo file is selected, the _Branding Preview_ will update to display the selected logo.
+    2. Select the logo file to upload. Once the logo file is selected, the *Branding Preview* will update to display the selected logo.
     3. To remove the selected icon file, click **Remove**.
-6. Select your catalog colors. As you select your catalog colors, the _Branding Preview_ will update to display the selected colors.
+6. Select your catalog colors. As you select your catalog colors, the *Branding Preview* will update to display the selected colors.
     1. Select or enter the **Header Left** color.
     2. Select or enter the **Header Right** color.
     3. Select or enter the **Tile Border** color.
@@ -252,7 +252,7 @@ The **Activity** tab allows you to filter and see more details about each of th
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Activity** tab from the left navigation.
-4. If you're a member of multiple organizations, select the organization you want to view from the _Activity_ dropdown menu.
+4. If you're a member of multiple organizations, select the organization you want to view from the *Activity* dropdown menu.
 5. Filter your user events by:
     1. **Date Range Filter** - Filter the events by date and time.
         * Last 3 months (or previous months in 3-month intervals)

@@ -16,7 +16,7 @@ Platform Management 7.2.4 is a patch release, which includes an improvement an
 
 ## Fixed issues
 
-* Fixed an issue where nav and crash events may have appeared on App Analytics **Events** view's counts, charts, and tables.
-* Fixed an issue where changes on the user's **Settings** page may not have been saved correctly.
-* Fixed an issue where app creators may not see available actions for their apps on the **All Apps** view.
-* Fixed the chart animation on the App Analytics **Real Time** view.
+* Fixed an issue where nav and crash events may have appeared on App Analytics *Events* view's counts, charts, and tables.
+* Fixed an issue where changes on the user's *Settings* page may not have been saved correctly.
+* Fixed an issue where app creators may not see available actions for their apps on the *All Apps* view.
+* Fixed the chart animation on the App Analytics *Real Time* view.

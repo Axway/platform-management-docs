@@ -5,7 +5,7 @@ weight: 10
 date: 2021-08-12
 ---
 
-This section details which capabilities an organization can use, which assets a user can consume or what actions a user can take available from the **Organization** tab. To access the **Organization** tab, sign in to the [{{% variables/platform_prod_name %}}](https://platform.axway.com/) and select **Organization** from the _User_ dropdown menu.
+This section details which capabilities an organization can use, which assets a user can consume or what actions a user can take available from the **Organization** tab. To access the **Organization** tab, sign in to the [{{% variables/platform_prod_name %}}](https://platform.axway.com/) and select **Organization** from the *User* dropdown menu.
 
 ## Organizations
 
@@ -43,7 +43,7 @@ We can distinguish the following types of roles in the Platform:
 * **Service Roles** - roles that are specific to a capability such as Amplify Central or Flow Manager. These roles are not mutually exclusive. A member can for example have one role in Amplify Central and three roles in Flow Manager for a specific organization.
 * **Team Roles** - roles that define what a user is allowed to do with the assets of a team. Part of the team roles are mutually exclusive and part of them are not.
 
-The roles that you have in a specific organization can be seen in the _Orgs & Roles_ page. The test organization shows a user belongs to 19 organizations and has specific roles per organization.
+The roles that you have in a specific organization can be seen in the *Orgs & Roles* page. The test organization shows a user belongs to 19 organizations and has specific roles per organization.
 
 ![Orgs & Roles page](/Images/organization_orgs_roles.png)
 

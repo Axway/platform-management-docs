@@ -12,13 +12,13 @@ Platform Management 7.2.1 is a patch release, which includes a new feature, imp
 
 ## New features
 
-* Added an **App Analytics Custom Query** overview, which shows widgets for saved custom queries.
+* Added an *App Analytics Custom Query* overview, which shows widgets for saved custom queries.
 
 ## Improvements
 
-* Improved display of subscription information on **Organization** overview and added information about their entitlements and quotas.
-* Added breakdown per environment for consumption of entitlements and added colors and indicators when consumption reaches 75% or 100% thresholds on the **Usage** view.
-* Changed **Real-time Analytics** view to show event counts per 5-second interval for Installs and Events charts.
+* Improved display of subscription information on *Organization* overview and added information about their entitlements and quotas.
+* Added breakdown per environment for consumption of entitlements and added colors and indicators when consumption reaches 75% or 100% thresholds on the *Usage* view.
+* Changed *Real-time Analytics* view to show event counts per 5-second interval for Installs and Events charts.
 
 ## Fixed issues
 

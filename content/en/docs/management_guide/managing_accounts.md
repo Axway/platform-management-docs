@@ -50,7 +50,7 @@ Verifying your phone number is optional but **highly recommended** for increased
 
 To verify your phone number:
 
-1. Complete the **Phone Number** field. The phone number should be entered as digits only in the format _\[+\]\[country code\] \[number including area code\]_.
+1. Complete the **Phone Number** field. The phone number should be entered as digits only in the format *\[+\]\[country code\] \[number including area code\]*.
 2. Click the **Verify** button. When the **Verify** button is clicked, a verification code is sent to the phone number entered in the **Phone Number** field, and the **Verification Code** field is displayed. If you do not receive a verification code, click **Resend**.
     ![Verify your phone number](/Images/phone_number_verification_latest.png)
 3. Enter the received verification code in the **Verification Code** field.
@@ -84,7 +84,7 @@ Enable multi-factor authentication for increased security with authentication ve
 
 MFA definition (from Wikipedia)
 
-_Multi-factor authentication (MFA; encompassing Two-factor authentication or 2FA, along with similar terms) is an  **electronic authentication method** in which a computer user is granted access to a website or application only after successfully  **presenting two or more pieces of evidence** (or factors) to an authentication mechanism: knowledge (something only the user knows), possession (something only the user has), and inherence (something only the user is). MFA protects the user from an unknown person trying to access their data such as personal ID details or financial assets. A third-party authenticator (TPA) app enables two-factor authentication, usually by showing a randomly-generated and constantly refreshing code to use for authentication._
+*Multi-factor authentication (MFA; encompassing Two-factor authentication or 2FA, along with similar terms) is an  **electronic authentication method** in which a computer user is granted access to a website or application only after successfully  **presenting two or more pieces of evidence** (or factors) to an authentication mechanism: knowledge (something only the user knows), possession (something only the user has), and inherence (something only the user is). MFA protects the user from an unknown person trying to access their data such as personal ID details or financial assets. A third-party authenticator (TPA) app enables two-factor authentication, usually by showing a randomly-generated and constantly refreshing code to use for authentication.*
 
 Multi-factor authentication in the Amplify Platform is possible when your user account is managed in the Platform. If your account is managed by an external Identity Provider, then MFA is handled by that component.
 
@@ -164,7 +164,7 @@ You can enable or disable if you want to be redirected to the page previously v
 
 Access the **Activity** page to filter and see more details about each of your user events.
 
-1. From the _Recent Activity_ icon, click **View More** to view the _Activity_ page.
+1. From the *Recent Activity* icon, click **View More** to view the *Activity* page.
 2. Filter your user events by:
     1. **Date Range Filter** - Filter the events by date and time.
         * Last 3 months (or previous months in 3-month intervals)

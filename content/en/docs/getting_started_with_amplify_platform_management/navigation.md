@@ -15,17 +15,17 @@ The {{% variables/platform_prod_name %}} includes the following menus and links 
 
 ### Service Links menu
 
-The _Service Links_ menu provides links to to the _Platform Home_ page, _Overview_, capabilities to which your organization is subscribed and provisioned (example shown), and the _Explore Products & Services_ page. Click the _Integration Builder_ capability to show links to available environments.
+The *Service Links* menu provides links to to the *Platform Home* page, *Overview*, capabilities to which your organization is subscribed and provisioned (example shown), and the *Explore Products & Services* page. Click the *Integration Builder* capability to show links to available environments.
 
 ![Service Links menu](/Images/service_links_menu.png)
 
 ### Site Name
 
-The _Site Name_ identifies the page name in the Platform.
+The *Site Name* identifies the page name in the Platform.
 
 ### Help & Resources menu
 
-The _Help & Resources_ menu provides links to:
+The *Help & Resources* menu provides links to:
 
 ![Help & Resources menu](/Images/help_and_resources_menu.png)
 
@@ -34,7 +34,7 @@ The _Help & Resources_ menu provides links to:
 * **Community Portal** - Click to navigate to the Axway Community Portal.
 * **Support Portal** - Click to navigate to the Axway Support Portal (login required).
 * **Axway University** - Click to navigate to the Axway University Portal.
-* **Download Center** \- Click to access the Products and Extensions. Refer to the [Downloading Axway-issued Artifacts or Product Extensions](/docs/management_guide/downloading_axway-issued_artifacts_or_product_extensions/) for details.
+* **Download Center** - Click to access the Products and Extensions. Refer to the [Downloading Axway-issued Artifacts or Product Extensions](/docs/management_guide/downloading_axway-issued_artifacts_or_product_extensions/) for details.
     * Click **Products** to navigate to the Axway Support Portal (login required).
     * Click **Extensions** to navigate to the Axway Amplify Repository.
 * **Axway.com** - Click to navigate to Axway.com.
@@ -47,7 +47,7 @@ The Recent Activity icon displays a badge notification for new organization, us
 
 ### User menu
 
-The _User_ menu displays your account email and role and provides links to:
+The *User* menu displays your account email and role and provides links to:
 
 ![User menu](/Images/usermenu_multipleorg.png)
 

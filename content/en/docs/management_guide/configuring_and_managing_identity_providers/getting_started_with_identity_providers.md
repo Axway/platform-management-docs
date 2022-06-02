@@ -21,9 +21,9 @@ Before configuring a new Identity Provider, you must ensure:
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **Profile** menu and select **Organization**.
 3. Click the **Settings** link from the left navigation.
-4. Click the **Identity Provider** link. When you access the _Identity Provider_ page for the first time, you will see a message that the organization is currently using the {{% variables/platform_prod_name %}} for authentication.
+4. Click the **Identity Provider** link. When you access the *Identity Provider* page for the first time, you will see a message that the organization is currently using the {{% variables/platform_prod_name %}} for authentication.
     ![You are currently using the {{% variables/platform_prod_name %}} as your Identity Provider message](/Images/overview_new_dropdown.png)
-5. If you are a member of multiple organizations, select the organization from the _Organization_ dropdown menu.
+5. If you are a member of multiple organizations, select the organization from the *Organization* dropdown menu.
 
 ### Next steps
 

@@ -12,8 +12,8 @@ Platform Management 9.1.0 is a minor release which includes several improvements
 
 ## Improvements
 
-* Added filters for Environment and file Status on the _Usage Report History_ table view.
-* _Organization Overview_ Subscriptions table no longer shows zero value entitlements.
+* Added filters for Environment and file Status on the *Usage Report History* table view.
+* *Organization Overview* Subscriptions table no longer shows zero value entitlements.
 * Changed Team name validation to allow use of special characters.
 * Improved usability of date input fields by allowing direct entry.
 

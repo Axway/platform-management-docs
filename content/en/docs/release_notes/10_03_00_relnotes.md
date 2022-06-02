@@ -15,13 +15,13 @@ Please note that SMS-base multi-factor authentication has been disabled and will
 ## New features
 
 * Identity provider configurations and their associated email domains can be used by multiple organizations. See [Enabling an Identity Provider for multiple organizations](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_multiple_orgs) for more information.
-* Added tags to _Service Accounts_ to aid grouping and searching.
+* Added tags to *Service Accounts* to aid grouping and searching.
 
 ## Improvements
 
-* Changed date range selection and dates displayed for Date Received and Reporting Period columns on the _Usage Report History_ view to UTC.
-* Added the ability to select a SAML Descriptor file to prefill values on the _Identity Provider_ configuration form.
-* Added the ability to delete multiple devices associated to your account on the _Devices_ view.
+* Changed date range selection and dates displayed for Date Received and Reporting Period columns on the *Usage Report History* view to UTC.
+* Added the ability to select a SAML Descriptor file to prefill values on the *Identity Provider* configuration form.
+* Added the ability to delete multiple devices associated to your account on the *Devices* view.
 
 ## Fixed issue
 

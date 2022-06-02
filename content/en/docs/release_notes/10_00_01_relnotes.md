@@ -12,8 +12,8 @@ Platform Management 10.0.1 is a patch release which includes an improvement and 
 
 ## Improvement
 
-* Added a series legend to chart images downloaded from _Analytics_ and _Custom Query_ views.
+* Added a series legend to chart images downloaded from *Analytics* and *Custom Query* views.
 
 ## Fixed issue
 
-* Restored ability to select a date range on _Analytics_ and _Custom Query_ view charts to show only data for that range.
+* Restored ability to select a date range on *Analytics* and *Custom Query* view charts to show only data for that range.

@@ -27,7 +27,7 @@ Use the following sign-in if your organization does not have the single sign-on 
 2. Enter the email address associated with your account. If you do not have an {{% variables/platform_prod_name %}} account, click **Get started for free** and then follow the [Sign up](/docs/getting_started_with_amplify_platform_management/sign_up/) instructions.
 3. Click **Next**. Clicking Next will forward you to the {{% variables/platform_prod_name %}} *Sign In* page.
 4. Enter the password associated with your {{% variables/platform_prod_name %}} account and click **Sign In**.
-5. If you are using multi-factor authentication, and the device or browser you are using has not been authenticated, you must provide an authorization code. If requested, enter the authorization code sent to you by email, SMS, or an authenticator app (shown in the example image) associated with your account and click **Authorize**.
+5. If you are using multi-factor authentication, and the device or browser you are using has not been authenticated, you must provide an authorization code. If requested, enter the authorization code sent to you by email or an authenticator app (shown in the example image) associated with your account and click **Authorize**.
 
     ![Device authorization modal](/Images/device_authorization.png)
 

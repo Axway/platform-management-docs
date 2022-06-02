@@ -26,6 +26,7 @@ To manage your organization information, select **Organization** from the *Use
 * Service Accounts
 * Usage
 * Environments (you must be an administrator)
+* Marketplace (you must be an administrator)
 * Settings (you must be an administrator)
 * Activity
 
@@ -77,9 +78,10 @@ After you create or add a users to your organization, you can view and modify th
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Users** tab from the left navigation.
 4. If you're a user of multiple organizations, select the organization you want to view from the *Users* dropdown menu.
-5. To change a user's role, select a different role or additional roles from the *Role* dropdown menu. Note that the *Role* dropdown menu selections are sorted by product roles. Administrators can manage all users and applications in the organization. All other user roles can view only applications to which they belong.
-6. To remove a selected user from the organization, select the **Actions** menu (**...**), and select **Remove User** and then confirm the removal.
-7. To view a user's team assignments, select the **Actions** icon, and select **View Teams**. Refer to [Managing teams](#managing-teams).
+5. If an Identity Provider is configured for the organization, an *Identity Provider* dropdown menu is provided. Select a different Identity Provider or no restriction (do not require authenticating with a configured Identity Provider) from the *Identity Provider* dropdown menu.
+6. To change a user's role, select a different role or additional roles from the *Role* dropdown menu. Note that the *Role* dropdown menu selections are sorted by product roles. Administrators can manage all users and applications in the organization. All other user roles can view only applications to which they belong.
+7. To remove a selected user from the organization, select the **Actions** menu (**...**), and select **Remove User** and then confirm the removal.
+8. To view a user's team assignments, select the **Actions** icon, and select **View Teams**. Refer to [Managing teams](#managing-teams).
 
 The user's last login is displayed in the *Last Login* column, and their current multi-factor authentication status is shown in the *MFA* column. For more information on multi-factor authentication, refer to [Manage multi-factor authentication](/docs/management_guide/managing_accounts/#manage-multi-factor-authentication).
 
@@ -188,12 +190,6 @@ To remove a team:
 8. Confirm the removal of the deletion of the selected team, by entering the name of the team to delete permanently.
 9. Click **I understand that this is a permanent and irreversible action. Continue**.
 
-## Managing child organizations
-
-The **Child Orgs** tab enables you to manage child organizations and to add a child organization to the selected parent organization. To add a child organization, refer to [Creating an Organization](/docs/management_guide/organizations/creating_an_organization/).
-
-![Managing child organizations](/Images/child_orgs_tab.png)
-
 ## Viewing usage
 
 The **Usage** tab enables you to view the usage of allocated resources for the selected organization for the selected product or all products for the selected period.
@@ -213,12 +209,20 @@ Refer to the [Amplify Subscription Usage With Edge Agent 1.0](https://docs.axwa
 
 The **Environments** tab is used for usage tracking. Refer to manual entry reporting in the [Amplify Subscription Usage With Edge Agent 1.0](https://docs.axway.com/bundle/subusage_en/page/amplify_subscription_usage_and_reporting.html) or [Amplify Subscription Usage](https://docs.axway.com/bundle/subusage_11_en/page/amplify_subscription_usage_and_reporting.html) guide for details about how to select or create an environment for usage tracking.
 
+## Managing Marketplace settings
+
+The **Marketplace** tab enables you to manage your Marketplace. Refer to the following sections in the Amplify Central guide.
+
+* [Marketplace settings](https://docs.axway.com/bundle/amplify-central/page/docs/manage_marketplace/marketplace_settings/index.html)
+* [Marketplace appearance](https://docs.axway.com/bundle/amplify-central/page/docs/manage_marketplace/marketplace_branding/index.html)
+
 ## Managing organization settings
 
 The **Settings** tab enables you to:
 
 * Apply branding to the Amplify Platform navigation and selected views for the selected organization.
 * Configure and manage entity providers for Amplify Platform authentication.
+* Redact personal information and configure password policy rules to add to the default password requirements.
 
 ![Managing organization settings](/Images/settings_tab.png)
 
@@ -243,7 +247,32 @@ To apply branding to Amplify Platform per your organization's branding requireme
 
 ### Manage Identity Providers
 
-Refer to the [Configuring and Managing Identity Providers (IdPs)](/docs/management_guide/configuring_and_managing_identity_providers_idps/) page for details.
+Click **Identity Provider** from the Organization menu to configure Identity Providers to use for user authentication with the Platform. Refer to the [Configuring and Managing Identity Providers (IdPs)](/docs/management_guide/configuring_and_managing_identity_providers/) page for details.
+
+### Manage security settings
+
+Click **Security** from the Organization menu to access organization security settings. Then, select the organization from the _Organization_ dropdown menu to configure the following settings for the specified organization.
+
+![Managing organization settings](/Images/settings_tab_security.png)
+
+#### Redact personal information
+
+Select the option to **Redact Personal Information** to redact email addresses within an organization where the user's email address is displayed, except the _Account_ view. The email address on the _Account_ view is always redacted, whether the setting is enabled or disabled. By default, the setting is disabled.
+
+#### Configure password settings
+
+Administrators have the option to configure additional password settings to add to the default password requirements.
+
+* **Minimum Password Length** - Minimum number of characters a password must contain.
+* **Password Complexity** - Select the option to require at least one character of the following type to be included in the password, or select **Advanced** to specify the number of required characters.
+
+    * Lower case characters
+    * Upper case characters
+    * Special characters
+    * Digits
+* **Renewal period** - Number of days after which a user must change their password.
+* **Not Recently Used** - Number of times a unique password is required before a previously used password can be reused.
+* **Account Lock Out** - Number of times a user can attempt to log in with an incorrect password before the account is locked.
 
 ## Viewing organization activities
 

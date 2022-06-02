@@ -16,6 +16,7 @@ To manage your account information, select **Account** from the [User menu](/
 * Orgs & Roles (for accounts with multiple organizations)
 * Credentials
 * Settings
+* Devices (for accounts with MFA enabled)
 * Activity
 
 ## Manage accounts
@@ -26,36 +27,17 @@ Selecting Account from the left navigation opens the **Account** page.
 
 The Account Information page includes the following account information:
 
-* **First Name** - Verify and edit the first name on your account.
-* **Last Name** - Verify and edit the last name on your account.
-* **Email** - Lists your email address.
-* **Phone Number** - Verify your phone number. Refer to [Verify your phone number](#verify-your-phone-number).
-* **Timezone** - Your selected time zone. Click the **Edit Account** button to choose a different time zone.
-* **Joined** - Lists when you joined the listed organization.
-* **Last Updated** - Provides the date and time you last updated your user account information.
-
-Click the **Members** link at the top of the User Account page to be taken to the Members page. Refer to Managing organization members in [Managing Organizations](/docs/management_guide/organizations/managing_organizations/).
+* **Name** - Your first and last name on your account.
+* **Email** - Your email address. The email address on the _Account_ view is always redacted.
+* **Timezone** - Your selected time zone. Click the edit pencil icon to select a different time zone.
+* **Joined** - The date and time of when you joined the platform.
+* **Last Updated** - The date and time you last updated your user account information.
 
 ## Edit account
 
-To edit your account details, click the **Edit Account** button.
+To edit your account details, click the edit pencil icon.
 
-![Edit account page](/Images/edit_account.png)
-
-Clicking the **Edit Account** button enables the editing of the **First Name** and **Last Name** fields. It also enables the **Phone Number** field and the verification of the entered phone number. For additional instructions on verifying your phone number, refer to [Verify your phone number](#verify-your-phone-number). Clicking on the Edit Account button also enables the **Timezone** dropdown menu. Once you have finished editing your user account information, click the **Save** button.
-
-### Verify your phone number
-
-Verifying your phone number is optional but **highly recommended** for increased security with multi-factor authentication. It must be SMS-capable and will be used to receive activation codes. **Standard text-messaging rates apply.**
-
-To verify your phone number:
-
-1. Complete the **Phone Number** field. The phone number should be entered as digits only in the format *\[+\]\[country code\] \[number including area code\]*.
-2. Click the **Verify** button. When the **Verify** button is clicked, a verification code is sent to the phone number entered in the **Phone Number** field, and the **Verification Code** field is displayed. If you do not receive a verification code, click **Resend**.
-    ![Verify your phone number](/Images/phone_number_verification_latest.png)
-3. Enter the received verification code in the **Verification Code** field.
-    Once a valid verification code is entered, the phone number is now verified.
-    ![Phone number verification code](/Images/phone_number_verified_latest.png)
+The edit view enables you to edit the **First Name** and **Last Name** fields and select a different timezone from the **Timezone** dropdown menu. Once you have finished editing your user account information, click the **Save** button.
 
 ## View organizations and roles
 
@@ -72,7 +54,7 @@ The **Credentials** link takes you to the view where you can change your account
 To change your password:
 
 1. Select the **Credentials** link.
-2. Enter a new password in the **Change Password** field. The password should be at least eight characters. As you enter a new password in the **Change Password** field, the **Confirm Password** field is displayed.
+2. Enter a new password in the **Change Password** field. The password should be at least eight characters (default requirements) or must adhere to any password policies configured for your organization. As you enter a new password in the **Change Password** field, the **Confirm Password** field is displayed.
     ![Change and confirm password](/Images/change_password_latest.png)
 3. Confirm the new password in the **Confirm Password** field. The entry in the **Confirm Password** field must be the same as the entry in the **Password** field.
 4. Select the **Force Logout** checkbox to force the log out of any current sessions.
@@ -92,19 +74,16 @@ To enable multi-factor authentication:
 
 1. Select the **Credentials** link.
 2. Select **Enabled** next to the **Multi-Factor Authentication** option. The **Preferred MFA Method** options becomes available.
-3. For the **Preferred MFA Method**, select the default method a multi-factor authentication token will be generated for when logging in from a new device. Options are **Authenticator App**, **Email**, and **SMS**.
+3. For the **Preferred MFA Method**, select the default method a multi-factor authentication token will be generated for when logging in from a new device. Options are **Authenticator App** and **Email**.
 
     | Preferred MFA method | How this works | When can this be used |
     | ---| --- | --- |
     | Authenticator App | A random code is generated within the app that needs to be provided when the user logs into the Platform. | Only available when an authenticator app has been configured for your account. See [Setup Authenticator App](#setup-authenticator-app) for details. |
     | Email | A code is sent to your email address that needs to be provided when the user logs into the Platform. | Always available, uses the email address linked to your account. |
-    | SMS | A code is sent through SMS that needs to be provided when the user logs into the Platform. | Only available when a phone number is linked to your account. See [Verify your phone number](#verify-your-phone-number) for details. |
 
 4. Click **Save**. Once the Enabled checkbox is selected and the account saved, multi-factor authentication will be enabled, and a notification email will be sent.
 
-5. Depending on the preferred MFA method you selected, make sure to complete these steps:
-    * Authenticator App - [Setup Authenticator App](#setup-authenticator-app)
-    * SMS - [Verify your phone number](#verify-your-phone-number)
+5. To complete configuration for the Authenticator app, complete the steps in [Setup Authenticator App](#setup-authenticator-app).
 6. After you have enabled MFA and you login you will see a notification asking you to enter an authorization code. You might need to use another browser or a private browser session to test this. Enter the Authorization code provided by your Authenticator App,  email, or SMS, and then click **Authorize**.
 
     When the code is correctly validated, you will be successfully logged into the Platform.
@@ -159,6 +138,20 @@ You can configure the amount of time before you are signed out of the Platform d
 ### Enable or disable restoring previous page on next login
 
 You can enable or disable if you want to be redirected to the page previously viewed once signed back in after being signed out due to inactivity in the Platform. This setting is disabled by default (do not restore previous page on next login).
+
+## View authorized devices
+
+For accounts who have MFA enabled, the **Devices** menu appears. Access the **Devices** page to view the list of devices authorized to access your account. Device details include:
+
+* Device
+* Browser
+* IP Address
+* Authorized
+* Last Accessed
+* MFA Method
+* Actions (remove selected or all devices)
+
+![View devices](/Images/view_devices.png)
 
 ## View your user activity
 

@@ -251,13 +251,13 @@ Click **Identity Provider** from the Organization menu to configure Identity Pro
 
 ### Manage security settings
 
-Click **Security** from the Organization menu to access organization security settings. Then, select the organization from the _Organization_ dropdown menu to configure the following settings for the specified organization.
+Click **Security** from the Organization menu to access organization security settings. Then, select the organization from the *Organization* dropdown menu to configure the following settings for the specified organization.
 
 ![Managing organization settings](/Images/settings_tab_security.png)
 
 #### Redact personal information
 
-Select the option to **Redact Personal Information** to redact email addresses within an organization where the user's email address is displayed, except the _Account_ view. The email address on the _Account_ view is always redacted, whether the setting is enabled or disabled. By default, the setting is disabled.
+Select the option to **Redact Personal Information** to redact email addresses within an organization where the user's email address is displayed, except the *Account* view. The email address on the *Account* view is always redacted, whether the setting is enabled or disabled. By default, the setting is disabled.
 
 #### Configure password settings
 

@@ -28,7 +28,7 @@ Selecting Account from the left navigation opens the **Account** page.
 The Account Information page includes the following account information:
 
 * **Name** - Your first and last name on your account.
-* **Email** - Your email address. The email address on the _Account_ view is always redacted.
+* **Email** - Your email address. The email address on the *Account* view is always redacted.
 * **Timezone** - Your selected time zone. Click the edit pencil icon to select a different time zone.
 * **Joined** - The date and time of when you joined the platform.
 * **Last Updated** - The date and time you last updated your user account information.

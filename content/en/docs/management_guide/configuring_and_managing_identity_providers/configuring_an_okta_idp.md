@@ -16,7 +16,7 @@ You must review the [prerequisites](/docs/management_guide/configuring_and_mana
 Set up a domain in the Amplify Platform.
 
 1. Sign in to the [Platform](https://platform.axway.com/).
-2. Navigate to Organization - Settings - **Identity Platform**. If you do not see the **Identity Provider** tab, you do not have the correct subscription and you can contact the Amplify Platform team to enable this functionality. When you access the  _Identity Provider_ page in the Platform for the first time, you will see a message that the organization is currently using the Amplify Platform for authentication.
+2. Navigate to Organization - Settings - **Identity Platform**. If you do not see the **Identity Provider** tab, you do not have the correct subscription and you can contact the Amplify Platform team to enable this functionality. When you access the  *Identity Provider* page in the Platform for the first time, you will see a message that the organization is currently using the Amplify Platform for authentication.
 3. Add a domain and make sure it has been Verified. Refer to [Managing Domains](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/) to add a domain and verify ownership.
 
 ## Setup Okta IdP
@@ -28,8 +28,8 @@ Sign up for a free Okta developer account at [https://developer.okta.com](https
 An application in Okta is used to configure the authentication to the system to which you want your users to access. Create an application that defines the authentication to the Platform.
 
 1. In Okta, make sure you are in the admin view to create the application.
-2. Search for the **Axway - Amplify Platform** app, select it, and then click **Add**. The _General Settings_ page appears.
-3. Click **Next** on the _General Settings_ page. The _Sign-On Options_ page appears.
+2. Search for the **Axway - Amplify Platform** app, select it, and then click **Add**. The *General Settings* page appears.
+3. Click **Next** on the *General Settings* page. The *Sign-On Options* page appears.
 4. Click SAML 2.0 or [OpenID Connect](https://devblog.axway.com/apis/understand-your-api-security-need-oauth-or-openid-connect/) and follow the instructions that you can find by clicking **View Setup Instructions**.
 
     {{% alert title="Note" color="primary" %}}For OIDC, during the process to set up the OIDC IdP, you will be asked for a `customer id`. This corresponds to the `configuration id` of the IdP configuration. The `configuration id` is provided by the Platform when you complete the Platform setup. Also, the Okta setup provides a `client id` and `client` `secret` that you use to complete the Platform setup.{{% /alert %}}

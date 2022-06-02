@@ -17,4 +17,4 @@ Platform Management 9.0.1 is a patch release which includes one improvement and 
 ## Fixed issues
 
 * Fixed an issue where users may not be able to reset their password if they forgot their credentials.
-* Fixed an issue where events shown on _Activity_ views may not link to the user who performed the action.
+* Fixed an issue where events shown on *Activity* views may not link to the user who performed the action.

@@ -12,4 +12,4 @@ Platform Management 10.2.0 is a minor release which includes one new feature.
 
 ## New features
 
-* Revised _Platform Home_ layout and contents to provide easier access to Management Plane and Marketplace tasks and features. For organizations with Marketplace entitlement, new capabilities and tasks have been added linking to Services Registry, Asset Catalog, and Product Foundry both on _Platform Home_ and in top navigation's Service Links.
+* Revised *Platform Home* layout and contents to provide easier access to Management Plane and Marketplace tasks and features. For organizations with Marketplace entitlement, new capabilities and tasks have been added linking to Services Registry, Asset Catalog, and Product Foundry both on *Platform Home* and in top navigation's Service Links.

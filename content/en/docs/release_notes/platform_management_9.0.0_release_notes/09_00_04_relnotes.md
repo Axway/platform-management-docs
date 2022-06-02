@@ -12,8 +12,8 @@ Platform Management 9.0.4 is a patch release which includes one improvement and 
 
 ## Improvement
 
-* Added validation to _Identity Provider Configuration_ form to require https protocol for all URLs.
+* Added validation to *Identity Provider Configuration* form to require https protocol for all URLs.
 
 ## Fixed issue
 
-* Fixed an issue where **Mobile Backend Services** _Manage Data_ tables may not show the correct object counts as a user pages through objects.
+* Fixed an issue where **Mobile Backend Services** *Manage Data* tables may not show the correct object counts as a user pages through objects.

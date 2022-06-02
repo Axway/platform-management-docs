@@ -12,10 +12,10 @@ Platform Management 9.2.0 is a minor release which includes a new feature and se
 
 ## New feature
 
-* Added a _Devices_ view in the _Account_ section for users using **Amplify platform** for authentication allowing authorized devices to be viewed and managed.
+* Added a *Devices* view in the *Account* section for users using **Amplify platform** for authentication allowing authorized devices to be viewed and managed.
 
 ## Fixed issues
 
-* Fixed an issue where usage of **Cloud Capacity** subscription entitlements may fail to load on the _Manage Subscriptions_ service.
-* Fixed an issue where a banner on the _Users_ view indicating an org had unavailable roles assigned to its members may persist when switching between orgs.
-* Corrected an outdated _Connecting Environments_ documentation link on the _Platform Home_ Getting Started section.
+* Fixed an issue where usage of **Cloud Capacity** subscription entitlements may fail to load on the *Manage Subscriptions* service.
+* Fixed an issue where a banner on the *Users* view indicating an org had unavailable roles assigned to its members may persist when switching between orgs.
+* Corrected an outdated *Connecting Environments* documentation link on the *Platform Home* Getting Started section.

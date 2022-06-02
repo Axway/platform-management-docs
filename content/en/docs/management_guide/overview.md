@@ -42,11 +42,11 @@ The **Overview** displays key metric information relevant to the product line t
 
 To manage an application, select the application to manage from the list of applications.
 
-If you haven't created any applications yet, you will be directed to the _You don't have any apps yet!_ page. Don't worry. It's easy to get started creating apps using the Platform. It should take you only a few minutes to create an app. Once you do, your Overview will have data here. To get started creating applications, click one of the following options:
+If you haven't created any applications yet, you will be directed to the *You don't have any apps yet!* page. Don't worry. It's easy to get started creating apps using the Platform. It should take you only a few minutes to create an app. Once you do, your Overview will have data here. To get started creating applications, click one of the following options:
 
-* **Get the latest tools -** You will be forwarded to the _Get started with {{% variables/apibuilder_prod_name %}}_ page where you can select to get started building apps with either [Axway Appcelerator Studio](https://docs.axway.com/bundle/Appcelerator_Studio_allOS_en/page/axway_appcelerator_studio.html) or [Appcelerator CLI](https://docs.axway.com/bundle/Appcelerator_CLI_allOS_en/page/appcelerator_cli.html).
-* **Register App for Services** \- You will be forwarded to the _Register App for Services_ page.
-* **Create MBS Datasource** \- If you do not have a subscription, you will be forwarded to the _Billing_ page where you can upgrade your plan to access locked items. Refer to [Managing Billing](/docs/management_guide/managing_billing/). If you have a subscription, you will be forwarded to the _Create Mobile Backend Services Datasource_ page.
+* **Get the latest tools** - You will be forwarded to the *Get started with {{% variables/apibuilder_prod_name %}}* page where you can select to get started building apps with either [Axway Appcelerator Studio](https://docs.axway.com/bundle/Appcelerator_Studio_allOS_en/page/axway_appcelerator_studio.html) or [Appcelerator CLI](https://docs.axway.com/bundle/Appcelerator_CLI_allOS_en/page/appcelerator_cli.html).
+* **Register App for Services** - You will be forwarded to the *Register App for Services* page.
+* **Create MBS Datasource** - If you do not have a subscription, you will be forwarded to the *Billing* page where you can upgrade your plan to access locked items. Refer to [Managing Billing](/docs/management_guide/managing_billing/). If you have a subscription, you will be forwarded to the *Create Mobile Backend Services Datasource* page.
 
 ![You don't have any apps yet page](/Images/dashboard_home_no_apps.png)
 
@@ -68,7 +68,7 @@ The apps list can be filtered by:
 To filter the apps list by a selected app type:
 
 1. Select **All Apps**.
-2. Select an app type from the _All Apps_ down-down menu.
+2. Select an app type from the *All Apps* down-down menu.
 
 The displayed apps list will be updated and will only display the apps matching the selected application type.
 
@@ -78,7 +78,7 @@ The Name, Type, and Created columns in the apps list can be sorted either in asc
 
 ### Apps list paging
 
-The number of displayed applications per page can be selected using the _per page_ drop-down menu.
+The number of displayed applications per page can be selected using the *per page* drop-down menu.
 
 ![Apps list paging](/Images/application_list_paging.png)
 

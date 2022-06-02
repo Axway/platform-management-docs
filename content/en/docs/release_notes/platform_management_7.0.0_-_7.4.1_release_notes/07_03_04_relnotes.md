@@ -17,4 +17,4 @@ Platform Management 7.3.4 is a patch release, which includes an improvement a
 ## Fixed Issues
 
 * Fixed an issue where users may not be able to upload iOS push certificates for Mobile Backend Services datasources.
-* Fixed an issue where Mobile Backend Services Database Storage and File Storage usage may show as zero GB on the organization's _Usage_ view.
+* Fixed an issue where Mobile Backend Services Database Storage and File Storage usage may show as zero GB on the organization's **Usage** view.

@@ -12,7 +12,7 @@ Platform Management 9.0.3 is a patch release which includes one improvement and 
 
 ## Improvement
 
-* _Organization Overview_ Subscriptions table no longer shows zero value entitlements.
+* *Organization Overview* Subscriptions table no longer shows zero value entitlements.
 
 ## Fixed issue
 

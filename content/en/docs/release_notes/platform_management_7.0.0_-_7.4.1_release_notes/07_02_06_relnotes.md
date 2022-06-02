@@ -12,7 +12,7 @@ Platform Management 7.2.6 is a patch release, which includes improvements and
 
 ## Improvements
 
-* Subscription dates on the **Organization** overview page are now shown as UTC.
+* Subscription dates on the *Organization* overview page are now shown as UTC.
 
 ## Fixed issues
 

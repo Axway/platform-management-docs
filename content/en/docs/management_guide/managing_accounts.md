@@ -28,7 +28,7 @@ Selecting Account from the left navigation opens the **Account** page.
 The Account Information page includes the following account information:
 
 * **Name** - Your first and last name on your account.
-* **Email** - Your email address. The email address on the _Account_ view is always redacted.
+* **Email** - Your email address. The email address on the *Account* view is always redacted.
 * **Timezone** - Your selected time zone. Click the edit pencil icon to select a different time zone.
 * **Joined** - The date and time of when you joined the platform.
 * **Last Updated** - The date and time you last updated your user account information.
@@ -66,7 +66,7 @@ Enable multi-factor authentication for increased security with authentication ve
 
 MFA definition (from Wikipedia)
 
-_Multi-factor authentication (MFA; encompassing Two-factor authentication or 2FA, along with similar terms) is an  **electronic authentication method** in which a computer user is granted access to a website or application only after successfully  **presenting two or more pieces of evidence** (or factors) to an authentication mechanism: knowledge (something only the user knows), possession (something only the user has), and inherence (something only the user is). MFA protects the user from an unknown person trying to access their data such as personal ID details or financial assets. A third-party authenticator (TPA) app enables two-factor authentication, usually by showing a randomly-generated and constantly refreshing code to use for authentication._
+*Multi-factor authentication (MFA; encompassing Two-factor authentication or 2FA, along with similar terms) is an  **electronic authentication method** in which a computer user is granted access to a website or application only after successfully  **presenting two or more pieces of evidence** (or factors) to an authentication mechanism: knowledge (something only the user knows), possession (something only the user has), and inherence (something only the user is). MFA protects the user from an unknown person trying to access their data such as personal ID details or financial assets. A third-party authenticator (TPA) app enables two-factor authentication, usually by showing a randomly-generated and constantly refreshing code to use for authentication.*
 
 Multi-factor authentication in the Amplify Platform is possible when your user account is managed in the Platform. If your account is managed by an external Identity Provider, then MFA is handled by that component.
 
@@ -157,7 +157,7 @@ For accounts who have MFA enabled, the **Devices** menu appears. Access the **De
 
 Access the **Activity** page to filter and see more details about each of your user events.
 
-1. From the _Recent Activity_ icon, click **View More** to view the _Activity_ page.
+1. From the *Recent Activity* icon, click **View More** to view the *Activity* page.
 2. Filter your user events by:
     1. **Date Range Filter** - Filter the events by date and time.
         * Last 3 months (or previous months in 3-month intervals)

@@ -12,4 +12,4 @@ Platform Management 7.3.2 is a patch release, which includes a bug fix.
 
 ## Fixed issues
 
-* Fixed an issue where clicking Upload Symbols on an application's **Crash Analytics** view may not prompt for the version and file selection.
+* Fixed an issue where clicking Upload Symbols on an application's *Crash Analytics* view may not prompt for the version and file selection.

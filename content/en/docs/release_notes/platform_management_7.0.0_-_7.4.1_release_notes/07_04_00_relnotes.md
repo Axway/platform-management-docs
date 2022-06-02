@@ -20,14 +20,14 @@ Platform Management 7.4.0 is a minor release, which includes one new feature
 
 Improvements
 
-* Members' names will now be shown in the confirmation dialog prior to removal from the organization from the _Members_ table view.
+* Members' names will now be shown in the confirmation dialog prior to removal from the organization from the *Members* table view.
 * Assigned Members' and Assigned Apps' names (if singular) or counts (if plural) will now be shown in a confirmation dialog prior to removal from a team.
 
 Fixed issues
 
-* Fixed an issue where the _All Apps_ table view may not have shown values in the Creator column.
-* Fixed an issue where the Amplify Crash Analytics _Crash Details_ view may omit "tags" in crash stacks.
+* Fixed an issue where the *All Apps* table view may not have shown values in the Creator column.
+* Fixed an issue where the Amplify Crash Analytics *Crash Details* view may omit "tags" in crash stacks.
 * Fixed an issue where an organization member's Platform role may not have displayed if no seats remained.
-* Fixed an issue where the Password Last Updated date on the _Account Credentials_ view may not update when the password is changed.
+* Fixed an issue where the Password Last Updated date on the *Account Credentials* view may not update when the password is changed.
 * Fixed an issue where some Analytics view will not render properly when Demo Data is enabled.
 * Fixed an issue where users may not be shown error messages when errors are encountered during device authorization.

@@ -18,7 +18,7 @@ This guide provides how-to instructions for getting started with Mobile Backend 
 To create a standalone Mobile Backend Services datasource (an MBS datasource not tied to a specific client application):
 
 1. Log into the [Platform](https://platform.axway.com/).
-2. Click **Overview** from the _Services Links_ menu.
+2. Click **Overview** from the *Services Links* menu.
 3. Click the **Actions** (**...**) menu in the upper right.
 4. Select **Create MBS Datasource**.
 5. Enter the **Name** for the datasource.
@@ -51,9 +51,9 @@ The left navigation includes the following tabs:
 To create a user for the new MBS datasource:
 
 1. Select the **Manage Data** tab.
-2. From the _Environment_ dropdown, select either **Development** or **Production**.
-3. Select **Users** from the _Manage Data Objects_ list.
-4. Click **\+ User**. The _User_ view is displayed.
+2. From the *Environment* dropdown, select either **Development** or **Production**.
+3. Select **Users** from the *Manage Data Objects* list.
+4. Click **User**. The *User* view is displayed.
     ![Create a user for the MBS datasource](/Images/user_add.png)
 
 5. At a minimum, enter the **Username**, **Email**, and **Password**.

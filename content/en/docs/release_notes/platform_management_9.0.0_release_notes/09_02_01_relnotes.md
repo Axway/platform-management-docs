@@ -16,4 +16,4 @@ Platform Management 9.2.1 is a patch release which includes a new feature and a 
 
 ## Fixed issue
 
-* Removed an unneeded Environment filter on **Amplify Runtime Services** app _Analytics_ view.
+* Removed an unneeded Environment filter on **Amplify Runtime Services** app *Analytics* view.

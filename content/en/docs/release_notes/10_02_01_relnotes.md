@@ -12,8 +12,8 @@ Platform Management 10.2.1 is a patch release which includes two improvements an
 
 ## Improvements
 
-* Added _Enviroments_ capability tile on _Platform Home_ view for organizations with Marketplace entitlement.
-* Provided support for non-administrator role users to fetch information about teams in their organization to improve _Asset Catalog_ user experience.
+* Added *Environments* capability tile on *Platform Home* view for organizations with Marketplace entitlement.
+* Provided support for non-administrator role users to fetch information about teams in their organization to improve *Asset Catalog* user experience.
 
 ## Fixed issue
 

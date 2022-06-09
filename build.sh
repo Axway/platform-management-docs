@@ -25,6 +25,8 @@
 #   - 
 #
 
+set -e
+
 DEBUG=${DEBUG:-false}
 MODE=dev
 while getopts ":np" opt; do
@@ -165,3 +167,4 @@ function fRunHugo() {
 fCheckoutSubmodule
 fMergeContent
 fRunHugo
+echo "[INFO] Done"

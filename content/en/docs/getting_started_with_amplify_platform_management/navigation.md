@@ -5,7 +5,7 @@ weight: 40
 date: 2021-08-12
 ---
 
-The Amplify Platform Management interface uses a unified top and bottom navigation. From any page in the Platform, you will see the same navigation.
+The Amplify Platform Management interface provides a unified top and bottom navigation, where you see the same elements on the top and bottom of each page Platform page.
 
 ## Top navigation
 

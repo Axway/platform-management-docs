@@ -8,7 +8,7 @@ Hide_readingtime: true
 
 ## Platform Management 10.5.1 - 16 Jun 2022
 
-Platform Management 10.5.1 is a minor release which includes two improvements and one fixed issues.
+Platform Management 10.5.1 is a patch release which includes two improvements and one fixed issues.
 
 ## Improvement
 

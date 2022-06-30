@@ -1,7 +1,7 @@
 ---
 title: Platform Management 10.5.3 release notes
 linkTitle: Platform Management 10.5.3 release notes
-weight: 75
+weight: 73
 date: 2022-06-30
 Hide_readingtime: true
 ---

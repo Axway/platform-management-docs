@@ -215,7 +215,7 @@ You can create interactive notifications for users running iOS 8 or later can re
 
 ![Interactive notification](/Images/interactivebannermessage.png)
 
-Your Titanium application defines one or more _notification categories_, each of which consists of one or more _notification actions_. When you [create a push notification](#create-a-push-notification), the **Category** form field lets you specify the category of interactive notification to display when the push notification arrives.
+Your Titanium application defines one or more _notification categories_, each of which consists of one or more _notification actions_. When you create a push notification, the **Category** form field lets you specify the category of interactive notification to display when the push notification arrives.
 
 **To create an interactive notification:**
 

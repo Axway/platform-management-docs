@@ -1,7 +1,7 @@
 ---
 title: Platform Management 10.6.1 release notes
 linkTitle: Platform Management 10.6.1 release notes
-weight: 71
+weight: 70
 date: 2022-07-26
 Hide_readingtime: true
 ---

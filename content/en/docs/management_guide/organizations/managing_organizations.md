@@ -203,11 +203,11 @@ The **Usage** tab enables you to view the usage of allocated resources for the 
 5. Select a month and year from the dropdown.
 6. You can select **Show Environments**.
 
-Refer to the [Amplify Subscription Usage With Edge Agent 1.0](https://docs.axway.com/bundle/subusage_en/page/amplify_subscription_usage_and_reporting.html) or [Amplify Subscription Usage](https://docs.axway.com/bundle/subusage_11_en/page/amplify_subscription_usage_and_reporting.html) guide for details on configuring, reporting, and monitoring usage data for customer-managed on-premise Axway products that you use under subscription agreements.
+Refer to the [Amplify Subscription Usage](https://docs.axway.com/bundle/subusage_11_en/page/amplify_subscription_usage_and_reporting.html) guide for details on configuring, reporting, and monitoring usage data for customer-managed on-premise Axway products that you use under subscription agreements.
 
 ## Selecting or creating environments for usage tracking
 
-The **Environments** tab is used for usage tracking. Refer to manual entry reporting in the [Amplify Subscription Usage With Edge Agent 1.0](https://docs.axway.com/bundle/subusage_en/page/amplify_subscription_usage_and_reporting.html) or [Amplify Subscription Usage](https://docs.axway.com/bundle/subusage_11_en/page/amplify_subscription_usage_and_reporting.html) guide for details about how to select or create an environment for usage tracking.
+The **Environments** tab is used for usage tracking. Refer to manual entry reporting in the [Amplify Subscription Usage](https://docs.axway.com/bundle/subusage_11_en/page/amplify_subscription_usage_and_reporting.html) guide for details about how to select or create an environment for usage tracking.
 
 ## Managing Marketplace settings
 

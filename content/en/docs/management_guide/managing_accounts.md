@@ -62,7 +62,7 @@ To change your password:
 
 ### Manage multi-factor authentication
 
-Enable multi-factor authentication for increased security with authentication verification by an authenticator app, email, or SMS. Using MFA is optional, but **highly recommended.**
+Enable multi-factor authentication for increased security with authentication verification by an authenticator app or email. Using MFA is optional, but **highly recommended.**
 
 MFA definition (from Wikipedia)
 
@@ -84,7 +84,7 @@ To enable multi-factor authentication:
 4. Click **Save**. Once the Enabled checkbox is selected and the account saved, multi-factor authentication will be enabled, and a notification email will be sent.
 
 5. To complete configuration for the Authenticator app, complete the steps in [Setup Authenticator App](#setup-authenticator-app).
-6. After you have enabled MFA and you login you will see a notification asking you to enter an authorization code. You might need to use another browser or a private browser session to test this. Enter the Authorization code provided by your Authenticator App,  email, or SMS, and then click **Authorize**.
+6. After you have enabled MFA and you login you will see a notification asking you to enter an authorization code. You might need to use another browser or a private browser session to test this. Enter the Authorization code provided by your Authenticator App or email, and then click **Authorize**.
 
     When the code is correctly validated, you will be successfully logged into the Platform.
 

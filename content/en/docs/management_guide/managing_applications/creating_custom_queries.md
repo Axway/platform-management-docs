@@ -5,7 +5,7 @@ weight: 60
 date: 2021-08-12
 ---
 
-By default, analytics are provided for Event names and counts, Amplify Runtime Requests, Average Session Length, Installs, Mobile Backend Service Requests, Push Notifications, Sessions, and Unique Devices. The Custom Queries feature enables you to create custom queries based on your application-specific metrics and analytical needs or expand upon the provided default analytics to meet your specific analytics needs.
+By default, analytics are provided for Runtime Services Requests, Average Session Length, Installs, Events, Mobile Backend Services Requests, Push Notifications, Sessions, and Unique Devices. The Custom Queries feature enables you to create custom queries based on your application-specific metrics and analytical needs or expand upon the provided default analytics to meet your specific analytics needs.
 
 ## Queries overview
 
@@ -22,14 +22,16 @@ Note that if you have not created any custom queries, selecting the **Custom Que
 To create a custom query without filtering:
 
 1. Enter a query name in the **Name** field.
-2. Select a **Method**. The Method drop-down menu selections are:
+2. Select a line or bar chart for the **Display**.
+3. Select a **Method**. The Method drop-down menu selections are:
     * Count
     * Cardinality
     * Average
     * Sum
     * Min
     * Max
-3. Select a **Field**. The Field drop-down menu selections are:
+    * Find - If selected, select the fields to include in the events and the limit, offet, and sort options.
+4. Select a **Field**. The Field drop-down menu selections are:
     * Custom - If selected, enter the custom field information.
     * Event
     * Application
@@ -39,7 +41,7 @@ To create a custom query without filtering:
     * Country
     * Session
     * Session Length
-4. Select a **Grouping**. The Grouping drop-down menu selections are:
+5. Select a **Grouping**. The Grouping drop-down menu selections are:
     * Custom - If selected, enter the custom grouping information.
     * Event
     * Application
@@ -49,20 +51,14 @@ To create a custom query without filtering:
     * Country
     * Session
     * Session Length - If selected, enter an **Interval**. The entered interval is the range to use when grouping numeric values.
-5. (Optional) Select the **Map** checkbox to display the results on a map instead of a chart. Please note this is not possible for averages.
-6. Select a **Date Range**. The Date Range drop-down menu selections are:
-    * From/To - If selected, enter the From and To dates and times. **Queries with From/To date ranges cannot be saved.**
-    * Custom - If selected, select a custom date range.
-        * Number of Months
-        * Number of Days
-        * Number of Hours
-        * Number of Minutes
-    * 3 Months
-    * 30 Days
-    * 7 Days
-    * 24 Hours
-    * 60 Minutes
-7. (Optional) Select the **Include current period** checkbox to Include up to the end of the current period for which there will be only partial data.
+6. (Optional) Select the **Map** checkbox to display the results on a map instead of a chart. Please note this is not possible for averages.
+7. Select a **Date Range**. The Date Range drop-down menu selections are:
+    * Last 3 Months
+    * Last 30 Days
+    * Last 7 Days
+    * Last 24 Hours
+    * Last 60 Minutes
+    * Custom - If selected, select a custom date range. **Queries with a specific date ranges cannot be saved.**
 8. (Optional) Click **Preview** to preview your custom query. The Custom Query section will be updated to display your custom query analytics preview.
 9. Click **Save** to save your custom query. Your custom query will be saved, the Saved Queries drop-down menu will be updated to include your saved custom query, the Custom Query section will be updated to display your custom query analytics, and your custom query will be available on the _Queries Overview_ screen.
 
@@ -71,14 +67,16 @@ To create a custom query without filtering:
 To create a custom query with filtering:
 
 1. Enter a query name in the **Name** field.
-2. Select a **Method**. The Method drop-down menu selections are:
+2. Select a line or bar chart for the **Display**.
+3. Select a **Method**. The Method drop-down menu selections are:
     * Count
     * Cardinality
     * Average
     * Sum
     * Min
     * Max
-3. Select a **Field**. The Field drop-down menu selections are:
+    * Find - If selected, select the fields to include in the events and the limit, offet, and sort options.
+4. Select a **Field**. The Field drop-down menu selections are:
     * Custom - If selected, enter the custom field information.
     * Event
     * Application
@@ -88,7 +86,7 @@ To create a custom query with filtering:
     * Country
     * Session
     * Session Length
-4. Select a **Grouping**. The Grouping drop-down menu selections are:
+5. Select a **Grouping**. The Grouping drop-down menu selections are:
     * Custom - If selected, enter the custom grouping information.
     * Event
     * Application
@@ -98,20 +96,14 @@ To create a custom query with filtering:
     * Country
     * Session
     * Session Length - If selected, enter an **Interval**. The entered interval specifies the range to use when grouping numeric values.
-5. (Optional) Select the **Map** checkbox to display the results on a map instead of a chart. Please note this is not possible for averages.
-6. Select a **Date Range**. The Date Range drop-down menu selections are:
-    * From/To - If selected, enter the From and To dates and times. **Queries with From/To date ranges cannot be saved.**
-    * Custom - If selected, select a custom date range.
-        * Number of Months
-        * Number of Days
-        * Number of Hours
-        * Number of Minutes
-    * 3 Months
-    * 30 Days
-    * 7 Days
-    * 24 Hours
-    * 60 Minutes
-7. (Optional) Select the **Include current period** checkbox to Include up to the end of the current period for which there will be only partial data.
+6. (Optional) Select the **Map** checkbox to display the results on a map instead of a chart. Please note this is not possible for averages.
+7. Select a **Date Range**. The Date Range drop-down menu selections are:
+    * Last 3 Months
+    * Last 30 Days
+    * Last 7 Days
+    * Last 24 Hours
+    * Last 60 Minutes
+    * Custom - If selected, select a custom date range. **Queries with a specific date ranges cannot be saved.**
 8. (Optional) Click **Preview** to preview your custom query. The Custom Query section will be updated to display your custom query analytics preview.
 9. Select **Basic**.
 10. For Match, select either **All** or **Any**.
@@ -128,13 +120,17 @@ To create a custom query with filtering:
     * Session Length
 13. Select a filter operand. The filter operand selections are:
     * Equals
-    * Not
+    * Is not
+    * Exists
+    * Is one of
     * Starts with
+    * Doesn't start with
     * Ends with
-    * Greater than
-    * Greater than or equal to
-    * Less than
-    * Less than or equal to
+    * Doesn't end with
+    * Is greater than
+    * Is greater than or equal to
+    * Is less than
+    * Is less than or equal to
 14. Complete the operand field or make a selection from the drop-down menu. The field selections are based on the selected filter type. To fetch the available field selections over the selected time range, click the **Magnify** icon. Optionally, you can select **Advanced** and enter the JSON coded filter.
 15. Click **Save** to save to save your custom query. Your custom query will be saved, the Saved Queries drop-down menu will be updated to include your saved custom query, the Custom Query section will be updated to display your custom query analytics, and your custom query will be available on the _Queries Overview_ screen.
 
@@ -156,10 +152,11 @@ To edit a custom query:
 
 1. Select the custom query to edit from the Saved Queries drop-down menu or from the _Queries Overview_ screen.
     ![Edit a query](/Images/custom_queries_edit.png)
-2. Edit the **Method**, **Field**, **Grouping**, and **Date Range** selections as needed.
+2. Edit the **Name**, **Display**, **Method**, **Field**, **Grouping**, and **Date Range** selections as needed.
 3. (Optional) Click **Preview** to preview your custom query changes. The Custom Query section will be updated to display your custom query analytics changes.
-4. Edit the filtering as needed.
-5. Click **Save** to save your custom query changes. The Custom Query section will be updated to display your custom query analytics changes.
+4. Click the **Actions** (**...**) menu to edit the chart display. You can also refresh the data and download chart data.
+5. Edit the filtering as needed.
+6. Click **Save** to save your custom query changes. The Custom Query section will be updated to display your custom query analytics changes.
 
 ## Deleting queries
 
@@ -193,13 +190,17 @@ To configure basic filtering:
     * Session Length
 5. Select a filter operand. The filter operand selections are:
     * Equals
-    * Not
+    * Is not
+    * Exists
+    * Is one of
     * Starts with
+    * Doesn't start with
     * Ends with
-    * Greater than
-    * Greater than or equal to
-    * Less than
-    * Less than or equal to
+    * Doesn't end with
+    * Is greater than
+    * Is greater than or equal to
+    * Is less than
+    * Is less than or equal to
 6. Complete the operand field or make a selection from the drop-down menu. The selections are based on the selected filter type. To fetch the available field selections over the selected time range, click the **Magnify** icon.
 7. (Optional) To add additional filters, click the **Plus** icon.
 8. To save the configured filtering as part of a custom query, click **Save**.

@@ -25,6 +25,21 @@ Support also includes vendors' latest Enterprise or Extended Support Release (ES
 
 Please see the [Supported Browsers](https://platform.axway.com/browser) page for currently supported browser vendors and versions.
 
-## Next steps
+## Amplify Platform Management documentation
 
-Review the [Getting Started](/docs/getting_started_with_amplify_platform_management/) documentation to start using the Amplify Platform Management interface.
+Browse all documentation for Amplify Platform Management under the left navigation menu.
+
+Review the [Getting Started](/docs/getting_started_with_amplify_platform_management/) documentation to sign up, sign in, and navigate the Amplify Platform Management interface. Once you are familiar with the interface, continue to the following topics:
+
+* [Manage accounts](/docs/management_guide/managing_accounts/)
+* [Manage organizations](/docs/management_guide/organizations/)
+* [Manage applications](/docs/management_guide/managing_applications/)
+
+## Support
+
+The Axway Global Support team provides worldwide 24 x 7 support for customers with active support agreements.
+Email support@axway.com or visit [Axway Support](https://support.axway.com/).
+
+## Training
+
+Axway offers training across the globe, including on-site instructor-led classes and self-paced online learning. To learn more about Amplify and other Axway product solutions, browse Axway University's [courses and learning plans](https://university.axway.com/learn).

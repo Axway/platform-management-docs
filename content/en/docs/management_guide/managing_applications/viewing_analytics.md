@@ -74,50 +74,6 @@ The **Avg. Session Length** tab displays the average length of use of the applic
 
 ![Average Session Length menu](/Images/analytics_session_length_latest.png)
 
-### Installs tab
-
-The **Installs** tab displays the total number of installs of the application by platform, version, and location for the provided time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
-
-![Installs menu](/Images/analytics_installs_latest.png)
-
-In the Platform and Version views:
-
-* At the top, a line chart displays the time series of the metric; hover your mouse over an inflection point in the chart to view data for that time.
-* Below the chart, a table displays additional details for the metric.
-
-In the Location view:
-
-* Double-click the map to zoom in on a region to view more granular session counts by region.
-
-* Hover over a circle to view an outline of the region represented by the displayed count.
-
-* To zoom out, shift+click on the map. You can also use the on-screen zoom controls.
-
-### Updates tab
-
-The **Updates** tab displays the total number of updates of the application by platform, version, and location for the provided time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
-
-![Updates menu](/Images/analytics_updates.png)
-
-In the Platform and Version views:
-
-* At the top, a line chart displays the time series of the metric; hover your mouse over an inflection point in the chart to view data for that time.
-* Below the chart, a table displays additional details for the metric.
-
-In the Location view:
-
-* Double-click the map to zoom in on a region to view more granular session counts by region.
-
-* Hover over a circle to view an outline of the region represented by the displayed count.
-
-* To zoom out, shift+click on the map. You can also use the on-screen zoom controls.
-
-### Version Adoption tab
-
-The **Version Adoption** tab shows the number of sessions by platform version for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
-
-![Version Adoption menu](/Images/version_adoption.png)
-
 ### Unique Devices tab
 
 The **Unique Devices** tab displays the maximum daily number of unique devices using the application by platform and application version for the provided time interval and environment. The maximum unique devices number provides you with a measure of the number of real users using your application, normalized for the fact that some users may use the application multiple times a day. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
@@ -280,8 +236,4 @@ In the metrics for Mobile Backend Services Requests, if a Mobile Backend Service
 
 ### Version and environment values for Crash and Test metrics
 
-When viewing Test and Crash analytics, the **Version** and **Environment** drop-down menus display "(not set)" since version and environment are not available. For the same reason, graphs that display a version series of Crash or Test metrics will display "(not set)"
-
-### Geographic analysis
-
-On a metric's **Geo** tab, if the country could not be determined from the metric's included geographic coordinates or coordinates were not provided at all, "(not set)" is displayed as the Country name.
+When viewing Test and Crash analytics, the **Version** and **Environment** drop-down menus display "(not set)" since version and environment are not available. For the same reason, graphs that display a version series of Crash or Test metrics will display "(not set)".

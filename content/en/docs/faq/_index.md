@@ -7,13 +7,9 @@ date: 2021-08-12
 
 This document provides questions and answers to commonly asked questions about the Amplify Platform Management interface.
 
-## Creating custom Mobile Backend Services (MBS) objects
-
-See [Custom Objects and Fields](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/managing_mobile_backend_services_data_objects/) for more information.
-
 ## Creating API keys
 
-To create API keys (development and production), see [{{% variables/apibuilder_prod_name %}} Configuration](https://docs.axway.com/bundle/API_Builder_4x_allOS_en/page/project_configuration.html) for more information.
+To create API keys (development and production), see [{{% variables/apibuilder_prod_name %}} Configuration](https://docs.axway.com/bundle/api-builder/page/docs/developer_guide/project/configuration/index.html) for more information.
 
 ## Authorizing a browser or device
 
@@ -36,11 +32,3 @@ To export data from analytics views, see [Export Data](/docs/management_guide/m
 ## Managing datasource
 
 Read [Managing Mobile Backend Services Datasources](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/) for more information on how to manage Mobile Backend Services datasources.
-
-## Common sending and scheduling push errors
-
-See [Troubleshooting common errors](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/) for more information about troubleshooting sending and scheduling push errors
-
-## Configuring cloud services
-
-To configure cloud services, please review [Configuring Cloud Services](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/configuring_cloud_services/) for more details.

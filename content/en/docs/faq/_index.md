@@ -28,7 +28,3 @@ To set a custom date range, please review [Custom Date/Time Range Filter](/docs
 ## Exporting data
 
 To export data from analytics views, see [Export Data](/docs/management_guide/managing_applications/viewing_analytics/) for more details.
-
-## Managing datasource
-
-Read [Managing Mobile Backend Services Datasources](/docs/management_guide/managing_applications/managing_mobile_backend_services_datasources/) for more information on how to manage Mobile Backend Services datasources.

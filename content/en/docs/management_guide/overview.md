@@ -49,7 +49,6 @@ The apps list can be filtered by:
 * All Apps
 * Titanium SDK Apps
 * APS SDK Apps
-* Runtime Services
 * Other
 
 To filter the apps list by a selected app type:

@@ -291,15 +291,13 @@ The **Activity** tab allows you to filter and see more details about each of th
         * Last 24 hours
         * Last 60 minutes
         * Custom range
-    2. **All Event Types Filter** - Filter the events by the event type:
-
-        {{% alert title="Note" color="primary" %}}Mobile Backend Services and Runtime Services are deprecated and will be discontinued effective September 1, 2022.{{% /alert %}}
-
+    2. **All Event Types Filter** - Filter the events by the event type
+        * Auth Events
+        * Catalog Events
+        * Central Events
         * Org Events
         * Team Events
-        * App Events
-        * Mobile Backend Services Events
-        * Runtime Services Events
+        * User Events
     3. **Search Box** - Type keywords to search by event description or contents.
 6. Click to expand an event to view additional details.
 

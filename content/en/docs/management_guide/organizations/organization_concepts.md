@@ -15,11 +15,9 @@ Let's start from the beginning and look at what an organization is in the {{% va
 
 ## Subscriptions
 
-An organization is linked to one or more subscriptions. Subscriptions define the platform capabilities that the organization is allowed to use. For example, the test organization has an Enterprise subscription to Application Development and a terminated trial subscription to Application Integration.
+An organization is linked to one or more subscriptions. Subscriptions define the platform capabilities that the organization is allowed to use.
 
-![Subscriptions page](/Images/organization_subscriptions.png)
-
-When you sign up for a trial of the platform, then an organization is automatically created and you become the administrator that manages the organization with a default list of subscriptions. When a customer purchases our platform capabilities, then an Axway administrator creates an organization, assigns the correct subscriptions, and makes a user of the customer an administrator of the Platform.
+When you sign up for a trial of the platform, then an organization is automatically created and you become the administrator that manages the organization. When a customer purchases our platform capabilities, then an Axway administrator creates an organization, assigns the correct subscriptions, and makes a user of the customer an administrator of the Platform.
 
 ## Multiple organizations
 

@@ -56,7 +56,7 @@ To register a Website or Web application:
 To register a custom application (other than APS SDK, API/Microservice, or Website/Web applications):
 
 1. Sign in to the [Platform](https://platform.axway.com/).
-2. Click **Overview** from the *Services Links* menu.
+2. Click **Overview** from the *Services Links* menu.
 3. Click the **Actions** (**...**) menu in the upper right.
 4. Click **Register App for Services** to open the *Register App for Services* form.
 5. Enter the **Name** of the application.

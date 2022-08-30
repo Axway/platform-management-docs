@@ -5,7 +5,7 @@ weight: 30
 date: 2021-08-12
 ---
 
-To manage your registered apps, select the application to manage from applications listed on **Apps** page.
+To manage your registered apps, select one from the table on the **Apps** page.
 
 ## App Overview and service keys
 

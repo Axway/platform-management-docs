@@ -12,11 +12,11 @@ You can do the following in the {{% variables/platform_prod_name %}} as an admin
 * Manage the applications created by organization users
 * Configure Identity Providers
 
-These functions are available through the **Organization** tab. To access the **Organization** tab, sign in to the [{{% variables/platform_prod_name %}}](https://platform.axway.com/) and select **Organization** from the *User* dropdown menu.
+These functions are available through the **Organization** menu. To access the **Organization** menu, sign in to the [{{% variables/platform_prod_name %}}](https://platform.axway.com/) and select **Organization** from the *User* dropdown menu.
 
 ## Organization left navigation
 
-To manage your organization information, select **Organization** from the *User* menu. The left navigation includes the following tabs:
+To manage your organization information, select **Organization** from the *User* menu. The left navigation includes the following views:
 
 ![Organization left navigation](/Images/organization_left_menu.png)
 
@@ -32,7 +32,7 @@ To manage your organization information, select **Organization** from the *Use
 
 ## Managing an organization
 
-The **Organization** tab enables you to select and update the organization name. It also provides detailed organization and subscription information.
+The **Organization** view enables you to select and update the organization name. It also provides detailed organization and subscription information.
 
 ![Managing organizations](/Images/organization_tab.png)
 
@@ -40,7 +40,7 @@ To update an organization name:
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
-3. Click the **Organization** tab from the left navigation.
+3. Click the **Organization**link from the left navigation.
 4. Select the organization from the *Organization* dropdown menu.
 5. Select the **Actions** (**...**) menu at the upper right-hand side of the *Organization* page.
 6. Select **Edit** from the **Actions** menu.
@@ -49,7 +49,7 @@ To update an organization name:
 
 ## Managing users
 
-The **Users** tab enables you to view and manage users of the selected organization.
+The **Users** view enables you to view and manage users of the selected organization.
 
 ![Managing users](/Images/dashboard_users.png)
 
@@ -75,8 +75,8 @@ An email invitation is sent to the user, providing a link to confirm their membe
 After you create or add a users to your organization, you can view and modify the user's access rights or role.
 
 1. Sign in to the [Platform](https://platform.axway.com/).
-2. Click on the **User & Org** menu and select **Organization**.
-3. Click the **Users** tab from the left navigation.
+2. Click the **User & Org** menu, and then select **Organization**.
+3. Click **Users** from the left navigation.
 4. If you're a user of multiple organizations, select the organization you want to view from the *Users* dropdown menu.
 5. If an Identity Provider is configured for the organization, an *Identity Provider* dropdown menu is provided. Select a different Identity Provider or no restriction (do not require authenticating with a configured Identity Provider) from the *Identity Provider* dropdown menu.
 6. To change a user's role, select a different role or additional roles from the *Role* dropdown menu. Note that the *Role* dropdown menu selections are sorted by product roles. Administrators can manage all users and applications in the organization. All other user roles can view only applications to which they belong.
@@ -87,7 +87,7 @@ The user's last login is displayed in the *Last Login* column, and their current
 
 ## Managing service accounts
 
-The **Service Accounts** tab enables you to view and manage service accounts of the selected organization.
+The **Service Accounts** view enables you to view and manage service accounts of the selected organization.
 
 ![Managing Service Accounts](/Images/manage_service_accounts.png)
 
@@ -97,7 +97,7 @@ If you are an organization admin, you can add new service accounts to an organiz
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
-3. Click the **Service Accounts** tab from the left navigation.
+3. Click **Service Accounts** from the left navigation.
 4. If you're a user of multiple organizations, select the organization you want to view from the *Service Account* dropdown menu.
 5. Click the **+** **Service Account** button in the upper-right corner.
 6. Enter the service account name and optionally add a description.
@@ -114,7 +114,7 @@ After you create or add a user to your organization, you can view and modify the
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
-3. Click the **Service Accounts** tab from the left navigation.
+3. Click **Service Accounts** from the left navigation.
 4. If you're a user of multiple organizations, select the organization you want to view from the *Service Accounts* dropdown menu.
 5. To view the service account details, select a service account from the list. The details page appears.
 6. To edit the service account, select the **Actions** menu (**...**), and select **Edit**.
@@ -130,7 +130,7 @@ After you create or add a user to your organization, you can view and modify the
 
 ## Managing teams
 
-The **Teams** tab enables you to view and manage teams, their members and their assigned applications.
+The **Teams** view enables you to view and manage teams, their members and their assigned applications.
 
 ![Managing teams](/Images/teams_tab.png)
 
@@ -140,9 +140,9 @@ To add a team:
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
-3. Click the **Teams** tab from the left navigation.
+3. Click **Teams** from the left navigation.
 4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
-5. Click the *+Teams** button.
+5. Click the **Teams** button.
 6. Enter the team name in the **Name** field.
 7. (Optional) Provide a team description in the **Description** field.
 8. (Optional) Add team tags in the **Tags** field.
@@ -157,7 +157,7 @@ To edit an existing team:
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
-3. Click the **Teams** tab from the left navigation.
+3. Click **Teams** from the left navigation.
 4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
 5. Select the **Actions** (**...**) menu associated with the team to edit.
 6. Select **Edit**.
@@ -182,7 +182,7 @@ To remove a team:
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
-3. Click the **Teams** tab from the left navigation.
+3. Click **Teams** from the left navigation.
 4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
 5. Select the **Actions** (**...**) menu associated with the team to edit.
 6. Select **Remove**.
@@ -192,13 +192,13 @@ To remove a team:
 
 ## Viewing usage
 
-The **Usage** tab enables you to view the usage of allocated resources for the selected organization for the selected product or all products for the selected period.
+The **Usage** view enables you to view the usage of allocated resources for the selected organization for the selected product or all products for the selected period.
 
 ![Viewing usage](/Images/usage_tab.png)
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
-3. Click the **Usage** tab from the left navigation.
+3. Click **Usage** from the left navigation.
 4. If you're a member of multiple organizations, select the organization you want to view from the *Usage* dropdown menu.
 5. Select a month and year from the dropdown.
 6. You can select **Show Environments**.
@@ -207,11 +207,11 @@ Refer to the [Amplify Subscription Usage](https://docs.axway.com/bundle/subusag
 
 ## Selecting or creating environments for usage tracking
 
-The **Environments** tab is used for usage tracking. Refer to manual entry reporting in the [Amplify Subscription Usage](https://docs.axway.com/bundle/subusage_11_en/page/amplify_subscription_usage_and_reporting.html) guide for details about how to select or create an environment for usage tracking.
+The **Environments** view is used for usage tracking. Refer to manual entry reporting in the [Amplify Subscription Usage](https://docs.axway.com/bundle/subusage_11_en/page/amplify_subscription_usage_and_reporting.html) guide for details about how to select or create an environment for usage tracking.
 
 ## Managing Marketplace settings
 
-The **Marketplace** tab enables you to manage your Marketplace, which is the storefront into all products exposed for discovery and consumption by internal and external consumers. Refer to the following sections in the Amplify Central guide.
+The **Marketplace** view enables you to manage your Marketplace, which is the storefront into all products exposed for discovery and consumption by internal and external consumers. Refer to the following sections in the Amplify Central guide.
 
 * [Marketplace settings](https://docs.axway.com/bundle/amplify-central/page/docs/manage_marketplace/marketplace_settings/index.html)
 * [Marketplace appearance](https://docs.axway.com/bundle/amplify-central/page/docs/manage_marketplace/marketplace_branding/index.html)
@@ -219,7 +219,7 @@ The **Marketplace** tab enables you to manage your Marketplace, which is the sto
 
 ## Managing organization settings
 
-The **Settings** tab enables you to:
+The **Settings** view enables you to:
 
 * Apply branding to the Amplify Platform navigation and selected views for the selected organization.
 * Configure and manage entity providers for Amplify Platform authentication.
@@ -233,7 +233,7 @@ To apply branding to Amplify Platform per your organization's branding requireme
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
-3. Click the **Settings** tab from the left navigation. The *Branding* page appears.
+3. Click **Settings** from the left navigation. The *Branding* page appears.
 4. If you're a member of multiple organizations, select the organization you want to view from the *Branding* dropdown menu.
 5. Select your organization's logo. The logo will be displayed at a maximum height of 45 pixels, and the logo file must be less than 100KB.
     1. Click **Choose File**.
@@ -277,11 +277,11 @@ Administrators have the option to configure additional password settings to add 
 
 ## Viewing organization activities
 
-The **Activity** tab allows you to filter and see more details about each of the events for your organization.
+The **Activity** view allows you to filter and see more details about each of the events for your organization.
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
-3. Click the **Activity** tab from the left navigation.
+3. Click **Activity** from the left navigation.
 4. If you're a member of multiple organizations, select the organization you want to view from the *Activity* dropdown menu.
 5. Filter your user events by:
     1. **Date Range Filter** - Filter the events by date and time.

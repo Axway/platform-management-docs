@@ -28,7 +28,7 @@ View metrics details by doing the following:
 6. View the metrics data by clicking the **Actions** (**...**) menu and then selecting View as Custom Query. Refer to [Creating Custom Queries](/docs/management_guide/managing_applications/creating_custom_queries/).
 7. Download metrics for use in other programs by clicking the **Actions** (**...**) menu and selecting an option from the Download section. For details on downloading metrics, refer to the **Download Data** section of [Viewing Analytics](/docs/management_guide/managing_applications/viewing_analytics/).
 8. Click a category to show the metrics by that category. This does not apply to API Management.
-9. Select **Scale to the current page**  to scale the metrics display to the current page.
+9. Select **Scale to the current page** to scale the metrics display to the current page.
     ![Metrics details](/Images/metrics_details.png)
 
 ## Common metrics

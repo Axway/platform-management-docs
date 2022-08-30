@@ -8,7 +8,7 @@ Access the accounts section of the interface to manage your Platform account.
 
 ## Account left navigation
 
-To manage your account information, select **Account** from the [User menu](/docs/getting_started_with_amplify_platform_management/navigation/#user-menu). The left navigation includes the following tabs:
+To manage your account information, select **Account** from the [User menu](/docs/getting_started_with_amplify_platform_management/navigation/#user-menu). The left navigation includes the following views:
 
 ![Account left navigation menu](/Images/account_left_hand_menu.png)
 
@@ -41,19 +41,19 @@ The edit view enables you to edit the **First Name** and **Last Name** fields an
 
 ## View organizations and roles
 
-The **Orgs & Roles** link lists the organizations you are a member of by org name and assigned roles. This menu appears for accounts with multiple organizations only. To view organization details, click on a selected **Org Name** link.
+The **Orgs & Roles** view lists the organizations you are a member of by org name and assigned roles. This menu appears for accounts with multiple organizations only. To view organization details, click on a selected **Org Name** link.
 
 ![Orgs & Roles page](/Images/orgs_and_roles_tab.png)
 
 ## Manage credentials
 
-The **Credentials** link takes you to the view where you can change your account password and enable or disable multi-factor authentication. If your organization is using an Identity Provider, the Credentials link takes you to the view where you can create and change the password you use for tooling. Refer to [Configuring Tooling Credentials](/docs/management_guide/configuring_and_managing_identity_providers/configuring_tooling_credentials).
+The **Credentials** view is where you can change your account password and enable or disable multi-factor authentication. If your organization is using an Identity Provider, the Credentials link takes you to the view where you can create and change the password you use for tooling. Refer to [Configuring Tooling Credentials](/docs/management_guide/configuring_and_managing_identity_providers/configuring_tooling_credentials).
 
 ### Change your password
 
 To change your password:
 
-1. Select the **Credentials** link.
+1. Click **Credentials**.
 2. Enter a new password in the **Change Password** field. The password should be at least eight characters (default requirements) or must adhere to any password policies configured for your organization. As you enter a new password in the **Change Password** field, the **Confirm Password** field is displayed.
     ![Change and confirm password](/Images/change_password_latest.png)
 3. Confirm the new password in the **Confirm Password** field. The entry in the **Confirm Password** field must be the same as the entry in the **Password** field.
@@ -72,7 +72,7 @@ Multi-factor authentication in the Amplify Platform is possible when your user a
 
 To enable multi-factor authentication:
 
-1. Select the **Credentials** link.
+1. Click **Credentials**.
 2. Select **Enabled** next to the **Multi-Factor Authentication** option. The **Preferred MFA Method** options becomes available.
 3. For the **Preferred MFA Method**, select the default method a multi-factor authentication token will be generated for when logging in from a new device. Options are **Authenticator App** and **Email**.
 
@@ -90,7 +90,7 @@ To enable multi-factor authentication:
 
 To disable multi-factor authentication:
 
-1. Select the **Credentials** tab.
+1. Click **Credentials**.
 2. Deselect **Enabled** next to the **Multi-Factor Authentication** option.
 3. Click **Save**.
 
@@ -103,14 +103,14 @@ Use an Authenticator App such as Google Authenticator or Microsoft Authenticator
 To setup an authenticator app:
 
 1. Install an Authenticator App.
-2. In the Platform, select the Credentials tab in the **Account** menu.
+2. In the Platform, select the Credentials link in the **Account** menu.
 3. Click **Configure** next to **Set up Authentication App**. A popup appears with a QR code.
 4. Scan the QR code with your Authenticator App.
 5. Type the code from the Authenticator App into the modal dialog, and then click **Submit**. The Authenticator App is now configured.
 
 ## Manage settings
 
-The **Settings** tab enables you to manage your organization account settings. You can configure the following settings:
+The **Settings** view enables you to manage your organization account settings. You can configure the following settings:
 
 * Select your organization account theme (Light, Dark, or Match OS)
 * Expand or minimize side-bar menus

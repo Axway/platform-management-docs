@@ -4,11 +4,11 @@ linkTitle: Viewing analytics
 weight: 40
 date: 2021-08-12
 ---
-You can view detailed analytics for client service applications from their Analytics tab. You can also download analytics data to use in other programs.
+You can view detailed analytics for client service applications from their Analytics view. You can also download analytics data to use in other programs.
 
-## Analytics tab for client services
+## Analytics menu for client services
 
-Click Overview - Apps - <_Client App_> - Analytics to navigate to the **Analytics** tab. The **Analytics** tab lets you view detailed analytics for each application. The **Analytics** tab contains several sub-tabs to view different metric categories and create event funnels and queries.
+Click Overview - Apps - <_Client App_> - Analytics to navigate to the **Analytics** menu. The **Analytics** view provides detailed analytics for each application. The **Analytics** menu contains several sub-views for different metric categories and to create queries.
 
 ![Analytics menu](/Images/analytics_tab.png)
 
@@ -22,11 +22,11 @@ Click Overview - Apps - <_Client App_> - Analytics to navigate to the **Analytic
 * Events
 * Custom Queries
 
-Each sub-tab is explained below.
+Each view is explained below.
 
 ### Real-time tab
 
-The **Real-Time** tab displays the number of currently active sessions, as well as the number of installs, sessions, and the average session length over the last hour. Note that all times are in Coordinated Universal Time (UTC).
+The **Real-Time** view displays the number of currently active sessions, as well as the number of installs, sessions, and the average session length over the last hour. Note that all times are in Coordinated Universal Time (UTC).
 
 **Active Users** - The number of users in the application at the moment.
 
@@ -40,9 +40,9 @@ The real-time analytics information can be filtered by version and environment.
 
 ![Real-time analytics menu](/Images/analytics_realtime.png)
 
-### Sessions tab
+### Sessions view
 
-The **Sessions** tab displays the total number of user sessions for the application for the provided time interval and environment and how long on average users spent using it by platform and location. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Sessions** view displays the total number of user sessions for the application for the provided time interval and environment and how long on average users spent using it by platform and location. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![Sessions menu](/Images/analytics_sessions.png)
 
@@ -68,15 +68,15 @@ In the Location view:
 
 * To zoom out, shift+click on the map. You can also use the on-screen zoom controls.
 
-### Avg. Session Length tab
+### Avg. Session Length view
 
-The **Avg. Session Length** tab displays the average length of use of the application by the platform for the provided time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Avg. Session Length** view displays the average length of use of the application by the platform for the provided time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![Average Session Length menu](/Images/analytics_session_length_latest.png)
 
-### Unique Devices tab
+### Unique Devices view
 
-The **Unique Devices** tab displays the maximum daily number of unique devices using the application by platform and application version for the provided time interval and environment. The maximum unique devices number provides you with a measure of the number of real users using your application, normalized for the fact that some users may use the application multiple times a day. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Unique Devices** view displays the maximum daily number of unique devices using the application by platform and application version for the provided time interval and environment. The maximum unique devices number provides you with a measure of the number of real users using your application, normalized for the fact that some users may use the application multiple times a day. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![Unique Devices menu](/Images/analytics_unique_devices.png)
 
@@ -85,19 +85,19 @@ The **Unique Devices** tab displays the maximum daily number of unique devices u
 * At the top, a line chart displays the time series of the metric; hover your mouse over an inflection point in the chart to view data for that time.
 * Below the chart, a table displays additional details for the metric.
 
-### Events tab
+### Events view
 
-The **Events** tab lists the name and number of each custom events generated by your application, as well as a timeline of when events were generated for the selected time interval and environment. To get custom events to appear on the list, you must build your application and trigger each event to ensure that the events are registered with the analytics engine. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Events** view lists the name and number of each custom events generated by your application, as well as a timeline of when events were generated for the selected time interval and environment. To get custom events to appear on the list, you must build your application and trigger each event to ensure that the events are registered with the analytics engine. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![Events menu](/Images/analytics_events.png)
 
-### Custom Queries tab
+### Custom Queries view
 
-The **Custom Queries** tab enables you to create and view queries. For additional information on creating custom queries, refer to [Creating Custom Queries](/docs/management_guide/managing_applications/creating_custom_queries/).
+The **Custom Queries** view enables you to create and view queries. For additional information on creating custom queries, refer to [Creating Custom Queries](/docs/management_guide/managing_applications/creating_custom_queries/).
 
 ![Custom Queries menu](/Images/custom_queries_latest.png)
 
-{{% alert title="Note" color="primary" %}}Once custom queries are created for the application, the **Custom Queries** tab will display a preview for each created custom query.{{% /alert %}}
+{{% alert title="Note" color="primary" %}}Once custom queries are created for the application, the **Custom Queries** view will display a preview for each created custom query.{{% /alert %}}
 
 ## Data filters
 

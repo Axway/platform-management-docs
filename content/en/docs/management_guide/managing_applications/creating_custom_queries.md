@@ -9,11 +9,11 @@ By default, analytics are provided for Average Session Length, Installs, Events,
 
 ## Queries overview
 
-To access the _Queries Overview_ screen, select the **Custom Queries** link on the Overview left menu.
+To access the _Queries Overview_ view, select the **Custom Queries** link on the Overview left menu.
 
 ![Queries overview](/Images/custom_queries_overview.png)
 
-If you have not created any custom queries, selecting the **Custom Queries** tab will transfer you to the _Queries_ screen. The _Queries_ screen enables creating, previewing, editing, saving, and deleting custom analytics queries. You can also filter custom queries. To access the _Queries_ screen from the _Queries Overview_ screen, click the **\+ Query** button or click on a custom query tile. To navigate from the _Queries_ screen to the _Queries Overview_ screen, select **All Queries** from the Saved Queries drop-down menu.
+If you have not created any custom queries, selecting the **Custom Queries** link will transfer you to the _Queries_ view. The _Queries_ view enables creating, previewing, editing, saving, and deleting custom analytics queries. You can also filter custom queries. To access the _Queries_ view from the _Queries Overview_ view, click the **Query** button or click on a custom query tile. To navigate from the _Queries_ view to the _Queries Overview_ view, select **All Queries** from the Saved Queries drop-down menu.
 
 ![Queries page](/Images/custom_queries.png)
 
@@ -138,7 +138,7 @@ To preview a custom query and not save it, click **Submit**. The Custom Query se
 
 ## Saving queries
 
-To save a custom query, click **Save**. Your custom query will be saved, the Saved Queries drop-down menu will be updated to include your saved custom query, the Custom Query section will be updated to display your custom query analytics, and your custom query will be available on the _Queries Overview_ screen.
+To save a custom query, click **Save**. Your custom query will be saved, the Saved Queries drop-down menu will be updated to include your saved custom query, the Custom Query section will be updated to display your custom query analytics, and your custom query will be available on the _Queries Overview_ view.
 
 ## Clearing queries
 
@@ -148,7 +148,7 @@ To clear the custom query selections and fields, click **Clear**.
 
 To edit a custom query:
 
-1. Select the custom query to edit from the Saved Queries drop-down menu or from the _Queries Overview_ screen.
+1. Select the custom query to edit from the Saved Queries drop-down menu or from the _Queries Overview_ view.
     ![Edit a query](/Images/custom_queries_edit.png)
 2. Edit the **Name**, **Display**, **Method**, **Field**, **Grouping**, and **Date Range** selections as needed.
 3. (Optional) Click **Preview** to preview your custom query changes. The Custom Query section will be updated to display your custom query analytics changes.
@@ -160,9 +160,9 @@ To edit a custom query:
 
 To delete a custom query:
 
-1. Select the custom query to delete from the Saved Queries drop-down menu or from the _Queries Overview_ screen.
+1. Select the custom query to delete from the Saved Queries drop-down menu or from the _Queries Overview_ view.
 2. Click **Delete**.
-3. Enter the name of the query to delete in the _Delete Confirmation_ screen.
+3. Enter the name of the query to delete in the _Delete Confirmation_ view.
 4. To confirm the query deletion, click **I understand that this is a permanent and irreversible action. Continue**.
 
 ## Filtering queries

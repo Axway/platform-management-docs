@@ -11,23 +11,23 @@ You can manage the Titanium, Android, and iOS applications.
 
 ## App Overview and service keys
 
-When you select a client application from the **Apps** tab, its **Overview** tab opens. The **Overview** tab displays basic information about the application, including its name, description, and application GUID, category, creator, admin, and assigned teams. It also includes [key metrics](/docs/management_guide/managing_applications/viewing_metrics/) collected by the Analytics service.
+When you select an application from the **Apps** link, its **Overview** view opens. The **Overview** view displays basic information about the application, including its name, description, and application GUID, category, creator, admin, and assigned teams. It also includes [key metrics](/docs/management_guide/managing_applications/viewing_metrics/) collected by the Analytics service.
 
 ## Apps left navigation
 
-The left navigation includes the following tabs:
+The left navigation includes the following views:
 
-![Apps ledt navigation](/Images/titanium_apps_left_menu.png)
+![Apps left navigation](/Images/titanium_apps_left_menu.png)
 
-For Titanium applications, the **Overview** tab also specifies the **App ID** and **SDK Version** assigned to the application when it was created. The Titanium applications **Overview** tab also the application's publisher, copyright, and URL information.
+For Titanium applications, the **Overview** view also specifies the **App ID** and **SDK Version** assigned to the application when it was created. The Titanium applications the **Overview** view also provides the application's publisher, copyright, and URL information.
 
 ![Apps overview](/Images/app_overview_latest.png)
 
-Native iOS and Android applications include the same basic information on the **App Info** tab as Titanium applications. The **App Info** tab includes Category, Creator, and Admin information. Additionally, you can click the **Actions** (**...**) menu in the upper-right of the screen and select **Edit** to edit the Name, Category, and Description of your application for iOS and Android applications. Once you have completed your edits, click the **Save** button to save your edits. To return the **Overview** tab without saving your edits, click the **Cancel** button.
+Native iOS and Android applications include the same basic information on the **App Info** view as Titanium applications. The **App Info** view includes Category, Creator, and Admin information. Additionally, you can click the **Actions** (**...**) menu in the upper-right of the screen and select **Edit** to edit the Name, Category, and Description of your application for iOS and Android applications. Once you have completed your edits, click the **Save** button to save your edits. To return the **Overview** view without saving your edits, click the **Cancel** button.
 
 ![Edit iOS and Android apps](/Images/edit_app.png)
 
-For Titanium applications, you can click the **Actions** (**...**) menu in the upper-right of the screen and select **Edit** to edit the Name, App ID, Copyright, URL, and Description of your application. Once you have completed your edits, click the **Save** button to save your edits. To return the **Overview** tab without saving your edits, click the **Cancel** button.
+For Titanium applications, you can click the **Actions** (**...**) menu in the upper-right of the screen and select **Edit** to edit the Name, App ID, Copyright, URL, and Description of your application. Once you have completed your edits, click the **Save** button to save your edits. To return the **Overview** view without saving your edits, click the **Cancel** button.
 
 {{% alert title="Note" color="primary" %}}Changes you make here will not affect your local application. Make sure to mirror the changes in your `tiapp.xml` file, or these will be overwritten the next time you build your app.{{% /alert %}}
 
@@ -37,13 +37,13 @@ You can also permanently delete the selected application by clicking the **Actio
 
 ## APIs tab
 
-The **APIs** tab lists the Services, APIs, and {{% variables/apibuilder_prod_name %}} (**Service**) applications used by the application. Click an item in the list to view or manage its services.
+The **APIs** view lists the Services, APIs, and {{% variables/apibuilder_prod_name %}} (**Service**) applications used by the application. Click an item in the list to view or manage its services.
 
 ![APIs page](/Images/apis_latest.png)
 
 ## Crashes tab
 
-The **Crashes** tab displays the total number of crashes of your application for the selected time frame and the crash rate for your application. The crash for your application is calculated by dividing the total number of crashes by the total number of sessions. Additionally, error messages, time of the first occurrence, time of the last occurrence, total occurrences, and triage status are displayed for each operating system (for example, Windows, iOS, and Android). The displayed crash analytics can be filtered by the environment, crash type, and crash status. To export the crash analytics information, click the **Actions** (**...**) menu, and select either **Chart** or **Table**.
+The **Crashes** view displays the total number of crashes of your application for the selected time frame and the crash rate for your application. The crash for your application is calculated by dividing the total number of crashes by the total number of sessions. Additionally, error messages, time of the first occurrence, time of the last occurrence, total occurrences, and triage status are displayed for each operating system (for example, Windows, iOS, and Android). The displayed crash analytics can be filtered by the environment, crash type, and crash status. To export the crash analytics information, click the **Actions** (**...**) menu, and select either **Chart** or **Table**.
 
 ![Crashes page](/Images/crashes.png)
 
@@ -62,7 +62,7 @@ To filter and search crashes by username:
 
 ## Viewing real-time and aggregated analytics
 
-The **Analytics** tab displays real-time analytics, such as the number of active users, the number of installs, the number of sessions, and the number of events.
+The **Analytics** view displays real-time analytics, such as the number of active users, the number of installs, the number of sessions, and the number of events.
 
 You can also view custom events captured by your application using the Titanium.Analytics object, or the performance APIs provided by the Platform Services SDK for [iOS](https://docs.axway.com/bundle/Amplify_Appcelerator_Services_allOS_en/page/aps_analytics_for_ios.html) or [Android](https://docs.axway.com/bundle/Amplify_Appcelerator_Services_allOS_en/page/aps_analytics_for_android.html).
 

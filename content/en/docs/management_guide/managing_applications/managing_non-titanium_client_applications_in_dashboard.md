@@ -5,7 +5,7 @@ weight: 10
 date: 2021-08-12
 ---
 
-To use Amplify Platform Services in your Android and iOS applications, you need to first register an application. Registering the application defines the name, platform, and other metadata about the application. Once you've registered the application, you can download the Appcelerator Platform Services (APS) SDK and use the libraries and frameworks to integrate Amplify Platform Services into your application.
+To use Amplify Platform Services in your applications, you need to first register an application. Registering the application defines the name, platform, and other metadata about the application.
 
 ## Register an application for services
 

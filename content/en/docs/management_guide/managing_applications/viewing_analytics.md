@@ -8,7 +8,7 @@ You can view detailed analytics for client service applications from their Analy
 
 ## Analytics menu for client services
 
-Click Overview - Apps - <_Client App_> - Analytics to navigate to the **Analytics** menu. The **Analytics** view provides detailed analytics for each application. The **Analytics** menu contains several sub-views for different metric categories and to create queries.
+Click Overview - Apps - <_App_> - Analytics to navigate to the **Analytics** menu. The **Analytics** view provides detailed analytics for each application. The **Analytics** menu contains several sub-views for different metric categories and to create queries.
 
 ![Analytics menu](/Images/analytics_tab.png)
 
@@ -172,4 +172,4 @@ In some cases, a value may be unknown, such as the name of an application that h
 
 ### Version and environment values for Crash and Test metrics
 
-When viewing Test and Crash analytics, the **Version** and **Environment** drop-down menus display "(not set)" since version and environment are not available. For the same reason, graphs that display a version series of Crash or Test metrics will display "(not set)".
+When viewing Crash analytics, the **Version** and **Environment** drop-down menus display "(not set)" since version and environment are not available. For the same reason, graphs that display a version series of Crash metrics will display "(not set)".

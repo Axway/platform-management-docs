@@ -15,9 +15,7 @@ The following table shows the available roles and capabilities.
 | **Platform Roles**        |                                                       |          |                 |         |         |     |       |       |       |              |
 | Administrator             | Use for platform admin tasks                          | X        | X               | X       | X       |     |       | X     |       |              |
 | Developer                 | Use for development and integration projects          | X        | X               | X       | X       | X   | X     | X     |       |              |
-| Consumer                  | Use for the consumption of services from the catalog  |          |                 | X       | X       |     |       |       |       |              |
-| **Runtime Services Roles**| **Runtime Services** is deprecated and will be discontinued effective September 1, 2022.     |         |     |       |       |       |              |     |     |     |
-| Runtime Services Admin    | Use for all-encompassing access to Runtime Services   |          |                 |         |         | X   | X     |       |       |              |
+| Consumer                  | Use for the consumption of services from the catalog  |          |                 | X       | X       |     |       |       |       |              ||              |
 | **Central Roles**         |                                                       |          |                 |         |         |     |       |       |       |              |
 | Central Admin             | Use for all-encompassing access to Central            |          |                 | X       | X       |     |       |       |       |              |
 | **Flow Manager Roles**    |                                                       |          |                 |         |         |     |       |       |       |              |

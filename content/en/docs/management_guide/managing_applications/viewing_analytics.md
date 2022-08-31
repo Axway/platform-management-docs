@@ -4,11 +4,11 @@ linkTitle: Viewing analytics
 weight: 40
 date: 2021-08-12
 ---
-You can view detailed analytics for client service applications and Mobile Backend Services APIs from their Analytics tab. You can also download analytics data to use in other programs.
+You can view detailed analytics for client service applications from their Analytics view. You can also download analytics data to use in other programs.
 
-## Analytics tab for client services
+## Analytics menu for client services
 
-Click Overview - Apps - <_Client App_\> - Analytics to navigate to the **Analytics** tab. The **Analytics** tab lets you view detailed analytics for each application. The **Analytics** tab contains several sub-tabs to view different metric categories and create event funnels and queries.
+Click Overview - Apps - <_App_> - Analytics to navigate to the **Analytics** menu. The **Analytics** view provides detailed analytics for each application. The **Analytics** menu contains several sub-views for different metric categories and to create queries.
 
 ![Analytics menu](/Images/analytics_tab.png)
 
@@ -22,11 +22,11 @@ Click Overview - Apps - <_Client App_\> - Analytics to navigate to the **Analyti
 * Events
 * Custom Queries
 
-Each sub-tab is explained below.
+Each view is explained below.
 
 ### Real-time tab
 
-The **Real-Time** tab displays the number of currently active sessions, as well as the number of installs, sessions, and the average session length over the last hour. Note that all times are in Coordinated Universal Time (UTC).
+The **Real-Time** view displays the number of currently active sessions, as well as the number of installs, sessions, and the average session length over the last hour. Note that all times are in Coordinated Universal Time (UTC).
 
 **Active Users** - The number of users in the application at the moment.
 
@@ -40,9 +40,9 @@ The real-time analytics information can be filtered by version and environment.
 
 ![Real-time analytics menu](/Images/analytics_realtime.png)
 
-### Sessions tab
+### Sessions view
 
-The **Sessions** tab displays the total number of user sessions for the application for the provided time interval and environment and how long on average users spent using it by platform and location. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Sessions** view displays the total number of user sessions for the application for the provided time interval and environment and how long on average users spent using it by platform and location. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![Sessions menu](/Images/analytics_sessions.png)
 
@@ -68,59 +68,15 @@ In the Location view:
 
 * To zoom out, shift+click on the map. You can also use the on-screen zoom controls.
 
-### Avg. Session Length tab
+### Avg. Session Length view
 
-The **Avg. Session Length** tab displays the average length of use of the application by the platform for the provided time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Avg. Session Length** view displays the average length of use of the application by the platform for the provided time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![Average Session Length menu](/Images/analytics_session_length_latest.png)
 
-### Installs tab
+### Unique Devices view
 
-The **Installs** tab displays the total number of installs of the application by platform, version, and location for the provided time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
-
-![Installs menu](/Images/analytics_installs_latest.png)
-
-In the Platform and Version views:
-
-* At the top, a line chart displays the time series of the metric; hover your mouse over an inflection point in the chart to view data for that time.
-* Below the chart, a table displays additional details for the metric.
-
-In the Location view:
-
-* Double-click the map to zoom in on a region to view more granular session counts by region.
-
-* Hover over a circle to view an outline of the region represented by the displayed count.
-
-* To zoom out, shift+click on the map. You can also use the on-screen zoom controls.
-
-### Updates tab
-
-The **Updates** tab displays the total number of updates of the application by platform, version, and location for the provided time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
-
-![Updates menu](/Images/analytics_updates.png)
-
-In the Platform and Version views:
-
-* At the top, a line chart displays the time series of the metric; hover your mouse over an inflection point in the chart to view data for that time.
-* Below the chart, a table displays additional details for the metric.
-
-In the Location view:
-
-* Double-click the map to zoom in on a region to view more granular session counts by region.
-
-* Hover over a circle to view an outline of the region represented by the displayed count.
-
-* To zoom out, shift+click on the map. You can also use the on-screen zoom controls.
-
-### Version Adoption tab
-
-The **Version Adoption** tab shows the number of sessions by platform version for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
-
-![Version Adoption menu](/Images/version_adoption.png)
-
-### Unique Devices tab
-
-The **Unique Devices** tab displays the maximum daily number of unique devices using the application by platform and application version for the provided time interval and environment. The maximum unique devices number provides you with a measure of the number of real users using your application, normalized for the fact that some users may use the application multiple times a day. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Unique Devices** view displays the maximum daily number of unique devices using the application by platform and application version for the provided time interval and environment. The maximum unique devices number provides you with a measure of the number of real users using your application, normalized for the fact that some users may use the application multiple times a day. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![Unique Devices menu](/Images/analytics_unique_devices.png)
 
@@ -129,79 +85,19 @@ The **Unique Devices** tab displays the maximum daily number of unique devices u
 * At the top, a line chart displays the time series of the metric; hover your mouse over an inflection point in the chart to view data for that time.
 * Below the chart, a table displays additional details for the metric.
 
-### Events tab
+### Events view
 
-The **Events** tab lists the name and number of each custom events generated by your application, as well as a timeline of when events were generated for the selected time interval and environment. To get custom events to appear on the list, you must build your application and trigger each event to ensure that the events are registered with the analytics engine. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
-
-The **Events** tab also displays events generated by the [Mobile Backend Services](https://docs.axway.com/bundle/Mobile_Backend_Services_allOS_en/page/mobile_backend_services.html) API calls. Mobile Backend Services API events are named `cloud-class-method`.
+The **Events** view lists the name and number of each custom events generated by your application, as well as a timeline of when events were generated for the selected time interval and environment. To get custom events to appear on the list, you must build your application and trigger each event to ensure that the events are registered with the analytics engine. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![Events menu](/Images/analytics_events.png)
 
-### Custom Queries tab
+### Custom Queries view
 
-The **Custom Queries** tab enables you to create and view queries. For additional information on creating custom queries, refer to [Creating Custom Queries](/docs/management_guide/managing_applications/creating_custom_queries/).
+The **Custom Queries** view enables you to create and view queries. For additional information on creating custom queries, refer to [Creating Custom Queries](/docs/management_guide/managing_applications/creating_custom_queries/).
 
 ![Custom Queries menu](/Images/custom_queries_latest.png)
 
-{{% alert title="Note" color="primary" %}}Once custom queries are created for the application, the **Custom Queries** tab will display a preview for each created custom query.{{% /alert %}}
-
-## Analytics tab for Mobile Backend Services
-
-The **Analytics** tab lets you view detailed analytics for Mobile Backend Services APIs. The **Analytics** tab contains several sub-tabs to view different metric categories.
-
-![Analytics for Mobile Backend Services menu](/Images/analytics_mbs_tab.png)
-
-* All APIs
-* Authentication
-* Communication
-* Custom
-* Location
-* Media
-* Social
-
-Each sub-tab is explained below.
-
-### All APIs tab
-
-The **All APIs** tab displays the total number of Mobile Backend Services requests made for the selected time interval and environment either by application or by request type. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
-
-![All APIs menu](/Images/all_apis_latest.png)
-
-### Authentication tab
-
-The **Authentication** tab displays the authentication application names, the number of authentication requests, the daily average of authentication requests, and the top authentication requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the authentication request names and the number of authentication requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
-
-![Authentication menu](/Images/authentication_latest.png)
-
-### Communication tab
-
-The **Communication** tab displays the communication application names, the number of communication requests, the daily average of communication requests, and the top communication requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the communication request names and the number of communication requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
-
-![Communications menu](/Images/communication_latest.png)
-
-### Custom tab
-
-The **Custom** tab displays the custom object application names, the number of custom object requests, the daily average of custom object requests, and the top custom object requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the custom object request names and the number of custom object requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
-
-![Custom menu](/Images/custom_latest.png)
-
-### Location tab
-
-The **Location** tab displays the location application names, the number of location requests, the daily average of location requests, and the top location requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the location request names and the number of location requests are displayed for the selected time interval and environment.  To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
-
-![Location menu](/Images/location_latest.png)
-
-### Media tab
-
-The **Media** tab displays the media application names, the number of media requests, the daily average of media requests, and the top media requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the media request names and the number of media requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
-
-![Media menu](/Images/media_latest.png)
-
-### Social tab
-
-The **Social** tab displays the social application names, the number of social requests, the daily average of social requests, and the top social requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the social request names and the number of social requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
-
-![Social menu](/Images/social_latest.png)
+{{% alert title="Note" color="primary" %}}Once custom queries are created for the application, the **Custom Queries** view will display a preview for each created custom query.{{% /alert %}}
 
 ## Data filters
 
@@ -274,14 +170,6 @@ appceleratordemo_sessions_app_table_day_20140501_20140625_20140625221052
 
 In some cases, a value may be unknown, such as the name of an application that has been deleted. In such cases, a placeholder value – "(not set)" – or placeholder is displayed instead. The following describes why, when, and where these placeholder values appear.
 
-### Platform icons for Mobile Backend Services requests
-
-In the metrics for Mobile Backend Services Requests, if a Mobile Backend Services API call originated from a source other than a Titanium application or native iOS application using Amplify Titanium SDK, an icon is displayed. For instance, this icon would appear for calls made to the Mobile Backend Services APIs using a command-line tool, such as cURL.
-
 ### Version and environment values for Crash and Test metrics
 
-When viewing Test and Crash analytics, the **Version** and **Environment** drop-down menus display "(not set)" since version and environment are not available. For the same reason, graphs that display a version series of Crash or Test metrics will display "(not set)"
-
-### Geographic analysis
-
-On a metric's **Geo** tab, if the country could not be determined from the metric's included geographic coordinates or coordinates were not provided at all, "(not set)" is displayed as the Country name.
+When viewing Crash analytics, the **Version** and **Environment** drop-down menus display "(not set)" since version and environment are not available. For the same reason, graphs that display a version series of Crash metrics will display "(not set)".

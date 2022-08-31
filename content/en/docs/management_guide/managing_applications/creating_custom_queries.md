@@ -5,15 +5,15 @@ weight: 60
 date: 2021-08-12
 ---
 
-By default, analytics are provided for Runtime Services Requests, Average Session Length, Installs, Events, Mobile Backend Services Requests, Push Notifications, Sessions, and Unique Devices. The Custom Queries feature enables you to create custom queries based on your application-specific metrics and analytical needs or expand upon the provided default analytics to meet your specific analytics needs.
+By default, analytics are provided for Average Session Length, Installs, Events, Push Notifications, Sessions, and Unique Devices. The Custom Queries feature enables you to create custom queries based on your application-specific metrics and analytical needs or expand upon the provided default analytics to meet your specific analytics needs.
 
 ## Queries overview
 
-To access the _Queries Overview_ screen, select the **Custom Queries** link on the Overview left menu.
+To access the _Queries Overview_ view, select the **Custom Queries** link on the Overview left menu.
 
 ![Queries overview](/Images/custom_queries_overview.png)
 
-Note that if you have not created any custom queries, selecting the **Custom Queries** tab will transfer you to the _Queries_ screen. The _Queries_ screen enables creating, previewing, editing, saving, and deleting custom analytics queries. You can also filter custom queries. To access the _Queries_ screen from the _Queries Overview_ screen, click the **\+ Query** button or click on a custom query tile. To navigate from the _Queries_ screen to the _Queries Overview_ screen, select **All Queries** from the Saved Queries drop-down menu.
+If you have not created any custom queries, selecting the **Custom Queries** link will transfer you to the _Queries_ view. The _Queries_ view enables creating, previewing, editing, saving, and deleting custom analytics queries. You can also filter custom queries. To access the _Queries_ view from the _Queries Overview_ view, click the **Query** button or click on a custom query tile. To navigate from the _Queries_ view to the _Queries Overview_ view, select **All Queries** from the Saved Queries drop-down menu.
 
 ![Queries page](/Images/custom_queries.png)
 
@@ -22,7 +22,7 @@ Note that if you have not created any custom queries, selecting the **Custom Que
 To create a custom query without filtering:
 
 1. Enter a query name in the **Name** field.
-2. Select a line or bar chart for the **Display**.
+2. Select a line chart, bar chart, or events stream for the **Display**.
 3. Select a **Method**. The Method drop-down menu selections are:
     * Count
     * Cardinality
@@ -51,23 +51,22 @@ To create a custom query without filtering:
     * Country
     * Session
     * Session Length - If selected, enter an **Interval**. The entered interval is the range to use when grouping numeric values.
-6. (Optional) Select the **Map** checkbox to display the results on a map instead of a chart. Please note this is not possible for averages.
-7. Select a **Date Range**. The Date Range drop-down menu selections are:
+6. Select a **Date Range**. The Date Range drop-down menu selections are:
     * Last 3 Months
     * Last 30 Days
     * Last 7 Days
     * Last 24 Hours
     * Last 60 Minutes
     * Custom - If selected, select a custom date range. **Queries with a specific date ranges cannot be saved.**
-8. (Optional) Click **Preview** to preview your custom query. The Custom Query section will be updated to display your custom query analytics preview.
-9. Click **Save** to save your custom query. Your custom query will be saved, the Saved Queries drop-down menu will be updated to include your saved custom query, the Custom Query section will be updated to display your custom query analytics, and your custom query will be available on the _Queries Overview_ screen.
+7. (Optional) Click **Preview** to preview your custom query. The Custom Query section will be updated to display your custom query analytics preview.
+8. Click **Save** to save your custom query. Your custom query will be saved, the Saved Queries drop-down menu will be updated to include your saved custom query, the Custom Query section will be updated to display your custom query analytics, and your custom query will be available on the _Queries Overview_ screen.
 
 ## Creating queries with filtering
 
 To create a custom query with filtering:
 
 1. Enter a query name in the **Name** field.
-2. Select a line or bar chart for the **Display**.
+2. Select a line chart, bar chart, or events stream for the **Display**.
 3. Select a **Method**. The Method drop-down menu selections are:
     * Count
     * Cardinality
@@ -96,19 +95,18 @@ To create a custom query with filtering:
     * Country
     * Session
     * Session Length - If selected, enter an **Interval**. The entered interval specifies the range to use when grouping numeric values.
-6. (Optional) Select the **Map** checkbox to display the results on a map instead of a chart. Please note this is not possible for averages.
-7. Select a **Date Range**. The Date Range drop-down menu selections are:
+6. Select a **Date Range**. The Date Range drop-down menu selections are:
     * Last 3 Months
     * Last 30 Days
     * Last 7 Days
     * Last 24 Hours
     * Last 60 Minutes
     * Custom - If selected, select a custom date range. **Queries with a specific date ranges cannot be saved.**
-8. (Optional) Click **Preview** to preview your custom query. The Custom Query section will be updated to display your custom query analytics preview.
-9. Select **Basic**.
-10. For Match, select either **All** or **Any**.
-11. Click the **Plus** icon to add a filter.
-12. Select the type of filter. The type of filter drop-down menu selections are:
+7. (Optional) Click **Preview** to preview your custom query. The Custom Query section will be updated to display your custom query analytics preview.
+8. Select **Basic**.
+9. For Match, select either **All** or **Any**.
+10. Click the **Plus** icon to add a filter.
+11. Select the type of filter. The type of filter drop-down menu selections are:
     * Custom - If selected, enter the custom field information.
     * Event
     * Application
@@ -118,7 +116,7 @@ To create a custom query with filtering:
     * Country
     * Session
     * Session Length
-13. Select a filter operand. The filter operand selections are:
+12. Select a filter operand. The filter operand selections are:
     * Equals
     * Is not
     * Exists
@@ -131,8 +129,8 @@ To create a custom query with filtering:
     * Is greater than or equal to
     * Is less than
     * Is less than or equal to
-14. Complete the operand field or make a selection from the drop-down menu. The field selections are based on the selected filter type. To fetch the available field selections over the selected time range, click the **Magnify** icon. Optionally, you can select **Advanced** and enter the JSON coded filter.
-15. Click **Save** to save to save your custom query. Your custom query will be saved, the Saved Queries drop-down menu will be updated to include your saved custom query, the Custom Query section will be updated to display your custom query analytics, and your custom query will be available on the _Queries Overview_ screen.
+13. Complete the operand field or make a selection from the drop-down menu. The field selections are based on the selected filter type. To fetch the available field selections over the selected time range, click the **Magnify** icon. Optionally, you can select **Advanced** and enter the JSON coded filter.
+14. Click **Save** to save to save your custom query. Your custom query will be saved, the Saved Queries drop-down menu will be updated to include your saved custom query, the Custom Query section will be updated to display your custom query analytics, and your custom query will be available on the _Queries Overview_ screen.
 
 ## Previewing queries
 
@@ -140,7 +138,7 @@ To preview a custom query and not save it, click **Submit**. The Custom Query se
 
 ## Saving queries
 
-To save a custom query, click **Save**. Your custom query will be saved, the Saved Queries drop-down menu will be updated to include your saved custom query, the Custom Query section will be updated to display your custom query analytics, and your custom query will be available on the _Queries Overview_ screen.
+To save a custom query, click **Save**. Your custom query will be saved, the Saved Queries drop-down menu will be updated to include your saved custom query, the Custom Query section will be updated to display your custom query analytics, and your custom query will be available on the _Queries Overview_ view.
 
 ## Clearing queries
 
@@ -150,7 +148,7 @@ To clear the custom query selections and fields, click **Clear**.
 
 To edit a custom query:
 
-1. Select the custom query to edit from the Saved Queries drop-down menu or from the _Queries Overview_ screen.
+1. Select the custom query to edit from the Saved Queries drop-down menu or from the _Queries Overview_ view.
     ![Edit a query](/Images/custom_queries_edit.png)
 2. Edit the **Name**, **Display**, **Method**, **Field**, **Grouping**, and **Date Range** selections as needed.
 3. (Optional) Click **Preview** to preview your custom query changes. The Custom Query section will be updated to display your custom query analytics changes.
@@ -162,9 +160,9 @@ To edit a custom query:
 
 To delete a custom query:
 
-1. Select the custom query to delete from the Saved Queries drop-down menu or from the _Queries Overview_ screen.
+1. Select the custom query to delete from the Saved Queries drop-down menu or from the _Queries Overview_ view.
 2. Click **Delete**.
-3. Enter the name of the query to delete in the _Delete Confirmation_ screen.
+3. Enter the name of the query to delete in the _Delete Confirmation_ view.
 4. To confirm the query deletion, click **I understand that this is a permanent and irreversible action. Continue**.
 
 ## Filtering queries

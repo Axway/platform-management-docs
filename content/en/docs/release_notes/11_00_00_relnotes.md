@@ -2,7 +2,7 @@
 title: Platform Management 11.0.0 release notes
 linkTitle: Platform Management 11.0.0 release notes
 weight: 68
-date: 2022-09-01
+date: 2022-08-31
 Hide_readingtime: true
 ---
 

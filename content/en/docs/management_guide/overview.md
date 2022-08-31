@@ -5,7 +5,7 @@ weight: 5
 date: 2021-08-12
 ---
 
-The Amplify Platform Overview left navigation comprises the following menu items:
+The Amplify Platform Overview left navigation comprises the following views:
 
 {{% alert title="Note" color="primary" %}}The available menus on the Amplify Platform Overview may vary based on your role and your organization's subscriptions.{{% /alert %}}
 
@@ -34,9 +34,9 @@ The **Overview** displays key metric information relevant to the product line t
 
 ## Apps
 
-**Apps** displays the list of applications for the selected organization. Select the **Show only my apps** checkbox to limit the displayed list of applications to only display your projects or applications. The list of apps can also be filtered by app type. You can also search the list of apps by app name, ID, or creator and select and pin apps from the list of apps.
+**Apps** displays the list of applications for the selected organization. Select the **Show only my apps** checkbox to limit the displayed list of applications to your projects or applications. The list of apps can be filtered by app type. You can also search the list of apps by app name, ID, or creator and select and pin apps from the list of apps.
 
-To manage an application, select the application to manage from the list of applications.
+To manage an application, select one from the list.
 
 If you haven't created any applications yet, you will be directed to the *You don't have any apps yet!* page.
 

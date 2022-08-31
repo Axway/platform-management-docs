@@ -22,7 +22,7 @@ If you have not created any custom queries, selecting the **Custom Queries** lin
 To create a custom query without filtering:
 
 1. Enter a query name in the **Name** field.
-2. Select a line chart, bar chart, or events stream for the **Display**.
+2. Select a Line Chart or Bar Chart for the **Display**.
 3. Select a **Method**. The Method drop-down menu selections are:
     * Count
     * Cardinality
@@ -30,7 +30,7 @@ To create a custom query without filtering:
     * Sum
     * Min
     * Max
-    * Find - If selected, select the fields to include in the events and the limit, offet, and sort options.
+    * Find - If selected, select a **Display** option of List or Stream, the fields to include in the events, the limit, offet, and sort options.
 4. Select a **Field**. The Field drop-down menu selections are:
     * Custom - If selected, enter the custom field information.
     * Event

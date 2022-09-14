@@ -47,6 +47,68 @@ To update an organization name:
 7. Enter the desired organization name in the **Name** field.
 8. Click **Save**.
 
+## Managing teams
+
+The **Teams** view enables you to view and manage teams, their members and their assigned applications.
+
+![Managing teams](/Images/teams_tab.png)
+
+### Add a new team
+
+To add a team:
+
+1. Sign in to the [Platform](https://platform.axway.com/).
+2. Click on the **User & Org** menu and select **Organization**.
+3. Click **Teams** from the left navigation.
+4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
+5. Click the **Teams** button.
+6. Enter the team name in the **Name** field.
+7. (Optional) Provide a team description in the **Description** field.
+8. (Optional) Add team tags in the **Tags** field.
+9. Add members (users or service accounts) to the team by selecting team members from the Add Members list by clicking the **+** icons.
+10. Assign applications to the team by selecting applications from the Assign Applications list by clicking the **+** icons.
+11. Click **Save**.
+    ![Add a new team](/Images/add_new_team.png)
+
+### Edit a team
+
+To edit an existing team:
+
+1. Sign in to the [Platform](https://platform.axway.com/).
+2. Click on the **User & Org** menu and select **Organization**.
+3. Click **Teams** from the left navigation.
+4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
+5. Select the **Actions** (**...**) menu associated with the team to edit.
+6. Select **Edit**.
+7. Make the necessary changes to the selected team. For additional information, refer to [Add a new team](#add-a-new-team).
+8. Click **Save**.
+
+### Set a team as default
+
+To set a team as default:
+
+1. Sign in to the [Platform](https://platform.axway.com/).
+2. Click on the **User & Org** menu and select **Organization**.
+3. Click the **Teams** tab from the left navigation.
+4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
+5. Select the **Actions** (**...**) menu icon associated with the team to edit.
+6. Select **Set as Default**.
+7. Confirm setting the selected team as the default team by clicking **Continue** in the confirmation dialog.
+
+### Remove a team
+
+To remove a team:
+
+1. Sign in to the [Platform](https://platform.axway.com/).
+2. Click on the **User & Org** menu and select **Organization**.
+3. Click **Teams** from the left navigation.
+4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
+5. Select the **Actions** (**...**) menu associated with the team to edit.
+6. Select **Remove**.
+7. (Optional) Select a team to which to transfer the team's assigned apps.
+8. Confirm the removal of the deletion of the selected team, by entering the name of the team to delete permanently.
+9. Click **I understand that this is a permanent and irreversible action. Continue**.
+
 ## Managing users
 
 The **Users** view enables you to view and manage users of the selected organization.
@@ -128,68 +190,6 @@ After you create or add a user to your organization, you can view and modify the
 8. To remove a selected service account from the organization, select the **Actions** menu (**...**), and select **Delete** and then confirm the deletion.
 9. To view a service account's team assignments, select the **Actions** menu (**...**) and select **View Teams**. Refer to [Managing teams](#managing-teams).
 
-## Managing teams
-
-The **Teams** view enables you to view and manage teams, their members and their assigned applications.
-
-![Managing teams](/Images/teams_tab.png)
-
-### Add a new team
-
-To add a team:
-
-1. Sign in to the [Platform](https://platform.axway.com/).
-2. Click on the **User & Org** menu and select **Organization**.
-3. Click **Teams** from the left navigation.
-4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
-5. Click the **Teams** button.
-6. Enter the team name in the **Name** field.
-7. (Optional) Provide a team description in the **Description** field.
-8. (Optional) Add team tags in the **Tags** field.
-9. Add members (users or service accounts) to the team by selecting team members from the Add Members list by clicking the **+** icons.
-10. Assign applications to the team by selecting applications from the Assign Applications list by clicking the **+** icons.
-11. Click **Save**.
-    ![Add a new team](/Images/add_new_team.png)
-
-### Edit a team
-
-To edit an existing team:
-
-1. Sign in to the [Platform](https://platform.axway.com/).
-2. Click on the **User & Org** menu and select **Organization**.
-3. Click **Teams** from the left navigation.
-4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
-5. Select the **Actions** (**...**) menu associated with the team to edit.
-6. Select **Edit**.
-7. Make the necessary changes to the selected team. For additional information, refer to [Add a new team](#add-a-new-team).
-8. Click **Save**.
-
-### Set a team as default
-
-To set a team as default:
-
-1. Sign in to the [Platform](https://platform.axway.com/).
-2. Click on the **User & Org** menu and select **Organization**.
-3. Click the **Teams** tab from the left navigation.
-4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
-5. Select the **Actions** (**...**) menu icon associated with the team to edit.
-6. Select **Set as Default**.
-7. Confirm setting the selected team as the default team by clicking **Continue** in the confirmation dialog.
-
-### Remove a team
-
-To remove a team:
-
-1. Sign in to the [Platform](https://platform.axway.com/).
-2. Click on the **User & Org** menu and select **Organization**.
-3. Click **Teams** from the left navigation.
-4. If you're a member of multiple organizations, select the organization you want to view from the *Teams* dropdown menu.
-5. Select the **Actions** (**...**) menu associated with the team to edit.
-6. Select **Remove**.
-7. (Optional) Select a team to which to transfer the team's assigned apps.
-8. Confirm the removal of the deletion of the selected team, by entering the name of the team to delete permanently.
-9. Click **I understand that this is a permanent and irreversible action. Continue**.
-
 ## Viewing usage
 
 The **Usage** view enables you to view the usage of allocated resources for the selected organization for the selected product or all products for the selected period.
@@ -224,6 +224,7 @@ The **Settings** view enables you to:
 * Apply branding to the Amplify Platform navigation and selected views for the selected organization.
 * Configure and manage entity providers for Amplify Platform authentication.
 * Redact personal information and configure password policy rules to add to the default password requirements.
+* Change the organization name or delete the organization.
 
 ![Managing organization settings](/Images/settings_tab.png)
 
@@ -248,11 +249,11 @@ To apply branding to Amplify Platform per your organization's branding requireme
 
 ### Manage Identity Providers
 
-Click **Identity Provider** from the Organization menu to configure Identity Providers to use for user authentication with the Platform. Refer to the [Configuring and Managing Identity Providers (IdPs)](/docs/management_guide/configuring_and_managing_identity_providers/) page for details.
+Click **Identity Provider** from the Organization - Settings menu to configure Identity Providers to use for user authentication with the Platform. Refer to the [Configuring and Managing Identity Providers (IdPs)](/docs/management_guide/configuring_and_managing_identity_providers/) page for details.
 
 ### Manage security settings
 
-Click **Security** from the Organization menu to access organization security settings. Then, select the organization from the *Organization* dropdown menu to configure the following settings for the specified organization.
+Click **Security** from the Organization - Settings menu to access organization security settings. Then, select the organization from the *Organization* dropdown menu to configure the following settings for the specified organization.
 
 ![Managing organization settings](/Images/settings_tab_security.png)
 
@@ -274,6 +275,23 @@ Administrators have the option to configure additional password settings to add 
 * **Renewal period** - Number of days after which a user must change their password.
 * **Not Recently Used** - Number of times a unique password is required before a previously used password can be reused.
 * **Account Lock Out** - Number of times a user can attempt to log in with an incorrect password before the account is locked.
+
+### Change organization name or delete organization
+
+Click **Manage** from the Organization - Settings menu to change the organization name or delete the organization.
+
+Type a different name to use for the organization, and then click **Save** to save changes, or **Reset** to revert changes.
+
+The option to delete an organization is available for the organization if there are no paid subscriptions or where the invoicing type is not a contract or license. If the organization has a support access code, you must email support@axway.com or visit [Axway Support](https://support.axway.com/) to request Axway to delete the organization. If the user deleting the organization is the only member of the organization being deleted, then the associated user account is also deleted.
+
+![Deleting an organization](/Images/organization_settings_manage.png)
+
+1. (Optional) Copy the organization name from the Manage view.
+2. Click **Delete**. A modal displays.
+3. Click **Send code**. An authorization code is emailed to your Platform user account email address.
+4. Type or paste the organization name you want to delete in the modal.
+5. Access your email with the authorization code, and then copy and paste or type the code into the **Authorization code** field in the modal.
+6. Click **I understand that this is a permanent and irreversible. Continue**.
 
 ## Viewing organization activities
 

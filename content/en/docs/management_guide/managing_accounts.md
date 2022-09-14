@@ -114,12 +114,13 @@ The **Settings** view enables you to manage your organization account settings. 
 
 * Select your organization account theme (Light, Dark, or Match OS)
 * Expand or minimize side-bar menus
-* Enable or disable demo data
+* Show or hide getting started content on Platform home
 * Select your org login rule
 * Configure your inactivity logout timeframe
 * Enable or disable restoring the previous page on your next login
+* Delete your account
 
-![Branding page](/Images/settings_tab.png)
+![Settings page](/Images/settings_tab.png)
 
 ### Select the org login rule
 
@@ -138,6 +139,18 @@ You can configure the amount of time before you are signed out of the Platform d
 ### Enable or disable restoring previous page on next login
 
 You can enable or disable if you want to be redirected to the page previously viewed once signed back in after being signed out due to inactivity in the Platform. This setting is disabled by default (do not restore previous page on next login).
+
+### Delete account
+
+The option to delete your account is available for the user if there are no paid subscriptions or where the invoicing type is not a contract or license. For example, users who sign up and create an organization with no paid subscriptions will see the delete option. If the user is associated with an organization that has a support access code, you must email support@axway.com or visit [Axway Support](https://support.axway.com/) to request Axway to delete the account. If the user deleting the account is the only member of the organization being deleted, then the associated organization is also deleted.
+
+![Deleting your account](/Images/account_settings_delete.png)
+
+1. Click **Delete**. A modal displays.
+2. Click **Send code**. An authorization code is emailed to your Platform user account email address.
+3. Type the password of your account used to sign into the Platform in the modal.
+4. Access your email with the authorization code, and then copy and paste or type the code into the **Authorization code** field in the modal.
+5. Click **I understand that this is a permanent and irreversible. Continue**.
 
 ## View authorized devices
 

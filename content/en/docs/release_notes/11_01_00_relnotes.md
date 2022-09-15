@@ -14,5 +14,5 @@ With this release, API endpoints related to **Application Development** offering
 
 ## New features
 
-* Added the ability for users and organizations created through signup to delete themselves. This option is available on *Account Settings* for users and on a new *Manage* view under *Settings* for Organizations. This ability is only available for organizations and their members with no active or expired paid subscriptions and no Support Access Code set on the organization.
+* Added the ability for users and organizations created through signup to delete themselves. This option is available on *Account Settings* for users and on a new *Manage* view under *Settings* for organizations. This ability is only available for organizations and their members with no active or expired paid subscriptions and no Support Access Code set on the organization.
 * Added the ability to view and download an event on the organization, user, and app *Activity* views as well as download the page of displayed events.

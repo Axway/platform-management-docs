@@ -288,8 +288,8 @@ The option to delete an organization is available for the organization if there 
 
 1. (Optional) Copy the organization name from the Manage view.
 2. Click **Delete**. A modal displays.
-3. Click **Send code**. An authorization code is emailed to your Platform user account email address.
-4. Type or paste the organization name you want to delete in the modal.
+3. Type or paste the organization name you want to delete in the modal.
+4. Click **Send code**. An authorization code is emailed to your Platform user account email address.
 5. Access your email with the authorization code, and then copy and paste or type the code into the **Authorization code** field in the modal.
 6. Click **I understand that this is a permanent and irreversible. Continue**.
 

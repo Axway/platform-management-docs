@@ -282,16 +282,17 @@ Click **Manage** from the Organization - Settings menu to change the organizatio
 
 Type a different name to use for the organization, and then click **Save** to save changes, or **Reset** to revert changes.
 
-The option to delete an organization is available for the organization if there are no paid subscriptions or where the invoicing type is not a contract or license. If the organization has a support access code, you must email support@axway.com or visit [Axway Support](https://support.axway.com/) to request Axway to delete the organization. If the user deleting the organization is the only member of the organization being deleted, then the associated user account is also deleted.
+The option to delete their organization is available for the user if they are not a member of one or more organizations with paid subscriptions. Users and organizations created by sign-up with no subscriptions or trial only subscriptions will see the delete option. If the user deleting their organization is the only member, then their user account will also be deleted.
+
+A user which is a member of one or more organizations which have a Support Access Code must email support@axway.com or visit [Axway Support](https://support.axway.com/) to request Axway to delete the organization on their behalf.
 
 ![Deleting an organization](/Images/organization_settings_manage.png)
 
-1. (Optional) Copy the organization name from the Manage view.
-2. Click **Delete**. A modal displays.
-3. Type or paste the organization name you want to delete in the modal.
-4. Click **Send code**. An authorization code is emailed to your Platform user account email address.
-5. Access your email with the authorization code, and then copy and paste or type the code into the **Authorization code** field in the modal.
-6. Click **I understand that this is a permanent and irreversible. Continue**.
+1. Click **Delete**. A confirmation modal displays.
+2. Type the organization name you want to delete.
+3. Click **Send code**. An authorization code is emailed to your Platform user account email address.
+4. Copy and paste or type the authorization code received in the email into the **Authorization code** field in the modal.
+5. Click **I understand that this is a permanent and irreversible. Continue**.
 
 ## Viewing organization activities
 

@@ -30,7 +30,7 @@ To manage your organization information, select **Organization** from the *Use
 * Settings (you must be an administrator)
 * Activity
 
-## Viewing organization details
+## View organization details
 
 The **Organization** view provides detailed organization and subscription information.
 

@@ -44,4 +44,4 @@ After you create or add a user to your organization, you can view and modify the
     * To change a service account's role, select a different role from the *Team Roles* dropdown menu. Administrators can manage all users and applications in the organization. All other user roles can view only applications to which they belong.
 7. To download the service account authentication profile in JSON format, select the **Actions** menu (**...**), and select **Download JSON File** (available for Client Certificate authentication method).
 8. To remove a selected service account from the organization, select the **Actions** menu (**...**), and select **Delete** and then confirm the deletion.
-9. To view a service account's team assignments, select the **Actions** menu (**...**) and select **View Teams**. Refer to [Managing teams](#managing-teams).
+9. To view a service account's team assignments, select the **Actions** menu (**...**) and select **View Teams**. Refer to [Managing teams](/docs/management_guide/organizations/managing_organizations/managing_teams).

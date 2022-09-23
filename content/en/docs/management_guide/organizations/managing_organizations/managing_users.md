@@ -9,7 +9,7 @@ The **Users** view enables you to view and manage users of the selected organiza
 
 ![Managing users](/Images/dashboard_users.png)
 
-### Invite a user to your organization
+## Invite a user to your organization
 
 If you are an organization admin, you can add users to an organization.
 
@@ -26,7 +26,7 @@ If you are an organization admin, you can add users to an organization.
 
 An email invitation is sent to the user, providing a link to confirm their membership.
 
-### View and modify a user's role or access
+## View and modify a user's role or access
 
 After you create or add a users to your organization, you can view and modify the user's access rights or role.
 

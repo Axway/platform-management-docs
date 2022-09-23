@@ -9,7 +9,7 @@ The **Service Accounts** view enables you to view and manage service accounts of
 
 ![Managing Service Accounts](/Images/manage_service_accounts.png)
 
-### Add a service account
+## Add a service account
 
 If you are an organization admin, you can add new service accounts to an organization.
 
@@ -26,7 +26,7 @@ If you are an organization admin, you can add new service accounts to an organiz
 9. (Optional) In the **Teams** list, select the teams, if any, to which the service account should be added. Select the role the new organization service account will fulfill on their assigned team from the *Roles* dropdown menu.
 10. Click **Save**.
 
-### View and modify a service account's role or access
+## View and modify a service account's role or access
 
 After you create or add a user to your organization, you can view and modify the service account's access or role.
 

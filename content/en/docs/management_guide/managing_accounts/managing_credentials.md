@@ -6,7 +6,7 @@ date: 2021-08-12
 ---
 The **Credentials** view is where you can change your account password and enable or disable multi-factor authentication. If your organization is using an Identity Provider, the Credentials link takes you to the view where you can create and change the password you use for tooling. Refer to [Configuring Tooling Credentials](/docs/management_guide/configuring_and_managing_identity_providers/configuring_tooling_credentials).
 
-### Change your password
+## Change your password
 
 To change your password:
 
@@ -17,7 +17,7 @@ To change your password:
 4. Select the **Force Logout** checkbox to force the log out of any current sessions.
 5. Click the **Save** button. The password change is saved and an Account Information Changed notification email is sent.
 
-### Manage multi-factor authentication
+## Manage multi-factor authentication
 
 Enable multi-factor authentication for increased security with authentication verification by an authenticator app or email. Using MFA is optional, but **highly recommended.**
 
@@ -53,7 +53,7 @@ To disable multi-factor authentication:
 
 Once the **Enabled** checkbox is deselected and the account saved, multi-factor authentication is disabled and a notification email is sent.
 
-### Setup Authenticator App
+## Setup Authenticator App
 
 Use an Authenticator App such as Google Authenticator or Microsoft Authenticator.
 

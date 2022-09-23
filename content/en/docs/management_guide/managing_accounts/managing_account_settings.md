@@ -16,7 +16,7 @@ The **Settings** view enables you to manage your organization account settings. 
 
 ![Settings page](/Images/settings_tab.png)
 
-### Select the org login rule
+## Select the org login rule
 
 If you are a member or owner of multiple accounts, to configure the login path and organization to log in to, select one of the following options from the **Org Login Rule** dropdown menu:
 
@@ -26,15 +26,15 @@ If you are a member or owner of multiple accounts, to configure the login path a
 
 To view details of a listed organization, click on the organization name and refer to [Managing Organizations](/docs/management_guide/organizations/managing_organizations/).
 
-### Configure your inactivity logout time
+## Configure your inactivity logout time
 
 You can configure the amount of time before you are signed out of the Platform due to browser session inactivity. The options are 15 minutes, 30 minutes (default), 1 hour, or Disabled (do not log me out due to inactivity).
 
-### Enable or disable restoring previous page on next login
+## Enable or disable restoring previous page on next login
 
 You can enable or disable if you want to be redirected to the page previously viewed once signed back in after being signed out due to inactivity in the Platform. This setting is disabled by default (do not restore previous page on next login).
 
-### Delete account
+## Delete account
 
 The option to delete their account is available for the user if they are not a member of one or more organizations with paid subscriptions. Users and organizations created by sign-up with no subscriptions or trial only subscriptions will see the delete option. If the user deleting their account is the only member of their organization, then their organization will also be deleted.
 

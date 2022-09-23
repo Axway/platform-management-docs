@@ -10,7 +10,7 @@ The **Teams** view enables you to view and manage teams, their members, and thei
 
 ![Managing teams](/Images/teams_tab.png)
 
-### Add a new team
+## Add a new team
 
 To add a team:
 
@@ -27,7 +27,7 @@ To add a team:
 11. Click **Save**.
     ![Add a new team](/Images/add_new_team.png)
 
-### Edit a team
+## Edit a team
 
 To edit an existing team:
 
@@ -40,7 +40,7 @@ To edit an existing team:
 7. Make the necessary changes to the selected team. For additional information, refer to [Add a new team](#add-a-new-team).
 8. Click **Save**.
 
-### Set a team as default
+## Set a team as default
 
 To set a team as default:
 
@@ -52,7 +52,7 @@ To set a team as default:
 6. Select **Set as Default**.
 7. Confirm setting the selected team as the default team by clicking **Continue** in the confirmation dialog.
 
-### Remove a team
+## Remove a team
 
 To remove a team:
 

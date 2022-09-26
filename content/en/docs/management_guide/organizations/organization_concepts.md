@@ -34,7 +34,7 @@ Each organization has one or more users. At least one user needs to be an admini
 We can distinguish the following types of roles in the Platform:
 
 * **Platform Roles** - a role that applies to all the capabilities of the platform and is mutually exclusive. You can only have 1 platform role, such as Administrator. This role can be different per organization to which you are a member.
-* **Service Roles** - roles that are specific to a capability such as Amplify Central or Flow Manager. These roles are not mutually exclusive. A member can for example have one role in Amplify Central and three roles in Flow Manager for a specific organization.
+* **Service Roles** - roles that are specific to a capability such as {{% variables/central_prod_name %}} or Flow Manager. These roles are not mutually exclusive. A member can for example have one role in {{% variables/central_prod_name %}} and three roles in Flow Manager for a specific organization.
 * **Team Roles** - roles that define what a user is allowed to do with the assets of a team. Part of the team roles are mutually exclusive and part of them are not.
 
 The roles that you have in a specific organization can be seen in the *Orgs & Roles* page. The test organization shows a user belongs to 19 organizations and has specific roles per organization.
@@ -57,7 +57,7 @@ Users can belong to one or more teams or not belong to any teams at all. A team 
 
 ![Teams page](/Images/organization_teams.png)
 
-When creating items such as API Proxies in Amplify Central or Unified Catalog Assets one team always needs to be chosen as an owner. Only members of the owning team can make changes or remove the items. The following is an example showing the owning team of Unified Catalog items.
+When creating items such as API Proxies in {{% variables/central_prod_name %}} or Unified Catalog Assets one team always needs to be chosen as an owner. Only members of the owning team can make changes or remove the items. The following is an example showing the owning team of Unified Catalog items.
 
 ![Unified Catalog team owners](/Images/teams_owning_team.png)
 

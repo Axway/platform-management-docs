@@ -39,7 +39,7 @@ Users also have a role in each team they belong to.
 | --- | --- |
 | Administrator | Use this role to manage the members of the team |
 | Consumer | Use this role to view and consume assets in the Unified Catalog |
-| Developer | Use this role to manage assets in Amplify Central and the Unified Catalog |
+| Developer | Use this role to manage assets in Amplify and the Unified Catalog |
 | Catalog Manager | Use this role to manage Unified Catalog items and approve subscriptions |
 | Subscription Admin | Use this role to manage Marketplace subscriptions and view usage |
 | Subscription Approver | Use this role to approve Marketplace Subscriptions and Access Requests |

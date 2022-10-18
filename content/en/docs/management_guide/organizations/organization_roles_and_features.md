@@ -15,7 +15,7 @@ The following table shows the available roles and capabilities.
 | **Platform Roles**        |                                                       |          |                 |         |         |     |       |       |       |              |
 | Administrator             | Use for platform admin tasks                          | X        | X               | X       | X       |     |       | X     |       |              |
 | Developer                 | Use for development and integration projects          | X        | X               | X       | X       | X   | X     | X     |       |              |
-| Consumer                  | Use for the consumption of services from the catalog  |          |                 | X       | X       |     |       |       |       |              ||              |
+| Consumer                  | Use for the consumption of services from the catalog  |          |                 | X       | X       |     |       |       |       |              |
 | **Central Roles**         |                                                       |          |                 |         |         |     |       |       |       |              |
 | Central Admin             | Use for all-encompassing access to Central            |          |                 | X       | X       |     |       |       |       |              |
 | **Flow Manager Roles**    |                                                       |          |                 |         |         |     |       |       |       |              |
@@ -37,18 +37,18 @@ Users also have a role in each team they belong to.
 
 | Team Role | Short Description |
 | --- | --- |
-| Administrator | Use this role to manage the members of the team |
+| Team Manager | Use this role to manage the members of the team and their role assignements |
 | Consumer | Use this role to view and consume assets in the Unified Catalog |
 | Developer | Use this role to manage assets in Amplify and the Unified Catalog |
 | Catalog Manager | Use this role to manage Unified Catalog items and approve subscriptions |
-| Subscription Admin | Use this role to manage Marketplace subscriptions and view usage |
+| Subscriber | Use this role to manage Marketplace subscriptions and view usage |
 | Subscription Approver | Use this role to approve Marketplace Subscriptions and Access Requests |
 
 ## Team roles and capabilities
 
-The following table shows the available team roles and capabilities. The Central administrator role has access to all team capabilities.
+The following table shows the available team roles and capabilities. The Central Admin role has access to all team capabilities.
 
-| Capabilities                            | Catalog Manager         | Subscription Approver   | Subscription Admin      | Developer               | Consumer           | Administrator           |
+| Capabilities                            | Catalog Manager         | Subscription Approver   | Subscriber              | Developer               | Consumer           | Team Manager            |
 | --------------------------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ------------------ | ----------------------- |
 | **Unified Catalog**                     |                         |                         |                         |                         |                    |                         |
 | Create catalog items                    | x (my team)             |                         |                         | x (my team)             |                    |                         |

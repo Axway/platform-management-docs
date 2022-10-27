@@ -13,7 +13,7 @@ The following table shows the available roles and capabilities.
 | Role                      | Short Description                                     | Platform | App Integration | Central | Catalog |  Teams | Audit | Flow Manager |
 | ------------------------- | -----------------------------------------------       | -------- | --------------- | ------- | ------- | -------| ----- | ------------ |
 | **Platform Roles**        |                                                       |          |                 |         |         |        |       |              |
-| Administrator             | Use for platform admin tasks                          | X        | X               | X       | X       |        |       | X            |
+| Administrator             | Use for platform admin tasks                          | X        | X               |         |         |        |       | X            |
 | Developer                 | Use for development and integration projects          | X        | X               | X       | X       | X      | X     | X            |
 | Consumer                  | Use for the consumption of services from the catalog  |          |                 | X       | X       |        |       |              |
 | **Central Roles**         |                                                       |          |                 |         |         |        |       |              |

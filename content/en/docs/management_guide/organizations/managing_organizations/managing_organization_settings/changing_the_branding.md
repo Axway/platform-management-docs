@@ -4,7 +4,11 @@ linkTitle: Changing the branding
 weight: 10
 date: 2021-08-12
 ---
-Apply branding to the Amplify Platform navigation and seleted views for the selected organization. To apply branding to Amplify Platform per your organization's branding requirements:
+Apply branding to the Amplify Platform navigation and seleted views for the selected organization. 
+
+![Managing organization settings](/Images/settings_tab.png)
+
+To apply branding to Amplify Platform per your organization's branding requirements:
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.

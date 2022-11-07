@@ -11,5 +11,3 @@ Select **Settings** from the Organization left navigation menu.The *Settings* vi
 * Configure and manage entity providers for Amplify Platform authentication.
 * Redact personal information and configure password policy rules to add to the default password requirements.
 * Change the organization name or delete the organization.
-
-![Managing organization settings](/Images/settings_tab.png)

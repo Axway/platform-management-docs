@@ -5,8 +5,7 @@ weight: 10
 date: 2021-08-12
 ---
 
-
-The **Teams** view enables you to view and manage teams, their members, and their assigned applications.
+Select **Teams** from the Organization left navigation menu. The *Teams* view enables you to view and manage teams, their members, and their assigned applications.
 
 ![Managing teams](/Images/teams_tab.png)
 

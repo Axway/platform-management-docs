@@ -4,8 +4,7 @@ linkTitle: Viewing usage
 weight: 40
 date: 2021-08-12
 ---
-
-The **Usage** view enables you to view the usage of allocated resources for the selected organization for the selected product or all products for the selected period.
+Select **Usage** from the Organization left navigation menu. The *Usage* view enables you to view the usage of allocated resources for the selected organization for the selected product or all products for the selected period.
 
 ![Viewing usage](/Images/usage_tab.png)
 

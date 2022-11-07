@@ -4,8 +4,7 @@ linkTitle: Managing service accounts
 weight: 30
 date: 2021-08-12
 ---
-
-The **Service Accounts** view enables you to view and manage service accounts of the selected organization.
+Select **Service Accounts** from the Organization left navigation menu. The *Service Accounts* view enables you to view and manage service accounts of the selected organization.
 
 ![Managing Service Accounts](/Images/manage_service_accounts.png)
 

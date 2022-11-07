@@ -4,7 +4,9 @@ linkTitle: Managing credentials
 weight: 30
 date: 2021-08-12
 ---
-The **Credentials** view is where you can change your account password and enable or disable multi-factor authentication. If your organization is using an Identity Provider, the Credentials link takes you to the view where you can create and change the password you use for tooling. Refer to [Configuring Tooling Credentials](/docs/management_guide/configuring_and_managing_identity_providers/configuring_tooling_credentials).
+Select **Credentials** from the Account left navigation menu. The *Credentials* view is where you can change your account password and enable or disable multi-factor authentication. 
+
+If your organization is using an Identity Provider, the Credentials link takes you to the view where you can create and change the password you use for tooling. Refer to [Configuring Tooling Credentials](/docs/management_guide/configuring_and_managing_identity_providers/configuring_tooling_credentials).
 
 ## Change your password
 

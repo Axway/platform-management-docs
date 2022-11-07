@@ -4,7 +4,7 @@ linkTitle: Managing account settings
 weight: 40
 date: 2021-08-12
 ---
-The **Settings** view enables you to manage your organization account settings. You can configure the following settings:
+Select **Settings** from the Account left navigation menu. The *Settings* view enables you to manage your organization account settings. You can configure the following settings:
 
 * Select your organization account theme (Light, Dark, or Match OS)
 * Expand or minimize side-bar menus

@@ -4,7 +4,7 @@ linkTitle: Changing the branding
 weight: 10
 date: 2021-08-12
 ---
-Apply branding to the Amplify Platform navigation and seleted views for the selected organization. 
+Apply branding to the Amplify Platform navigation and seleted views for the selected organization.
 
 ![Managing organization settings](/Images/settings_tab.png)
 

@@ -5,11 +5,11 @@ weight: 30
 date: 2021-08-12
 ---
 
-To manage your registered apps, select one from the table on the **Apps** page.
+Select **Apps** from the Amplify Platform [Overview](/docs/management_guide/overview) left navigation. To manage your registered apps, select one from the table on the **Apps** page.
 
 ## App Overview and service keys
 
-When you select an application from the **Apps** link, its **Overview** view opens. The **Overview** view displays basic information about the application, including its name, description, and application GUID, category, creator, admin, and assigned teams. It also includes [key metrics](/docs/management_guide/managing_applications/viewing_metrics/) collected by the Analytics service.
+When you select an application from the **Apps** link, its *Overview* view opens. The *Overview* view displays basic information about the application, including its name, description, and application GUID, category, creator, admin, and assigned teams. It also includes [key metrics](/docs/management_guide/managing_applications/viewing_metrics/) collected by the Analytics service.
 
 ## Apps left navigation
 

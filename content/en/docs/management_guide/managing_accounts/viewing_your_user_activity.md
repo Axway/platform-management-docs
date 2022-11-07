@@ -4,7 +4,9 @@ linkTitle: Viewing your user activity
 weight: 60
 date: 2021-08-12
 ---
-Access the **Activity** page to filter and see more details about each of your user events.
+Select **Activity** from the Account left navigation menu. Access the *Activity* view to filter and see more details about each of your user events.
+
+To view your user activity:
 
 1. From the *Recent Activity* icon, click **View More** to view the *Activity* page.
 2. Filter your user events by:

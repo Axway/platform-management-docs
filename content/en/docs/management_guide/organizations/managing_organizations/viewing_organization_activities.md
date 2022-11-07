@@ -5,7 +5,9 @@ weight: 80
 date: 2021-08-12
 ---
 
-The **Activity** view allows you to filter and see more details about each of the events for your organization.
+Select **Activity** from the Organization left navigation menu. The *Activity* view allows you to filter and see more details about each of the events for your organization.
+
+To filter and view organization event activity:
 
 1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.

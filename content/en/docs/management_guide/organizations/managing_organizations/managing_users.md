@@ -5,7 +5,7 @@ weight: 20
 date: 2021-08-12
 ---
 
-The **Users** view enables you to view and manage users of the selected organization.
+Select **Users** from the Organization left navigation menu. The *Users* view enables you to view and manage users of the selected organization.
 
 ![Managing users](/Images/dashboard_users.png)
 

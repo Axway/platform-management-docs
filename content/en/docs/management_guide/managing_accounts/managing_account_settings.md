@@ -4,7 +4,7 @@ linkTitle: Managing account settings
 weight: 40
 date: 2021-08-12
 ---
-The **Settings** view enables you to manage your organization account settings. You can configure the following settings:
+Select **Settings** from the Account left navigation menu. The *Settings* view enables you to manage your organization account settings. You can configure the following settings:
 
 * Select your organization account theme (Light, Dark, or Match OS)
 * Expand or minimize side-bar menus
@@ -14,7 +14,13 @@ The **Settings** view enables you to manage your organization account settings. 
 * Enable or disable restoring the previous page on your next login
 * Delete your account
 
-![Settings page](/Images/settings_tab.png)
+## Configure the User Interface (UI) layout
+
+Configure the theme to use on the Platform UI.
+
+* **Light**: light mode. This is the default setting.
+* **Dark**: dark mode.
+* **MatchOS**: the mode matches your Operating System (OS) if the OS and browser supports it.
 
 ## Select the org login rule
 

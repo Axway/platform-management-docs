@@ -16,7 +16,7 @@ You must review the [prerequisites](/docs/management_guide/configuring_and_mana
 Set up a domain in the Amplify Platform.
 
 1. Sign in to the [Platform](https://platform.axway.com/).
-2. Navigate to Organization - Settings - **Identity Platform**. If you do not see the **Identity Provider** tab, you do not have the correct subscription and you can contact the Amplify Platform team to enable this functionality. When you access the  *Identity Provider* page in the Platform for the first time, you will see a message that the organization is currently using the Amplify Platform for authentication.
+2. Navigate to Organization - Settings - **Identity Platform**. If you do not see the **Identity Provider** menu, you do not have the correct subscription and you can contact the Amplify Platform team to enable this functionality. When you access the  *Identity Provider* page in the Platform for the first time, you will see a message that the organization is currently using the Amplify Platform for authentication.
 3. Add a domain and make sure it has been Verified. Refer to [Managing Domains](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/) to add a domain and verify ownership.
 
 ## Setup Okta IdP

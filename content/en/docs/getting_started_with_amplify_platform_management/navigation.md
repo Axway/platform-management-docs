@@ -30,15 +30,15 @@ The *Help & Resources* menu provides links to:
 ![Help & Resources menu](/Images/help_and_resources_menu.png)
 
 * **Documentation** - Click to navigate to the Documentation Portal and explore the {{% variables/platform_prod_name %}}documentation.
-* **Developer Portal** - Click to navigate to the Axway Developer Portal to learn about and watch video tutorials on the {{% variables/platform_prod_name %}} capabilities.
 * **Community Portal** - Click to navigate to the Axway Community Portal.
 * **Support Portal** - Click to navigate to the Axway Support Portal (login required).
 * **Axway University** - Click to navigate to the Axway University Portal.
-* **Download Center** - Click to access the Products and Extensions. Refer to the [Downloading Axway-issued Artifacts or Product Extensions](/docs/management_guide/downloading_axway-issued_artifacts_or_product_extensions/) for details.
+* **Downloads** - Click to access the Products and Amplify Repository. Refer to the [Downloading Axway-issued Artifacts or Product Extensions](/docs/management_guide/downloading_axway-issued_artifacts_or_product_extensions/) for details.
     * Click **Products** to navigate to the Axway Support Portal (login required).
-    * Click **Extensions** to navigate to the Axway Amplify Repository.
+    * Click **Repository** to navigate to the Amplify Repository.
 * **Axway.com** - Click to navigate to Axway.com.
 * **Developer Blog** - Click to navigate to the Axway Developer blog, where you can subscribe to receive blog posts by email.
+* **Axway GitHub** - Click to navigate to the Axway Software GitHub organization for all available Axway source code in GitHub repositories.
 * **YouTube Channel** - Click to navigate to the Axway Developer YouTube channel.
 
 ### Recent Activity icon

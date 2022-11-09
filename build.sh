@@ -22,20 +22,18 @@
 #     the build script
 #   - all other files like content/en/ content will be picked up by hugo automatically
 #     if they change
-#   - 
 #
 
 set -e
 
 DEBUG=${DEBUG:-false}
 MODE=dev
-while getopts ":np" opt; do
+
+while getopts ":m:" opt; do
     case ${opt} in
-        n ) MODE=nelify
+        m ) MODE=$OPTARG
              ;;
-        p ) MODE=nelify-preview
-             ;;
-        * ) exit 1
+        * ) echo "[ERROR] Invalid option [${OPTARG}]!!";exit 1
             ;;
     esac
 done
@@ -64,13 +62,18 @@ function fCheckoutSubmodule() {
         exit 1
     fi
     # the npm packages doesn't seem to be needed on the netify build server...this is just for developers
-    if [[ "${MODE}" == "dev" ]];then
+    #if [[ "${MODE}" == "dev" ]];then
         echo "[INFO] Install npm packages required by docsy."
     	if [[ ! -d "node_modules" ]];then
-    		npm install -D --save autoprefixer
-    		npm install -D --save postcss-cli
+            if [[ -f "package.json" ]];then
+                npm install
+            else
+    		    npm install -D --save autoprefixer
+                npm install -D --save postcss
+    		    npm install -D --save postcss-cli
+            fi
     	fi
-    fi
+    #fi
 }
 
 # fMergeContent:
@@ -86,6 +89,7 @@ function fMergeContent() {
     local _c_context
     local _c_path
     local _c_name
+    local _branch_name
     local _ln_opt='-sf'
     if [[ "$DEBUG" == "true" ]];then
         _ln_opt='-vsf'
@@ -131,10 +135,19 @@ function fMergeContent() {
         fi
     done
 
-     # This soft link makes the git info available for hugo to populate the date with git hash in the footer.
-     # Note that common files coming from axway-open-docs-common will not have this information and the pages
-     # will use the "date" value at the top of the page.
-     ln ${_ln_opt} $(pwd)/.git ${BUILD_DIR}/.git
+    # Update the github_branch Param value in config.toml. This is used by the github edit link.
+    _branch_name=`git branch --remote --contains | sed "s|[[:space:]]*origin/||"`
+    if [[ ! "${_branch_name}" =~ ^"PR-"* ]];then
+        unlink build/config.toml
+        cp -f config.toml build/config.toml
+        sed -i "s|# github_branch|github_branch|g" build/config.toml
+        sed -i "s|github_branch = .*|github_branch = \"${_branch_name}\"|g" build/config.toml
+    fi
+
+    # This soft link makes the git info available for hugo to populate the date with git hash in the footer.
+    # Note that common files coming from axway-open-docs-common will not have this information and the pages
+    # will use the "date" value at the top of the page.
+    ln ${_ln_opt} $(pwd)/.git ${BUILD_DIR}/.git
 
     echo "[INFO] Following symlinks were created:"
     for xxx in `find $(basename ${BUILD_DIR}) -type l`;do
@@ -148,23 +161,20 @@ function fRunHugo() {
     cd ${BUILD_DIR}
     mkdir public
     case "${MODE}" in
-        "dev") 
-            hugo server
-            ;;
-        "nelify") 
-            hugo
-            # Moving the "publish" directory to the ROOT of the workspace. Netlify can't publish a
-            # different directory even if the "Publish directory" is changed to specify a different directory.
-            mv -f ${BUILD_DIR}/public ${PROJECT_DIR}
-            ;;
-        "nelify-preview") 
-            hugo -b $DEPLOY_PRIME_URL
-            mv -f ${BUILD_DIR}/public ${PROJECT_DIR}
-            ;;
+      "dev") 
+          hugo server
+          ;;
+      "ci")
+          hugo
+          ;;
+      *)
+          echo "[ERROR] Build MODE [${MODE}] is invalid!!"
+          exit 1
+          ;;
     esac
 }
 
 fCheckoutSubmodule
 fMergeContent
 fRunHugo
-echo "[INFO] Done"
+echo "[INFO] Done."

@@ -2,11 +2,11 @@
 title: Platform Management 12.2.0 release notes
 linkTitle: Platform Management 12.2.0 release notes
 weight: 63
-date: 2022-11-17
+date: 2022-11-21
 Hide_readingtime: true
 ---
 
-## Platform Management 12.2.0 - 17 Nov 2022
+## Platform Management 12.2.0 - 21 Nov 2022
 
 Platform Management 12.2.0 is a minor release which includes two new features, one improvement, and one fixed issue.
 

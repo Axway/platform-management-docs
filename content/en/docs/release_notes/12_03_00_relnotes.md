@@ -17,7 +17,7 @@ Platform Management 12.3.0 is a minor release which includes four new features a
 * Added data export features to the organization *Manage* view allowing users to download their organization's metadata and related data.
 * Added data export features to the user account *Settings* view allowing users to download their user and organizations' metadata and related data.
 
-# Improvements
+## Improvements
 
 * Added a *Marketplaces* view and updated related views to use tabbed navigation.
 * Added controls to table views to toggle layout between tabular and card layouts.

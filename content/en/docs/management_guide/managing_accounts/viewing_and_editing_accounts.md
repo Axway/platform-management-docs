@@ -4,7 +4,7 @@ linkTitle: Viewing and editing accounts
 weight: 15
 date: 2021-08-12
 ---
-Select **Account** from the left navigation menu to open the *Account* view. The *Account* view is where you can view and edit account information.
+Select **Account** from the left navigation menu to open the *Account* view. The *Account* view is where you can view and edit account information and manage sessions.
 
 ## View account details
 
@@ -23,3 +23,22 @@ The Account Information page includes the following account information.
 To edit your account details, click the edit pencil icon.
 
 The edit view enables you to edit the **First Name** and **Last Name** fields and select a different timezone from the **Timezone** dropdown menu. Once you have finished editing your user account information, click the **Save** button.
+
+## Manage sessions
+
+Session management features are available to limit concurrent sessions, terminate sessions on logout, add authentication on sensitive operations, and invalidate sessions on password changes.
+
+Users can view their account active session details:
+
+* Device
+* Application
+* IP Address
+* Organization
+* Created
+* Last Active
+
+Users can see their corresponding activity and revoke their sessions:
+
+* Click **Login Activity** to navigate to the [*Activity* view](/docs/management_guide/managing_accounts/viewing_your_user_activity/) to see login event details.
+* Click the **Actions (...) menu**, and then select **Show Activity** to navigate to the [*Activity* view](/docs/management_guide/managing_accounts/viewing_your_user_activity/).
+* Click **Revoke** to terminate the session.

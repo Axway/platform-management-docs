@@ -2,11 +2,11 @@
 title: Platform Management 12.3.1 release notes
 linkTitle: Platform Management 12.3.1 release notes
 weight: 61
-date: 2022-12-04
+date: 2022-12-05
 Hide_readingtime: true
 ---
 
-## Platform Management 12.3.1 - 4 Dec 2022
+## Platform Management 12.3.1 - 5 Dec 2022
 
 Platform Management 12.3.1 is a patch release which includes one new feature, one improvement, and one fixed issue.
 

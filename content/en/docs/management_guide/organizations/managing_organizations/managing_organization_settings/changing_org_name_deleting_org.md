@@ -4,13 +4,30 @@ linkTitle: Changing or deleting an organization
 weight: 40
 date: 2021-08-12
 ---
-Change the organization name or delete the organization.
+Change the organization name, export organization data, or delete the organization.
 
 ## Change the organization name
 
 Click **Manage** from the Organization - Settings menu to change the organization name or delete the organization.
 
 Type a different name to use for the organization, and then click **Save** to save changes, or **Reset** to revert changes.
+
+## Export organization data
+
+Organization data added by the user can be exported.
+
+To export data
+
+1. Click **Generate**. A popup window displays to allow you to choose the items to export.
+
+2. Select the items to export, and then click **Continue.**
+
+3. The export is created and listed in a table showing the items the export includes, the user who created the export, when the export was created, and the export status. Completed exports are kept for 30 days before being removed.
+
+4. Click the **Actions (..) menu** and then select one of the following:
+
+    * **Download** - download a zip file to your computer containing the exported data in a json file.
+    * **Remove** - delete the export.
 
 ## Delete an organization
 

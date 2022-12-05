@@ -40,6 +40,25 @@ You can configure the amount of time before you are signed out of the Platform d
 
 You can enable or disable if you want to be redirected to the page previously viewed once signed back in after being signed out due to inactivity in the Platform. This setting is disabled by default (do not restore previous page on next login).
 
+## Export user data
+
+User data added by the user can be exported.
+
+To export data
+
+1. Click **Generate**. A popup window displays to allow you to choose the items to export.
+
+2. Select the items to export, and then select the activity date range.
+
+3. Click **Continue**.
+
+4. The export is created and listed in a table showing the items the export includes, the user who created the export, when the export was created, and the export status. Completed exports are kept for 30 days before being removed.
+
+5. Click the **Actions (...) menu**, and then select one of the following:
+
+    * **Download** - download a zip file to your computer containing the exported data in a json file.
+    * **Remove** - delete the export.
+
 ## Delete account
 
 The option to delete their account is available for the user if they are not a member of one or more organizations with paid subscriptions. Users and organizations created by sign-up with no subscriptions or trial only subscriptions will see the delete option. If the user deleting their account is the only member of their organization, then their organization will also be deleted.

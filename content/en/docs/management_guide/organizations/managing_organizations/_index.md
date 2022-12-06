@@ -24,6 +24,6 @@ The Organization left navigation includes the following views:
 * Service Accounts
 * Usage
 * Environments (you must be an administrator)
-* Marketplace (you must be an administrator)
+* Marketplaces (you must be an administrator)
 * Settings (you must be an administrator)
 * Activity

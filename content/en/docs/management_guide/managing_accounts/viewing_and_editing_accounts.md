@@ -4,7 +4,7 @@ linkTitle: Viewing and editing accounts
 weight: 15
 date: 2021-08-12
 ---
-Select **Account** from the left navigation menu to open the *Account* view. The *Account* view is where you can view and edit account information and manage sessions.
+Select **Account** from the left navigation menu to open the *Account* view. The *Account* view is where you can view and edit account information and manage your active sessions.
 
 ## View account details
 

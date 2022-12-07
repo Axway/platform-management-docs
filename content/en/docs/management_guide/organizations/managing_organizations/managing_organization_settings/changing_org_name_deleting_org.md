@@ -26,7 +26,7 @@ To export data
 
 4. Click the **Actions (..) menu** and then select one of the following:
 
-    * **Download** - download a zip file to your computer containing the exported data in a json file.
+    * **Download** - download a zip file containing the exported data in a json file.
     * **Remove** - delete the export.
 
 ## Delete an organization

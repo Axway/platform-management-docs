@@ -23,7 +23,7 @@ To create your account:
     4. **Password**
     5. **Confirm Password**
     6. **Organization** - type an organization name you want to use.
-    7. **Region** - select the United States or Europe region.
+    7. **Region** - select the United States, Europe, or Asia-Pacific (Singapore) region.
 
         {{% alert title="Note" color="primary" %}}The tooltip explains "Independently of the Privacy Region chosen, authentication data is stored in Frankfurt Germany and metadata is stored in the US. Unless otherwise agreed between the Customer and Axway, in case of the Customer’s decision to change the Privacy Region during the Subscription Period, migration of Customer Data between Privacy Regions is not supported." See [Amplify Platform US and EU Availability, Data Privacy, and Data Residency](#amplify-platform-us-and-eu-availability-data-privacy-and-data-residency) for more details.{{% /alert %}}
 

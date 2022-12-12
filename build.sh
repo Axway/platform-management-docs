@@ -135,8 +135,10 @@ function fMergeContent() {
         fi
     done
 
-    # Update the github_branch Param value in config.toml. This is used by the github edit link.
-    _branch_name=`git branch --remote --contains | sed "s|[[:space:]]*origin/||"`
+    # Update the github_branch Param value in config.toml. This is used by the github edit link. If
+    # the BRANCH_NAME is not set then it's either a local build or a PR. We don't want to enable the
+    # github edit link when in this scenario.
+    _branch_name=${BRANCH_NAME} # the BRANCH_NAME variable comes from Jenkins
     if [[ ! "${_branch_name}" =~ ^"PR-"* ]];then
         unlink build/config.toml
         cp -f config.toml build/config.toml

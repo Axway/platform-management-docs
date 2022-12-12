@@ -13,7 +13,9 @@ To create your account:
     ![Amplify API Management Platform overview page](/Images/amplify_platform_overiew.png)
 
 2. To proceed with creating a new {{% variables/platform_prod_name %}} account, click **Try it Now**. Clicking Try it Now forwards you to the {{% variables/platform_prod_name %}} _Create your free account_ page.
+
     ![Create your free Platform account modal](/Images/platform_sign_up_blank.png)
+
 3. Complete the following fields:
     1. **First Name**
     2. **Last Name**
@@ -21,20 +23,24 @@ To create your account:
     4. **Password**
     5. **Confirm Password**
     6. **Organization** - type an organization name you want to use.
-    7. **Region** - select the United States or Europe region.
+    7. **Region** - select the United States, Europe, or Asia-Pacific (Singapore) region.
 
         {{% alert title="Note" color="primary" %}}The tooltip explains "Independently of the Privacy Region chosen, authentication data is stored in Frankfurt Germany and metadata is stored in the US. Unless otherwise agreed between the Customer and Axway, in case of the Customer’s decision to change the Privacy Region during the Subscription Period, migration of Customer Data between Privacy Regions is not supported." See [Amplify Platform US and EU Availability, Data Privacy, and Data Residency](#amplify-platform-us-and-eu-availability-data-privacy-and-data-residency) for more details.{{% /alert %}}
 
     8. Select the **I have read and agree to the Axway Terms of Use and Privacy statement** option.
 
 4. Click **Sign up**. A message to _Check your email_ is displayed.
+
     ![Check your email dialog](/Images/check_your_email.png)
+
 5. Locate the email, and then click **Active your Account**. You should have an email similar to the following in your inbox.
 
     ![Activate your account button](/Images/activation_email.png)
 
 6. You will see a message that your account has been activated, and then you are redirected to the **Sign in to your account** page. Type your email address and  password you used to sign up, and then click **Sign In**.
+
     ![Sign in to your account page](/Images/sign_in_to_your_account.png)
+
     The {{% variables/platform_prod_name %}} home page is displayed. Refer to the [Amplify Platform Overview](/docs/getting_started_with_amplify_platform_management/overview) for details.
 
 ## Amplify Platform US and EU availability, data privacy, and data residency

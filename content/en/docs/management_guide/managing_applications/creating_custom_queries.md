@@ -25,6 +25,7 @@ To create a custom query without filtering:
 2. Select a Line Chart or Bar Chart for the **Display**.
 3. Select a **Method**. The Method drop-down menu selections are:
     * Count
+    * Rate
     * Cardinality
     * Average
     * Sum
@@ -41,6 +42,7 @@ To create a custom query without filtering:
     * Country
     * Session
     * Session Length
+    * Date
 5. Select a **Grouping**. The Grouping drop-down menu selections are:
     * Custom - If selected, enter the custom grouping information.
     * Event
@@ -69,6 +71,7 @@ To create a custom query with filtering:
 2. Select a line chart, bar chart, or events stream for the **Display**.
 3. Select a **Method**. The Method drop-down menu selections are:
     * Count
+    * Rate
     * Cardinality
     * Average
     * Sum
@@ -85,6 +88,7 @@ To create a custom query with filtering:
     * Country
     * Session
     * Session Length
+    * Date
 5. Select a **Grouping**. The Grouping drop-down menu selections are:
     * Custom - If selected, enter the custom grouping information.
     * Event
@@ -116,6 +120,7 @@ To create a custom query with filtering:
     * Country
     * Session
     * Session Length
+    * Date
 12. Select a filter operand. The filter operand selections are:
     * Equals
     * Is not
@@ -186,6 +191,7 @@ To configure basic filtering:
     * Country
     * Session
     * Session Length
+    * Date
 5. Select a filter operand. The filter operand selections are:
     * Equals
     * Is not

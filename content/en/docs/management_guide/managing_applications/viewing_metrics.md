@@ -33,7 +33,7 @@ View metrics details by doing the following:
 
 ## Common metrics
 
-On the Overview view, the total number of organization teams and users are displayed for all product lines. Click the [teams](/docs/management_guide/organizations/managing_organizations/#managing-teams) or [users](/docs/management_guide/organizations/managing_organizations/#managing-users) category to view the details.
+On the Overview view, the total number of organization teams and users are displayed for all product lines. Click the [teams](/docs/management_guide/organizations/managing_organizations/managing_teams/) or [users](/docs/management_guide/organizations/managing_organizations/managing_users/) category to view the details.
 
 ## API Management metrics
 

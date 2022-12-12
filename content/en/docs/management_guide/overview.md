@@ -12,7 +12,7 @@ The Amplify Platform Overview left navigation comprises the following views:
 ![Amplify Platform Overview left navigation](/Images/dashboard_left_menu.png)
 
 * **Overview** - displays  key metric information relevant to a product line to which your organization is subscribed. All users will see the Overview link.
-* **Business Insights** - navigates you to [Business Insights](https://docs.axway.com/bundle/amplify-central/page/docs/get_actionable_insights/index.html). Users with the Central Admin and Developer roles will see the Business Insights link.
+* **Business Insights** - navigates you to [Business Insights](https://docs.axway.com/bundle/amplify-central/page/docs/get_actionable_insights/business_insights/index.html). Users with the Central Admin and Developer roles will see the Business Insights link.
 * **Search Audit** - navigates you to the Search Audit. Users with the Auditor role will see the Search Audit link.
 * **Apps** - displays the list of applications for your organization and where you can [manage your applications](/docs/management_guide/managing_applications/). Organizations with registered apps will see this link.
 * **Custom Queries** - if configured, displays custom query summary information and enables the creation of custom analytics queries.
@@ -25,7 +25,7 @@ The **Overview** displays key metric information relevant to the product line t
 
 ## Business Insights
 
-**Business Insights** redirects you to [Business Insights](https://docs.axway.com/bundle/amplify-central/page/docs/get_actionable_insights/index.html).
+**Business Insights** redirects you to [Business Insights](https://docs.axway.com/bundle/amplify-central/page/docs/get_actionable_insights/business_insights/index.html).
 
 ## Search Audit
 

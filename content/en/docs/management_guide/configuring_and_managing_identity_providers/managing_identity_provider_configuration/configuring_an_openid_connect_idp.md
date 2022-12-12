@@ -25,7 +25,7 @@ To create a new Identity Provider
 4. Enter the **Client ID** and **Client Secret** fields from the values that are configured for your OIDC Identity Provider's Amplify Platform client.
 5. Complete the **Advanced** configuration settings (**Logout URL** and **Backchannel Logout**) if they are applicable to your Identity Provider.
 6. Confirm the provider configuration values for **Authorization** **URL**, **Token URL**, and **Attribute Mapping**.
-7. Complete the _Role Assignments_ section. Refer to [Role assignments](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_identity_provider_configuration/role_assignments/) for details.
+7. Complete the _Role Assignments_ section. Refer to [Role assignments](/docs/management_guide/configuring_and_managing_identity_providers/managing_identity_provider_configuration/role_assignments/) for details.
 8. The following is an example of a completed OIDC form (before clicking **Save**).
 
     ![Completed form for adding an OIDC Identity Provider](/Images/oidc_new.png)

@@ -40,6 +40,6 @@ After an Identity Provider and domain has been added and configured, you can com
 
 * [Enable multi-org Identity Provider](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_multiple_orgs)
 * [Optionally configure off-domain users to use an IdP](/docs/management_guide/configuring_and_managing_identity_providers/requiring_identity_provider_use)
-* [Remove a domain](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_domains/removing_a_domain/)
-* [Dissociate a Domain](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_domains/dissociating_a_domain/)
-* [Delete an Identity Provider configuration](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_identity_provider_configuration/deleting_an_identity_provider_configuration/)
+* [Remove a domain](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/removing_a_domain/)
+* [Dissociate a Domain](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/dissociating_a_domain/)
+* [Delete an Identity Provider configuration](/docs/management_guide/configuring_and_managing_identity_providers/managing_identity_provider_configuration/deleting_an_identity_provider_configuration/)

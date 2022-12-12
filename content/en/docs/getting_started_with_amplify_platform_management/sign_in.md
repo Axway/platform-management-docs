@@ -15,7 +15,7 @@ Use the following sign-in instructions if your organization has the single sign-
 
 1. Navigate to [https://platform.axway.com](https://platform.axway.com/). The *Sign In* page is displayed.
 2. Enter the email address associated with your account. If you do not have an {{% variables/platform_prod_name %}} account, click **Get started for free** and then follow the [Sign up](/docs/getting_started_with_amplify_platform_management/sign_up/) instructions.
-3. Enter your organization account password and click **Sign In**. Clicking **Sign In** will forward you to the {{% variables/platform_prod_name %}} home page. For an overview of the {{% variables/platform_prod_name %}}, refer to the [Amplify Platform Overview](/docs/getting_started_with_amplify_platform_management/overview/).
+3. Enter your organization account password and click **Sign In**. Clicking **Sign In** will forward you to the {{% variables/platform_prod_name %}} home page. For an overview of the {{% variables/platform_prod_name %}}, refer to the [Amplify Platform Overview](/docs/management_guide/overview/).
 
 ## Sign In with your Amplify Platform password (non-SSO)
 
@@ -34,4 +34,4 @@ Use the following sign-in if your organization does not have the single sign-on 
 6. If you are a member of multiple organizations, you may be forwarded to the *Select Organization* page. You can  configure the login path and organization to log in to from your Account - Settings page. Refer to the [Select the org rule](/docs/management_guide/managing_accounts/#select-the-org-login-rule) section in Managing Accounts.
     ![Select organization modal](/Images/multiple_orgs.png)
 7. Select the organization to sign into from the Select Organization drop-down menu.
-8. Click **Continue**. Clicking **Continue** will forward you to the {{% variables/platform_prod_name %}} home page. For an overview of the {{% variables/platform_prod_name %}} refer to the [Amplify Platform Overview](/docs/getting_started_with_amplify_platform_management/overview/).
+8. Click **Continue**. Clicking **Continue** will forward you to the {{% variables/platform_prod_name %}} home page. For an overview of the {{% variables/platform_prod_name %}} refer to the [Amplify Platform Overview](/docs/management_guide/overview/).

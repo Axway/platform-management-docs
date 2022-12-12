@@ -80,7 +80,7 @@ In the Platform, you must complete a form to create the Identity Provider using 
     ![Attribute Mapping](/Images/360_saml_v2_0_attribute_mapping_values.png)
 
     ![User Attribute & Claims page](/Images/ad_attribute_map_claims.png)
-7. Complete the _Role Assignments_ section. Refer to [Role Assignments](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_identity_provider_configuration/role_assignments/) for details.
+7. Complete the _Role Assignments_ section. Refer to [Role Assignments](/docs/management_guide/configuring_and_managing_identity_providers/managing_identity_provider_configuration/role_assignments/) for details.
 
     The following is an example for a completed SAML v2.0 form (before clicking **Save**).
 

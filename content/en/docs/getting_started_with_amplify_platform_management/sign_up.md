@@ -41,7 +41,7 @@ To create your account:
 
     ![Sign in to your account page](/Images/sign_in_to_your_account.png)
 
-    The {{% variables/platform_prod_name %}} home page is displayed. Refer to the [Amplify Platform Overview](/docs/getting_started_with_amplify_platform_management/overview) for details.
+    The {{% variables/platform_prod_name %}} home page is displayed. Refer to the [Amplify Platform Overview](/docs/management_guide/overview) for details.
 
 ## Amplify Platform US and EU availability, data privacy, and data residency
 

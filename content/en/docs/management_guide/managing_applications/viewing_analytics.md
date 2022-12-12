@@ -8,7 +8,7 @@ You can view detailed analytics for client service applications from their Analy
 
 ## Analytics menu for client services
 
-Click Overview - Apps - <_App_> - Analytics to navigate to the **Analytics** menu. The **Analytics** view provides detailed analytics for each application. The **Analytics** menu contains several sub-views for different metric categories and to create queries.
+Click Overview - Apps - <*App*> - Analytics to navigate to the **Analytics** menu. The **Analytics** view provides detailed analytics for each application. The **Analytics** menu contains several sub-views for different metric categories and to create queries.
 
 ![Analytics menu](/Images/analytics_tab.png)
 

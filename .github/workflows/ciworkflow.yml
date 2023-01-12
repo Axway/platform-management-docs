@@ -25,7 +25,7 @@ jobs:
     - name: Set up Node
       uses: actions/setup-node@v1
       with:
-        node-version: '12.x'
+        node-version: '16.x'
     # Runs markdownlint
     - name: Run markdown linter
       run: |

@@ -18,7 +18,7 @@ Platform Management 12.6.0 is a minor release which includes one changed behavio
 
 * The *Edit Identity Provider* form view now provides the ability to export and import its configuration.
 
-## Fixed issue
+## Fixed issues
 
 * Fixed an issue where some details in *Activity* views may display an entity's identifier rather than its name.
 * Fixed an issue where attempting to navigate away from the *Marketplace Settings* view after saving changes may cause an unexpected confirmation dialog that the form has unsaved changes to show.

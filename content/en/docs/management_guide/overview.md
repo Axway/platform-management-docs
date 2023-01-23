@@ -27,11 +27,6 @@ The **Overview** displays key metric information relevant to the product line t
 
 **Business Insights** redirects you to [Business Insights](https://docs.axway.com/bundle/amplify-central/page/docs/get_actionable_insights/business_insights/index.html).
 
-## Search Audit
-
-<!-- TODO: link to Search Audit page in Flow Manager docs -->
-**Search Audit** redirects you to Search Audit.
-
 ## Apps
 
 **Apps** displays the list of applications for the selected organization. Select the **Show only my apps** checkbox to limit the displayed list of applications to your projects or applications. The list of apps can be filtered by app type. You can also search the list of apps by app name, ID, or creator and select and pin apps from the list of apps.

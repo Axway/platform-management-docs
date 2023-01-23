@@ -10,26 +10,25 @@ This section is about organization user roles and features. Users can be assign
 
 The following table shows the available roles and capabilities.
 
-| Role                      | Short Description                                     | Platform | App Integration | Central | Catalog |  Teams | Audit | Flow Manager |
-| ------------------------- | -----------------------------------------------       | -------- | --------------- | ------- | ------- | -------| ----- | ------------ |
-| **Platform Roles**        |                                                       |          |                 |         |         |        |       |              |
-| Administrator             | Use for platform admin tasks                          | X        | X               |         |         |        |       | X            |
-| Developer                 | Use for development and integration projects          | X        | X               | X       | X       | X      | X     | X            |
-| Consumer                  | Use for the consumption of services from the catalog  |          |                 | X       | X       |        |       |              |
-| **Central Roles**         |                                                       |          |                 |         |         |        |       |              |
-| Central Admin             | Use for all-encompassing access to Central            |          |                 | X       | X       |        |       |              |
-| **Flow Manager Roles**    |                                                       |          |                 |         |         |        |       |              |
-| Access Manager            | Use for full management of services, organizations, identity stores and users. Allows viewing and editing roles and privileges.                                                                         |          |                 |         |         |        |       | X            |
-| Auditor                   | Allows access to Search Audit UI                      |          |                 |         |         |        |       | X            |
-| Integration Specialist    | Use for management of applications, application groups, partners, flow patterns, templates, subscriptions, flows and transfers. Grants viewing of products, product configurations and partners.                           |          |                 |         |         |        |       | X            |
-| IT Admin                  | Use for management of Flow Manager configurations, organizations, identity stores and users. Grants viewing of alerts management.<br /><br />Role enables access rights to user audit.                                          |          |                 |         |         |        |       | X             |
-| Products Admin            | Use for full management of products, product configurations, policies, product groups. Grants viewing of user audit events.                                                                             |          |                 |         |         |        |       | X             |
-| Promoter Specialist       | Use for forced deletion of templates and subscriptions.|         |                 |         |         |        |       | X             |
-| Special Operations Admin  | Use for forced deletion of templates and subscriptions.|         |                 |         |         |        |       | X             |
-| Subscription Approver     | Use to view published templates, approve subscriptions, and reject subscriptions. Grants viewing of partners, applications, and products. For business user for subscription approvals.                                       |          |                 |         |         |        |       | X             |
-| Subscription Specialist    | Use to manage subscriptions                          |          |                 |         |         |        |       | X             |
-| Template Publisher         | Use to view, publish, and edit templates. For business user for template publishing.                                                                         |          |                 |         |         |        |       | X             |
-| Transfer CFT Admin         | Use for full management of Transfer CFT              |          |                 |         |         |        |       | X             |
+| Role                      | Short Description                                     | Platform | App Integration | Central | Catalog |  Teams | Flow Manager |
+| ------------------------- | -----------------------------------------------       | -------- | --------------- | ------- | ------- | ------ | ------------ |
+| **Platform Roles**        |                                                       |          |                 |         |         |        |              |
+| Administrator             | Use for platform admin tasks                          | X        | X               |         |         |        | X            |
+| Developer                 | Use for development and integration projects          | X        | X               | X       | X       | X      | X            |
+| Consumer                  | Use for the consumption of services from the catalog  |          |                 | X       | X       |        |              |
+| **Central Roles**         |                                                       |          |                 |         |         |        |              |
+| Central Admin             | Use for all-encompassing access to Central            |          |                 | X       | X       |        |              |
+| **Flow Manager Roles**    |                                                       |          |                 |         |         |        |              |
+| Access Manager            | Use for full management of services, organizations, identity stores and users. Allows viewing and editing roles and privileges.                                                                  |          |                 |         |         |        | X            |
+| Integration Specialist    | Use for management of applications, application groups, partners, flow patterns, templates, subscriptions, flows and transfers. Grants viewing of products, product configurations and partners. |          |                 |         |         |        | X            |
+| IT Admin                  | Use for management of Flow Manager configurations, organizations, identity stores and users. Grants viewing of alerts management.                                                                |          |                 |         |         |        | X            |
+| Products Admin            | Use for full management of products, product configurations, policies, product groups.                                                                                                           |          |                 |         |         |        | X            |
+| Promoter Specialist       | Use for forced deletion of templates and subscriptions.                                                                                                                                          |          |                 |         |         |        | X            |
+| Special Operations Admin  | Use for forced deletion of templates and subscriptions.                                                                                                                                          |          |                 |         |         |        | X            |
+| Subscription Approver     | Use to view published templates, approve subscriptions, and reject subscriptions. Grants viewing of partners, applications, and products. For business user for subscription approvals.          |          |                 |         |         |        | X            |
+| Subscription Specialist   | Use to manage subscriptions                                                                                                                                                                      |          |                 |         |         |        | X            |
+| Template Publisher        | Use to view, publish, and edit templates. For business user for template publishing.                                                                                                             |          |                 |         |         |        | X            |
+| Transfer CFT Admin        | Use for full management of Transfer CFT.                                                                                                                                                         |          |                 |         |         |        | X            |
 
 ## Team roles
 

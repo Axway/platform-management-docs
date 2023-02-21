@@ -12,7 +12,7 @@ Platform Management 12.8.0 is a minor release which includes one new feature and
 
 ## New feature
 
-* Administrators of organizations which are entitled to multiple marketpalces may now remove unneeded marketplaces from the *Marketplaces* view.
+* Administrators of organizations which are entitled to multiple marketplaces may now remove unneeded marketplaces from the *Marketplaces* view.
 
 ## Fixed issues
 

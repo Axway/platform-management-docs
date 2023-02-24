@@ -4,4 +4,6 @@ resources/
 node_modules/
 tech-doc-hugo
 .DS_Store
+axway-open-docs-common/
+package-lock.json
 

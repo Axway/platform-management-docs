@@ -8,7 +8,7 @@ Hide_readingtime: true
 
 ## Platform Management 12.8.2 - 09 Mar 2023
 
-Platform Management 12.8.2 is an incremental release which includes one improvement and one fixed issues.
+Platform Management 12.8.2 is an incremental release which includes one improvement and one fixed issue.
 
 ## Improvement
 

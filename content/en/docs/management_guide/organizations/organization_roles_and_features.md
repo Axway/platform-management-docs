@@ -39,6 +39,7 @@ Users also have a role in each team they belong to.
 | Team Manager | Use this role to manage the members of the team and their role assignements |
 | Consumer | Use this role to view and consume assets in the Unified Catalog |
 | Developer | Use this role to manage assets in Amplify and the Unified Catalog |
+| Marketplace Manager | Use this role to manage Marketplace settings, appearance, and content |
 | Catalog Manager | Use this role to manage Unified Catalog items and approve subscriptions |
 | Subscriber | Use this role to manage Marketplace subscriptions and view usage |
 | Subscription Approver | Use this role to approve Marketplace Subscriptions and Access Requests |
@@ -47,68 +48,70 @@ Users also have a role in each team they belong to.
 
 The following table shows the available team roles and capabilities. The Central Admin role has access to all team capabilities.
 
-| Capabilities                            | Catalog Manager         | Subscription Approver   | Subscriber              | Developer               | Consumer           | Team Manager            |
-| --------------------------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ------------------ | ----------------------- |
-| **Unified Catalog**                     |                         |                         |                         |                         |                    |                         |
-| Create catalog items                    | x (my team)             |                         |                         | x (my team)             |                    |                         |
-| View catalog items                      | x (my team)             |                         |                         | x (my team)             | x                  |                         |
-| Delete catalog items                    | x (my team)             |                         |                         |                         |                    |                         |
-| Share a catalog item                    | x (my team)             |                         |                         |                         | x                  |                         |
-| Edit a catalog item                     | x (my team)             |                         |                         | x (my team)             |                    |                         |
-| Create my subscriptions                 | x (my team)             |                         |                         | x (my team)             | x (my team)        |                         |
-| View my subscriptions                   | x (my team)             |                         |                         | x (my team)             | x (my team)        |                         |
-| Update my subscriptions                 | x (my team)             |                         |                         | x (my team)             | x (my team)        |                         |
-| View consumer's subscriptions           | x (my team assets)      |                         |                         |                         |                    |                         |
-| Delete consumer's subscriptions         | x (my team assets)      |                         |                         |                         |                    |                         |
-| Approve/reject consumer's subscriptions | x (my team assets)      |                         |                         |                         |                    |                         |
-| Delete my subscriptions                 | x (my team)             |                         |                         | x (my team)             | x (my team)        |                         |
-| **Marketplace**                         |                         |                         |                         |                         |                    |                         |
-| View products                           | x (my team)             |                         | x (my team)             | x (my team)             | x (my team)        |                         |
-| Subscribe                               | x (free plan only)      |                         | x (free plan only)      | x (free plan only)      | x (free plan only) |                         |
-| View application subscriptions          | x (my team)             | x (my team)             | x (my team)             | x (my team)             | x (my team)        |                         |
-| Manage subscriptions                    | x (my team)             |                         | x (my team)             | x (my team)             | x (my team)        |                         |
-| Approve/reject subscriptions            | x (my team)             | x (my team)             | x (my team)             |                         |                    |                         |
-| View consumer access request            | x (my team)             |                         | x (my team)             | x (my team)             | x (my team)        |                         |
-| Approve/reject access requests          | x (my team)             | x (my team)             |                         |                         |                    |                         |
-| Delete consumer access request          | x (my team)             | x (my team)             | x (my team)             | x (my team)             | x (my team)        |                         |
-| View my subscription                    | x (my team)             |                         | x (my team)             | x (my team)             | x (my team)        |                         |
-| Create application                      | x (my team)             |                         | x (my team)             | x (my team)             | x (my team)        |                         |
-| View application                        | x (my team)             |                         | x (my team)             | x (my team)             | x (my team)        |                         |
-| Delete application                      | x (my team)             |                         | x (my team)             | x (my application)      | x (my application) |                         |
-| Update application                      | x (my team)             |                         | x (my team)             | x (my application)      | x (my application) |                         |
-| **Environments**                        |                         |                         |                         |                         |                    |                         |
-| Create environments                     |                         |                         |                         |                         |                    |                         |
-| View environments                       |                         |                         |                         |                         |                    |                         |
-| Delete environments                     |                         |                         |                         |                         |                    |                         |
-| Update environments                     |                         |                         |                         |                         |                    |                         |
-| **Services**                            |                         |                         |                         |                         |                    |                         |
-| Create a service                        |                         |                         |                         | x (my team              |                    |                         |
-| View a service                          |                         |                         |                         | x (my team)             |                    |                         |
-| Delete a service                        |                         |                         |                         | x (my team)             |                    |                         |
-| Update a service                        |                         |                         |                         | x (my team)             |                    |                         |
-| **Assets**                              |                         |                         |                         |                         |                    |                         |
-| Create an asset                         |                         |                         |                         | x (my team)             |                    |                         |
-| View an asset                           |                         |                         |                         | x (my team)             |                    |                         |
-| Delete an asset                         |                         |                         |                         | x (my team)             |                    |                         |
-| Update an asset                         |                         |                         |                         | x (my team)             |                    |                         |
-| **Products**                            |                         |                         |                         |                         |                    |                         |
-| Create a product                        | x (my team)             |                         |                         |                         |                    |                         |
-| View a product                          | x (my team)             |                         |                         |                         |                    |                         |
-| Delete a product                        | x (my team)             |                         |                         |                         |                    |                         |
-| Update a product                        | x (my team)             |                         |                         |                         |                    |                         |
-| Set product visibility                  | x (my team)             |                         |                         |                         |                    |                         |
-| Publish a product to the Marketplace    | x (my team)             |                         |                         |                         |                    |                         |
-| **Categories**                          | *Team level/Enterprise* |                         |                         | *Team level/Enterprise* | *Enterprise level* | *Team level/Enterprise* |
-| Create a category                       |                         |                         |                         |                         |                    |                         |
-| View a category                         |                         |                         |                         |                         |                    |                         |
-| Delete a category                       |                         |                         |                         |                         |                    |                         |
-| Update a category                       |                         |                         |                         |                         |                    |                         |
-| Assign to a category                    |                         |                         |                         |                         |                    |                         |
-| **Business Insights**                   |                         |                         |                         |                         |                    |                         |
-| View transactions for my subscriptions  | x (my team)             |                         |                         | x (my team)             | x (my team)        |                         |
-| View transactions for my assets         | x (my team)             |                         |                         | x (my team)             | x (my team)        |                         |
-| **Teams & Members (Platform)**          |                         |                         |                         |                         |                    |                         |
-| Create a team                           |                         |                         |                         |                         |                    |                         |
-| View teams                              | x (my team)             |                         |                         | x (my team)             |                    | x (my team)             |
-| Update team                             |                         |                         |                         |                         |                    | x (my team)             |
-| Delete team                             |                         |                         |                         |                         |                    |                         |
+| Capabilities                            | Catalog Manager         | Subscription Approver   | Subscriber              | Marketplace Manager     | Developer               | Consumer           | Team Manager            |
+| --------------------------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ------------------ | ----------------------- |
+| **Unified Catalog**                     |                         |                         |                         |                         |                         |                    |                         |
+| Create catalog items                    | x (my team)             |                         |                         |                         | x (my team)             |                    |                         |
+| View catalog items                      | x (my team)             |                         |                         |                         | x (my team)             | x                  |                         |
+| Delete catalog items                    | x (my team)             |                         |                         |                         |                         |                    |                         |
+| Share a catalog item                    | x (my team)             |                         |                         |                         |                         | x                  |                         |
+| Edit a catalog item                     | x (my team)             |                         |                         |                         | x (my team)             |                    |                         |
+| Create my subscriptions                 | x (my team)             |                         |                         |                         | x (my team)             | x (my team)        |                         |
+| View my subscriptions                   | x (my team)             |                         |                         |                         | x (my team)             | x (my team)        |                         |
+| Update my subscriptions                 | x (my team)             |                         |                         |                         | x (my team)             | x (my team)        |                         |
+| View consumer's subscriptions           | x (my team assets)      |                         |                         |                         |                         |                    |                         |
+| Delete consumer's subscriptions         | x (my team assets)      |                         |                         |                         |                         |                    |                         |
+| Approve/reject consumer's subscriptions | x (my team assets)      |                         |                         |                         |                         |                    |                         |
+| Delete my subscriptions                 | x (my team)             |                         |                         |                         | x (my team)             | x (my team)        |                         |
+| **Marketplace**                         |                         |                         |                         |                         |                         |                    |                         |
+| View products                           | x (my team)             |                         | x (my team)             |                         | x (my team)             | x (my team)        |                         |
+| Subscribe                               | x (free plan only)      |                         | x (free plan only)      |                         | x (free plan only)      | x (free plan only) |                         |
+| View application subscriptions          | x (my team)             | x (my team)             | x (my team)             |                         | x (my team)             | x (my team)        |                         |
+| Manage subscriptions                    | x (my team)             |                         | x (my team)             |                         | x (my team)             | x (my team)        |                         |
+| Approve/reject subscriptions            | x (my team)             | x (my team)             | x (my team)             |                         |                         |                    |                         |
+| View consumer access request            | x (my team)             |                         | x (my team)             |                         | x (my team)             | x (my team)        |                         |
+| Approve/reject access requests          | x (my team)             | x (my team)             |                         |                         |                         |                    |                         |
+| Delete consumer access request          | x (my team)             | x (my team)             | x (my team)             |                         | x (my team)             | x (my team)        |                         |
+| View my subscription                    | x (my team)             |                         | x (my team)             |                         | x (my team)             | x (my team)        |                         |
+| Create application                      | x (my team)             |                         | x (my team)             |                         | x (my team)             | x (my team)        |                         |
+| View application                        | x (my team)             |                         | x (my team)             |                         | x (my team)             | x (my team)        |                         |
+| Delete application                      | x (my team)             |                         | x (my team)             |                         | x (my application)      | x (my application) |                         |
+| Update application                      | x (my team)             |                         | x (my team)             |                         | x (my application)      | x (my application) |                         |
+| **Environments**                        |                         |                         |                         |                         |                         |                    |                         |
+| Create environments                     |                         |                         |                         |                         |                         |                    |                         |
+| View environments                       |                         |                         |                         |                         |                         |                    |                         |
+| Delete environments                     |                         |                         |                         |                         |                         |                    |                         |
+| Update environments                     |                         |                         |                         |                         |                         |                    |                         |
+| **Services**                            |                         |                         |                         |                         |                         |                    |                         |
+| Create a service                        |                         |                         |                         |                         | x (my team              |                    |                         |
+| View a service                          |                         |                         |                         |                         | x (my team)             |                    |                         |
+| Delete a service                        |                         |                         |                         |                         | x (my team)             |                    |                         |
+| Update a service                        |                         |                         |                         |                         | x (my team)             |                    |                         |
+| **Assets**                              |                         |                         |                         |                         |                         |                    |                         |
+| Create an asset                         |                         |                         |                         |                         | x (my team)             |                    |                         |
+| View an asset                           |                         |                         |                         |                         | x (my team)             |                    |                         |
+| Delete an asset                         |                         |                         |                         |                         | x (my team)             |                    |                         |
+| Update an asset                         |                         |                         |                         |                         | x (my team)             |                    |                         |
+| **Products**                            |                         |                         |                         |                         |                         |                    |                         |
+| Create a product                        | x (my team)             |                         |                         |                         |                         |                    |                         |
+| View a product                          | x (my team)             |                         |                         |                         |                         |                    |                         |
+| Delete a product                        | x (my team)             |                         |                         |                         |                         |                    |                         |
+| Update a product                        | x (my team)             |                         |                         |                         |                         |                    |                         |
+| Set product visibility                  | x (my team)             |                         |                         |                         |                         |                    |                         |
+| Publish a product to the Marketplace    | x (my team)             |                         |                         |                         |                         |                    |                         |
+| **Categories**                          | *Team level/Enterprise* |                         |                         |                         | *Team level/Enterprise* | *Enterprise level* | *Team level/Enterprise* |
+| Create a category                       |                         |                         |                         |                         |                         |                    |                         |
+| View a category                         |                         |                         |                         |                         |                         |                    |                         |
+| Delete a category                       |                         |                         |                         |                         |                         |                    |                         |
+| Update a category                       |                         |                         |                         |                         |                         |                    |                         |
+| Assign to a category                    |                         |                         |                         |                         |                         |                    |                         |
+| **Business Insights**                   |                         |                         |                         |                         |                         |                    |                         |
+| View transactions for my subscriptions  | x (my team)             |                         |                         |                         | x (my team)             | x (my team)        |                         |
+| View transactions for my assets         | x (my team)             |                         |                         |                         | x (my team)             | x (my team)        |                         |
+| **Marketplaces (Platform)**             |                         |                         |                         |                         |                         |                    |                         |
+| Update marketplace settings/appearance  |                         |                         |                         | x (my team)             |                         |                    |                         |
+| **Teams & Members (Platform)**          |                         |                         |                         |                         |                         |                    |                         |
+| Create a team                           |                         |                         |                         |                         |                         |                    |                         |
+| View teams                              | x (my team)             |                         |                         |                         | x (my team)             |                    | x (my team)             |
+| Update team                             |                         |                         |                         |                         |                         |                    | x (my team)             |
+| Delete team                             |                         |                         |                         |                         |                         |                    |                         |

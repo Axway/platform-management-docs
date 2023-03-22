@@ -13,7 +13,7 @@ Platform Management 13.1.0 is a minor release which includes two new features, o
 ## New features
 
 * This release introduces a new Marketplace Manager role assignable on your organization's teams. A new Administration Preference captured on the *Marketplace Settings* view enables organization administrators to select when team's Marketplace Manager role members can modify settings, appearance, and menu, footer, and homepage content for that marketplace.
-* Added Publication Preference to *Marketplace Settings* view allow organization administrators to control which teams' Catalog Manager role members are allowed to publish products to that marketplace.
+* Added Publication Preference to *Marketplace Settings* view to allow organization administrators to control which teams' Catalog Manager role members are allowed to publish products to that marketplace.
 
 ## Improvement
 

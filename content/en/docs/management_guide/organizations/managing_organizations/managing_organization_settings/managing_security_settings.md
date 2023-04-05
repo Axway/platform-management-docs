@@ -27,4 +27,4 @@ Administrators have the option to configure additional password settings to add 
     * Digits
 * **Renewal period** - Number of days after which a user must change their password.
 * **Not Recently Used** - Number of times a unique password is required before a previously used password can be reused.
-* **Account Lock Out** - Number of times a user can attempt to log in with an incorrect password before the account is locked.
+* **Account Lock Out** - Number of times a user can attempt to sign in with an incorrect password before the account is locked.

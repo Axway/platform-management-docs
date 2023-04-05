@@ -5,7 +5,7 @@ weight: 30
 date: 2021-08-12
 ---
 
-Administrators use the _Role Assignments_ section to define the platform roles and teams for a user when they log in to the platform the first time for a configured IdP.
+Administrators use the _Role Assignments_ section to define the platform roles and teams for a user when they sign in to the platform the first time for a configured IdP.
 
 ## Default role and team assignments
 
@@ -13,8 +13,8 @@ When new members of an organization sign in to the platform for this IdP, they a
 
 The _Role Assignments_ section defines:
 
-* **Default Org Roles** - The _Default Org Roles_ section defines the org-level role a new user is assigned when they log in to the platform for the first time for the configured IdP. The default is the **Developer** role.
-* **Default Teams** - The _Default Teams_ section defines any default teams a new user is assigned, and the roles they are given in the team or teams (if any) when they log in to the platform for the first time for the configured IdP. The default is the org's **Default** team with the **Developer** role.
+* **Default Org Roles** - The _Default Org Roles_ section defines the org-level role a new user is assigned when they sign in to the platform for the first time for the configured IdP. The default is the **Developer** role.
+* **Default Teams** - The _Default Teams_ section defines any default teams a new user is assigned, and the roles they are given in the team or teams (if any) when they sign in to the platform for the first time for the configured IdP. The default is the org's **Default** team with the **Developer** role.
 
 ## IdP managed role and team assignments
 

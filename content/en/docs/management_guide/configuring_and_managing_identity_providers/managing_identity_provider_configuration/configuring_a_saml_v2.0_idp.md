@@ -85,7 +85,7 @@ In the Platform, you must complete a form to create the Identity Provider using 
     The following is an example for a completed SAML v2.0 form (before clicking **Save**).
 
     ![SAML v2.0 completed form](/Images/saml_new.png)
-8. Click **Save**. A Confirmation dialog appears with a message that once the Identity Provider is verified, all users on that domain will be required to log into the Platform with their Identity Provider credentials.
+8. Click **Save**. A Confirmation dialog appears with a message that once the Identity Provider is verified, all users on that domain will be required to sign in to the Platform with their Identity Provider credentials.
 
     ![Confirm Identity Provider Configuration dialog](/Images/idp_save_configuration.png)
 

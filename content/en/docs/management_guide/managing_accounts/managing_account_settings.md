@@ -68,7 +68,7 @@ A user which is a member of one or more organizations which have a Support Acces
 ![Deleting your account](/Images/account_settings_delete.png)
 
 1. Click **Delete**. A confirmation modal displays.
-2. Type the password of your account used to sign into the Platform.
+2. Type the password of your account used to sign in to the Platform.
 3. Click **Send code**. An authorization code is emailed to your Platform user account email address.
 4. Copy and paste or type the authorization code received in the email into the **Authorization code** field in the modal.
 5. Click **I understand that this is a permanent and irreversible. Continue**.

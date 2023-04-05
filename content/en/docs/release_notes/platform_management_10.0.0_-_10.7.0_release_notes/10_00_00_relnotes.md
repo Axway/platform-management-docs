@@ -26,7 +26,7 @@ For continued management of **Amplify Runtime Services** applications, please us
 * Removed the *Download Premium Modules* view. Premium modules are available as open source software from the corresponding [Appcelerator Modules GitHub repository](https://github.com/orgs/appcelerator-modules/repositories).
 * Removed the *Get Started with App Builder* view.
 * Removed the **App Preview** link on the *App Overview* view.
-* Removed the option to sign into **Amplify Platform** using GitHub OAuth integration.
+* Removed the option to sign in to **Amplify Platform** using GitHub OAuth integration.
 * Changed the top navigation to consistently link to the *Platform Home* view.
 
 ## Improvements

@@ -5,7 +5,7 @@ weight: 30
 date: 2021-08-12
 ---
 
-Once you are signed into the {{% variables/platform_prod_name %}} the _Welcome to Amplify_ home page is displayed. What you see on the home page depends on your organizations subscriptions and your assigned roles. Subscriptions define the platform capabilities that the organization is allowed to use. Users can be assigned different roles that grant them the rights to the Platform associated with their assigned roles and capabilities.
+Once you are signed in to the {{% variables/platform_prod_name %}} the _Welcome to Amplify_ home page is displayed. What you see on the home page depends on your organizations subscriptions and your assigned roles. Subscriptions define the platform capabilities that the organization is allowed to use. Users can be assigned different roles that grant them the rights to the Platform associated with their assigned roles and capabilities.
 
 The Platform home page includes the following areas. Refer to the images below to understand the areas you will see for your organization:
 

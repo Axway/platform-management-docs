@@ -37,8 +37,8 @@ To enable multi-factor authentication:
 
     | Preferred MFA method | How this works | When can this be used |
     | ---| --- | --- |
-    | Authenticator App | A random code is generated within the app that needs to be provided when the user signs into the Platform. | Only available when an authenticator app has been configured for your account. See [Setup Authenticator App](#setup-authenticator-app) for details. |
-    | Email | A code is sent to your email address that needs to be provided when the user signs into the Platform. | Always available, uses the email address linked to your account. |
+    | Authenticator App | A random code is generated within the app that needs to be provided when the user signs in to the Platform. | Only available when an authenticator app has been configured for your account. See [Setup Authenticator App](#setup-authenticator-app) for details. |
+    | Email | A code is sent to your email address that needs to be provided when the user signs in to the Platform. | Always available, uses the email address linked to your account. |
 
 4. Click **Save**. Once the Enabled checkbox is selected and the account saved, multi-factor authentication will be enabled, and a notification email will be sent.
 

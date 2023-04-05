@@ -31,10 +31,10 @@ The *Help & Resources* menu provides links to:
 
 * **Documentation** - Click to navigate to the Documentation Portal and explore the {{% variables/platform_prod_name %}}documentation.
 * **Community Portal** - Click to navigate to the Axway Community Portal.
-* **Support Portal** - Click to navigate to the Axway Support Portal (login required).
+* **Support Portal** - Click to navigate to the Axway Support Portal (sign-in required).
 * **Axway University** - Click to navigate to the Axway University Portal.
 * **Downloads** - Click to access the Products and Amplify Repository. Refer to the [Downloading Axway-issued Artifacts or Product Extensions](/docs/management_guide/downloading_axway-issued_artifacts_or_product_extensions/) for details.
-    * Click **Products** to navigate to the Axway Support Portal (login required).
+    * Click **Products** to navigate to the Axway Support Portal (sign-in required).
     * Click **Repository** to navigate to the Amplify Repository.
 * **Axway.com** - Click to navigate to Axway.com.
 * **Developer Blog** - Click to navigate to the Axway Developer blog, where you can subscribe to receive blog posts by email.

@@ -23,5 +23,5 @@ Please note as of this release **Amplify API Management Platform** trial subscri
 
 ## Fixed issue
 
-* Fixed an issue where users logging in from their marketplace may not be redirected back after login if their account's Login Org setting was set to "Always Ask for Org".
+* Fixed an issue where users signing in from their marketplace may not be redirected back after signing in if their account's Sign-in Organization setting was set to "Always ask for organization".
 * Fixed an issue where the *Users* table view would not update as newly invited users activated.

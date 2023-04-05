@@ -14,4 +14,4 @@ As of this release, all Support, Community, and other Axway portal user accounts
 
 ## Improvement
 
-* Added messaging on the _Sign In_ form shown after a failed login attempt guiding portal users to use their **Amplify Platform** account credentials to sign in.
+* Added messaging on the _Sign In_ form shown after a failed sign-in attempt guiding portal users to use their **Amplify Platform** account credentials to sign in.

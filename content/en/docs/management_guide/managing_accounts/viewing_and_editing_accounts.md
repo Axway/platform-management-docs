@@ -26,7 +26,7 @@ The edit view enables you to edit the **First Name** and **Last Name** fields an
 
 ## Manage sessions
 
-Session management features are available to limit concurrent sessions, terminate sessions on logout, add authentication on sensitive operations, and invalidate sessions on password changes.
+Session management features are available to limit concurrent sessions, terminate sessions on sign-out, add authentication on sensitive operations, and invalidate sessions on password changes.
 
 Users can view their account active session details:
 
@@ -39,6 +39,6 @@ Users can view their account active session details:
 
 Users can see their corresponding activity and revoke their sessions:
 
-* Click **Login Activity** to navigate to the [*Activity* view](/docs/management_guide/managing_accounts/viewing_your_user_activity/) to see login event details.
+* Click **Sign-in Activity** to navigate to the [*Activity* view](/docs/management_guide/managing_accounts/viewing_your_user_activity/) to see session event details.
 * Click the **Actions (...) menu**, and then select **Show Activity** to navigate to the [*Activity* view](/docs/management_guide/managing_accounts/viewing_your_user_activity/).
 * Click **Revoke** to terminate the session.

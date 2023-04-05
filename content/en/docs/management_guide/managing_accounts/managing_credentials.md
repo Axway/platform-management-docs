@@ -16,7 +16,7 @@ To change your password:
 2. Enter a new password in the **Change Password** field. The password should be at least eight characters (default requirements) or must adhere to any password policies configured for your organization. As you enter a new password in the **Change Password** field, the **Confirm Password** field is displayed.
     ![Change and confirm password](/Images/change_password_latest.png)
 3. Confirm the new password in the **Confirm Password** field. The entry in the **Confirm Password** field must be the same as the entry in the **Password** field.
-4. Select the **Force Logout** checkbox to force the log out of any current sessions.
+4. Select the **Force Sign-out** checkbox to force the termination of any current sessions.
 5. Click the **Save** button. The password change is saved and an Account Information Changed notification email is sent.
 
 ## Manage multi-factor authentication
@@ -33,19 +33,19 @@ To enable multi-factor authentication:
 
 1. Click **Credentials**.
 2. Select **Enabled** next to the **Multi-Factor Authentication** option. The **Preferred MFA Method** options becomes available.
-3. For the **Preferred MFA Method**, select the default method a multi-factor authentication token will be generated for when logging in from a new device. Options are **Authenticator App** and **Email**.
+3. For the **Preferred MFA Method**, select the default method a multi-factor authentication token will be generated for when signing in from a new device. Options are **Authenticator App** and **Email**.
 
     | Preferred MFA method | How this works | When can this be used |
     | ---| --- | --- |
-    | Authenticator App | A random code is generated within the app that needs to be provided when the user logs into the Platform. | Only available when an authenticator app has been configured for your account. See [Setup Authenticator App](#setup-authenticator-app) for details. |
-    | Email | A code is sent to your email address that needs to be provided when the user logs into the Platform. | Always available, uses the email address linked to your account. |
+    | Authenticator App | A random code is generated within the app that needs to be provided when the user signs into the Platform. | Only available when an authenticator app has been configured for your account. See [Setup Authenticator App](#setup-authenticator-app) for details. |
+    | Email | A code is sent to your email address that needs to be provided when the user signs into the Platform. | Always available, uses the email address linked to your account. |
 
 4. Click **Save**. Once the Enabled checkbox is selected and the account saved, multi-factor authentication will be enabled, and a notification email will be sent.
 
 5. To complete configuration for the Authenticator app, complete the steps in [Setup Authenticator App](#setup-authenticator-app).
-6. After you have enabled MFA and you login you will see a notification asking you to enter an authorization code. You might need to use another browser or a private browser session to test this. Enter the Authorization code provided by your Authenticator App or email, and then click **Authorize**.
+6. After you have enabled MFA and you sign in you will see a notification asking you to enter an authorization code. You might need to use another browser or a private browser session to test this. Enter the Authorization code provided by your Authenticator App or email, and then click **Authorize**.
 
-    When the code is correctly validated, you will be successfully logged into the Platform.
+    When the code is correctly validated, you will be successfully signed in to the Platform.
 
 To disable multi-factor authentication:
 

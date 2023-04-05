@@ -4,14 +4,14 @@ linkTitle: Managing account settings
 weight: 40
 date: 2021-08-12
 ---
-Select **Settings** from the Account left navigation menu. The *Settings* view enables you to manage your organization account settings. You can configure the following settings:
+Select **Settings** from the Account left navigation menu. The *Settings* view enables you to manage your account settings. You can configure the following settings:
 
-* Select your organization account theme (Light, Dark, or Match OS)
+* Select your account theme (Light, Dark, or Match OS)
 * Expand or minimize side-bar menus
 * Show or hide getting started content on Platform home
-* Select your org login rule
-* Configure your inactivity logout timeframe
-* Enable or disable restoring the previous page on your next login
+* Select your signed-in organization preference
+* Select your inactivity sign-out behavior and timeframe
+* Enable or disable restoring the previous page on your next sign in
 * Delete your account
 
 ## Configure the User Interface (UI) layout
@@ -22,23 +22,23 @@ Configure the theme to use on the Platform UI.
 * **Dark**: dark mode.
 * **MatchOS**: the mode matches your Operating System (OS) if the OS and browser supports it.
 
-## Select the org login rule
+## Select the signed-in organization
 
-If you are a member or owner of multiple accounts, to configure the login path and organization to log in to, select one of the following options from the **Org Login Rule** dropdown menu:
+If you are a member or owner of multiple accounts, to configure the organization to sign in to, select one of the following options from the **Sign-in Organization** dropdown menu:
 
-* **Use Last logged in Org** - The last account logged in to will be logged in to on the next login.
-* **Use Default Org** - The default account will be logged in to on every login.
-* **Always ask for Org** - You will be queried for which account to log in.
+* **Use last signed-in organization** - You will be signed in to the last organization you signed in to.
+* **Use default organization** - You will be signed in to the selected organization on every sign in.
+* **Always ask for organization** - You will be prompted to select which organization to sign in to.
 
 To view details of a listed organization, click on the organization name and refer to [Managing Organizations](/docs/management_guide/organizations/managing_organizations/).
 
-## Configure your inactivity logout time
+## Configure your inactivity sign-out behavior and timeframe
 
-You can configure the amount of time before you are signed out of the Platform due to browser session inactivity. The options are 15 minutes, 30 minutes (default), 1 hour, or Disabled (do not log me out due to inactivity).
+You can configure the amount of time before you are signed out of the Platform due to browser session inactivity. The options are 15 minutes, 30 minutes (default), 1 hour, or Disabled (do not sign me out due to inactivity).
 
-## Enable or disable restoring previous page on next login
+## Enable or disable restoring previous page on next sign in
 
-You can enable or disable if you want to be redirected to the page previously viewed once signed back in after being signed out due to inactivity in the Platform. This setting is disabled by default (do not restore previous page on next login).
+You can enable or disable if you want to be redirected to the page previously viewed once signed back in after being signed out due to inactivity in the Platform. This setting is disabled by default (do not restore previous page on next sign in).
 
 ## Export user data
 

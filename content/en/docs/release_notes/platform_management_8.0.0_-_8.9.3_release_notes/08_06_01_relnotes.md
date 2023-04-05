@@ -12,6 +12,6 @@ Platform Management 8.6.1 is a patch release which includes several improvemen
 
 ## Improvements
 
-* Added session creation and logout events to _Org_ and _User Activity_ views.
+* Added session creation and sign-out events to _Org_ and _User Activity_ views.
 * Added introductory content and link to Documentation to _Custom Query_ view.
 * Improved verbiage on Region selection and added Terms of Use and Privacy Statement acceptance to _Sign Up_ view.

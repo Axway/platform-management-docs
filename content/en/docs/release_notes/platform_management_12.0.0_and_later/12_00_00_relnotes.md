@@ -20,4 +20,4 @@ Platform Management 12.0.0 is a major release which includes one new feature, on
 
 ## Fixed issue
 
-* Fixed an issue where users attempting to switch their logged-in organization to an inactive or invalid organization would regenerate a session in their prior logged-in organization.
+* Fixed an issue where users attempting to switch their signed-in organization to an inactive or invalid organization would regenerate a session in their prior signed-in organization.

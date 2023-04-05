@@ -39,4 +39,4 @@ After you create or add a users to your organization, you can view and modify th
 7. To remove a selected user from the organization, select the **Actions** menu (**...**), and select **Remove User** and then confirm the removal.
 8. To view a user's team assignments, select the **Actions** icon, and select **View Teams**. Refer to [Managing teams](/docs/management_guide/organizations/managing_organizations/managing_teams).
 
-The user's last login is displayed in the *Last Login* column, and their current multi-factor authentication status is shown in the *MFA* column. For more information on multi-factor authentication, refer to [Manage multi-factor authentication](/docs/management_guide/managing_accounts/managing_credentials/#manage-multi-factor-authentication).
+The user's last sign-in is displayed in the *Last Sign-in* column and their current multi-factor authentication status is shown in the *MFA* column. For more information on multi-factor authentication, refer to [Manage multi-factor authentication](/docs/management_guide/managing_accounts/managing_credentials/#manage-multi-factor-authentication).

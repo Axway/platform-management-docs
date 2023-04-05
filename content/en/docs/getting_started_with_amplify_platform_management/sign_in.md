@@ -11,7 +11,7 @@ This page includes {{% variables/platform_prod_name %}} instructions to sign in 
 
 Use the following sign-in instructions if your organization has the single sign-on (SSO) feature enabled.
 
-**To sign into the {{% variables/platform_prod_name %}} using single sign-on:**
+**To sign in to the {{% variables/platform_prod_name %}} using single sign-on:**
 
 1. Navigate to [https://platform.axway.com](https://platform.axway.com/). The *Sign In* page is displayed.
 2. Enter the email address associated with your account. If you do not have an {{% variables/platform_prod_name %}} account, click **Get started for free** and then follow the [Sign up](/docs/getting_started_with_amplify_platform_management/sign_up/) instructions.
@@ -21,7 +21,7 @@ Use the following sign-in instructions if your organization has the single sign-
 
 Use the following sign-in if your organization does not have the single sign-on (SSO) feature enabled.
 
-**To sign into the {{% variables/platform_prod_name %}} using your {{% variables/platform_prod_name %}} password:**
+**To sign in to the {{% variables/platform_prod_name %}} using your {{% variables/platform_prod_name %}} password:**
 
 1. Navigate to [https://platform.axway.com](https://platform.axway.com/). The *Sign In* page is displayed.
 2. Enter the email address associated with your account. If you do not have an {{% variables/platform_prod_name %}} account, click **Get started for free** and then follow the [Sign up](/docs/getting_started_with_amplify_platform_management/sign_up/) instructions.
@@ -31,7 +31,7 @@ Use the following sign-in if your organization does not have the single sign-on 
 
     ![Device authorization modal](/Images/device_authorization.png)
 
-6. If you are a member of multiple organizations, you may be forwarded to the *Select Organization* page. You can  configure the login path and organization to log in to from your Account - Settings page. Refer to the [Select the org rule](/docs/management_guide/managing_accounts/#select-the-org-login-rule) section in Managing Accounts.
+6. If you are a member of multiple organizations, you may be forwarded to the *Select Organization* page. You can configure the sign-in organization preference from your Account - Settings page. Refer to the [Select the org rule](/docs/management_guide/managing_accounts/#select-the-sign-in-organization) section in Managing Accounts.
     ![Select organization modal](/Images/multiple_orgs.png)
-7. Select the organization to sign into from the Select Organization drop-down menu.
+7. Select the organization to sign in to from the Select Organization drop-down menu.
 8. Click **Continue**. Clicking **Continue** will forward you to the {{% variables/platform_prod_name %}} home page. For an overview of the {{% variables/platform_prod_name %}} refer to the [Amplify Platform Overview](/docs/management_guide/overview/).

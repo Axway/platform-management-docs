@@ -12,7 +12,7 @@ Platform Management 8.3.2 is a patch release, which includes an improvement and
 
 ## Improvement
 
-* Improved handling of redirects after login or activation when initiated from portals or xPaaS services.
+* Improved handling of redirects after sign-in or activation when initiated from portals or other services.
 
 ## Fixed Issue
 

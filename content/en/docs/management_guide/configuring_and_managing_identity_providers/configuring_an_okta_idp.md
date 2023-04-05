@@ -57,4 +57,4 @@ Complete Okta IdP set up in the Platform.
 
     ![Okta Sign In page](/Images/okta_sign_in.png)
 5. The **Domain Association Confirmed** dialog appears. Click **Continue to the Amplify Platform**.
-    You are now logged in to the {{% variables/platform_prod_name %}} using the Okta IdP for authentication.
+    You are now signed in to the {{% variables/platform_prod_name %}} using the Okta IdP for authentication.

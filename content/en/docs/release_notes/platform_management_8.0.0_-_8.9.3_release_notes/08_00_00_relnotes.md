@@ -15,7 +15,7 @@ Please note that browser support for Amplify Platform has been changed to no lon
 ## New features
 
 * This release introduces a new **Amplify Platform** on-boarding experience and an all-new _Amplify Platform_ Home. _Amplify Platform Home_ now lists the capabilities to which your organization has access as well as common tasks available for those capabilities. Users can explore more offerings on a streamlined _Products and Services_ page.
-* The common header (aka Unified Nav) has also been improved. A new _Help & Resources_ dropdown provides links to document, support, and other resources. Once logged in, the header now shows new services menu on the left, allowing users to quickly switch between various Platform capabilities and their UIs, and a simplified user menu on the right, now showing your assigned role.
+* The common header (aka Unified Nav) has also been improved. A new _Help & Resources_ dropdown provides links to document, support, and other resources. Once signed in, the header now shows new services menu on the left, allowing users to quickly switch between various Platform capabilities and their UIs, and a simplified user menu on the right, now showing your assigned role.
 * During activation of newly signed up users, a new page is now presented, asking which Amplify Platform capabilities the org wishes to use. Feature trials will be automatically requested for the selected capabilities.
 * For organizations primarily using **API Management** capabilities, the Dashboard link on the _Amplify Platform Home_ page will now link to the new _Amplify Visibility_ UI. This new UI requires assignment of the "Analytics Specialist" role in order to access it.
 

@@ -18,9 +18,9 @@ To configure a user to require use of an Identity Provider:
 
     ![Select an Identity Provider](/Images/idp_new_user_form.png)
 
-3. An email invitation or notification is sent to the user providing a link to log in using the selected Identity Provider.
+3. An email invitation or notification is sent to the user providing a link to sign in using the selected Identity Provider.
 
-Upon subsequent logins to the Amplify Platform, if the invited user attempts to authenticate and access the organization using an Identity Provider other than the one configured, a message appears that they must re-authenticate using the configured Identity Provider.
+Upon subsequent sign-ins to the Amplify Platform, if the invited user attempts to authenticate and access the organization using an Identity Provider other than the one configured, a message appears that they must re-authenticate using the configured Identity Provider.
 
 ![Authenticate with IdP during sign in](/Images/idp_signin_restricted.png)
 

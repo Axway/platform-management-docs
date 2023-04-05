@@ -30,7 +30,7 @@ To create a new Identity Provider
 
     ![Completed form for adding an OIDC Identity Provider](/Images/oidc_new.png)
 
-9. Click **Save**. A confirmation dialog appears with a message that, once the Identity Provider configuration is verified, all users on that domain will be required to log into the {{% variables/platform_prod_name %}} with their Identity Provider credentials.
+9. Click **Save**. A confirmation dialog appears with a message that, once the Identity Provider configuration is verified, all users on that domain will be required to sign in to the {{% variables/platform_prod_name %}} with their Identity Provider credentials.
 
     ![Confirm Identity Provider Configuration dialog](/Images/idp_save_configuration.png)
 

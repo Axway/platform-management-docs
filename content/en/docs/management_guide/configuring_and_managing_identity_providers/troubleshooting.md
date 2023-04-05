@@ -17,7 +17,7 @@ This section contains when you may see error messages and how to resolve them re
 
 ### "Destination URL validation failed" error message
 
-A "destination URL validation failed" error is thrown by an IdP and has been seen with IdP setups that do not allow the `login_hint` parameter as part of the destinaton URL. The Platform will use the email address to find out which IdP setup to use to authenticate the user when logging into the Platform. Part of the call being made to the IdP is a destination URL which contains the `login_hint` as a parameter. This `login_hint` contains the email address of the user and is used to prepopulate the username field in the IdP login screen. To solve this issue, your IdP should accept the `login_hint` as a parameter.
+A "destination URL validation failed" error is thrown by an IdP and has been seen with IdP setups that do not allow the `login_hint` parameter as part of the destinaton URL. The Platform will use the email address to find out which IdP setup to use to authenticate the user when signing in to the Platform. Part of the call being made to the IdP is a destination URL which contains the `login_hint` as a parameter. This `login_hint` contains the email address of the user and is used to prepopulate the username field in the IdP sign-in screen. To solve this issue, your IdP should accept the `login_hint` as a parameter.
 
 ### "Invalid Federated Identity Action Message" error message
 
@@ -39,7 +39,7 @@ The following **Session Invalidated** message displays when one of the configure
 
 The organization administrator must edit the Identity Provider configuration value from the **Action** menu. When the changes are saved, the configured email recipient will receive a new verification email since the previous one is no longer valid.
 
-Another situation that will generate the **Session Invalidated** message is when the user has an active session but the organization administrator configures a new Identity Provider, which is confirmed. After the domain ownership is confirmed, all other users whose accounts are on that domain will be logged out and shown this message.
+Another situation that will generate the **Session Invalidated** message is when the user has an active session but the organization administrator configures a new Identity Provider, which is confirmed. After the domain ownership is confirmed, all other users whose accounts are on that domain will be signed out and shown this message.
 
 ![Session Invalidated dialog](/Images/360_invalidated_sessions.png)
 

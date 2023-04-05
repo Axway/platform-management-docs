@@ -5,7 +5,7 @@ weight: 30
 date: 2021-08-12
 ---
 
-Administrators use the _Role Assignments_ section to define the platform roles and teams for a user when they log in to the platform the first time for a configured IdP.
+Administrators use the _Role Assignments_ section to define the platform roles and teams for a user when they sign in to the platform the first time for a configured IdP.
 
 ## Default role and team assignments
 
@@ -13,14 +13,14 @@ When new members of an organization sign in to the platform for this IdP, they a
 
 The _Role Assignments_ section defines:
 
-* **Default Org Roles** - The _Default Org Roles_ section defines the org-level role a new user is assigned when they log in to the platform for the first time for the configured IdP. The default is the **Developer** role.
-* **Default Teams** - The _Default Teams_ section defines any default teams a new user is assigned, and the roles they are given in the team or teams (if any) when they log in to the platform for the first time for the configured IdP. The default is the org's **Default** team with the **Developer** role.
+* **Default Org Roles** - The _Default Org Roles_ section defines the org-level role a new user is assigned when they sign in to the platform for the first time for the configured IdP. The default is the **Developer** role.
+* **Default Teams** - The _Default Teams_ section defines any default teams a new user is assigned, and the roles they are given in the team or teams (if any) when they sign in to the platform for the first time for the configured IdP. The default is the org's **Default** team with the **Developer** role.
 
 ## IdP managed role and team assignments
 
 The _Advanced Role Management_ section allows an org administrator to manage platform role and team assignments from attributes provided by the IdP. An administrator can define any number of mappings for org roles and team assignments (if applicable). If a user has attributes that map to multiple default roles (platform or team roles), then the user is assigned the role that has the highest access level. Also the user is assigned all service or non-platform roles that are found.
 
-Roles defined by these mappers are assigned to any matching user authenticating using the IdP. When their role assignment changes on their IdP, the users roles within the platform are automatically updated the next time the user logs in to the platform.
+Roles defined by these mappers are assigned to any matching user authenticating using the IdP. When their role assignment changes on their IdP, the users roles within the platform are automatically updated the next time the user signs in to the platform.
 
 The _Advanced Role Management_ section is optional and hidden by default. The advanced mapping configuration could save time for larger organizations who have users on their IdP with defined roles and teams, but may not be applicable or advantageous to orgs that do not.
 
@@ -46,6 +46,6 @@ After you have completed mapping roles and teams, you can test the configuration
 
 1. Click the **Actions** (**...**) menu from the Identity Provider page, and then select **Test Mapped Attributes**. A modal dialog displays.
 2. Select a **User** and **Attribute**, and then click **Check User Attribute**.
-3. Verify that the attribute mapper has stored the expected value on a user from the last time they logged into the platform.
+3. Verify that the attribute mapper has stored the expected value on a user from the last time they signed in to the platform.
 
     ![Test Mapped Attributes modal](/Images/test_mapped_attributes_filled.png)

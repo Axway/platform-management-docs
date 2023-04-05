@@ -12,7 +12,7 @@ Platform Management 10.5.4 is a patch release which includes one improvement and
 
 ## Improvement
 
-* Custom help menu will consistently show in the common navigation header within the Marketplace UI regardless of the user's logged-in state. The service switcher and recent activity feed will only be visible for administrative role users.
+* Custom help menu will consistently show in the common navigation header within the Marketplace UI regardless of the user's signed-in state. The service switcher and recent activity feed will only be visible for administrative role users.
 
 ## Fixed issues
 

@@ -14,7 +14,7 @@ Platform Management 8.2.2 is a patch release, which includes a new feature an
 
 ## New features
 
-* Added two settings to the user _Account Settings_ view. The "Inactivity Logout" setting lets users select how long to allow browser sessions to be inactive before signing the user out. This default setting is 30 minutes. This behavior may also be disabled. The "Restore Page on next Login" setting lets users choose whether to be redirected to the page previously viewed once signed back in after being signed out due to inactivity. This setting is disabled by default (do not restore previous page on next login).
+* Added two settings to the user _Account Settings_ view. The "Inactivity Sign-out" setting lets users select how long to allow browser sessions to be inactive before signing the user out. This default setting is 30 minutes. This behavior may also be disabled. The "Restore page on next sign-in" setting lets users choose whether to be redirected to the page previously viewed once signed back in after being signed out due to inactivity. This setting is disabled by default (do not restore previous page on next sign-in).
 
 ## Fixed issues
 

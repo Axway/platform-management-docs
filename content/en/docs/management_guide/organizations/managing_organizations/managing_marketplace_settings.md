@@ -9,10 +9,10 @@ Select **Marketplaces** from the Organization left navigation menu. The *Marketp
 
 Add a marketplace and then refer to the following sections in the {{% variables/central_prod_name %}} Guide to configure it.
 
-* [Marketplace settings](https://docs.axway.com/bundle/amplify-central/page/docs/manage_marketplace/marketplace_settings/index.html)
-* [Marketplace appearance](https://docs.axway.com/bundle/amplify-central/page/docs/manage_marketplace/marketplace_branding/index.html)
-* [Marketplace homepage](https://docs.axway.com/bundle/amplify-central/page/docs/manage_marketplace/marketplace_homepage/index.html)
-* [Marketplace consumer organization](https://docs.axway.com/bundle/amplify-central/page/docs/manage_marketplace/marketplace_consumer_organization/index.html)
+* [Marketplace settings](https://docs.axway.com/bundle/amplify-central/page/docs/manage_marketplace/customize_marketplace/marketplace_settings/index.html)
+* [Marketplace appearance](https://docs.axway.com/bundle/amplify-central/page/docs/manage_marketplace/customize_marketplace/marketplace_branding/index.html)
+* [Marketplace homepage](https://docs.axway.com/bundle/amplify-central/page/docs/manage_marketplace/customize_marketplace/marketplace_homepage/index.html)
+* [Marketplace consumer organization](https://docs.axway.com/bundle/amplify-central/page/docs/manage_marketplace/customize_marketplace/marketplace_consumer_organization/index.html)
 
 After a marketplace is added, it appears in the *Marketplaces* view where you can do the following:
 

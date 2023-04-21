@@ -1,12 +1,12 @@
 ---
 title: Platform Management 13.3.0 release notes
 linkTitle: Platform Management 13.3.0 release notes
-weight: 51
-date: 2023-04-05
+weight: 50
+date: 2023-04-21
 Hide_readingtime: true
 ---
 
-## Platform Management 13.3.0 - 5 Apr 2023
+## Platform Management 13.3.0 - 21 Apr 2023
 
 Platform Management 13.3.0 is a minor release which includes four improvements.
 

@@ -11,11 +11,12 @@ This section is about organization user roles and features. Users can be assign
 The following table shows the available roles and capabilities.
 
 | Role                      | Short Description                                     | Platform | App Integration | Central | Catalog |  Teams | Flow Manager |
-| ------------------------- | -----------------------------------------------       | -------- | --------------- | ------- | ------- | ------ | ------------ |
-| **Platform Roles**        |                                                       |          |                 |         |         |        |              |
-| Administrator             | Use for platform admin tasks                          | X        | X               |         |         |        | X            |
+| ------------------------- | ----------------------------------------------------- | -------- | --------------- | ------- | ------- | ------ | ------------ |
+| Administrator             | Use for platform administrative tasks                 | X        | X               |         |         |        | X            |
 | Developer                 | Use for development and integration projects          | X        | X               | X       | X       | X      | X            |
 | Consumer                  | Use for the consumption of services from the catalog  |          |                 | X       | X       |        |              |
+| **Platform Roles**        |                                                       |          |                 |         |         |        |              |
+| Usage Reporter            | Use for registering usage environments and reporting usage | X   |                 |         |         |        |              |
 | **Central Roles**         |                                                       |          |                 |         |         |        |              |
 | Central Admin             | Use for all-encompassing access to Central            |          |                 | X       | X       |        |              |
 | **Flow Manager Roles**    |                                                       |          |                 |         |         |        |              |

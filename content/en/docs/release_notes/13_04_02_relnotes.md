@@ -12,4 +12,4 @@ Platform Management 13.4.2 is a patch release which includes one fixed issue.
 
 ## Fixed issue
 
-* Fixed an issue where users may experience an error on the *Devices* view when selecting an action when no devices are listed.
+* Fixed an issue on the *Devices* view where users may experience an error when selecting an action from the dropdown when no devices are listed.

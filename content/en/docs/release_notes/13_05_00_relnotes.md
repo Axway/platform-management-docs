@@ -12,7 +12,7 @@ Platform Management 13.5.0 is a minor release which includes one new feature and
 
 ## New feature
 
-* For organizations entitled to **Amplify Enterprise Marketplace**, a new *Marketplace Billing* view allows capture of billing integration settings with Stripe is the initial supported vendor.
+* For organizations entitled to **Amplify Enterprise Marketplace**, a new *Marketplace Billing* view allows capture of billing integration settings with Stripe as the first supported vendor.
 
 ## Fixed issue
 

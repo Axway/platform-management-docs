@@ -14,7 +14,7 @@ Platform Management 13.6.0 is a minor release which includes several new feature
 
 * Added a *Marketplace Activity* view containing events related to the management of your marketplace and its assets as well as actions performed by consumer org members. The events can be filtered by date range, event type, or consumer org.
 * Added an *Activity* link from the *Marketplace Consumer Orgs* view linking to the *Marketplace Activity* view for the selected consumer org.
-* Added a toggle to the *Marketplace Settings* view allowing organization Administrator and Marketplace Manager role users to enable *Indentity Provider* support for the marketplace's consumer orgs.
+* Added a toggle to the *Marketplace Settings* view allowing organization Administrator and Marketplace Manager role users to enable *Identity Provider* support for the marketplace's consumer orgs.
 
 ## Improvement
 
@@ -29,7 +29,7 @@ Platform Management 13.6.0 is a minor release which includes several new feature
 ## Fixed issues
 
 * Fixed an issue where an "Unentitled Usage" section may be shown on the *Usage Report* view showing usage for Analytics Events.
-* Fixed an issue on the *Usage Report* view where usage not matching a subscription's governance may not be shown as "Unentitled Usage".
+* Fixed an issue on the *Usage Report* view where usage not matching a subscription's governance may not be shown as "Unentitled Usage."
 * Fixed an issue on the *Manage User* view where deselecting Administrator role for the organization's primary contact may put the roles list into a bad state.
 * Fixed an issue where changing the "Publication Preference" on the *Marketplace Settings* view from "Included/Excluded Teams" to "Include Teams with Tags" may cause the previously selected team's identifiers to be shown as tags.
 * Fixed an issue where malformed HTML content in an element on the *Marketplace Footer* view may disallow the element from being deleted.

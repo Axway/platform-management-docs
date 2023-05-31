@@ -12,6 +12,16 @@ Click **Manage** from the Organization - Settings menu to change the organizatio
 
 Type a different name to use for the organization, and then click **Save** to save changes, or **Reset** to revert changes.
 
+## Apply an organization logo
+
+To apply your organization's logo to the Amplify Platform navigation
+
+1. Select your organization's logo. The logo will be displayed at a maximum height of 45 pixels, and the logo file must be less than 100KB.
+    1. Click **Choose File**.
+    2. Select the logo file to upload. Once the logo file is selected, the *Branding Preview* will update to display the selected logo.
+    3. To remove the selected icon file, click **Remove**.
+2. Click **Save**.
+
 ## Export organization data
 
 Organization data added by the user can be exported.

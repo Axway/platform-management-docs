@@ -9,7 +9,7 @@ Select **Account** from the [User menu](/docs/getting_started_with_amplify_pl
 * View and edit account information
 * View your organizations and assigned roles
 * Change the account password and enable or disable multi-factor authentication
-* Manage your account settings including Platform UI layout, branding, and preferences and delete your account
+* Manage your account settings including Platform UI theme, layout, and preferences and delete your account
 * View your authorized devices when you are using multi-factor authentication
 * View details about each of your user events
 

@@ -4,19 +4,21 @@ linkTitle: Changing or deleting an organization
 weight: 40
 date: 2021-08-12
 ---
-Change the organization name, export organization data, or delete the organization.
+Change the organization name, apply an organization logo, export organization data, or delete the organization.
 
 ## Change the organization name
 
-Click **Manage** from the Organization - Settings menu to change the organization name or delete the organization.
+To change the name:
 
-Type a different name to use for the organization, and then click **Save** to save changes, or **Reset** to revert changes.
+1. Click **Manage** from the Organization - Settings menu to change the organization name or delete the organization.
+2. Type a different name to use for the organization.
+3. Click **Save** to save changes, or **Reset** to revert changes.
 
 ## Apply an organization logo
 
-To apply your organization's logo to the Amplify Platform navigation
+To apply your organization's logo to the Amplify Platform navigation:
 
-1. Select your organization's logo. The logo will be displayed at a maximum height of 45 pixels, and the logo file must be less than 100KB.
+1. Select your organization's logo. The logo is displayed at a maximum height of 45 pixels, and the logo file must be less than 100KB.
     1. Click **Choose File**.
     2. Select the logo file to upload. Once the logo file is selected, the *Branding Preview* will update to display the selected logo.
     3. To remove the selected icon file, click **Remove**.
@@ -26,14 +28,11 @@ To apply your organization's logo to the Amplify Platform navigation
 
 Organization data added by the user can be exported.
 
-To export data
+To export data:
 
 1. Click **Generate**. A popup window displays to allow you to choose the items to export.
-
 2. Select the items to export, and then click **Continue.**
-
 3. The export is created and listed in a table showing the items the export includes, the user who created the export, when the export was created, and the export status. Completed exports are kept for 30 days before being removed.
-
 4. Click the **Actions (..) menu** and then select one of the following:
 
     * **Download** - download a zip file containing the exported data in a json file.

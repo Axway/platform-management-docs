@@ -12,4 +12,4 @@ Platform Management 13.6.1 is a patch release which includes one fixed issue.
 
 ## Fixed issue
 
-* Fixed an issue where users attempting to access marketplaces hosted on custom URLs may expire an error loading the common navigation header.
+* Fixed an issue where users attempting to access marketplaces hosted on custom URLs may experience an error loading the common navigation header.

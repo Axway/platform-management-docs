@@ -8,9 +8,9 @@ Hide_readingtime: true
 
 ## Platform Management 13.8.1 - 22 Jun 2023
 
-Platform Management 13.8.1 is a patch release which includes several fixed issue.
+Platform Management 13.8.1 is a patch release which includes several fixed issues.
 
-## Fixed issue
+## Fixed issues
 
 * Fixed an issue where an invalid or unregistered URL entered on the *Marketplace Settings* view may receive a generic error response. The response now indicates that the URL was invalid.
 * Fixed an issue on the *Monthly Usage* view where numeric entitlements for renewing subscriptions may show an incorrect quota.

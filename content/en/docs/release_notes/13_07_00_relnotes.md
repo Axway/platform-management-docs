@@ -10,6 +10,6 @@ Hide_readingtime: true
 
 Platform Management 13.7.0 is a minor release which includes one new feature.
 
-## New features
+## New feature
 
 * Added Consumption Preference to the *Marketplace Settings* view to allow organization administrators to control which teams' Consumer role members are allowed to access that marketplace.

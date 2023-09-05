@@ -1,14 +1,14 @@
 ---
-title: Platform Management 13.8.3 release notes
-linkTitle: Platform Management 13.8.3 release notes
+title: Platform Management 13.9.2 release notes
+linkTitle: Platform Management 13.9.2 release notes
 weight: 33
 date: 2023-09-01
 Hide_readingtime: true
 ---
 
-## Platform Management 13.8.3 - 1 Sep 2023
+## Platform Management 13.9.2 - 1 Sep 2023
 
-Platform Management 13.8.3 is a patch release which includes one changed behavior and one fixed issue.
+Platform Management 13.9.2 is a patch release which includes one changed behavior and one fixed issue.
 
 ## Changed behavior
 

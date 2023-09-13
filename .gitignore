@@ -6,4 +6,4 @@ tech-doc-hugo
 .DS_Store
 axway-open-docs-common/
 package-lock.json
-
+.hugo_build.lock

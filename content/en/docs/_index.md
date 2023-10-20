@@ -38,7 +38,7 @@ Review the [Getting Started](/docs/getting_started_with_amplify_platform_managem
 ## Support
 
 The Axway Global Support team provides worldwide 24 x 7 support for customers with active support agreements.
-Email support@axway.com or visit [Axway Support](https://support.axway.com/).
+Email `support@axway.com` or visit [Axway Support](https://support.axway.com/).
 
 ## Training
 

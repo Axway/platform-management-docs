@@ -35,15 +35,17 @@ The following table shows the available roles and capabilities.
 
 Users also have a role in each team they belong to.
 
-| Team Role | Short Description |
-| --- | --- |
-| Team Manager | Use this role to manage the members of the team and their role assignements |
-| Consumer | Use this role to view and consume assets in the Unified Catalog |
-| Developer | Use this role to manage assets in Amplify and the Unified Catalog |
-| Marketplace Manager | Use this role to manage Marketplace settings, appearance, and content |
-| Catalog Manager | Use this role to manage Unified Catalog items and approve subscriptions |
-| Subscriber | Use this role to manage Marketplace subscriptions and view usage |
-| Subscription Approver | Use this role to approve Marketplace Subscriptions and Access Requests |
+| Team Role | Short Description | Provider | Consumer |
+| --- | --- | --- | --- |
+| Team Manager | Use this role to manage the members of the team and their role assignments | x | x |
+| Consumer | Use this role to view and consume assets in the Unified Catalog or product in the Marketplace |   | x |
+| Developer* | Use this role to manage assets in Amplify and the Unified Catalog | x |   |
+| Marketplace Manager | Use this role to manage Marketplace settings, appearance, and content | x |   |
+| Catalog Manager* | Use this role to manage product, Unified Catalog items, and approve subscriptions and Access Requests | x |   |
+| Subscriber | Use this role to manage Marketplace subscriptions and view usage |   | x |
+| Subscription Approver* | Use this role to approve Marketplace Subscriptions and Access Requests | x |   |
+
+(* If a *Provider* user is part of a single team with the `x-private` tag, then they will not have access to Amplify Central to execute their tasks. Provider users should not use the `x-private` tag in their provider teams, as it meant to be used only for *Consumer* users.)
 
 ## Team roles and capabilities
 

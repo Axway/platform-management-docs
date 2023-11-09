@@ -14,6 +14,6 @@ Platform Management 13.9.2 is a patch release which includes one changed behavio
 
 * **Amplify Platform** password policy now enforces a maximum length of 128 characters.
 
-## Improvement
+## Fixed issue
 
 * Fixed an issue where providing an invalid code when attempting setup of multi-factor authentication using an Authenticator app may result in an error message. With this fix, it will now respond with a message indicating the code was invalid.

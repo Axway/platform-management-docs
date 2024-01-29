@@ -5,26 +5,26 @@ weight: 20
 date: 2021-08-12
 ---
 
-This page includes {{% variables/platform_prod_name %}} instructions to sign in using single sign-on (SSO) or your {{% variables/platform_prod_name %}} password (non-SSO). Follow the applicable sign-on instructions for your organization's configuration.
+This page includes {{% variables/platform_prod_name %}} instructions to sign in using single sign-on (SSO) or your {{% variables/platform_prod_name %}} password. Follow the applicable sign-on instructions for your organization's configuration.
 
 ## Sign in with single sign-on (SSO)
 
-Use the following sign-in instructions if your organization has the single sign-on (SSO) feature enabled.
+Use the following sign-in instructions if your organization has the single sign-on (SSO) feature enabled and its [identity provider configured](/docs/management_guide/configuring_and_managing_identity_providers/).
 
 **To sign in to the {{% variables/platform_prod_name %}} using single sign-on:**
 
 1. Navigate to [https://platform.axway.com](https://platform.axway.com/). The *Sign In* page is displayed.
-2. Enter the email address associated with your account. If you do not have an {{% variables/platform_prod_name %}} account, click **Get started for free** and then follow the [Sign up](/docs/getting_started_with_amplify_platform_management/sign_up/) instructions.
+2. Enter the email address associated with your account. If your organization's [identity provider configuration](/docs/management_guide/configuring_and_managing_identity_providers/) has your email domain associated, you will be forwarded to your company's identity provider to continue the sign-in process. If you do not have an {{% variables/platform_prod_name %}} account, [contact support](https://support.axway.com/en/auth/contacts) with your organization's Support Access Code to request access.
 3. Enter your organization account password and click **Sign In**. Clicking **Sign In** will forward you to the {{% variables/platform_prod_name %}} home page. For an overview of the {{% variables/platform_prod_name %}}, refer to the [Amplify Platform Overview](/docs/management_guide/overview/).
 
-## Sign In with your Amplify Platform password (non-SSO)
+## Sign In with your Amplify Platform password
 
-Use the following sign-in if your organization does not have the single sign-on (SSO) feature enabled.
+Use the following sign-in if your organization does not have the single sign-on (SSO) feature entitled or enabled or its identity provider configured.
 
 **To sign in to the {{% variables/platform_prod_name %}} using your {{% variables/platform_prod_name %}} password:**
 
 1. Navigate to [https://platform.axway.com](https://platform.axway.com/). The *Sign In* page is displayed.
-2. Enter the email address associated with your account. If you do not have an {{% variables/platform_prod_name %}} account, click **Get started for free** and then follow the [Sign up](/docs/getting_started_with_amplify_platform_management/sign_up/) instructions.
+2. Enter the email address associated with your account. If you do not have an {{% variables/platform_prod_name %}} account, [contact support](https://support.axway.com/en/auth/contacts) with your organization's Support Access Code to request access.
 3. Click **Next**. Clicking Next will forward you to the {{% variables/platform_prod_name %}} *Sign In* page.
 4. Enter the password associated with your {{% variables/platform_prod_name %}} account and click **Sign In**.
 5. If you are using multi-factor authentication, and the device or browser you are using has not been authenticated, you must provide an authorization code. If requested, enter the authorization code sent to you by email or an authenticator app (shown in the example image) associated with your account and click **Authorize**.

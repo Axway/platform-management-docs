@@ -61,9 +61,9 @@ To export data
 
 ## Delete account
 
-The option to delete their account is available for the user if they are not a member of one or more organizations with paid subscriptions. Users and organizations created by sign-up with no subscriptions or trial only subscriptions will see the delete option. If the user deleting their account is the only member of their organization, then their organization will also be deleted.
+The option to delete an account is available if the user is not a member of any organizations with paid subscriptions or licenses. If the user deleting their account is the only member of their organization, then their organization will also be deleted.
 
-A user which is a member of one or more organizations which have a Support Access Code must email support@axway.com or visit [Axway Support](https://support.axway.com/) to request Axway to delete the account on their behalf.
+A user which is a member of any organizations which have a Support Access Code must email support@axway.com or visit [Axway Support](https://support.axway.com/) to request Axway to delete the account on their behalf.
 
 ![Deleting your account](/Images/account_settings_delete.png)
 

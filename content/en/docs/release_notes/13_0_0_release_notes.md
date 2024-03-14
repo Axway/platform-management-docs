@@ -95,12 +95,12 @@ Platform Management 13.16.0 is a minor release which includes one new feature an
 Platform Management 13.15.1 is a patch release which includes one new feature.
 
 {{% alert title="Note" color="primary" %}}
-With this release, organizations which are currently entitled to access Unified Catalog have been granted an _Amplify Enterprise Marketplace_ subscription.
+With this release, organizations which are currently entitled to access Unified Catalog have been granted an **Amplify Enterprise Marketplace** subscription.
 {{% /alert %}}
 
 ### New feature
 
-* Added *Activity* view event definitions to the _Platform_ API documentation.
+* Added *Activity* view event definitions to the **Platform** API documentation.
 
 ---
 
@@ -146,7 +146,7 @@ Platform Management 13.14.1 is a patch release which includes two fixed issues.
 Platform Management 13.14.0 is a minor release which includes one new feature, one improvement, and two fixed issue.
 
 {{% alert title="Note" color="primary" %}}
-With this release, _Application Integration_ and _Integration Builder_ capabilities are no longer available or navigable from the *Platform Home* view.
+With this release, **Application Integration** and **Integration Builder** capabilities are no longer available or navigable from the *Platform Home* view.
 {{% /alert %}}
 
 ### New feature
@@ -562,7 +562,7 @@ Platform Management 13.1.0 is a minor release which includes two new features, o
 Platform Management 13.0.0 is a major release which includes one behavior change, one new feature, and one improvement.
 
 {{% alert title="Note" color="primary" %}}
-With this release, Platform Management API endpoints related to use of **Mobile Backend Services** and **Amplify Runtime Services** previously marked as deprecated have be removed. All remaining **Amplify Runtime Services* environments have been decommissioned. Application types served by those environments will no longer be visible with the Platform.
+With this release, Platform Management API endpoints related to use of **Mobile Backend Services** and **Amplify Runtime Services** previously marked as deprecated have be removed. All remaining **Amplify Runtime Services** environments have been decommissioned. Application types served by those environments will no longer be visible with the Platform.
 {{% /alert %}}
 
 ### Changed behavior

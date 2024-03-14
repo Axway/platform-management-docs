@@ -1,36 +1,43 @@
 ---
-title: Platform Management 13.0.0 and later release notes
-linkTitle: Platform Management 13.0.0 and later release notes
+title: Platform Management 13.0.0 - 13.18.0 release notes
+linkTitle: Platform Management 13.0.0 - 13.18.0 release notes
 weight: 50
 simple_list: true
 date: 2024-03-13
 ---
 
-New features, improvements, and bug fixes for releases 13.0.0 and later.
-
-{{% alert title="Note" color="primary" %}}
-{{% /alert %}}
-
+New features, improvements, and bug fixes for releases 13.0.0 - 13.18.0.
 
 ---
 
 ## Platform Management 13.18.0 - 13 Mar 2024
 
-Platform Management 13.18.0 is a minor release which includes .
+Platform Management 13.18.0 is a minor release which includes two new features and two fixed issues.
 
+### New features
 
+* The *Usage* view now includes charts showing daily usage per entitlement and per environment by clicking the corresponding icon.
+* Administrator and Marketplace Manager role users can now view the organizations, teams, and users by following the corresponding organization's link on the *Consumer Orgs* view under each marketplace.
 
+### Fixed issues
 
+* Fixed an issue where signing in and signup using GitHub, GitLab, or Google OAuth integrations enabled for a marketplace may not function as expected.
+* Fixed an issue where the Catalog Asset, Marketplace Subscription, and Marketplaces counts may have shown as zero on the *Overview* and *Usage* views.
 
 ---
 
 ## Platform Management 13.17.3 - 29 Feb 2024
 
-Platform Management 13.17.3 is a patch release which includes one fixed issue.
+Platform Management 13.17.3 is a patch release which includes two improvements and one fixed issue.
 
+### Improvements
 
+* Administrator role members of an organization can reassign any administrator to Primary Contact on the *Users* table view. Previously only the current Primary Contact could reassign that designation.
+* Improved verbiage in Platform sent email notifications.
 
+### Fixed issue
 
+* Fixed an issue where review instructions may not be able to be saved on the *Marketplace Ratings & Reviews* view.
 
 ---
 
@@ -38,10 +45,9 @@ Platform Management 13.17.3 is a patch release which includes one fixed issue.
 
 Platform Management 13.17.2 is a patch release which includes one fixed issue.
 
+### Fixed issue
 
-
-
-
+* Fixed an issue where consumer org users of marketplaces which have identity provider configuration enabled may not be redirected back to the marketplace after authenticating.
 
 ---
 
@@ -49,84 +55,134 @@ Platform Management 13.17.2 is a patch release which includes one fixed issue.
 
 Platform Management 13.17.1 is a patch release which includes one fixed issue.
 
+### Fixed issue
 
+* Fixed an issue where users who have been removed from an organization may experience an error on next sign-in.
 
 
 ---
 
 ## Platform Management 13.17.0 - 12 Feb 2024
 
-Platform Management 13.17.0 is a minor release which includes .
+Platform Management 13.17.0 is a minor release which includes one new feature and two fixed issues.
 
+### New feature
 
+* Relocated the *Ratings & Reviews* settings from the *Marketplace Settings* view to its own view.
 
+### Fixed issues
 
-
-
+* Fixed an issue where managing service account credentials using Axway CLI may not function as expected.
+* Fixed an issue where the *Reset Your Password* form view may be initially shown in an error state.
 
 ---
 
 ## Platform Management 13.16.0 - 01 Feb 2024
 
-Platform Management 13.16.0 is a minor release which includes .
+Platform Management 13.16.0 is a minor release which includes one new feature and one improvement.
 
 
+### New feature
 
+* Added *Custom Version Display* settings to the *Marketplace Settings* view.
 
+### Improvement
+
+* Service accounts may now be assigned any role a user may be assigned.
 
 ---
 
 ## Platform Management 13.15.1 - 25 Jan 2024
 
-Platform Management 13.15.1 is a patch release which includes one fixed issue.
+Platform Management 13.15.1 is a patch release which includes one new feature.
+
+{{% alert title="Note" color="primary" %}}
+With this release, organizations which are currently entitled to access Unified Catalog have been granted an _Amplify Enterprise Marketplace_ subscription.
+{{% /alert %}}
 
 
+### New feature
 
+* Added *Activity* view event definitions to the _Platform_ API documentation.
 
 ---
 
 ## Platform Management 13.15.0 - 18 Jan 2024
 
-Platform Management 13.15.0 is a minor release which includes .
+Platform Management 13.15.0 is a minor release which includes five improvements and one fixed issue.
 
+{{% alert title="Note" color="primary" %}}
+With this release, self-service account creation has been temporarily disabled. This ability will be restored in a future release.
+{{% /alert %}}
 
+{{% alert title="Note" color="primary" %}}
+Subscriptions for deprecated Axway products will no longer be shown under the organization *Overview* view.
+{{% /alert %}}
 
+### Improvements
 
+* The organization name is now persistently shown in the breadcrumbs at the top of *Teams*, *Users*, and other views under the organization menu.
+* The date range filter on the *Usage Report History* view may now be applied to the date reported or the reporting period of the file.
+* Added the product name and version for which the file was reported as available columns on the *Usage Report History* view.
+* Added support for Axway license products to be shown on the organzation *Overview* view.
+* Improved table sorting for undefined or empty values.
+
+### Fixed issue
+
+* Fixed an issue with the date range selection component where selecting ranges across years may not behave as expected.
 
 ---
 
 ## Platform Management 13.14.1 - 12 Dec 2023
 
-Platform Management 13.14.1 is a patch release which includes one fixed issue.
+Platform Management 13.14.1 is a patch release which includes two fixed issues.
 
+### Fixed issues
 
-
+* Fixed an issue where the *Identity Provider Configuration* views may not be visible if the feature was previously configured, but is no longer entitled.
+* Fixed an issue where the *Consumer Org* creation form view may not show the initial administrator email form input and could not be submitted.
 
 ---
 
 ## Platform Management 13.14.0 - 07 Dec 2023
 
-Platform Management 13.14.0 is a minor release which includes .
+Platform Management 13.14.0 is a minor release which includes one new feature, one improvement, and two fixed issue.
 
+{{% alert title="Note" color="primary" %}}
+With this release, _Application Integration_ and _Integration Builder_ capabilities are no longer available or navigable from the *Platform Home* view.
+{{% /alert %}}
 
+### New feature
 
+* Added *Ratings & Reviews* settings to the *Marketplace Settings* view.
 
+### Improvement
 
+* Ad-hoc or previously saved queries created on the *Custom Query* view are now sharable via its URL.
+
+### Fixed issues
+
+* Fixed an issue where users assigned Team Manager role, but not organization Administrator role, may not be able to edit their teams.
+* Fixed an issue where *Platform Home* and *Overview* view links were shown for Consumer role users, but would error when followed.
 
 ---
 
 ## Platform Management 13.13.0 - 29 Nov 2023
 
-Platform Management 13.13.0 is a minor release which includes .
+Platform Management 13.13.0 is a minor release which includes one new feature, one improvement, and two fixed issues.
 
+### New features
 
+* Added an option to the *Marketplace Settings* view to require Consumer role marketplace users to authenticate with a configured Identity Provider.
 
+### Improvement
 
+* Improved usability of the date range selector on analytics views.
 
+### Fixed issue
 
-
-
-
+* Fixed an issue where users attempting to sign up for a marketplace using the GitHub, GitLab, or Google OAuth integrations, but do not have a name set in those services, may encounter an error.
+* Fixed an issue where a banner containing a warning about unavailable roles being assigned may flash as the organization *Users* view was loading.
 
 ---
 

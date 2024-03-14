@@ -57,7 +57,6 @@ Please note with this release there is an announcement of deprecation for locati
 * Fixed an issue where *Crash Analytics* widgets and views may fail to load.
 * Fixed an issue where entitlements with unlimited quota may have been displayed on the *Organization* overview's Subscriptions table as an arbitrarily large number (10T) instead of "Unlimited".
 
-
 ---
 
 ## Platform Management 10.5.4 - 8 Jul 2022
@@ -94,7 +93,6 @@ Platform Management 10.5.2 is a patch release which includes two fixed issues.
 
 * Fixed an issue where the *Activity* view may not display the names of service accounts performing the action indicated by an event.
 * Fixed an issue where non-Administrator users may not be shown the teams they are members of on the *Org User* or *Team* views.
----
 
 ---
 
@@ -110,7 +108,6 @@ Platform Management 10.5.1 is a patch release which includes two improvements an
 ### Fixed issue
 
 * Fixed an issue where the *Usage* view may not show usage values for SaaS governance entitlements.
-
 
 ---
 
@@ -135,7 +132,6 @@ Please note as of this release **Amplify API Management Platform** trial subscri
 
 * Fixed an issue where users signing in from their marketplace may not be redirected back after signing in if their account's Sign-in Organization setting was set to "Always ask for organization".
 * Fixed an issue where the *Users* table view would not update as newly invited users activated.
-
 
 ---
 
@@ -256,7 +252,7 @@ This release corresponds with the [Appcelerator and Application Developement off
 For continued management of **Amplify Runtime Services** applications, please use the [Amplify Cloud Services CLI](https://docs.axway.com/bundle/AMPLIFY_Runtime_Services_2_0_allOS_en/page/amplify_runtime_services_getting_started.html).
 {{% /alert %}}
 
-## Changed behaviors
+### Changed behaviors
 
 * Renamed the *Dashboard* tile on the *Platform Home* view to *Overview*.
 * Changed availability of the Auditor role to only be assignable for organizations subscribed to **Flow Manager**. This role has been unassigned from members of organizations with no **Flow Manager** subscription.

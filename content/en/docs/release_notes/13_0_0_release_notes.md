@@ -59,7 +59,6 @@ Platform Management 13.17.1 is a patch release which includes one fixed issue.
 
 * Fixed an issue where users who have been removed from an organization may experience an error on next sign-in.
 
-
 ---
 
 ## Platform Management 13.17.0 - 12 Feb 2024
@@ -81,7 +80,6 @@ Platform Management 13.17.0 is a minor release which includes one new feature an
 
 Platform Management 13.16.0 is a minor release which includes one new feature and one improvement.
 
-
 ### New feature
 
 * Added *Custom Version Display* settings to the *Marketplace Settings* view.
@@ -99,7 +97,6 @@ Platform Management 13.15.1 is a patch release which includes one new feature.
 {{% alert title="Note" color="primary" %}}
 With this release, organizations which are currently entitled to access Unified Catalog have been granted an _Amplify Enterprise Marketplace_ subscription.
 {{% /alert %}}
-
 
 ### New feature
 
@@ -215,7 +212,6 @@ Platform Management 13.12.0 is a minor release which includes two new features, 
 * Fixed an issue where users assigned *Developer* role in teams to which marketplace access has been granted may not see the marketplace on the *Marketplaces* view or in navigation elements.
 * Fixed an issue where performing manual entry of usage data may not function as expected.
 
-
 ---
 
 ## Platform Management 13.11.1 - 17 Oct 2023
@@ -225,7 +221,6 @@ Platform Management 13.11.1 is a patch release which includes one fixed issue.
 ### Fixed issue
 
 * Fixed an issue where events may not be shown as expected on the organization *Activity* view.
-
 
 ---
 
@@ -246,7 +241,6 @@ Platform Management 13.11.0 is a minor release which includes one new feature, t
 
 * Fixed an issue where exporting *Marketplace Appearance* settings may not work as expected.
 
-
 ---
 
 ## Platform Management 13.10.1 - 27 Sep 2023
@@ -262,7 +256,6 @@ Platform Management 13.10.1 is a patch release which includes one changed behavi
 * Fixed an issue where environments removed from *Central* may still show in the **Platform** *Environments* view.
 * Fixed an issue where attempting to remove color settings on the *Marketplace Footer* view may put the form in a bad state.
 
-
 ---
 
 ## Platform Management 13.10.0 - 7 Sep 2023
@@ -276,7 +269,6 @@ Platform Management 13.10.0 is a minor release which includes one new feature an
 ### Improvement
 
 * Simplified grouping and improved organization, labels, and hints for *Theme* fields on the *Marketplace Appearance* view.
-
 
 ---
 
@@ -292,7 +284,6 @@ Platform Management 13.9.2 is a patch release which includes one changed behavio
 
 * Fixed an issue where providing an invalid code when attempting setup of multi-factor authentication using an Authenticator app may result in an error message. With this fix, it will now respond with a message indicating the code was invalid.
 
-
 ---
 
 ## Platform Management 13.9.1 - 25 Aug 2023
@@ -302,7 +293,6 @@ Platform Management 13.9.1 is a patch release which includes one fixed issue.
 ### Fixed issue
 
 * Fixed an issue where the *Marketplaces* view may incorrectly display a published product count of zero.
-
 
 ---
 
@@ -320,7 +310,6 @@ Platform Management 13.9.0 is a minor release which includes one new feature and
 * Fixed an issue where removing teams from Administration, Publication, or Consumption Preference on *Marketplace Settings* view may not save as expected.
 * Fixed an issue where the *Edit User* view may not display breadcrumbs correctly for users that are not yet activated.
 
-
 ---
 
 ## Platform Management 13.8.5 - 9 Aug 2023
@@ -330,7 +319,6 @@ Platform Management 13.8.5 is a patch release which includes one fixed issue.
 ### Fixed issue
 
 * Fixed an issue where malformed certificates uploaded on the *Marketplace Settings* view may have not been properly validated.
-
 
 ---
 
@@ -342,7 +330,6 @@ Platform Management 13.8.4 is a patch release which includes one fixed issue.
 
 * Fixed an issue where editing content in textareas may not behave as expected.
 
-
 ---
 
 ## Platform Management 13.8.3 - 17 Jul 2023
@@ -353,7 +340,6 @@ Platform Management 13.8.3 is a patch release which includes one improvement.
 
 * Extended Cache-Control headers for static assets in an attempt to improve caching behavior for proxy servers.
 
-
 ---
 
 ## Platform Management 13.8.2 - 29 Jun 2023
@@ -363,7 +349,6 @@ Platform Management 13.8.2 is a patch release which includes one fixed issue.
 ### Fixed issue
 
 * Fixed an issue where volume entitlements' quotas and usage on the *Monthly Usage* view may be inadvertently rounded to integer values.
-
 
 ---
 
@@ -377,7 +362,6 @@ Platform Management 13.8.1 is a patch release which includes several fixed issue
 * Fixed an issue on the *Monthly Usage* view where numeric entitlements for renewing subscriptions may show an incorrect quota.
 * Fixed an issue where changes on the *Marketplace Settings* view when no Sitename value is set may cause Sitename to show as changed on the *Activity* view.
 * Fixed an issue where users in certain versions of Safari may experience issues viewing the *Users* or *Account* views.
-
 
 ---
 
@@ -409,7 +393,6 @@ Platform Management 13.8.0 is a minor release which includes several new feature
 * Fixed an issue where changing the "Publication Preference" on the *Marketplace Settings* view from "Included/Excluded Teams" to "Include Teams with Tags" may cause the previously selected team's identifiers to be shown as tags.
 * Fixed an issue where malformed HTML content in an element on the *Marketplace Footer* view may disallow the element from being deleted.
 
-
 ---
 
 ## Platform Management 13.7.0 - 7 Jun 2023
@@ -420,7 +403,6 @@ Platform Management 13.7.0 is a minor release which includes one new feature.
 
 * Added Consumption Preference to the *Marketplace Settings* view to allow organization administrators to control which teams' Consumer role members are allowed to access that marketplace.
 
-
 ---
 
 ## Platform Management 13.6.1 - 1 Jun 2023
@@ -430,7 +412,6 @@ Platform Management 13.6.1 is a patch release which includes one fixed issue.
 ### Fixed issue
 
 * Fixed an issue where users attempting to access marketplaces hosted on custom URLs may experience an error loading the common navigation header.
-
 
 ---
 
@@ -462,7 +443,6 @@ Platform Management 13.6.0 is a minor release which includes several new feature
 * Fixed an issue where changing the "Publication Preference" on the *Marketplace Settings* view from "Included/Excluded Teams" to "Include Teams with Tags" may cause the previously selected team's identifiers to be shown as tags.
 * Fixed an issue where malformed HTML content in an element on the *Marketplace Footer* view may disallow the element from being deleted.
 
-
 ---
 
 ## Platform Management 13.5.1 - 17 May 2023
@@ -476,8 +456,6 @@ Platform Management 13.5.1 is a patch release which includes one behavior change
 ### Improvement
 
 * Improved visibility of recently uploaded usage files when uploading on the *Report History* view. Added a "Refresh" control on the *Usage* and *Report History* views to fetch latest data.
-
-
 
 ---
 
@@ -493,7 +471,6 @@ Platform Management 13.5.0 is a minor release which includes one new feature and
 
 * Fixed an issue on the *Marketplace Footer* view where HTML markup entry in text blocks may not function as expected in some older browser versions.
 
-
 ---
 
 ## Platform Management 13.4.2 - 8 May 2023
@@ -504,7 +481,6 @@ Platform Management 13.4.2 is a patch release which includes one fixed issue.
 
 * Fixed an issue on the *Devices* view where users may experience an error when selecting an action from the dropdown when no devices are listed.
 
-
 ---
 
 ## Platform Management 13.4.1 - 28 Apr 2023
@@ -514,7 +490,6 @@ Platform Management 13.4.1 is a patch release which includes one fixed issue.
 ### Fixed issue
 
 * Fixed an issue where organizations with a large number of users may experience errors performing certain *Identity Provider* management actions.
-
 
 ---
 
@@ -530,7 +505,6 @@ Platform Management 13.4.0 is a minor release which includes one new feature and
 
 * Fixed an issue where marketplaces may show the organization branding's logo prior to a logo being uploaded on the *Marketplace Appearance* view.
 
-
 ---
 
 ## Platform Management 13.3.0 - 18 Apr 2023
@@ -543,7 +517,6 @@ Platform Management 13.3.0 is a minor release which includes four improvements.
 * Improved clarity of uploaded file statuses on the *Usage Report History* view. Files containing at least one valid metric will now be shown with a status of "Partially Accepted". Files containing no valid metrics will have a status of "Invalid Metrics". Both provide an icon which will list the invalid metrics contained in the file when hovered over.
 * Readded the Switch Org menu to the common navigation header for consumer role users.
 * Added an option on the *Identity Providers* view to bypass email verification for subdomains of parent domains associated to an identity provider.
-
 
 ---
 
@@ -560,7 +533,6 @@ Platform Management 13.2.0 is a minor release which includes three new features 
 ### Improvement
 
 * Revised dark theme to increase contrast and brighten actionable elements.
-
 
 ---
 
@@ -583,7 +555,6 @@ Platform Management 13.1.0 is a minor release which includes two new features, o
 * Fixed an issue where the left navigation for app views may not display the app name.
 * Fixed an issue where *Apps* view table may not allow sorting by app name or type.
 
-
 ---
 
 ## Platform Management 13.0.0 - 14 Mar 2023
@@ -594,7 +565,7 @@ Platform Management 13.0.0 is a major release which includes one behavior change
 With this release, Platform Management API endpoints related to use of **Mobile Backend Services** and **Amplify Runtime Services** previously marked as deprecated have be removed. All remaining **Amplify Runtime Services* environments have been decommissioned. Application types served by those environments will no longer be visible with the Platform.
 {{% /alert %}}
 
-## Behavior change
+### Changed behavior
 
 * Removed filtering by application type on the *Apps* view.
 

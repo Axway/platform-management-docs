@@ -95,12 +95,12 @@ __Improvement__
 Platform Management 13.15.1 is a patch release which includes one new feature.
 
 {{% alert title="Note" color="primary" %}}
-With this release, organizations which are currently entitled to access Unified Catalog have been granted an **Amplify Enterprise Marketplace** subscription.
+With this release, organizations which are currently entitled to access Unified Catalog have been granted an __Amplify Enterprise Marketplace__ subscription.
 {{% /alert %}}
 
 __New feature__
 
-* Added *Activity* view event definitions to the **Platform** API documentation.
+* Added *Activity* view event definitions to the __Platform__ API documentation.
 
 ---
 
@@ -146,7 +146,7 @@ __Fixed issues__
 Platform Management 13.14.0 is a minor release which includes one new feature, one improvement, and two fixed issue.
 
 {{% alert title="Note" color="primary" %}}
-With this release, **Application Integration** and **Integration Builder** capabilities are no longer available or navigable from the *Platform Home* view.
+With this release, __Application Integration__ and __Integration Builder__ capabilities are no longer available or navigable from the *Platform Home* view.
 {{% /alert %}}
 
 __New feature__
@@ -230,7 +230,7 @@ Platform Management 13.11.0 is a minor release which includes one new feature, t
 
 __New feature__
 
-* Added links to **Document Library** in the common navigation service switcher and *Platform Home* view.
+* Added links to __Document Library__ in the common navigation service switcher and *Platform Home* view.
 
 __Improvements__
 
@@ -253,7 +253,7 @@ __Changed behavior__
 
 __Improvement__
 
-* Fixed an issue where environments removed from *Central* may still show in the **Platform** *Environments* view.
+* Fixed an issue where environments removed from *Central* may still show in the __Platform__ *Environments* view.
 * Fixed an issue where attempting to remove color settings on the *Marketplace Footer* view may put the form in a bad state.
 
 ---
@@ -278,7 +278,7 @@ Platform Management 13.9.2 is a patch release which includes one changed behavio
 
 __Changed behavior__
 
-* **Amplify Platform** password policy now enforces a maximum length of 128 characters.
+* __Amplify Platform__ password policy now enforces a maximum length of 128 characters.
 
 __Fixed issue__
 
@@ -381,7 +381,7 @@ __Improvement__
 
 __Changed behaviors__
 
-* Removed **Unified Catalog** branding capabilities under organization settings.
+* Removed __Unified Catalog__ branding capabilities under organization settings.
 * Relocated organization logo upload to the organization settings *Manage* view.
 * Removed "Featured Products" option from the "Featured Content" selection on *Marketplace Homepage* view.
 
@@ -431,7 +431,7 @@ __Improvement__
 
 __Changed behaviors__
 
-* Removed **Unified Catalog** branding capabilities under organization settings.
+* Removed __Unified Catalog__ branding capabilities under organization settings.
 * Relocated organization logo upload to the organization settings *Manage* view.
 * Removed "Featured Products" option from the "Featured Content" selection on *Marketplace Homepage* view.
 
@@ -465,7 +465,7 @@ Platform Management 13.5.0 is a minor release which includes one new feature and
 
 __New feature__
 
-* For organizations entitled to **Amplify Enterprise Marketplace**, a new *Marketplace Billing* view allows capture of billing integration settings with Stripe as the first supported vendor.
+* For organizations entitled to __Amplify Enterprise Marketplace__, a new *Marketplace Billing* view allows capture of billing integration settings with Stripe as the first supported vendor.
 
 __Fixed issue__
 
@@ -499,7 +499,7 @@ Platform Management 13.4.0 is a minor release which includes one new feature and
 
 __New feature__
 
-* Organizations with active **Amplify Integration** subscriptions may now configured Integration environments. These environments will be linked to from a new capabilty on *Platform Home* and in the common navigation header's service switcher.
+* Organizations with active __Amplify Integration__ subscriptions may now configured Integration environments. These environments will be linked to from a new capabilty on *Platform Home* and in the common navigation header's service switcher.
 
 __Fixed issue__
 
@@ -527,7 +527,7 @@ Platform Management 13.2.0 is a minor release which includes three new features 
 __New features__
 
 * Added ability to set visibility in *Marketplace Menus* to control whether menu items are shown when marketplace visitors are signed in or out.
-* Added *Identity Provider* configuration support for **Amplify Enterprise Marketplace** consumer organizations.
+* Added *Identity Provider* configuration support for __Amplify Enterprise Marketplace__ consumer organizations.
 * Added an option on the *Identity Provider* configuration view to allow users which can sign in with the identity provider, but do not have email addresses on an associated domain, to be provisioned into the organization.
 
 __Improvement__
@@ -562,7 +562,7 @@ __Fixed issue__
 Platform Management 13.0.0 is a major release which includes one behavior change, one new feature, and one improvement.
 
 {{% alert title="Note" color="primary" %}}
-With this release, Platform Management API endpoints related to use of **Mobile Backend Services** and **Amplify Runtime Services** previously marked as deprecated have be removed. All remaining **Amplify Runtime Services** environments have been decommissioned. Application types served by those environments will no longer be visible with the Platform.
+With this release, Platform Management API endpoints related to use of __Mobile Backend Services__ and __Amplify Runtime Services__ previously marked as deprecated have be removed. All remaining __Amplify Runtime Services__ environments have been decommissioned. Application types served by those environments will no longer be visible with the Platform.
 {{% /alert %}}
 
 __Changed behavior__
@@ -571,7 +571,7 @@ __Changed behavior__
 
 __New feature__
 
-* Added a *Marketplace Footer* view to capture settings for a customizable footer displayed on all **Marketplace** and related authentication views.
+* Added a *Marketplace Footer* view to capture settings for a customizable footer displayed on all __Marketplace__ and related authentication views.
 
 __Improvement__
 

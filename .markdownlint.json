@@ -4,6 +4,7 @@
     'MD004': {'style': 'asterisk'},
     'MD007': {'indent': 4},
     'MD013': false,
+    'MD024': false,
     'MD026': {'punctuation': '.,;:!'},
     'MD029': {'style': 'ordered'},
     'MD031': {'list_items': false},

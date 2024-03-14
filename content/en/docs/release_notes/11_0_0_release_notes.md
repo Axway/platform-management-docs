@@ -5,6 +5,7 @@ weight: 70
 simple_list: true
 date: 2021-08-12
 ---
+<!-- markdownlint-disable  MD024/no-duplicate-heading/no-duplicate-header --->
 
 New features, improvements, and bug fixes for releases 11.0.0 - 11.1.0.
 

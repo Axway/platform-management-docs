@@ -5,6 +5,7 @@ weight: 50
 simple_list: true
 date: 2024-03-13
 ---
+<!-- markdownlint-disable  MD024/no-duplicate-heading/no-duplicate-header --->
 
 New features, improvements, and bug fixes for releases 13.0.0 - 13.18.0.
 

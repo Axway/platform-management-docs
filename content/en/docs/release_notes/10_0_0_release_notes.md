@@ -5,6 +5,7 @@ weight: 80
 simple_list: true
 date: 2022-08-11
 ---
+<!-- markdownlint-disable  MD024/no-duplicate-heading/no-duplicate-header --->
 
 New features, improvements, and bug fixes for releases 10.0.0 - 10.7.0.
 

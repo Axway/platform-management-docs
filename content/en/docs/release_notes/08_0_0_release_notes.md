@@ -5,6 +5,7 @@ weight: 100
 simple_list: true
 date: 2021-10-21
 ---
+<!-- markdownlint-disable  MD024/no-duplicate-heading/no-duplicate-header --->
 
 New features, improvements, and bug fixes for releases 8.0.0 - 8.9.3.
 

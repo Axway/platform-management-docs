@@ -9,6 +9,7 @@
     'MD029': {'style': 'ordered'},
     'MD031': {'list_items': false},
     'MD033': { 'allowed_elements': [ 'a', 'br' ] },
+    'MD036': false,
     'MD040': false,
     'MD041': false,
     'MD046': {'style': 'fenced'},

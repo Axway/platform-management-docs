@@ -10,7 +10,7 @@ New features, improvements, and bug fixes for releases 13.0.0 - 13.18.0.
 
 ---
 
-## Platform Management 13.18.0 - 13 Mar 2024
+## 13.18.0 - 13 Mar 2024
 
 Platform Management 13.18.0 is a minor release which includes two new features and two fixed issues.
 
@@ -26,7 +26,7 @@ __Fixed issues__
 
 ---
 
-## Platform Management 13.17.3 - 29 Feb 2024
+## 13.17.3 - 29 Feb 2024
 
 Platform Management 13.17.3 is a patch release which includes two improvements and one fixed issue.
 
@@ -41,7 +41,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.17.2 - 14 Feb 2024
+## 13.17.2 - 14 Feb 2024
 
 Platform Management 13.17.2 is a patch release which includes one fixed issue.
 
@@ -51,7 +51,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.17.1 - 13 Feb 2024
+## 13.17.1 - 13 Feb 2024
 
 Platform Management 13.17.1 is a patch release which includes one fixed issue.
 
@@ -61,7 +61,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.17.0 - 12 Feb 2024
+## 13.17.0 - 12 Feb 2024
 
 Platform Management 13.17.0 is a minor release which includes one new feature and two fixed issues.
 
@@ -76,7 +76,7 @@ __Fixed issues__
 
 ---
 
-## Platform Management 13.16.0 - 01 Feb 2024
+## 13.16.0 - 01 Feb 2024
 
 Platform Management 13.16.0 is a minor release which includes one new feature and one improvement.
 
@@ -90,7 +90,7 @@ __Improvement__
 
 ---
 
-## Platform Management 13.15.1 - 25 Jan 2024
+## 13.15.1 - 25 Jan 2024
 
 Platform Management 13.15.1 is a patch release which includes one new feature.
 
@@ -104,7 +104,7 @@ __New feature__
 
 ---
 
-## Platform Management 13.15.0 - 18 Jan 2024
+## 13.15.0 - 18 Jan 2024
 
 Platform Management 13.15.0 is a minor release which includes five improvements and one fixed issue.
 
@@ -130,7 +130,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.14.1 - 12 Dec 2023
+## 13.14.1 - 12 Dec 2023
 
 Platform Management 13.14.1 is a patch release which includes two fixed issues.
 
@@ -141,7 +141,7 @@ __Fixed issues__
 
 ---
 
-## Platform Management 13.14.0 - 07 Dec 2023
+## 13.14.0 - 07 Dec 2023
 
 Platform Management 13.14.0 is a minor release which includes one new feature, one improvement, and two fixed issue.
 
@@ -164,7 +164,7 @@ __Fixed issues__
 
 ---
 
-## Platform Management 13.13.0 - 29 Nov 2023
+## 13.13.0 - 29 Nov 2023
 
 Platform Management 13.13.0 is a minor release which includes one new feature, one improvement, and two fixed issues.
 
@@ -183,7 +183,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.12.1 - 7 Nov 2023
+## 13.12.1 - 7 Nov 2023
 
 Platform Management 13.12.1 is a patch release which includes one fixed issue.
 
@@ -193,7 +193,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.12.0 - 7 Nov 2023
+## 13.12.0 - 7 Nov 2023
 
 Platform Management 13.12.0 is a minor release which includes two new features, one improvement, and two fixed issues.
 
@@ -214,7 +214,7 @@ __Fixed issues__
 
 ---
 
-## Platform Management 13.11.1 - 17 Oct 2023
+## 13.11.1 - 17 Oct 2023
 
 Platform Management 13.11.1 is a patch release which includes one fixed issue.
 
@@ -224,7 +224,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.11.0 - 12 Oct 2023
+## 13.11.0 - 12 Oct 2023
 
 Platform Management 13.11.0 is a minor release which includes one new feature, two improvements, and one fixed issue.
 
@@ -243,7 +243,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.10.1 - 27 Sep 2023
+## 13.10.1 - 27 Sep 2023
 
 Platform Management 13.10.1 is a patch release which includes one changed behavior and two fixed issues.
 
@@ -258,7 +258,7 @@ __Improvement__
 
 ---
 
-## Platform Management 13.10.0 - 7 Sep 2023
+## 13.10.0 - 7 Sep 2023
 
 Platform Management 13.10.0 is a minor release which includes one new feature and one improvement.
 
@@ -272,7 +272,7 @@ __Improvement__
 
 ---
 
-## Platform Management 13.9.2 - 1 Sep 2023
+## 13.9.2 - 1 Sep 2023
 
 Platform Management 13.9.2 is a patch release which includes one changed behavior and one fixed issue.
 
@@ -286,7 +286,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.9.1 - 25 Aug 2023
+## 13.9.1 - 25 Aug 2023
 
 Platform Management 13.9.1 is a patch release which includes one fixed issue.
 
@@ -296,7 +296,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.9.0 - 24 Aug 2023
+## 13.9.0 - 24 Aug 2023
 
 Platform Management 13.9.0 is a minor release which includes one new feature and several fixed issues.
 
@@ -312,7 +312,7 @@ __Fixed issues__
 
 ---
 
-## Platform Management 13.8.5 - 9 Aug 2023
+## 13.8.5 - 9 Aug 2023
 
 Platform Management 13.8.5 is a patch release which includes one fixed issue.
 
@@ -322,7 +322,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.8.4 - 7 Aug 2023
+## 13.8.4 - 7 Aug 2023
 
 Platform Management 13.8.4 is a patch release which includes one fixed issue.
 
@@ -332,7 +332,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.8.3 - 17 Jul 2023
+## 13.8.3 - 17 Jul 2023
 
 Platform Management 13.8.3 is a patch release which includes one improvement.
 
@@ -342,7 +342,7 @@ __Improvement__
 
 ---
 
-## Platform Management 13.8.2 - 29 Jun 2023
+## 13.8.2 - 29 Jun 2023
 
 Platform Management 13.8.2 is a patch release which includes one fixed issue.
 
@@ -352,7 +352,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.8.1 - 22 Jun 2023
+## 13.8.1 - 22 Jun 2023
 
 Platform Management 13.8.1 is a patch release which includes several fixed issues.
 
@@ -365,7 +365,7 @@ __Fixed issues__
 
 ---
 
-## Platform Management 13.8.0 - 12 Jun 2023
+## 13.8.0 - 12 Jun 2023
 
 Platform Management 13.8.0 is a minor release which includes several new features, one improvement, several changed behaviors, and several fixed issues.
 
@@ -395,7 +395,7 @@ __Fixed issues__
 
 ---
 
-## Platform Management 13.7.0 - 7 Jun 2023
+## 13.7.0 - 7 Jun 2023
 
 Platform Management 13.7.0 is a minor release which includes one new feature.
 
@@ -405,7 +405,7 @@ __New feature__
 
 ---
 
-## Platform Management 13.6.1 - 1 Jun 2023
+## 13.6.1 - 1 Jun 2023
 
 Platform Management 13.6.1 is a patch release which includes one fixed issue.
 
@@ -415,7 +415,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.6.0 - 31 May 2023
+## 13.6.0 - 31 May 2023
 
 Platform Management 13.6.0 is a minor release which includes several new features, one improvement, several changed behaviors, and several fixed issues.
 
@@ -445,7 +445,7 @@ __Fixed issues__
 
 ---
 
-## Platform Management 13.5.1 - 17 May 2023
+## 13.5.1 - 17 May 2023
 
 Platform Management 13.5.1 is a patch release which includes one behavior change and one improvement.
 
@@ -459,7 +459,7 @@ __Improvement__
 
 ---
 
-## Platform Management 13.5.0 - 11 May 2023
+## 13.5.0 - 11 May 2023
 
 Platform Management 13.5.0 is a minor release which includes one new feature and one fixed issue.
 
@@ -473,7 +473,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.4.2 - 8 May 2023
+## 13.4.2 - 8 May 2023
 
 Platform Management 13.4.2 is a patch release which includes one fixed issue.
 
@@ -483,7 +483,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.4.1 - 28 Apr 2023
+## 13.4.1 - 28 Apr 2023
 
 Platform Management 13.4.1 is a patch release which includes one fixed issue.
 
@@ -493,7 +493,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.4.0 - 26 Apr 2023
+## 13.4.0 - 26 Apr 2023
 
 Platform Management 13.4.0 is a minor release which includes one new feature and one fixed issue.
 
@@ -507,7 +507,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.3.0 - 18 Apr 2023
+## 13.3.0 - 18 Apr 2023
 
 Platform Management 13.3.0 is a minor release which includes four improvements.
 
@@ -520,7 +520,7 @@ __Improvements__
 
 ---
 
-## Platform Management 13.2.0 - 5 Apr 2023
+## 13.2.0 - 5 Apr 2023
 
 Platform Management 13.2.0 is a minor release which includes three new features and one improvement.
 
@@ -536,7 +536,7 @@ __Improvement__
 
 ---
 
-## Platform Management 13.1.0 - 22 Mar 2023
+## 13.1.0 - 22 Mar 2023
 
 Platform Management 13.1.0 is a minor release which includes two new features, one improvement, and several fixed issues.
 
@@ -557,7 +557,7 @@ __Fixed issue__
 
 ---
 
-## Platform Management 13.0.0 - 14 Mar 2023
+## 13.0.0 - 14 Mar 2023
 
 Platform Management 13.0.0 is a major release which includes one behavior change, one new feature, and one improvement.
 

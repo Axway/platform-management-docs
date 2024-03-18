@@ -15,7 +15,7 @@ The {{% variables/platform_prod_name %}} includes the following menus and links 
 
 ### Service Links menu
 
-The *Service Links* menu provides links to to the *Platform Home* page, *Overview*, capabilities to which your organization is subscribed and provisioned (example shown), and the *Explore Products & Services* page. Click the *Integration Builder* capability to show links to available environments.
+The *Service Links* menu provides links to to the *Platform Home* page, *Overview*, capabilities to which your organization is subscribed and provisioned (example shown), and the *Explore Products & Services* page.
 
 ![Service Links menu](/Images/service_links_menu.png)
 

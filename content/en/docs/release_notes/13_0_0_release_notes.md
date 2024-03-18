@@ -32,8 +32,8 @@ Platform Management 13.17.3 is a patch release which includes two improvements a
 
 __Improvements__
 
-* Administrator role members of an organization can reassign any administrator to Primary Contact on the *Users* table view. Previously only the current Primary Contact could reassign that designation.
-* Improved verbiage in Platform sent email notifications.
+* Administrator role members of an organization can reassign any administrator to Primary Contact on the *Users* table view. Previously, only the current Primary Contact could reassign that designation.
+* Improved verbiage in platform-sent email notifications.
 
 __Fixed issue__
 
@@ -121,7 +121,7 @@ __Improvements__
 * The organization name is now persistently shown in the breadcrumbs at the top of *Teams*, *Users*, and other views under the organization menu.
 * The date range filter on the *Usage Report History* view may now be applied to the date reported or the reporting period of the file.
 * Added the product name and version for which the file was reported as available columns on the *Usage Report History* view.
-* Added support for Axway license products to be shown on the organzation *Overview* view.
+* Added support for Axway license products to be shown on the organization *Overview* view.
 * Improved table sorting for undefined or empty values.
 
 __Fixed issue__
@@ -136,14 +136,14 @@ Platform Management 13.14.1 is a patch release which includes two fixed issues.
 
 __Fixed issues__
 
-* Fixed an issue where the *Identity Provider Configuration* views may not be visible if the feature was previously configured, but is no longer entitled.
-* Fixed an issue where the *Consumer Org* creation form view may not show the initial administrator email form input and could not be submitted.
+* Fixed an issue where the *Identity Provider Configuration* views may not be visible if the feature was previously configured but is no longer entitled.
+* Fixed an issue where the *Consumer Org* creation form view may not show the initial administrator email form input and cannot be submitted.
 
 ---
 
 ## 13.14.0 - 07 Dec 2023
 
-Platform Management 13.14.0 is a minor release which includes one new feature, one improvement, and two fixed issue.
+Platform Management 13.14.0 is a minor release which includes one new feature, one improvement, and two fixed issues.
 
 {{% alert title="Note" color="primary" %}}
 With this release, __Application Integration__ and __Integration Builder__ capabilities are no longer available or navigable from the *Platform Home* view.
@@ -160,7 +160,7 @@ __Improvement__
 __Fixed issues__
 
 * Fixed an issue where users assigned Team Manager role, but not organization Administrator role, may not be able to edit their teams.
-* Fixed an issue where *Platform Home* and *Overview* view links were shown for Consumer role users, but would error when followed.
+* Fixed an issue where *Platform Home* and *Overview* view links were shown for Consumer role users but would error when followed.
 
 ---
 
@@ -168,7 +168,7 @@ __Fixed issues__
 
 Platform Management 13.13.0 is a minor release which includes one new feature, one improvement, and two fixed issues.
 
-__New features__
+__New feature__
 
 * Added an option to the *Marketplace Settings* view to require Consumer role marketplace users to authenticate with a configured Identity Provider.
 
@@ -176,7 +176,7 @@ __Improvement__
 
 * Improved usability of the date range selector on analytics views.
 
-__Fixed issue__
+__Fixed issues__
 
 * Fixed an issue where users attempting to sign up for a marketplace using the GitHub, GitLab, or Google OAuth integrations, but do not have a name set in those services, may encounter an error.
 * Fixed an issue where a banner containing a warning about unavailable roles being assigned may flash as the organization *Users* view was loading.
@@ -199,10 +199,10 @@ Platform Management 13.12.0 is a minor release which includes two new features, 
 
 __New features__
 
-* Added social authentication options to the *Marketplace Settings* view. This allows for OAuth-based integration with GitHub, Gitlab, or Google to allow authentication and sign-up for consumer org users.
+* Added social authentication options to the *Marketplace Settings* view. This allows for OAuth-based integration with GitHub, GitLab, or Google to allow authentication and sign-up for consumer org users.
 * Added the ability to customize the *Help & Resources Menu* on the organization *Manage* view.
 
-__Improvement__
+__Improvements__
 
 * Removed *Runtime Services Admin* role from all users to which it was assigned. This role is no longer valid or grants no permissions.
 * Improved handling of email address fields to be permissive of mixed case values.
@@ -251,7 +251,7 @@ __Changed behavior__
 
 * Increased number of users that may be invited before hitting invitation limit.
 
-__Improvement__
+__Improvements__
 
 * Fixed an issue where environments removed from *Central* may still show in the __Platform__ *Environments* view.
 * Fixed an issue where attempting to remove color settings on the *Marketplace Footer* view may put the form in a bad state.
@@ -328,7 +328,7 @@ Platform Management 13.8.4 is a patch release which includes one fixed issue.
 
 __Fixed issue__
 
-* Fixed an issue where editing content in textareas may not behave as expected.
+* Fixed an issue where editing content in text areas may not behave as expected.
 
 ---
 
@@ -338,7 +338,7 @@ Platform Management 13.8.3 is a patch release which includes one improvement.
 
 __Improvement__
 
-* Extended Cache-Control headers for static assets in an attempt to improve caching behavior for proxy servers.
+* Extended Cache-Control headers for static assets to improve caching behavior for proxy servers.
 
 ---
 
@@ -451,7 +451,7 @@ Platform Management 13.5.1 is a patch release which includes one behavior change
 
 __Changed behavior__
 
-* Organizations which have no activity in greater than 180 days will be notified of their inactivity and potential removal if no activity occurs within the organization in the next 30 days. Previously, this process only occurred if the organization had all its subscriptions expired for more than the inactivty window. With this change, since organizations created via signup may have no subscriptions, they will also be subject to this process. Organizations marked as license or contract holders or those which have a Support Access Code set are excluded from this process.
+* Organizations which have no activity in greater than 180 days will be notified of their inactivity and potential removal if no activity occurs within the organization in the next 30 days. Previously, this process only occurred if the organization had all its subscriptions expired for more than the inactivity window. With this change, since organizations created via signup may have no subscriptions, they will also be subject to this process. Organizations marked as license or contract holders or those which have a Support Access Code set are excluded from this process.
 
 __Improvement__
 
@@ -499,7 +499,7 @@ Platform Management 13.4.0 is a minor release which includes one new feature and
 
 __New feature__
 
-* Organizations with active __Amplify Integration__ subscriptions may now configured Integration environments. These environments will be linked to from a new capabilty on *Platform Home* and in the common navigation header's service switcher.
+* Organizations with active __Amplify Integration__ subscriptions may now configured Integration environments. These environments will be linked to from a new capability on *Platform Home* and in the common navigation header's service switcher.
 
 __Fixed issue__
 
@@ -514,7 +514,7 @@ Platform Management 13.3.0 is a minor release which includes four improvements.
 __Improvements__
 
 * Added a new Usage Reporter organization level role. This role can be assigned to service accounts and users within your organization to allow them to register environments and report usage without granting additional administrative roles or permissions.
-* Improved clarity of uploaded file statuses on the *Usage Report History* view. Files containing at least one valid metric will now be shown with a status of "Partially Accepted". Files containing no valid metrics will have a status of "Invalid Metrics". Both provide an icon which will list the invalid metrics contained in the file when hovered over.
+* Improved clarity of uploaded file statuses on the *Usage Report History* view. Files containing at least one valid metric will now be shown with a status of "Partially Accepted." Files containing no valid metrics will have a status of "Invalid Metrics." Both provide an icon which will list the invalid metrics contained in the file when hovered over.
 * Readded the Switch Org menu to the common navigation header for consumer role users.
 * Added an option on the *Identity Providers* view to bypass email verification for subdomains of parent domains associated to an identity provider.
 
@@ -549,7 +549,7 @@ __Improvement__
 
 * Added pagination controls to the Environments view.
 
-__Fixed issue__
+__Fixed issues__
 
 * Fixed an issue where analytics chart views may not display their series legends in the accompanying table.
 * Fixed an issue where the left navigation for app views may not display the app name.

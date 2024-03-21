@@ -3,7 +3,7 @@ title: Platform Management 13.0.0 - 13.18.1 release notes
 linkTitle: Platform Management 13.0.0 - 13.18.1 release notes
 weight: 50
 simple_list: true
-date: 2024-03-20
+date: 2024-03-21
 ---
 
 New features, improvements, and bug fixes for releases 13.0.0 - 13.18.1.

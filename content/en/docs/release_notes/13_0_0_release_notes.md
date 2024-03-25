@@ -1,12 +1,24 @@
 ---
-title: Platform Management 13.0.0 - 13.18.0 release notes
-linkTitle: Platform Management 13.0.0 - 13.18.0 release notes
+title: Platform Management 13.0.0 - 13.18.1 release notes
+linkTitle: Platform Management 13.0.0 - 13.18.1 release notes
 weight: 50
 simple_list: true
-date: 2024-03-13
+date: 2024-03-21
 ---
 
-New features, improvements, and bug fixes for releases 13.0.0 - 13.18.0.
+New features, improvements, and bug fixes for releases 13.0.0 - 13.18.1.
+
+---
+
+## 13.18.1 - 21 Mar 2024
+
+Platform Management 13.18.1 is a patch release which includes three fixed issues.
+
+__Fixed issues__
+
+* Fixed an issue where organization administrators may not see an available action to remove an environment on the *Environments* table or *Environment* view.
+* Fixed an issue where daily usage charts on the *Usage* view may not be shown for the currently selected month.
+* Fixed an issue where a user will be signed out due to inactivity, but may not be presented with the message indicating they are signed out and prompting them to sign back in.
 
 ---
 

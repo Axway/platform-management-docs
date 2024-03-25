@@ -18,7 +18,7 @@ __Fixed issues__
 
 * Fixed an issue where organization administrators may not see an available action to remove an environment on the *Environments* table or *Environment* view.
 * Fixed an issue where daily usage charts on the *Usage* view may not be shown for the currently selected month.
-* Fixed an issue where a user will be signed out due to inactivity, but may not be presented with the message indicating they are signed out and prompting the user to sign back in.
+* Fixed an issue where a user will be signed out due to inactivity, but may not be presented with the message indicating they are signed out and prompting them to sign back in.
 
 ---
 

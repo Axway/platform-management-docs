@@ -35,7 +35,7 @@ __Improvements__
 
 * Added a banner to the *Usage* and *Report History* views to clarify that all usage is aggregated and displayed in UTC time standard, rather than local time.
 * Obscured links and controls for creating environments and reporting usage to only those organizations which have subscribed products that require usage reporting.
-* Removed the definition of the deprecated **Flow Manager** specific roles and their assignment on all users. These roles were only applicable for the SaaS version of this product which was deprecated in Q2 2022.
+* Removed the definition of the deprecated __Flow Manager__ specific roles and their assignment on all users. These roles were only applicable for the SaaS version of this product which was deprecated in Q2 2022.
 
 __Fixed issues__
 
@@ -63,7 +63,7 @@ __Improvements__
 __Fixed issues__
 
 * Fixed an issue where attempting to sign out from a *Marketplace* may not behave as expected.
-* Fixed an issue where **Amplify Integration** usage may not be displayed or aggregated properly.
+* Fixed an issue where __Amplify Integration__ usage may not be displayed or aggregated properly.
 * Corrected options for *Marketplace Homepage* settings hero banner actions.
 
 ---

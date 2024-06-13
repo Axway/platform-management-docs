@@ -1,12 +1,71 @@
 ---
-title: Platform Management 13.0.0 - 13.18.1 release notes
-linkTitle: Platform Management 13.0.0 - 13.18.1 release notes
+title: Platform Management 13.0.0 - 13.20.1 release notes
+linkTitle: Platform Management 13.0.0 - 13.20.1 release notes
 weight: 50
 simple_list: true
-date: 2024-03-21
+date: 2024-06-12
 ---
 
-New features, improvements, and bug fixes for releases 13.0.0 - 13.18.1.
+New features, improvements, and bug fixes for releases 13.0.0 - 13.20.1.
+
+---
+
+## 13.20.1 - 12 Jun 2024
+
+Platform Management 13.20.1 is a patch release which includes two fixes issues.
+
+__Fixed issues__
+
+* Fixed an issue where Administrator or Marketplace Manager role users editing *Marketplace Settings* for an org other than the org they are current signed into may incorrectly display the corresponding event under the signed-in organization's *Activity* view.
+* Fixed an issue where corrected usage reporting may display an empty line for the corresponding environment on the *Usage* view.
+
+---
+
+## 13.20.0 - 5 Jun 2024
+
+Platform Management 13.20.0 is a minor release which includes three new features, four improvements, and four fixes issues.
+
+__New features__
+
+* Added an option to enforce role assignment and team membership based on mapped attributes to the *Identity Provider* configuration form.
+* Added an option to the *Security & Privacy* settings for organizations which have identity providers established to disallow API access using (tooling) credentials not managed by the identity provider.
+* Added an *AI Integration* form to *Marketplace Settings*. These settings are available for entitled organizations.
+
+__Improvements__
+
+* Improved validation responses for the user creation endpoint to
+* Added a banner to the *Usage* and *Report History* views to clarify that all usage is aggregated and displayed in UTC time standard, rather than local time.
+* Obscured links and controls for creating environments and reporting usage to only those organizations which have subscribed products that require usage reporting.
+* Removed the definition of the deprecated **Flow Manager** specific roles and their assignment on all users. These roles were only applicable for the SaaS version of this product which was deprecated in Q2 2022.
+
+__Fixed issues__
+
+* Fixed an issue where *Marketplace* consumer org members may not have required to accept terms of use after signing in.
+* Fixed an issue where attempting to switch signed-in organization via *Axway CLI* may not function as expected.
+* Fixed an issue where the dropdown for the list of assignable roles on the *Team* form may not be displayed properly for smaller viewport heights.
+* Fixed an issue where entitlements granted unlimited quota may not be displayed correctly on the *Enter Usage* form.
+
+---
+
+## 13.19.0 - 29 Apr 2024
+
+Platform Management 13.19.0 is a minor release which includes two new features, two improvements, and three fixes issues.
+
+__New feature__
+
+* The *Usage* view now includes charts showing annual usage (for prior twelve months) per entitlement and per environment by clicking the corresponding icon.
+* Added a custom integration option to the *Marketplace Billing* settings along with a link to its documentation.
+
+__Improvements__
+
+* Added an option to *Marketplace Settings* to trigger reacceptance of terms of use. Acceptance of terms of use now generates events visible in the *Marketplace Activity* view.
+* Added separators on input for large numeric values on the *Enter Usage* form.
+
+__Fixed issues__
+
+* Fixed an issue where attempting to sign out from a *Marketplace* may not behave as expected.
+* Fixed an issue where **Amplify Integration** usage may not be displayed or aggregated properly.
+* Corrected options for *Marketplace Homepage* settings hero banner actions.
 
 ---
 

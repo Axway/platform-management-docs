@@ -23,7 +23,7 @@ __Fixed issues__
 
 ## 13.20.0 - 5 Jun 2024
 
-Platform Management 13.20.0 is a minor release which includes three new features, four improvements, and four fixes issues.
+Platform Management 13.20.0 is a minor release which includes three new features, three improvements, and four fixes issues.
 
 __New features__
 
@@ -33,7 +33,6 @@ __New features__
 
 __Improvements__
 
-* Improved validation responses for the user creation endpoint to
 * Added a banner to the *Usage* and *Report History* views to clarify that all usage is aggregated and displayed in UTC time standard, rather than local time.
 * Obscured links and controls for creating environments and reporting usage to only those organizations which have subscribed products that require usage reporting.
 * Removed the definition of the deprecated **Flow Manager** specific roles and their assignment on all users. These roles were only applicable for the SaaS version of this product which was deprecated in Q2 2022.
@@ -51,7 +50,7 @@ __Fixed issues__
 
 Platform Management 13.19.0 is a minor release which includes two new features, two improvements, and three fixes issues.
 
-__New feature__
+__New features__
 
 * The *Usage* view now includes charts showing annual usage (for prior twelve months) per entitlement and per environment by clicking the corresponding icon.
 * Added a custom integration option to the *Marketplace Billing* settings along with a link to its documentation.

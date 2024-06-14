@@ -1,12 +1,70 @@
 ---
-title: Platform Management 13.0.0 - 13.18.1 release notes
-linkTitle: Platform Management 13.0.0 - 13.18.1 release notes
+title: Platform Management 13.0.0 - 13.20.1 release notes
+linkTitle: Platform Management 13.0.0 - 13.20.1 release notes
 weight: 50
 simple_list: true
-date: 2024-03-21
+date: 2024-06-12
 ---
 
-New features, improvements, and bug fixes for releases 13.0.0 - 13.18.1.
+New features, improvements, and bug fixes for releases 13.0.0 - 13.20.1.
+
+---
+
+## 13.20.1 - 12 Jun 2024
+
+Platform Management 13.20.1 is a patch release which includes two fixed issues.
+
+__Fixed issues__
+
+* Fixed an issue where Administrator or Marketplace Manager role users editing *Marketplace Settings* for an org other than the org they are currently signed into may incorrectly display the corresponding event under the signed-in organization's *Activity* view.
+* Fixed an issue where corrected usage reporting may display an empty line for the corresponding environment on the *Usage* view.
+
+---
+
+## 13.20.0 - 5 Jun 2024
+
+Platform Management 13.20.0 is a minor release which includes three new features, three improvements, and four fixed issues.
+
+__New features__
+
+* Added an option to enforce role assignment and team membership based on mapped attributes to the *Identity Provider* configuration form.
+* Added an option to the *Security & Privacy* settings for organizations which have identity providers established to disallow API access using (tooling) credentials not managed by the identity provider.
+* Added an *AI Integration* form to *Marketplace Settings*. These settings are available for entitled organizations.
+
+__Improvements__
+
+* Added a banner to the *Usage* and *Report History* views to clarify that all usage is aggregated and displayed in UTC time standard, rather than local time.
+* Obscured links and controls for creating environments and reporting usage to only those organizations which have subscribed products that require usage reporting.
+* Removed the definition of the deprecated __Flow Manager__ specific roles and their assignment on all users. These roles were only applicable for the SaaS version of this product which was deprecated in Q2 2022.
+
+__Fixed issues__
+
+* Fixed an issue where *Marketplace* consumer org members may not have been required to accept terms of use after signing in.
+* Fixed an issue where attempting to switch signed-in organization via *Axway CLI* may not function as expected.
+* Fixed an issue where the dropdown for the list of assignable roles on the *Team* form may not be displayed properly for smaller viewport heights.
+* Fixed an issue where entitlements granted unlimited quota may not be displayed correctly on the *Enter Usage* form.
+
+---
+
+## 13.19.0 - 29 Apr 2024
+
+Platform Management 13.19.0 is a minor release which includes two new features, two improvements, and three fixed issues.
+
+__New features__
+
+* The *Usage* view now includes charts showing annual usage (for prior twelve months) per entitlement and per environment by clicking the corresponding icon.
+* Added a custom integration option to the *Marketplace Billing* settings along with a link to its documentation.
+
+__Improvements__
+
+* Added an option to *Marketplace Settings* to trigger reacceptance of terms of use. Acceptance of terms of use now generates events visible in the *Marketplace Activity* view.
+* Added separators on input for large numeric values on the *Enter Usage* form.
+
+__Fixed issues__
+
+* Fixed an issue where attempting to sign out from a *Marketplace* may not behave as expected.
+* Fixed an issue where __Amplify Integration__ usage may not be displayed or aggregated properly.
+* Corrected options for *Marketplace Homepage* settings hero banner actions.
 
 ---
 
@@ -207,7 +265,7 @@ __Fixed issue__
 
 ## 13.12.0 - 7 Nov 2023
 
-Platform Management 13.12.0 is a minor release which includes two new features, one improvement, and two fixed issues.
+Platform Management 13.12.0 is a minor release which includes two new features, two improvements, and two fixed issues.
 
 __New features__
 
@@ -257,7 +315,7 @@ __Fixed issue__
 
 ## 13.10.1 - 27 Sep 2023
 
-Platform Management 13.10.1 is a patch release which includes one changed behavior and two fixed issues.
+Platform Management 13.10.1 is a patch release which includes one changed behavior and two improvements.
 
 __Changed behavior__
 
@@ -310,7 +368,7 @@ __Fixed issue__
 
 ## 13.9.0 - 24 Aug 2023
 
-Platform Management 13.9.0 is a minor release which includes one new feature and several fixed issues.
+Platform Management 13.9.0 is a minor release which includes one new feature and three fixed issues.
 
 __New feature__
 
@@ -366,7 +424,7 @@ __Fixed issue__
 
 ## 13.8.1 - 22 Jun 2023
 
-Platform Management 13.8.1 is a patch release which includes several fixed issues.
+Platform Management 13.8.1 is a patch release which includes four fixed issues.
 
 __Fixed issues__
 
@@ -379,7 +437,7 @@ __Fixed issues__
 
 ## 13.8.0 - 12 Jun 2023
 
-Platform Management 13.8.0 is a minor release which includes several new features, one improvement, several changed behaviors, and several fixed issues.
+Platform Management 13.8.0 is a minor release which includes three new features, one improvement, three changed behaviors, and five fixed issues.
 
 __New features__
 
@@ -429,12 +487,12 @@ __Fixed issue__
 
 ## 13.6.0 - 31 May 2023
 
-Platform Management 13.6.0 is a minor release which includes several new features, one improvement, several changed behaviors, and several fixed issues.
+Platform Management 13.6.0 is a minor release which includes three new features, one improvement, three changed behaviors, and five fixed issues.
 
 __New features__
 
 * Added a *Marketplace Activity* view containing events related to the management of your marketplace and its assets as well as actions performed by consumer org members. The events can be filtered by date range, event type, or consumer org.
-* Added an *Activity* link from the *Marketplace Consumer Orgs* view linking to the *Marketplace Activity* view for the selected consumer org.
+* Added an *Activity* link from the *Marketplace Consumer Orgs* view to the *Marketplace Activity* view for the selected consumer org.
 * Added a toggle to the *Marketplace Settings* view allowing organization Administrator and Marketplace Manager role users to enable *Identity Provider* support for the marketplace's consumer orgs.
 
 __Improvement__
@@ -511,7 +569,7 @@ Platform Management 13.4.0 is a minor release which includes one new feature and
 
 __New feature__
 
-* Organizations with active __Amplify Integration__ subscriptions may now configured Integration environments. These environments will be linked to from a new capability on *Platform Home* and in the common navigation header's service switcher.
+* Organizations with active __Amplify Integration__ subscriptions may now configure Integration environments. These environments will be linked to from a new capability on *Platform Home* and in the common navigation header's service switcher.
 
 __Fixed issue__
 
@@ -550,16 +608,16 @@ __Improvement__
 
 ## 13.1.0 - 22 Mar 2023
 
-Platform Management 13.1.0 is a minor release which includes two new features, one improvement, and several fixed issues.
+Platform Management 13.1.0 is a minor release which includes two new features, one improvement, and three fixed issues.
 
 __New features__
 
-* This release introduces a new Marketplace Manager role assignable on your organization's teams. A new Administration Preference captured on the *Marketplace Settings* view enables organization administrators to select when team's Marketplace Manager role members can modify settings, appearance, and menu, footer, and homepage content for that marketplace.
+* This release introduces a new Marketplace Manager role assignable on your organization's teams. A new Administration Preference captured on the *Marketplace Settings* view enables organization administrators to select when team's Marketplace Manager role members can modify settings, appearance, menu, footer, and homepage content for that marketplace.
 * Added Publication Preference to *Marketplace Settings* view to allow organization administrators to control which teams' Catalog Manager role members are allowed to publish products to that marketplace.
 
 __Improvement__
 
-* Added pagination controls to the Environments view.
+* Added pagination controls to the *Environments* view.
 
 __Fixed issues__
 
@@ -571,7 +629,7 @@ __Fixed issues__
 
 ## 13.0.0 - 14 Mar 2023
 
-Platform Management 13.0.0 is a major release which includes one behavior change, one new feature, and one improvement.
+Platform Management 13.0.0 is a major release which includes one changed behavior, one new feature, and one improvement.
 
 {{% alert title="Note" color="primary" %}}
 With this release, Platform Management API endpoints related to use of __Mobile Backend Services__ and __Amplify Runtime Services__ previously marked as deprecated have be removed. All remaining __Amplify Runtime Services__ environments have been decommissioned. Application types served by those environments will no longer be visible with the Platform.

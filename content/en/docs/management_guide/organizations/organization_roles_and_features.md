@@ -27,10 +27,10 @@ Users also have a role in each team they belong to.
 | Team Role | Short Description | Provider | Consumer |
 | --- | --- | --- | --- |
 | Team Manager | Use this role to manage the members of the team and their role assignments | x | x |
-| Consumer | Use this role to view and consume assets in the Unified Catalog or product in the Marketplace |   | x |
-| Developer** | Use this role to manage assets in Amplify and the Unified Catalog | x |   |
+| Consumer | Use this role to view and consume products in the Marketplace |   | x |
+| Developer** | Use this role to manage assets in Amplify | x |   |
 | Marketplace Manager | Use this role to manage Marketplace settings, appearance, and content | x |   |
-| Catalog Manager** | Use this role to manage product, Unified Catalog items, and approve subscriptions and Access Requests | x |   |
+| Catalog Manager** | Use this role to manage product and approve subscriptions and Access Requests | x |   |
 | Subscriber | Use this role to manage Marketplace subscriptions and view usage |   | x |
 | Subscription Approver** | Use this role to approve Marketplace Subscriptions and Access Requests | x |   |
 
@@ -42,19 +42,6 @@ The following table shows the available team roles and capabilities. The Central
 
 | Capabilities                            | Catalog Manager         | Subscription Approver   | Subscriber              | Marketplace Manager     | Developer               | Consumer           | Team Manager            |
 | --------------------------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ------------------ | ----------------------- |
-| **Unified Catalog**                     |                         |                         |                         |                         |                         |                    |                         |
-| Create catalog items                    | x (my team)             |                         |                         |                         | x (my team)             |                    |                         |
-| View catalog items                      | x (my team)             |                         |                         |                         | x (my team)             | x                  |                         |
-| Delete catalog items                    | x (my team)             |                         |                         |                         |                         |                    |                         |
-| Share a catalog item                    | x (my team)             |                         |                         |                         |                         | x                  |                         |
-| Edit a catalog item                     | x (my team)             |                         |                         |                         | x (my team)             |                    |                         |
-| Create my subscriptions                 | x (my team)             |                         |                         |                         | x (my team)             | x (my team)        |                         |
-| View my subscriptions                   | x (my team)             |                         |                         |                         | x (my team)             | x (my team)        |                         |
-| Update my subscriptions                 | x (my team)             |                         |                         |                         | x (my team)             | x (my team)        |                         |
-| View consumer's subscriptions           | x (my team assets)      |                         |                         |                         |                         |                    |                         |
-| Delete consumer's subscriptions         | x (my team assets)      |                         |                         |                         |                         |                    |                         |
-| Approve/reject consumer's subscriptions | x (my team assets)      |                         |                         |                         |                         |                    |                         |
-| Delete my subscriptions                 | x (my team)             |                         |                         |                         | x (my team)             | x (my team)        |                         |
 | **Marketplace**                         |                         |                         |                         |                         |                         |                    |                         |
 | View products                           | x (my team)             |                         | x (my team)             |                         | x (my team)             | x (my team)        |                         |
 | Subscribe                               | x (free plan only)      |                         | x (free plan only)      |                         | x (free plan only)      | x (free plan only) |                         |

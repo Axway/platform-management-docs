@@ -57,10 +57,4 @@ Users can belong to one or more teams or not belong to any teams at all. A team 
 
 ![Teams page](/Images/organization_teams.png)
 
-When creating items such as API Proxies in {{% variables/central_prod_name %}} or Unified Catalog Assets one team always needs to be chosen as an owner. Only members of the owning team can make changes or remove the items. The following is an example showing the owning team of Unified Catalog items.
-
-![Unified Catalog team owners](/Images/teams_owning_team.png)
-
-Unified Catalog items can be shared with other teams. The teams need to be belong to the same organization. The other teams can then discover and consume those items, but they cannot make changes to them.
-
-![Sharing Unified Catalog items](/Images/teams_share_unified_catalog_items.png)
+When creating items such as API Proxies in {{% variables/central_prod_name %}} one team always needs to be chosen as an owner. Only members of the owning team can make changes or remove the items.

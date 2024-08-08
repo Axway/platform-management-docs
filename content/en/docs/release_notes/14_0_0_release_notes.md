@@ -18,7 +18,6 @@ Platform Management 14.0.0 is a major release which includes two fixed issues.
 With this release, all navigation elements, *Platform Home* tasks and capabilities, and metrics on the *Overview* page related to __Unified Catalog__ have been removed.
 {{% /alert %}}
 
-
 __Fixed issue__
 
 * Fixed an issue where the organization *Users* table may show an incorrect date of creation for certain users which have been migrated from older __Support Portal__ accounts.

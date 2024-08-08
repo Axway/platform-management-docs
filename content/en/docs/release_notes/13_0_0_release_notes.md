@@ -1,12 +1,67 @@
 ---
-title: Platform Management 13.0.0 - 13.20.1 release notes
-linkTitle: Platform Management 13.0.0 - 13.20.1 release notes
+title: Platform Management 13.0.0 - 13.22.1 release notes
+linkTitle: Platform Management 13.0.0 - 13.22.1 release notes
 weight: 50
 simple_list: true
-date: 2024-06-12
+date: 2024-07-31
 ---
 
-New features, improvements, and bug fixes for releases 13.0.0 - 13.20.1.
+New features, improvements, and bug fixes for releases 13.0.0 - 13.22.1.
+
+---
+
+## 13.22.1 - 31 Jul 2024
+
+Platform Management 13.22.1 is a patch release which includes one changed behavior.
+
+__Changed behavior__
+
+* Removed ability to directly associate assets to a team on the *Team* form view. The related fields have been marked as deprecated in the API documentation and will be removed in a future release.
+
+---
+
+## 13.22.0 - 25 Jul 2024
+
+Platform Management 13.22.0 is a minor release which includes one improvement and three fixed issues.
+
+{{% alert title="Note" color="primary" %}}
+Axway is current performing improvements to usage report storage. During this period, old report history entries may be unavailable. Usage data is unaffected.
+{{% /alert %}}
+
+__Improvement__
+
+* Changed post sign-in redirection for members of organizations with no active purchases. Those users will now be redirected to *Platform Home*. The *Offerings* view has been removed.
+
+__Fixed issues__
+
+* Fixed an issue where API Gateway Transactions usage may be incorrectly shown as unentitled on the *Usage* view.
+* Fixed an issue where the *Credentials* view may require an existing password when establishing tooling credentials and no existing password is set.
+* Fixed an issue where users that are members of multiple __Marketplace__ consumer organizations may not be redirected to the marketplace which switching between orgs.
+
+---
+
+## 13.21.0 - 25 Jun 2024
+
+Platform Management 13.21.0 is a minor release which includes one new feature and two fixed issues.
+
+__New feature__
+
+* Added MyFatoorah as an available billing integration vendor on the *Marketplace Billing* settings.
+
+__Fixed issues__
+
+* Fixed an issue where organization administrators may not be able to remove a team using the action in the *Teams* table.
+* Fixed an issue where __Marketplace__ consumer organization administartors may not be able to edit their teams.
+
+---
+
+## 13.20.2 - 18 Jun 2024
+
+Platform Management 13.20.2 is a patch release which includes one fixed issue.
+
+__Fixed issues__
+
+* Fixed an issue where users which authenticate using their organization's identity provider may not be able to establish tooling credentials on the *Credentials* view.
 
 ---
 
@@ -165,7 +220,7 @@ __Improvement__
 Platform Management 13.15.1 is a patch release which includes one new feature.
 
 {{% alert title="Note" color="primary" %}}
-With this release, organizations which are currently entitled to access Unified Catalog have been granted an __Amplify Enterprise Marketplace__ subscription.
+With this release, organizations which were previously entitled to access Unified Catalog have been granted an __Amplify Enterprise Marketplace__ subscription.
 {{% /alert %}}
 
 __New feature__

@@ -51,7 +51,7 @@ __New feature__
 __Fixed issues__
 
 * Fixed an issue where organization administrators may not be able to remove a team using the action in the *Teams* table.
-* Fixed an issue where __Marketplace__ consumer organization administartors may not be able to edit their teams.
+* Fixed an issue where __Marketplace__ consumer organization administrators may not be able to edit their teams.
 
 ---
 

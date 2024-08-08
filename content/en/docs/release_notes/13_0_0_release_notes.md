@@ -36,7 +36,7 @@ __Fixed issues__
 
 * Fixed an issue where API Gateway Transactions usage may be incorrectly shown as unentitled on the *Usage* view.
 * Fixed an issue where the *Credentials* view may require an existing password when establishing tooling credentials and no existing password is set.
-* Fixed an issue where users that are members of multiple __Marketplace__ consumer organizations may not be redirected to the marketplace which switching between orgs.
+* Fixed an issue where users that are members of multiple __Marketplace__ consumer organizations may not be redirected to the marketplace when switching between orgs.
 
 ---
 

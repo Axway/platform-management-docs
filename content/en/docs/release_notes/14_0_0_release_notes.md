@@ -20,7 +20,7 @@ __Fixed issue__
 
 ---
 
-## 14.2.0 - 8 Aug 2024
+## 14.2.0 - 18 Sep 2024
 
 Platform Management 14.2.0 is a minor release which includes one improvement and one fixed issue.
 

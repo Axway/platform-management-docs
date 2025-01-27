@@ -158,7 +158,7 @@ The following table shows the available consumer roles and capabilities. The Cen
 |-----------------------------------|------------------------------|-------------------------------|
 | **Marketplace**                   |                              |                               |
 | View Marketplace                  | x (consumption preferences)  | x (consumption preferences)   |
-| Browse Products                   | x (visibility settings apply | x (visibility settings apply  |
+| Browse Products                   | x (visibility settings apply)| x (visibility settings apply) |
 | Subscribe                         | x (free plans)               | x (free & paid plans)         |
 | Manage subscriptions              | x (my team)                  | x (my team)                   |
 | Create applications               | x (my team)                  | x (my team)                   |

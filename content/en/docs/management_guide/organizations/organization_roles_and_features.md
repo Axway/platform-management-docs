@@ -6,10 +6,10 @@ date: 2021-08-12
 ---
 This section is about organization user roles and features. Users can be assigned different roles that grant them the rights to the Platform associated with their assigned roles and capabilities. A user always needs to be assigned one platform role and can be assigned zero, one, or more of the other roles.
 
-Amplify provides several types of roles:
+Amplify provides the following roles:
 
-* Organization roles: These roles provides access to core functionality of Amplify Plaform, organization and user management.
-* Team Roles: Roles that are used to control the access level of users inside a team.
+* Organization roles: Control the access to core functionality of Amplify Plaform, organizations and user management.
+* Team roles: Control the access levels of users within teams.
 
 ## Organization roles and capabilities
 

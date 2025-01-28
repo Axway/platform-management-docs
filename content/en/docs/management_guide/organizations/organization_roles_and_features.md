@@ -20,11 +20,11 @@ The following table shows the available roles and capabilities they grant access
 | Administrator             | Use for platform administrative tasks, such as managing users and teams, and configuration of platform settings| X        |         |             | X            | Yes  |  Yes   | Provider team roles  |
 | Developer                 | Use for development and integration projects                                                                   | X        | X       | X           | X (my teams) | Yes  |  No    | Any                  |
 | Consumer                  | Use for browsing Marketplace(s) and consumption of published products                                          |          |         | X           |              | Yes  |  Yes   | Consumer, Subscriber |
-| Auditor **Coming soon**   | USe to access the plaform capabilities with read-only permissions, without the ability to modify anything      | X        | X       | X           | X 			     | Yes  |  No    | None                 |  
+| Auditor **Coming soon**   | Use to access the plaform capabilities with read-only permissions, without the ability to modify anything      | X        | X       | X           | X            | Yes  |  No    | None                 |  
 | **Platform Roles**        |                                                                                                                |          |         |             |              |      |        |                      |
 | Usage Reporter            | Use for registering usage environments and reporting usage                                                     | X        |         |             |              | Yes  |  No    | N/A                  |
 | **Central Roles**         |                                                                                                                |          |         |             |              |      |        |                      |
-| Central Admin             | Use for all-encompassing access to the management plane (i.e Service Registry, Assets Catalog etc              |          | X       | X           |              | Yes  |  No    | None                 |
+| Central Admin             | Use for all-encompassing access to the management plane (i.e Service Registry, Assets Catalog etc)             |          | X       | X           |              | Yes  |  No    | None                 |
 
 ## Team roles
 

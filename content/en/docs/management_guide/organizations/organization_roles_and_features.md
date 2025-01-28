@@ -6,7 +6,7 @@ date: 2021-08-12
 ---
 This section is about organization user roles and features. Users can be assigned different roles that grant them the rights to the Platform associated with their assigned roles and capabilities. A user always needs to be assigned one platform role and can be assigned zero, one, or more of the other roles.
 
-Amplify provides several types of roles: 
+Amplify provides several types of roles:
 
 * Organization roles: These roles provides access to core functionality of Amplify Plaform, organization and user management.
 * Team Roles: Roles that are used to control the access level of users inside a team.
@@ -24,7 +24,7 @@ The following table shows the available roles and capabilities they grant access
 | **Platform Roles**        |                                                                                                                |          |         |             |              |      |        |                      |
 | Usage Reporter            | Use for registering usage environments and reporting usage                                                     | X        |         |             |              | Yes  |  No    | N/A                  |
 | **Central Roles**         |                                                                                                                |          |         |             |              |      |        |                      |
-| Central Admin             | Use for all-encompassing access to the management plane (i.e Service Registry, Assets Catalog etc              |          | X       | X           |              | Yes  |  No    | None                 | 
+| Central Admin             | Use for all-encompassing access to the management plane (i.e Service Registry, Assets Catalog etc              |          | X       | X           |              | Yes  |  No    | None                 |
 
 ## Team roles
 
@@ -47,7 +47,8 @@ Users can have one or more roles in each team they belong to.
 > If a *Provider* user is part of a single team with the `x-private` tag, then they will not have access to the managagement plane to execute their tasks. Provider users should not use the `x-private` tag in their provider teams, as it meant to be used only for *Consumer* users.
 
 ## Provider Team roles and capabilities
-The following table shows the available provider team roles and capabilities. The Central Admin role has access to all team capabilities. The Auditor role (coming soon) has read only access to all capabilities. 
+
+The following table shows the available provider team roles and capabilities. The Central Admin role has access to all team capabilities. The Auditor role (coming soon) has read only access to all capabilities.
 
 | Role Type / Scope                 | Catalog Manager   | Developer     |Team Manager|Subscription Approver|Marketplace Manager|Insights Viewer <br/>**Coming soon**|Environment Manager<br/>**Coming soon**|API Access Manager|
 |-----------------------------------|-------------------|---------------|------------|---------------------|-------------------|------------------------------------|---------------------------------------|------------------|
@@ -147,12 +148,13 @@ The following table shows the available provider team roles and capabilities. Th
 | Settings & appearance                |                |               |            |                     |                   | x                                  |                                       |                  |
 | **Consumer Insights**                |                |               |            |                     |                   |                                    |                                       |                  |
 | API Health                           | x (my team)    | x (my team)   |            |                     |                   |                                    |                                       |                  |
-| API Traffic                          | x (my team)    | x (my team)   |            |                     |                   |                                    |                                       |                  | 
+| API Traffic                          | x (my team)    | x (my team)   |            |                     |                   |                                    |                                       |                  |
 | Applications Dashboard               | x (my team)    | x (my team)   |            |                     |                   |                                    |                                       |                  |
 | Subscription Dashboard               | x (my team)    | x (my team)   |            |                     |                   |                                    |                                       |                  |
 
 ## Consumer Team roles and capabilities
-The following table shows the available consumer roles and capabilities. The Central Admin role has access to all team capabilities. 
+
+The following table shows the available consumer roles and capabilities. The Central Admin role has access to all team capabilities.
 
 | Role Type / Scope                 | Consumer                     | Subscriber                    |
 |-----------------------------------|------------------------------|-------------------------------|
@@ -172,4 +174,3 @@ The following table shows the available consumer roles and capabilities. The Cen
 | API Traffic                       | x (my team)                  | x (my team)                   |
 | Applications Dashboard            | x (my team)                  | x (my team)                   |
 | Subscription Dashboard            | x (my team)                  | x (my team)                   |
-

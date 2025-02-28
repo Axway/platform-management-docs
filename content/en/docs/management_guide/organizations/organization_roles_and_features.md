@@ -13,7 +13,7 @@ Amplify provides the following roles:
 
 ## Organization roles and capabilities
 
-The following table shows the available roles and capabilities they grant access to.
+The following table shows the available roles and capabilities they grant access to. **Georgiana to update**
 
 | Role                      | Short Description                        | Platform | Central | Marketplace |  Teams       | Assignable in Provider Organization | Assignable in Consumer Org | Team roles can be used with |
 | ------------------------- | -----------------------------------------| -------- | ------- | ----------- | ------------ | ----------------------------------- |  -------------------------- |--------------------------- |

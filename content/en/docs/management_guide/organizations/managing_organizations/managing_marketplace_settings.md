@@ -5,7 +5,7 @@ weight: 60
 date: 2021-08-12
 ---
 
-Select **Marketplaces** from the Organization left navigation menu. The *Marketplaces* view is where you add and configure Amplify Enterprise Marketplaces for your organization. A marketplace is the storefront into all products exposed for discovery and consumption by internal and external consumers.
+Select **Marketplaces** from the Organization left navigation menu. The *Marketplaces* view is where you add and configure Marketplace instances for your organization. A marketplace is the storefront into all products exposed for discovery and consumption by internal and external consumers.
 
 Add a marketplace and then refer to the following sections in the {{% variables/central_prod_name %}} Guide to configure it.
 

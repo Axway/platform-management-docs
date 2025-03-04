@@ -10,7 +10,7 @@ Select **Organization** from the [User menu](/docs/getting_started_with_ampli
 * View details about your organization including subscriptions
 * Manage the teams, users, and service accounts who have access to the Amplify Services
 * View allocated resources usage for the selected organization
-* Manage configuration and branding of the Amplify Enterprise Marketplace
+* Manage configuration and branding of the Amplify Engage Marketplace
 * Manage organization settings, including configuring Identity Providers
 * Manage the applications created by organization users
 

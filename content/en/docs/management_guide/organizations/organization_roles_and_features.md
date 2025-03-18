@@ -15,7 +15,7 @@ Amplify provides the following roles:
 
 The following table shows the available roles and capabilities they grant access to.
 
-| Role                      | Short Description                        | Platform | Central | Marketplace |  Teams       | Assignable in Provider Organization | Assignable in Consumer Org | Team roles can be used with |
+| Role                      | Short Description                        | Platform | Engage | Marketplace |  Teams       | Assignable in Provider Organization | Assignable in Consumer Org | Team roles can be used with |
 | ------------------------- | -----------------------------------------| -------- | ------- | ----------- | ------------ | ----------------------------------- |  -------------------------- |--------------------------- |
 | Administrator             | Use for platform administrative tasks, such as managing users and teams, and configuration of platform settings| X        |         |             | X            | Yes  |  Yes   | Provider team roles  |
 | Developer                 | Use for development and integration projects                                                                   | X        | X       | X           | X (my teams) | Yes  |  No    | Any                  |
@@ -23,8 +23,8 @@ The following table shows the available roles and capabilities they grant access
 | Auditor **Coming soon**   | Use to access the plaform capabilities with read-only permissions, without the ability to modify anything      | X        | X       | X           | X            | Yes  |  No    | None                 |  
 | **Platform Roles**        |                                                                                                                |          |         |             |              |      |        |                      |
 | Usage Reporter            | Use for registering usage environments and reporting usage                                                     | X        |         |             |              | Yes  |  No    | N/A                  |
-| **Central Roles**         |                                                                                                                |          |         |             |              |      |        |                      |
-| Central Admin             | Use for all-encompassing access to the management plane (i.e Service Registry, Assets Catalog etc)             |          | X       | X           |              | Yes  |  No    | None                 |
+| **Engage Roles**         |                                                                                                                |          |         |             |              |      |        |                      |
+| Engage Admin (formally Central Admin)          | Use for all-encompassing access to the management plane (i.e Service Registry, Assets Catalog etc)             |          | X       | X           |              | Yes  |  No    | None                 |
 
 ## Team roles
 
@@ -38,19 +38,19 @@ Users can have one or more roles in each team they belong to.
 | Marketplace Manager | Use this role to manage Marketplace settings, appearance, and content | x |   |
 | Catalog Manager | Use this role to manage products and create rate plans | x |   |
 | Subscriber | Enables users to view and consume Marketplace products under free and paid plans, as well as manage their own reviews |   | x |
-| Subscription Approver** | Use this role to review and approve subscription requests | x |   |
+| Subscription Approver | Use this role to review and approve subscription requests | x |   |
 | Insights Viewer **Coming soon** | Use this role to access Business Insights dashboards| x |   |
 | Environment Admin **Coming soon** | Use this role to create and manage environments | x |   |
 | API Access Manager **Coming soon** | Use this role to approve and manage application registration requests and consumer credentials | x |   |
 
-> [!NOTE]
-> If a *Provider* user is part of a single team with the `x-private` tag, then they will not have access to the managagement plane to execute their tasks. Provider users should not use the `x-private` tag in their provider teams, as it meant to be used only for *Consumer* users.
+[!NOTE]
+> If a *Provider* user is part of a single team with the `x-private` tag, then they will not have access to the management plane to execute their tasks. Provider users should not use the `x-private` tag in their provider teams, as it meant to be used only for *Consumer* users.
 
 ## Provider Team roles and capabilities
 
-The following table shows the available provider team roles and capabilities. The Central Admin role has access to all team capabilities. The Auditor role (coming soon) has read only access to all capabilities.
+The following table shows the available provider team roles and capabilities. The Engage Admin role has access to all team capabilities. The Auditor role (coming soon) has read only access to all capabilities.
 
-| Role Type / Scope                 | Catalog Manager   | Developer     |Team Manager|Subscription Approver|Marketplace Manager|Insights Viewer <br/>**Coming soon**|Environment Manager<br/>**Coming soon**|API Access Manager|
+| Role Type / Scope                 | Catalog Manager   | Developer     |Team Manager|Subscription Approver|Marketplace Manager|Insights Viewer <br/>**Coming soon**|Environment Manager<br/>**Coming soon**|API Access Manager<br/>**Coming soon**|
 |-----------------------------------|-------------------|---------------|------------|---------------------|-------------------|------------------------------------|---------------------------------------|------------------|
 | **Team and Members**              |                   |               |            |                     |                   |                                    |                                       |                  |
 | Create a team                     |                   |               |            |                     |                   |                                    |                                       |                  |
@@ -124,13 +124,13 @@ The following table shows the available provider team roles and capabilities. Th
 | Delete document                   | x (my team)       |               |            |                     |                   |                                    |                                       |                  |
 | Share document                    | x (my team)       |               |            |                     |                   |                                    |                                       |                  |
 | **Business Insights**             |                   |               |            |                     |                   |                                    |                                       |                  |
-| API Health                        |                   |               |            |                     |                   | x (my team)                        |                                       |                  |
-| API Traffic                       |                   |               |            |                     |                   | x (my team)                        |                                       |                  |
-| Provider Engagement               |                   |               |            |                     |                   | x (my team)                        |                                       |                  |
-| Consumer Engagement               |                   |               |            |                     |                   | x (my team)                        |                                       |                  |
-| Applications Dashboard            |                   |               |            |                     |                   | x (my team)                        |                                       |                  |
-| Subscriptions Dashboard           |                   |               |            |                     |                   | x (my team)                        |                                       |                  |
-| Leaderboard                       |                   |               |            |                     |                   | x (my team)                        |                                       |                  |
+| API Health                        | x (my team)       | x (my team)   |            |                     |                   | x (my team)                        |                                       |                  |
+| API Traffic                       | x (my team)       | x (my team)   |            |                     |                   | x (my team)                        |                                       |                  |
+| Provider Engagement               | x (my team)       |               |            |                     |                   | x (my team)                        |                                       |                  |
+| Consumer Engagement               | x (my team)       |               |            |                     |                   | x (my team)                        |                                       |                  |
+| Applications Dashboard            | x (my team)       |               |            |                     |                   | x (my team)                        |                                       |                  |
+| Subscriptions Dashboard           | x (my team)       |               |            |                     |                   | x (my team)                        |                                       |                  |
+| Leaderboard                       | x (my team)       |               |            |                     |                   | x (my team)                        |                                       |                  |
 | Overview                          |                   |               |            |                     |                   | x (my team)                        |                                       |                  |
 | **Marketplace**                   |                   |               |            |                     |                   |                                    |                                       |                  |
 | Browse Products                   | x (my team)       | x (my team)   |            |                     |                   |                                    |                                       |                  |
@@ -154,7 +154,7 @@ The following table shows the available provider team roles and capabilities. Th
 
 ## Consumer Team roles and capabilities
 
-The following table shows the available consumer roles and capabilities. The Central Admin role has access to all team capabilities.
+The following table shows the available consumer roles and capabilities. The Engage Admin role has access to all team capabilities.
 
 | Role Type / Scope                 | Consumer                     | Subscriber                    |
 |-----------------------------------|------------------------------|-------------------------------|

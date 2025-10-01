@@ -50,7 +50,7 @@ Users can have one or more roles in each team they belong to.
 
 The following table shows the available provider team roles and capabilities. The Engage Admin role has access to all team capabilities. The Auditor role (coming soon) has read only access to all capabilities.
 
-| Role Type / Scope                 | Catalog Manager   | Developer     |Team Manager|Subscription Approver|Marketplace Manager|Insights Viewer <br/>**Coming soon**|Environment Manager<br/>**Coming soon**|API Access Manager<br/>**Coming soon**|
+| Role Type / Scope                 | Catalog Manager   | Developer     |Team Manager|Subscription Approver|Marketplace Manager|Insights Viewer <br/>|Environment Manager<br/>**Coming soon**|API Access Manager<br/>|
 |-----------------------------------|-------------------|---------------|------------|---------------------|-------------------|------------------------------------|---------------------------------------|------------------|
 | **Team and Members**              |                   |               |            |                     |                   |                                    |                                       |                  |
 | Create a team                     |                   |               |            |                     |                   |                                    |                                       |                  |

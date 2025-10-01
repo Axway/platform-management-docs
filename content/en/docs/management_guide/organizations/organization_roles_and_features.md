@@ -34,14 +34,14 @@ Users can have one or more roles in each team they belong to.
 | --- | --- | --- | --- |
 | Team Manager | Use this role to manage the members of the team and their role assignments | x | x |
 | Consumer | Enables a user to view and consume Marketplace products under a free plan, as well as manage their own reviews. |   | x |
+| Subscriber | Enables users to view and consume Marketplace products under free and paid plans, as well as manage their own reviews |   | x |
 | Developer | Gives users full read/write permissions to API Services and Assets | x |   |
 | Marketplace Manager | Use this role to manage Marketplace settings, appearance, and content | x |   |
 | Catalog Manager | Use this role to manage products and create rate plans | x |   |
-| Subscriber | Enables users to view and consume Marketplace products under free and paid plans, as well as manage their own reviews |   | x |
 | Subscription Approver | Use this role to review and approve subscription requests | x |   |
-| Insights Viewer **Coming soon** | Use this role to access Business Insights dashboards| x |   |
+| API Access Manager | Use this role to approve and manage application registration requests and consumer credentials | x |   |
+| Insights Viewer | Use this role to access Business Insights dashboards| x |   |
 | Environment Admin **Coming soon** | Use this role to create and manage environments | x |   |
-| API Access Manager **Coming soon** | Use this role to approve and manage application registration requests and consumer credentials | x |   |
 
 [!NOTE]
 > If a *Provider* user is part of a single team with the `x-private` tag, then they will not have access to the management plane to execute their tasks. Provider users should not use the `x-private` tag in their provider teams, as it meant to be used only for *Consumer* users.

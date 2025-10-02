@@ -43,8 +43,7 @@ Users can have one or more roles in each team they belong to.
 | Insights Viewer | Use this role to access Business Insights dashboards| x |   |
 | Environment Admin **Coming soon** | Use this role to create and manage environments | x |   |
 
-[!NOTE]
-> If a *Provider* user is part of a single team with the `x-private` tag, then they will not have access to the management plane to execute their tasks. Provider users should not use the `x-private` tag in their provider teams, as it meant to be used only for *Consumer* users.
+{{< alert title="Note" color="primary" >}}If a *Provider* user is part of a single team with the `x-private` tag, then they will not have access to the management plane to execute their tasks. Provider users should not use the `x-private` tag in their provider teams, as it meant to be used only for *Consumer* users.{{< /alert >}}
 
 ## Provider Team roles and capabilities
 

@@ -8,7 +8,7 @@ This section is about organization user roles and features. Users can be assign
 
 Amplify provides the following roles:
 
-* Organization roles: Control the access to core functionality of Amplify Plaform, organizations and user management.
+* Organization roles: Control the access to core functionality of Amplify Platform, organizations and user management.
 * Team roles: Control the access levels of users within teams.
 
 ## Organization roles and capabilities
@@ -20,7 +20,7 @@ The following table shows the available roles and capabilities they grant access
 | Administrator             | Use for platform administrative tasks, such as managing users and teams, and configuration of platform settings| X        |         |             | X            | Yes  |  Yes   | Provider team roles  |
 | Developer                 | Use for development and integration projects                                                                   | X        | X       | X           | X (my teams) | Yes  |  No    | Any                  |
 | Consumer                  | Use for browsing Marketplace(s) and consumption of published products                                          |          |         | X           |              | Yes  |  Yes   | Consumer, Subscriber |
-| Auditor **Coming soon**   | Use to access the plaform capabilities with read-only permissions, without the ability to modify anything      | X        | X       | X           | X            | Yes  |  No    | None                 |  
+| Auditor                    | Use to access the platform capabilities with read-only permissions, without the ability to modify anything      | X        | X       | X           | X            | Yes  |  No    | None                 |  
 | **Platform Roles**        |                                                                                                                |          |         |             |              |      |        |                      |
 | Usage Reporter            | Use for registering usage environments and reporting usage                                                     | X        |         |             |              | Yes  |  No    | N/A                  |
 | **Engage Roles**         |                                                                                                                |          |         |             |              |      |        |                      |
@@ -143,7 +143,7 @@ The following table shows the available provider team roles and capabilities. Th
 | Manage credentials                | x (my team)       | x (my team)   |            |                     |                   |               |                                       |                  |
 | **Marketplace Configuration & Branding** |            |               |            |                     |                   |               |                                       |                  |
 | Create Marketplace                   |                |               |            |                     |                   |               |                                       |                  |
-| View Marketplace                     | x (publication preferences)    | x (consumption preferences)      | x (publication preferences) | x (publication preferences) |                                 |  x (publication preferences)|
+| View Marketplace                     | x (publication preferences)    | x (consumption preferences)      | x (publication preferences) | x (publication preferences) |                                 |  x (publication preferences)|  |  |
 | Settings & appearance                |                |               |            |                     |                   | x             |                                       |                  |
 | **Consumer Insights**                |                |               |            |                     |                   |               |                                       |                  |
 | API Health                           | x (my team)    | x (my team)   |            |                     |                   |               |                                       |                  |

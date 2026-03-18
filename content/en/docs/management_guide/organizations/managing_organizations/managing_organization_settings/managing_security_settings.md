@@ -6,13 +6,17 @@ date: 2021-08-12
 ---
 Redact personal information and configure password policy rules to add to the default password requirements.
 
-Click **Security** from the Organization - Settings menu to access organization security settings. Then, select the organization from the *Organization* dropdown menu to configure the following settings for the specified organization.
+Click **Security & Privacy** from the Organization - Settings menu to access organization security settings. Then, select the organization from the *Organization* dropdown menu to configure the following settings for the specified organization.
 
 ![Managing organization settings](/Images/settings_tab_security.png)
 
 ## Redact personal information
 
 Select the option to **Redact Personal Information** to redact email addresses within an organization where the user's email address is displayed, except the *Account* view. The email address on the *Account* view is always redacted, whether the setting is enabled or disabled. By default, the setting is disabled.
+
+## Opt out third-party support services
+
+Select this option to **Opt Out Third-Party Support Services** to disable third-party support services within the Axway platform once logged into an organization.
 
 ## Configure password settings
 
@@ -28,3 +32,18 @@ Administrators have the option to configure additional password settings to add 
 * **Renewal period** - Number of days after which a user must change their password.
 * **Not Recently Used** - Number of times a unique password is required before a previously used password can be reused.
 * **Account Lock Out** - Number of times a user can attempt to sign in with an incorrect password before the account is locked.
+
+## Configure access controls
+
+Administrators have the option to restrict the information that the Developer role can access. By default, individuals assigned to the Developer role has permission to **view all**. For enhanced security, administrators can use the provided dropdown menus to limit the developers' access to specific categories of information based on organizational policies and the specific responsibilities of the Developer role.
+
+* **Users** - Developers' view of users within the selected organization.
+    * **Developer role cannot view users**
+    * **Developer role may view administrators and other users in their teams**
+* **Service Accounts** - Developers' view of service accounts within the selected organization.
+    * **Developer role cannot view service accounts**
+    * **Developer role may view service accounts in their teams**
+* **Environments** - Developers' view of environment details within the selected organization.
+    * **Developer role cannot view environments**
+* **Usage** - Developers' view of the usage of allocated resources for the selected organization.
+    * **Developer role cannot view usage**

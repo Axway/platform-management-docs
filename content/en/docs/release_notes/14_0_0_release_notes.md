@@ -6,7 +6,7 @@ simple_list: true
 date: 2024-10-01
 ---
 
-New features, improvements, and bug fixes for release 14.0.0 - 14.2.2.
+New features, improvements, and fixed issues for releases 14.0.0 - 14.2.2.
 
 ---
 

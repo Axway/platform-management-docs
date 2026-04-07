@@ -26,11 +26,11 @@ __Fixed issues__
 Platform Management 15.3.0 is a feature release which includes several new features and two fixed issues.
 
 {{% alert title="Note" color="primary" %}}
-In an upcoming major release, some existing roles will under modifications to their permissions and capabilities:
+In an upcoming major release, some existing roles will undergo modifications to their permissions and capabilities:
 
 * *Catalog Manager* and *Developer* team role assignees may no longer be granted access to *Business Insights*. This permission will be granted by assigning a new *Insights Viewer* role.
 * *Catalog Manager* team role assignees may no longer approve subscriptions and application registration requests. These permissions will be granted by the *Subscription Approver* role and new *API Access Manager* team role respectively.
-* *Subscription Approver* team role assignees may no longer approve or manage application registrations. These permissions will be granted by the new *API Access Manager*  role.
+* *Subscription Approver* team role assignees may no longer approve or manage application registrations. These permissions will be granted by the new *API Access Manager* role.
 * *Consumer* organization role assignees may only be assigned *Consumer* or *Subscriber* team roles.
 
 To maintain existing user and service account capabilities:
@@ -60,7 +60,7 @@ __New features__
 __Fixed issues__
 
 * Fixed an issue where users for which use of a specific identity provider was required to access their organization may not be redirected as expected.
-* Correct multiple French language translations.
+* Corrected multiple French language translations.
 
 ---
 

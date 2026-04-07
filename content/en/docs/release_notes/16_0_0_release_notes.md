@@ -89,7 +89,7 @@ __Improvement__
 
 __Fixed issues__
 
-* Fixed an issue where provider organization members signing in from a Marketplace may not be redirectly back to the Marketplace after authenticating.
+* Fixed an issue where provider organization members signing in from a Marketplace may not be redirected back to the Marketplace after authenticating.
 * Restored display of small non-zero values on the *Monthly Usage* and related views. Previously, small non-integer usage values (specifically Volume) may have been displayed as zero. Non-zero values will now be displayed as `<0.01 GB`.
 
 ---
@@ -446,7 +446,7 @@ __Improvements__
 
 * Extended color customization options captured on the Marketplace *Appearance* view.
 * Added stricter content security policy and session cookie storage settings.
-* Extended new user activation link expiry from 3 to 90 days.
+* Extended new user activation link expiry from 3 days to 90 days.
 
 __Fixed issues__
 

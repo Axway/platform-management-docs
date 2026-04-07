@@ -1,12 +1,22 @@
 ---
-title: Platform Management 14.0.0 - 14.2.1 release notes
-linkTitle: Platform Management 14.0.0 - 14.2.1 release notes
+title: Platform Management 14.0.0 - 14.2.2 release notes
+linkTitle: Platform Management 14.0.0 - 14.2.2 release notes
 weight: 49
 simple_list: true
-date: 2024-09-25
+date: 2024-10-01
 ---
 
-New features, improvements, and bug fixes for release 14.0.0 - 14.2.1.
+New features, improvements, and fixed issues for releases 14.0.0 - 14.2.2.
+
+---
+
+## 14.2.2 - 1 Oct 2024
+
+Platform Management 14.2.2 is a patch release which includes one improvement.
+
+__Improvement__
+
+* Updated product names for __Axway VRS Solution__ and __Amplify API Management__ to better match contract, license, and subscription verbiage.
 
 ---
 

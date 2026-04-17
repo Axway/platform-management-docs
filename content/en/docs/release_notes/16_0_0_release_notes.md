@@ -1,12 +1,26 @@
 ---
-title: Platform Management 16.0.0 - 16.9.0 release notes
-linkTitle: Platform Management 16.0.0 - 16.9.0 release notes
+title: Platform Management 16.0.0 - 16.10.0 release notes
+linkTitle: Platform Management 16.0.0 - 16.10.0 release notes
 weight: 47
 simple_list: true
-date: 2026-04-02
+date: 2026-04-16
 ---
 
-New features, improvements, and fixed issues for releases 16.0.0 - 16.9.0.
+New features, improvements, and fixed issues for releases 16.0.0 - 16.10.0.
+
+---
+
+## 16.10.0 - 16 Apr 2026
+
+Platform Management 16.10.0 is a feature release which includes one new feature and one fixed issue.
+
+__New feature__
+
+* Added ability for organization administrator role assignees and Marketplace Manager team role assignees to manage consumer organization meta data, teams, users, and role assignments. Administrator role assignees also have the ability to remove consumer organizations.
+
+__Fixed issue__
+
+* Fixed an issue where identity provider configuration endpoint responses may not include org specific settings as expected.
 
 ---
 
@@ -444,6 +458,7 @@ __New features__
 
 __Improvements__
 
+* Restructured navigation within *Marketplace Settings* views.
 * Extended color customization options captured on the Marketplace *Appearance* view.
 * Added stricter content security policy and session cookie storage settings.
 * Extended new user activation link expiry from 3 days to 90 days.
